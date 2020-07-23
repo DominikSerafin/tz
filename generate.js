@@ -5,8 +5,14 @@ const path = require('path');
 const fs = require('fs-extra');
 const axios = require('axios');
 const async = require('async');
+//
 const WTA_ORIGIN = `http://worldtimeapi.org`;
-const IANA_BACKWARD_PATH = path.join(__dirname, './iana/tzdb-2020a/backward');
+//
+const SOURCES_PATH = path.join(__dirname, './sources');
+const SOURCES_IANA_BACKWARD_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a/backward');
+const SOURCES_IANA_ZONE1970_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a/zone1970.tab');
+const SOURCES_WTA_PATH = path.join(SOURCES_PATH, './wta/worldtimeapi.json');
+//
 const DIST_PATH = path.join(__dirname, './dist');
 const DIST_TZ_PATH = path.join(DIST_PATH, './tz.json');
 
@@ -38,11 +44,24 @@ axios.interceptors.response.use(function(response) {
 
 
 
+
+
+/*------------------------------------*\
+  getWtaZones
+\*------------------------------------*/
+async function getWtaZones() {
+  const content = await fs.readFile(SOURCES_WTA_PATH, 'utf8');
+  const wtaZones = JSON.parse(content);
+  return wtaZones;
+}
+
+
+
 /*------------------------------------*\
   getAliases
 \*------------------------------------*/
 async function getAliases() {
-  const content = await fs.readFile(IANA_BACKWARD_PATH, 'utf8');
+  const content = await fs.readFile(SOURCES_IANA_BACKWARD_PATH, 'utf8');
   const lines = content.split(/\r?\n/).filter(Boolean);
   const output = [];
   //
@@ -62,25 +81,23 @@ async function getAliases() {
 
 
 /*------------------------------------*\
-  getZones
+  getCountryCodes
 \*------------------------------------*/
-async function getZones() {
+async function getCountryCodes() {
+  const content = await fs.readFile(SOURCES_IANA_ZONE1970_PATH, 'utf8');
+  const lines = content.split(/\r?\n/).filter(Boolean);
   const output = [];
   //
-  const resultZones = await axios({
-    method: 'GET',
-    url: `${WTA_ORIGIN}/api/timezone`,
-  });
-  //
-  const sortedZones = resultZones.data.sort();
-  //
-  for (const zoneName of sortedZones) {
-    const resultZone = await axios({
-      method: 'GET',
-      url: `${WTA_ORIGIN}/api/timezone/${zoneName}`,
+  for (var line of lines) {
+    if (line.trim().startsWith('#')) continue;
+    if (!line.trim()) continue;
+    const components = line.split(/\t+/);
+    output.push({
+      tz: components[2],
+      codes: components[0].split(','),
+      coordinates: components[1],
+      comments: components[3],
     });
-    output.push(resultZone.data);
-    //break;
   }
   //
   return output;
@@ -93,20 +110,15 @@ async function getZones() {
 \*------------------------------------*/
 async function generateTimezones() {
   //
+  const wtaZones = await getWtaZones();
   const aliases = await getAliases();
-  const zones = await getZones();
+  const countryCodes = await getCountryCodes();
   //
   const output = [];
-  for (const zone of zones) {
-    const zoneAliases = aliases.map(alias => {
-      if (alias.target === zone.timezone) return alias.source;
-    }).filter(Boolean).sort();
-    output.push({
-      id: zone.timezone,
-      offset: zone.raw_offset,
-      offset_dst: zone.dst_offset,
-      aliases: zoneAliases,
-    });
+  for (const zone of wtaZones) {
+    output.push(await generateTimezone(
+      zone, aliases, countryCodes,
+    ));
   }
   //
   return output;
@@ -114,10 +126,43 @@ async function generateTimezones() {
 
 
 
+
+/*------------------------------------*\
+  generateTimezone
+\*------------------------------------*/
+async function generateTimezone(zone, aliases, countryCodes) {
+
+  //
+  const zoneAliases = aliases.map(alias => {
+    if (alias.target === zone.timezone) return alias.source;
+  }).filter(Boolean).sort();
+
+  //
+  const zoneCountryCodes = countryCodes.map(code => {
+    if (code.tz === zone.timezone) return code.codes;
+  }).filter(Boolean);
+
+
+  //
+  return {
+    id: zone.timezone,
+    offset_st: zone.raw_offset,
+    aliases: zoneAliases,
+    country_codes: zoneCountryCodes,
+  };
+
+}
+
+
+
+
+
+
 /*------------------------------------*\
   writeTimezoneJson
 \*------------------------------------*/
 async function writeTimezoneJson() {
+
   const timezonesObject = await generateTimezones();
   const timezonesFile = await fs.writeJson(DIST_TZ_PATH, timezonesObject, {
     spaces: 2,

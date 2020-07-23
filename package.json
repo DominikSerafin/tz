@@ -6,7 +6,8 @@
   "private": true,
   "homepage": "",
   "scripts": {
-    "start": "node generate.js"
+    "generate": "node generate.js",
+    "sources": "node sources.js"
   },
   "engines": {
     "node": "12.*",
