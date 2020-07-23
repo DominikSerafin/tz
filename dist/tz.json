@@ -3,7 +3,16 @@
     "id": "Africa/Abidjan",
     "offset_st": 0,
     "aliases": [
-      "Africa/Timbuktu"
+      "Africa/Bamako",
+      "Africa/Banjul",
+      "Africa/Conakry",
+      "Africa/Dakar",
+      "Africa/Freetown",
+      "Africa/Lome",
+      "Africa/Nouakchott",
+      "Africa/Ouagadougou",
+      "Africa/Timbuktu",
+      "Atlantic/St_Helena"
     ],
     "country_codes": [
       [
@@ -95,7 +104,10 @@
   {
     "id": "Africa/Johannesburg",
     "offset_st": 7200,
-    "aliases": [],
+    "aliases": [
+      "Africa/Maseru",
+      "Africa/Mbabane"
+    ],
     "country_codes": [
       [
         "ZA",
@@ -127,7 +139,17 @@
   {
     "id": "Africa/Lagos",
     "offset_st": 3600,
-    "aliases": [],
+    "aliases": [
+      "Africa/Bangui",
+      "Africa/Brazzaville",
+      "Africa/Douala",
+      "Africa/Kinshasa",
+      "Africa/Libreville",
+      "Africa/Luanda",
+      "Africa/Malabo",
+      "Africa/Niamey",
+      "Africa/Porto-Novo"
+    ],
     "country_codes": [
       [
         "NG",
@@ -146,7 +168,15 @@
   {
     "id": "Africa/Maputo",
     "offset_st": 7200,
-    "aliases": [],
+    "aliases": [
+      "Africa/Blantyre",
+      "Africa/Bujumbura",
+      "Africa/Gaborone",
+      "Africa/Harare",
+      "Africa/Kigali",
+      "Africa/Lubumbashi",
+      "Africa/Lusaka"
+    ],
     "country_codes": [
       [
         "MZ",
@@ -174,7 +204,16 @@
     "id": "Africa/Nairobi",
     "offset_st": 10800,
     "aliases": [
-      "Africa/Asmera"
+      "Africa/Addis_Ababa",
+      "Africa/Asmara",
+      "Africa/Asmera",
+      "Africa/Dar_es_Salaam",
+      "Africa/Djibouti",
+      "Africa/Kampala",
+      "Africa/Mogadishu",
+      "Indian/Antananarivo",
+      "Indian/Comoro",
+      "Indian/Mayotte"
     ],
     "country_codes": [
       [
@@ -627,7 +666,11 @@
   {
     "id": "America/Curacao",
     "offset_st": -14400,
-    "aliases": [],
+    "aliases": [
+      "America/Aruba",
+      "America/Kralendijk",
+      "America/Lower_Princes"
+    ],
     "country_codes": [
       [
         "CW",
@@ -1277,7 +1320,9 @@
   {
     "id": "America/Panama",
     "offset_st": -18000,
-    "aliases": [],
+    "aliases": [
+      "America/Cayman"
+    ],
     "country_codes": [
       [
         "PA",
@@ -1331,6 +1376,19 @@
     "id": "America/Port_of_Spain",
     "offset_st": -14400,
     "aliases": [
+      "America/Anguilla",
+      "America/Antigua",
+      "America/Dominica",
+      "America/Grenada",
+      "America/Guadeloupe",
+      "America/Marigot",
+      "America/Montserrat",
+      "America/St_Barthelemy",
+      "America/St_Kitts",
+      "America/St_Lucia",
+      "America/St_Thomas",
+      "America/St_Vincent",
+      "America/Tortola",
       "America/Virgin"
     ],
     "country_codes": [
@@ -1841,7 +1899,10 @@
   {
     "id": "Asia/Bangkok",
     "offset_st": 25200,
-    "aliases": [],
+    "aliases": [
+      "Asia/Phnom_Penh",
+      "Asia/Vientiane"
+    ],
     "country_codes": [
       [
         "TH",
@@ -1956,7 +2017,9 @@
   {
     "id": "Asia/Dubai",
     "offset_st": 14400,
-    "aliases": [],
+    "aliases": [
+      "Asia/Muscat"
+    ],
     "country_codes": [
       [
         "AE",
@@ -2222,7 +2285,9 @@
   {
     "id": "Asia/Nicosia",
     "offset_st": 7200,
-    "aliases": [],
+    "aliases": [
+      "Europe/Nicosia"
+    ],
     "country_codes": [
       [
         "CY"
@@ -2292,7 +2357,9 @@
   {
     "id": "Asia/Qatar",
     "offset_st": 10800,
-    "aliases": [],
+    "aliases": [
+      "Asia/Bahrain"
+    ],
     "country_codes": [
       [
         "QA",
@@ -2323,7 +2390,10 @@
   {
     "id": "Asia/Riyadh",
     "offset_st": 10800,
-    "aliases": [],
+    "aliases": [
+      "Asia/Aden",
+      "Asia/Kuwait"
+    ],
     "country_codes": [
       [
         "SA",
@@ -2833,6 +2903,11 @@
     "id": "Etc/GMT",
     "offset_st": 0,
     "aliases": [
+      "Etc/GMT+0",
+      "Etc/GMT-0",
+      "Etc/GMT0",
+      "Etc/Greenwich",
+      "GMT",
       "GMT+0",
       "GMT-0",
       "GMT0",
@@ -3001,6 +3076,8 @@
     "offset_st": 0,
     "aliases": [
       "Etc/UCT",
+      "Etc/Universal",
+      "Etc/Zulu",
       "UCT",
       "UTC",
       "Universal",
@@ -3051,7 +3128,13 @@
   {
     "id": "Europe/Belgrade",
     "offset_st": 3600,
-    "aliases": [],
+    "aliases": [
+      "Europe/Ljubljana",
+      "Europe/Podgorica",
+      "Europe/Sarajevo",
+      "Europe/Skopje",
+      "Europe/Zagreb"
+    ],
     "country_codes": [
       [
         "RS",
@@ -3150,7 +3233,9 @@
   {
     "id": "Europe/Helsinki",
     "offset_st": 7200,
-    "aliases": [],
+    "aliases": [
+      "Europe/Mariehamn"
+    ],
     "country_codes": [
       [
         "FI",
@@ -3162,6 +3247,7 @@
     "id": "Europe/Istanbul",
     "offset_st": 10800,
     "aliases": [
+      "Asia/Istanbul",
       "Turkey"
     ],
     "country_codes": [
@@ -3217,6 +3303,9 @@
     "offset_st": 0,
     "aliases": [
       "Europe/Belfast",
+      "Europe/Guernsey",
+      "Europe/Isle_of_Man",
+      "Europe/Jersey",
       "GB",
       "GB-Eire"
     ],
@@ -3295,6 +3384,7 @@
     "id": "Europe/Oslo",
     "offset_st": 3600,
     "aliases": [
+      "Arctic/Longyearbyen",
       "Atlantic/Jan_Mayen"
     ],
     "country_codes": [
@@ -3317,7 +3407,9 @@
   {
     "id": "Europe/Prague",
     "offset_st": 3600,
-    "aliases": [],
+    "aliases": [
+      "Europe/Bratislava"
+    ],
     "country_codes": [
       [
         "CZ",
@@ -3338,7 +3430,10 @@
   {
     "id": "Europe/Rome",
     "offset_st": 3600,
-    "aliases": [],
+    "aliases": [
+      "Europe/San_Marino",
+      "Europe/Vatican"
+    ],
     "country_codes": [
       [
         "IT",
@@ -3493,7 +3588,10 @@
   {
     "id": "Europe/Zurich",
     "offset_st": 3600,
-    "aliases": [],
+    "aliases": [
+      "Europe/Busingen",
+      "Europe/Vaduz"
+    ],
     "country_codes": [
       [
         "CH",
@@ -3627,6 +3725,7 @@
     "id": "Pacific/Auckland",
     "offset_st": 43200,
     "aliases": [
+      "Antarctica/McMurdo",
       "Antarctica/South_Pole",
       "NZ"
     ],
@@ -3767,7 +3866,9 @@
   {
     "id": "Pacific/Guam",
     "offset_st": 36000,
-    "aliases": [],
+    "aliases": [
+      "Pacific/Saipan"
+    ],
     "country_codes": [
       [
         "GU",
@@ -3885,6 +3986,7 @@
     "id": "Pacific/Pago_Pago",
     "offset_st": -39600,
     "aliases": [
+      "Pacific/Midway",
       "Pacific/Samoa",
       "US/Samoa"
     ],

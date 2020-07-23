@@ -11,6 +11,7 @@ const WTA_ORIGIN = `http://worldtimeapi.org`;
 const SOURCES_PATH = path.join(__dirname, './sources');
 const SOURCES_IANA_BACKWARD_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a/backward');
 const SOURCES_IANA_ZONE1970_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a/zone1970.tab');
+const SOURCES_IANA_TO2050_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a/to2050.tzs');
 const SOURCES_WTA_PATH = path.join(SOURCES_PATH, './wta/worldtimeapi.json');
 //
 const DIST_PATH = path.join(__dirname, './dist');
@@ -58,7 +59,7 @@ async function getWtaZones() {
 
 
 /*------------------------------------*\
-  getAliases
+  getAliasesFromBackward
 \*------------------------------------*/
 async function getAliases() {
   const content = await fs.readFile(SOURCES_IANA_BACKWARD_PATH, 'utf8');
@@ -77,6 +78,40 @@ async function getAliases() {
   //
   return output;
 }
+
+
+
+
+
+
+/*------------------------------------*\
+  getAliasesFromTo2050
+\*------------------------------------*/
+async function getAliasesFromTo2050() {
+  const content = await fs.readFile(SOURCES_IANA_TO2050_PATH, 'utf8');
+  const sections = content.split(/\r?\nTZ=/).filter(Boolean);
+  const output = [];
+  //
+  const sectionAliases = sections[0];
+  //
+  const lines = sectionAliases.split(/\r?\n/).filter(Boolean);
+  for (var line of lines) {
+    if (line.trim().startsWith('#')) continue;
+    if (!line.trim()) continue;
+    const components = line.split(/\t+/);
+    output.push({
+      source: components[2],
+      target: components[1],
+    });
+  }
+  //
+  return output;
+}
+
+
+
+
+
 
 
 
@@ -111,7 +146,7 @@ async function getCountryCodes() {
 async function generateTimezones() {
   //
   const wtaZones = await getWtaZones();
-  const aliases = await getAliases();
+  const aliases = await getAliasesFromTo2050();
   const countryCodes = await getCountryCodes();
   //
   const output = [];
