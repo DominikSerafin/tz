@@ -14,7 +14,6 @@ const SOURCES_WTA_PATH = path.join(SOURCES_PATH, './wta/worldtimeapi.json');
 /*------------------------------------*\
   axios interceptors
 \*------------------------------------*/
-
 //
 axios.interceptors.request.use(function(config) {
   // before request is sent
@@ -24,7 +23,6 @@ axios.interceptors.request.use(function(config) {
   // request error
   return Promise.reject(error);
 });
-
 //
 axios.interceptors.response.use(function(response) {
   console.log(`${response.config.method.toUpperCase()} ${response.config.url}: OK`);
@@ -34,8 +32,6 @@ axios.interceptors.response.use(function(response) {
   // any other status code
   return Promise.reject(error);
 });
-
-
 
 
 

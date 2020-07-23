@@ -22,34 +22,6 @@ const DIST_TZ_PATH = path.join(DIST_PATH, './tz.json');
 
 
 /*------------------------------------*\
-  axios interceptors
-\*------------------------------------*/
-
-//
-axios.interceptors.request.use(function(config) {
-  // before request is sent
-  console.log(`${config.method.toUpperCase()} ${config.url}: REQUESTING`);
-  return config;
-}, function(error) {
-  // request error
-  return Promise.reject(error);
-});
-
-//
-axios.interceptors.response.use(function(response) {
-  console.log(`${response.config.method.toUpperCase()} ${response.config.url}: OK`);
-  return response;
-}, function(error) {
-  console.log(`\n\n ${error.config.method.toUpperCase()} ${error.config.url}: ERROR \n\n`);
-  // any other status code
-  return Promise.reject(error);
-});
-
-
-
-
-
-/*------------------------------------*\
   getWtaZones
 \*------------------------------------*/
 async function getWtaZones() {
@@ -83,9 +55,6 @@ async function getAliases() {
 
 
 
-
-
-
 /*------------------------------------*\
   getAliasesFromTo2050
 \*------------------------------------*/
@@ -109,58 +78,6 @@ async function getAliasesFromTo2050() {
   //
   return output;
 }
-
-
-
-
-
-/*------------------------------------*\
-  getAbbreviationsFromTo2050
-\*------------------------------------*/
-/*
-async function getAbbreviationsFromTo2050() {
-  const content = await fs.readFile(SOURCES_IANA_TO2050_PATH, 'utf8');
-  const sections = content.split(/\r?\nTZ=/).filter(Boolean);
-  const output = [];
-  // remove first section with aliases
-  sections.shift();
-  //
-  const sectionsNormalized = [];
-  //
-  for (var section of sections) {
-    const lines = section.split(/\r?\n/);
-    const lineTimezone = lines[0];
-    const lineRules = lines.slice(1);
-    const lineRulesAbbreviations = lineRules.map(line => {
-      //
-      const components = line.trim().split(/\t/);
-      // check if abbreviation exists at all
-      const componentAbbreviation = components[3];
-      if (!componentAbbreviation) return void 0;
-      // only after 1970 and before 2050
-      //const componentYear = components[0].split('-')[0];
-      //const regex1970to2050 = /(19[78][0-9]|199[0-9]|20[0-4][0-9]|2050)/gi;
-      //if (!regex1970to2050.test(componentYear)) return void 0;
-      //
-      return componentAbbreviation;
-    }).filter(Boolean);
-    const lineRulesAbbreviationsUnique = uniq(lineRulesAbbreviations);
-    sectionsNormalized.push({
-      timezone: lineTimezone.trim().replace(/^"+/g,'').replace(/"+$/g,''), // remove double quote marks
-      abbreviations: lineRulesAbbreviationsUnique,
-    });
-  }
-  //
-  for (var section of sectionsNormalized) {
-    //if (line.trim().startsWith('#')) continue;
-    //if (!line.trim()) continue;
-    //console.dir(section.split(/\r?\n/));
-    //break;
-
-    console.dir(section);
-  }
-}
-*/
 
 
 
@@ -212,13 +129,6 @@ async function getCountryNames() {
 
 
 
-
-
-
-
-
-
-
 /*------------------------------------*\
   generateTimezones
 \*------------------------------------*/
@@ -239,7 +149,6 @@ async function generateTimezones() {
   //
   return output;
 }
-
 
 
 
@@ -273,9 +182,6 @@ async function generateTimezone(zone, aliases, countryNames, countryCodes) {
   };
 
 }
-
-
-
 
 
 
