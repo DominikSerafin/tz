@@ -1,0 +1,4802 @@
+[
+  {
+    "country_name": "Andorra",
+    "country_code": "AD",
+    "zones": [
+      {
+        "canonical": "Europe/Andorra",
+        "offset_st": 3600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "United Arab Emirates",
+    "country_code": "AE",
+    "zones": [
+      {
+        "canonical": "Asia/Dubai",
+        "offset_st": 14400,
+        "aliases": [
+          "Asia/Muscat"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Afghanistan",
+    "country_code": "AF",
+    "zones": [
+      {
+        "canonical": "Asia/Kabul",
+        "offset_st": 16200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Antigua & Barbuda",
+    "country_code": "AG",
+    "zones": [
+      {
+        "canonical": "America/Port_of_Spain",
+        "offset_st": -14400,
+        "aliases": [
+          "America/Anguilla",
+          "America/Antigua",
+          "America/Dominica",
+          "America/Grenada",
+          "America/Guadeloupe",
+          "America/Marigot",
+          "America/Montserrat",
+          "America/St_Barthelemy",
+          "America/St_Kitts",
+          "America/St_Lucia",
+          "America/St_Thomas",
+          "America/St_Vincent",
+          "America/Tortola",
+          "America/Virgin"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Anguilla",
+    "country_code": "AI",
+    "zones": [
+      {
+        "canonical": "America/Port_of_Spain",
+        "offset_st": -14400,
+        "aliases": [
+          "America/Anguilla",
+          "America/Antigua",
+          "America/Dominica",
+          "America/Grenada",
+          "America/Guadeloupe",
+          "America/Marigot",
+          "America/Montserrat",
+          "America/St_Barthelemy",
+          "America/St_Kitts",
+          "America/St_Lucia",
+          "America/St_Thomas",
+          "America/St_Vincent",
+          "America/Tortola",
+          "America/Virgin"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Albania",
+    "country_code": "AL",
+    "zones": [
+      {
+        "canonical": "Europe/Tirane",
+        "offset_st": 3600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Armenia",
+    "country_code": "AM",
+    "zones": [
+      {
+        "canonical": "Asia/Yerevan",
+        "offset_st": 14400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Angola",
+    "country_code": "AO",
+    "zones": [
+      {
+        "canonical": "Africa/Lagos",
+        "offset_st": 3600,
+        "aliases": [
+          "Africa/Bangui",
+          "Africa/Brazzaville",
+          "Africa/Douala",
+          "Africa/Kinshasa",
+          "Africa/Libreville",
+          "Africa/Luanda",
+          "Africa/Malabo",
+          "Africa/Niamey",
+          "Africa/Porto-Novo"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Antarctica",
+    "country_code": "AQ",
+    "zones": [
+      {
+        "canonical": "Antarctica/Casey",
+        "offset_st": 28800,
+        "aliases": []
+      },
+      {
+        "canonical": "Antarctica/Davis",
+        "offset_st": 25200,
+        "aliases": []
+      },
+      {
+        "canonical": "Antarctica/DumontDUrville",
+        "offset_st": 36000,
+        "aliases": []
+      },
+      {
+        "canonical": "Antarctica/Mawson",
+        "offset_st": 18000,
+        "aliases": []
+      },
+      {
+        "canonical": "Antarctica/Palmer",
+        "offset_st": -10800,
+        "aliases": []
+      },
+      {
+        "canonical": "Antarctica/Rothera",
+        "offset_st": -10800,
+        "aliases": []
+      },
+      {
+        "canonical": "Antarctica/Syowa",
+        "offset_st": 10800,
+        "aliases": []
+      },
+      {
+        "canonical": "Antarctica/Troll",
+        "offset_st": 0,
+        "aliases": []
+      },
+      {
+        "canonical": "Antarctica/Vostok",
+        "offset_st": 21600,
+        "aliases": []
+      },
+      {
+        "canonical": "Pacific/Auckland",
+        "offset_st": 43200,
+        "aliases": [
+          "Antarctica/McMurdo",
+          "Antarctica/South_Pole",
+          "NZ"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Argentina",
+    "country_code": "AR",
+    "zones": [
+      {
+        "canonical": "America/Argentina/Buenos_Aires",
+        "offset_st": -10800,
+        "aliases": [
+          "America/Buenos_Aires"
+        ]
+      },
+      {
+        "canonical": "America/Argentina/Catamarca",
+        "offset_st": -10800,
+        "aliases": [
+          "America/Argentina/ComodRivadavia",
+          "America/Catamarca"
+        ]
+      },
+      {
+        "canonical": "America/Argentina/Cordoba",
+        "offset_st": -10800,
+        "aliases": [
+          "America/Cordoba",
+          "America/Rosario"
+        ]
+      },
+      {
+        "canonical": "America/Argentina/Jujuy",
+        "offset_st": -10800,
+        "aliases": [
+          "America/Jujuy"
+        ]
+      },
+      {
+        "canonical": "America/Argentina/La_Rioja",
+        "offset_st": -10800,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Argentina/Mendoza",
+        "offset_st": -10800,
+        "aliases": [
+          "America/Mendoza"
+        ]
+      },
+      {
+        "canonical": "America/Argentina/Rio_Gallegos",
+        "offset_st": -10800,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Argentina/Salta",
+        "offset_st": -10800,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Argentina/San_Juan",
+        "offset_st": -10800,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Argentina/San_Luis",
+        "offset_st": -10800,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Argentina/Tucuman",
+        "offset_st": -10800,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Argentina/Ushuaia",
+        "offset_st": -10800,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Samoa (American)",
+    "country_code": "AS",
+    "zones": [
+      {
+        "canonical": "Pacific/Pago_Pago",
+        "offset_st": -39600,
+        "aliases": [
+          "Pacific/Midway",
+          "Pacific/Samoa",
+          "US/Samoa"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Austria",
+    "country_code": "AT",
+    "zones": [
+      {
+        "canonical": "Europe/Vienna",
+        "offset_st": 3600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Australia",
+    "country_code": "AU",
+    "zones": [
+      {
+        "canonical": "Antarctica/Macquarie",
+        "offset_st": 39600,
+        "aliases": []
+      },
+      {
+        "canonical": "Australia/Adelaide",
+        "offset_st": 34200,
+        "aliases": [
+          "Australia/South"
+        ]
+      },
+      {
+        "canonical": "Australia/Brisbane",
+        "offset_st": 36000,
+        "aliases": [
+          "Australia/Queensland"
+        ]
+      },
+      {
+        "canonical": "Australia/Broken_Hill",
+        "offset_st": 34200,
+        "aliases": [
+          "Australia/Yancowinna"
+        ]
+      },
+      {
+        "canonical": "Australia/Currie",
+        "offset_st": 36000,
+        "aliases": []
+      },
+      {
+        "canonical": "Australia/Darwin",
+        "offset_st": 34200,
+        "aliases": [
+          "Australia/North"
+        ]
+      },
+      {
+        "canonical": "Australia/Eucla",
+        "offset_st": 31500,
+        "aliases": []
+      },
+      {
+        "canonical": "Australia/Hobart",
+        "offset_st": 36000,
+        "aliases": [
+          "Australia/Tasmania"
+        ]
+      },
+      {
+        "canonical": "Australia/Lindeman",
+        "offset_st": 36000,
+        "aliases": []
+      },
+      {
+        "canonical": "Australia/Lord_Howe",
+        "offset_st": 37800,
+        "aliases": [
+          "Australia/LHI"
+        ]
+      },
+      {
+        "canonical": "Australia/Melbourne",
+        "offset_st": 36000,
+        "aliases": [
+          "Australia/Victoria"
+        ]
+      },
+      {
+        "canonical": "Australia/Perth",
+        "offset_st": 28800,
+        "aliases": [
+          "Australia/West"
+        ]
+      },
+      {
+        "canonical": "Australia/Sydney",
+        "offset_st": 36000,
+        "aliases": [
+          "Australia/ACT",
+          "Australia/Canberra",
+          "Australia/NSW"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Aruba",
+    "country_code": "AW",
+    "zones": [
+      {
+        "canonical": "America/Curacao",
+        "offset_st": -14400,
+        "aliases": [
+          "America/Aruba",
+          "America/Kralendijk",
+          "America/Lower_Princes"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Åland Islands",
+    "country_code": "AX",
+    "zones": [
+      {
+        "canonical": "Europe/Helsinki",
+        "offset_st": 7200,
+        "aliases": [
+          "Europe/Mariehamn"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Azerbaijan",
+    "country_code": "AZ",
+    "zones": [
+      {
+        "canonical": "Asia/Baku",
+        "offset_st": 14400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Bosnia & Herzegovina",
+    "country_code": "BA",
+    "zones": [
+      {
+        "canonical": "Europe/Belgrade",
+        "offset_st": 3600,
+        "aliases": [
+          "Europe/Ljubljana",
+          "Europe/Podgorica",
+          "Europe/Sarajevo",
+          "Europe/Skopje",
+          "Europe/Zagreb"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Barbados",
+    "country_code": "BB",
+    "zones": [
+      {
+        "canonical": "America/Barbados",
+        "offset_st": -14400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Bangladesh",
+    "country_code": "BD",
+    "zones": [
+      {
+        "canonical": "Asia/Dhaka",
+        "offset_st": 21600,
+        "aliases": [
+          "Asia/Dacca"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Belgium",
+    "country_code": "BE",
+    "zones": [
+      {
+        "canonical": "Europe/Brussels",
+        "offset_st": 3600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Burkina Faso",
+    "country_code": "BF",
+    "zones": [
+      {
+        "canonical": "Africa/Abidjan",
+        "offset_st": 0,
+        "aliases": [
+          "Africa/Bamako",
+          "Africa/Banjul",
+          "Africa/Conakry",
+          "Africa/Dakar",
+          "Africa/Freetown",
+          "Africa/Lome",
+          "Africa/Nouakchott",
+          "Africa/Ouagadougou",
+          "Africa/Timbuktu",
+          "Atlantic/St_Helena"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Bulgaria",
+    "country_code": "BG",
+    "zones": [
+      {
+        "canonical": "Europe/Sofia",
+        "offset_st": 7200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Bahrain",
+    "country_code": "BH",
+    "zones": [
+      {
+        "canonical": "Asia/Qatar",
+        "offset_st": 10800,
+        "aliases": [
+          "Asia/Bahrain"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Burundi",
+    "country_code": "BI",
+    "zones": [
+      {
+        "canonical": "Africa/Maputo",
+        "offset_st": 7200,
+        "aliases": [
+          "Africa/Blantyre",
+          "Africa/Bujumbura",
+          "Africa/Gaborone",
+          "Africa/Harare",
+          "Africa/Kigali",
+          "Africa/Lubumbashi",
+          "Africa/Lusaka"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Benin",
+    "country_code": "BJ",
+    "zones": [
+      {
+        "canonical": "Africa/Lagos",
+        "offset_st": 3600,
+        "aliases": [
+          "Africa/Bangui",
+          "Africa/Brazzaville",
+          "Africa/Douala",
+          "Africa/Kinshasa",
+          "Africa/Libreville",
+          "Africa/Luanda",
+          "Africa/Malabo",
+          "Africa/Niamey",
+          "Africa/Porto-Novo"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "St Barthelemy",
+    "country_code": "BL",
+    "zones": [
+      {
+        "canonical": "America/Port_of_Spain",
+        "offset_st": -14400,
+        "aliases": [
+          "America/Anguilla",
+          "America/Antigua",
+          "America/Dominica",
+          "America/Grenada",
+          "America/Guadeloupe",
+          "America/Marigot",
+          "America/Montserrat",
+          "America/St_Barthelemy",
+          "America/St_Kitts",
+          "America/St_Lucia",
+          "America/St_Thomas",
+          "America/St_Vincent",
+          "America/Tortola",
+          "America/Virgin"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Bermuda",
+    "country_code": "BM",
+    "zones": [
+      {
+        "canonical": "Atlantic/Bermuda",
+        "offset_st": -14400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Brunei",
+    "country_code": "BN",
+    "zones": [
+      {
+        "canonical": "Asia/Brunei",
+        "offset_st": 28800,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Bolivia",
+    "country_code": "BO",
+    "zones": [
+      {
+        "canonical": "America/La_Paz",
+        "offset_st": -14400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Caribbean NL",
+    "country_code": "BQ",
+    "zones": [
+      {
+        "canonical": "America/Curacao",
+        "offset_st": -14400,
+        "aliases": [
+          "America/Aruba",
+          "America/Kralendijk",
+          "America/Lower_Princes"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Brazil",
+    "country_code": "BR",
+    "zones": [
+      {
+        "canonical": "America/Araguaina",
+        "offset_st": -10800,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Bahia",
+        "offset_st": -10800,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Belem",
+        "offset_st": -10800,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Boa_Vista",
+        "offset_st": -14400,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Campo_Grande",
+        "offset_st": -14400,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Cuiaba",
+        "offset_st": -14400,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Eirunepe",
+        "offset_st": -18000,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Fortaleza",
+        "offset_st": -10800,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Maceio",
+        "offset_st": -10800,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Manaus",
+        "offset_st": -14400,
+        "aliases": [
+          "Brazil/West"
+        ]
+      },
+      {
+        "canonical": "America/Noronha",
+        "offset_st": -7200,
+        "aliases": [
+          "Brazil/DeNoronha"
+        ]
+      },
+      {
+        "canonical": "America/Porto_Velho",
+        "offset_st": -14400,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Recife",
+        "offset_st": -10800,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Rio_Branco",
+        "offset_st": -18000,
+        "aliases": [
+          "America/Porto_Acre",
+          "Brazil/Acre"
+        ]
+      },
+      {
+        "canonical": "America/Santarem",
+        "offset_st": -10800,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Sao_Paulo",
+        "offset_st": -10800,
+        "aliases": [
+          "Brazil/East"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Bahamas",
+    "country_code": "BS",
+    "zones": [
+      {
+        "canonical": "America/Nassau",
+        "offset_st": -18000,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Bhutan",
+    "country_code": "BT",
+    "zones": [
+      {
+        "canonical": "Asia/Thimphu",
+        "offset_st": 21600,
+        "aliases": [
+          "Asia/Thimbu"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Botswana",
+    "country_code": "BW",
+    "zones": [
+      {
+        "canonical": "Africa/Maputo",
+        "offset_st": 7200,
+        "aliases": [
+          "Africa/Blantyre",
+          "Africa/Bujumbura",
+          "Africa/Gaborone",
+          "Africa/Harare",
+          "Africa/Kigali",
+          "Africa/Lubumbashi",
+          "Africa/Lusaka"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Belarus",
+    "country_code": "BY",
+    "zones": [
+      {
+        "canonical": "Europe/Minsk",
+        "offset_st": 10800,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Belize",
+    "country_code": "BZ",
+    "zones": [
+      {
+        "canonical": "America/Belize",
+        "offset_st": -21600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Canada",
+    "country_code": "CA",
+    "zones": [
+      {
+        "canonical": "America/Atikokan",
+        "offset_st": -18000,
+        "aliases": [
+          "America/Coral_Harbour"
+        ]
+      },
+      {
+        "canonical": "America/Blanc-Sablon",
+        "offset_st": -14400,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Cambridge_Bay",
+        "offset_st": -25200,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Creston",
+        "offset_st": -25200,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Dawson",
+        "offset_st": -25200,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Dawson_Creek",
+        "offset_st": -25200,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Edmonton",
+        "offset_st": -25200,
+        "aliases": [
+          "Canada/Mountain"
+        ]
+      },
+      {
+        "canonical": "America/Fort_Nelson",
+        "offset_st": -25200,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Glace_Bay",
+        "offset_st": -14400,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Goose_Bay",
+        "offset_st": -14400,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Halifax",
+        "offset_st": -14400,
+        "aliases": [
+          "Canada/Atlantic"
+        ]
+      },
+      {
+        "canonical": "America/Inuvik",
+        "offset_st": -25200,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Iqaluit",
+        "offset_st": -18000,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Moncton",
+        "offset_st": -14400,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Nipigon",
+        "offset_st": -18000,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Pangnirtung",
+        "offset_st": -18000,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Rainy_River",
+        "offset_st": -21600,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Rankin_Inlet",
+        "offset_st": -21600,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Regina",
+        "offset_st": -21600,
+        "aliases": [
+          "Canada/Saskatchewan"
+        ]
+      },
+      {
+        "canonical": "America/Resolute",
+        "offset_st": -21600,
+        "aliases": []
+      },
+      {
+        "canonical": "America/St_Johns",
+        "offset_st": -12600,
+        "aliases": [
+          "Canada/Newfoundland"
+        ]
+      },
+      {
+        "canonical": "America/Swift_Current",
+        "offset_st": -21600,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Thunder_Bay",
+        "offset_st": -18000,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Toronto",
+        "offset_st": -18000,
+        "aliases": [
+          "America/Montreal",
+          "Canada/Eastern"
+        ]
+      },
+      {
+        "canonical": "America/Vancouver",
+        "offset_st": -28800,
+        "aliases": [
+          "Canada/Pacific"
+        ]
+      },
+      {
+        "canonical": "America/Whitehorse",
+        "offset_st": -25200,
+        "aliases": [
+          "Canada/Yukon"
+        ]
+      },
+      {
+        "canonical": "America/Winnipeg",
+        "offset_st": -21600,
+        "aliases": [
+          "Canada/Central"
+        ]
+      },
+      {
+        "canonical": "America/Yellowknife",
+        "offset_st": -25200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Cocos (Keeling) Islands",
+    "country_code": "CC",
+    "zones": [
+      {
+        "canonical": "Indian/Cocos",
+        "offset_st": 23400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Congo (Dem. Rep.)",
+    "country_code": "CD",
+    "zones": [
+      {
+        "canonical": "Africa/Lagos",
+        "offset_st": 3600,
+        "aliases": [
+          "Africa/Bangui",
+          "Africa/Brazzaville",
+          "Africa/Douala",
+          "Africa/Kinshasa",
+          "Africa/Libreville",
+          "Africa/Luanda",
+          "Africa/Malabo",
+          "Africa/Niamey",
+          "Africa/Porto-Novo"
+        ]
+      },
+      {
+        "canonical": "Africa/Maputo",
+        "offset_st": 7200,
+        "aliases": [
+          "Africa/Blantyre",
+          "Africa/Bujumbura",
+          "Africa/Gaborone",
+          "Africa/Harare",
+          "Africa/Kigali",
+          "Africa/Lubumbashi",
+          "Africa/Lusaka"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Central African Rep.",
+    "country_code": "CF",
+    "zones": [
+      {
+        "canonical": "Africa/Lagos",
+        "offset_st": 3600,
+        "aliases": [
+          "Africa/Bangui",
+          "Africa/Brazzaville",
+          "Africa/Douala",
+          "Africa/Kinshasa",
+          "Africa/Libreville",
+          "Africa/Luanda",
+          "Africa/Malabo",
+          "Africa/Niamey",
+          "Africa/Porto-Novo"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Congo (Rep.)",
+    "country_code": "CG",
+    "zones": [
+      {
+        "canonical": "Africa/Lagos",
+        "offset_st": 3600,
+        "aliases": [
+          "Africa/Bangui",
+          "Africa/Brazzaville",
+          "Africa/Douala",
+          "Africa/Kinshasa",
+          "Africa/Libreville",
+          "Africa/Luanda",
+          "Africa/Malabo",
+          "Africa/Niamey",
+          "Africa/Porto-Novo"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Switzerland",
+    "country_code": "CH",
+    "zones": [
+      {
+        "canonical": "Europe/Zurich",
+        "offset_st": 3600,
+        "aliases": [
+          "Europe/Busingen",
+          "Europe/Vaduz"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Côte d'Ivoire",
+    "country_code": "CI",
+    "zones": [
+      {
+        "canonical": "Africa/Abidjan",
+        "offset_st": 0,
+        "aliases": [
+          "Africa/Bamako",
+          "Africa/Banjul",
+          "Africa/Conakry",
+          "Africa/Dakar",
+          "Africa/Freetown",
+          "Africa/Lome",
+          "Africa/Nouakchott",
+          "Africa/Ouagadougou",
+          "Africa/Timbuktu",
+          "Atlantic/St_Helena"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Cook Islands",
+    "country_code": "CK",
+    "zones": [
+      {
+        "canonical": "Pacific/Rarotonga",
+        "offset_st": -36000,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Chile",
+    "country_code": "CL",
+    "zones": [
+      {
+        "canonical": "America/Punta_Arenas",
+        "offset_st": -10800,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Santiago",
+        "offset_st": -14400,
+        "aliases": [
+          "Chile/Continental"
+        ]
+      },
+      {
+        "canonical": "Pacific/Easter",
+        "offset_st": -21600,
+        "aliases": [
+          "Chile/EasterIsland"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Cameroon",
+    "country_code": "CM",
+    "zones": [
+      {
+        "canonical": "Africa/Lagos",
+        "offset_st": 3600,
+        "aliases": [
+          "Africa/Bangui",
+          "Africa/Brazzaville",
+          "Africa/Douala",
+          "Africa/Kinshasa",
+          "Africa/Libreville",
+          "Africa/Luanda",
+          "Africa/Malabo",
+          "Africa/Niamey",
+          "Africa/Porto-Novo"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "China",
+    "country_code": "CN",
+    "zones": [
+      {
+        "canonical": "Asia/Shanghai",
+        "offset_st": 28800,
+        "aliases": [
+          "Asia/Chongqing",
+          "Asia/Chungking",
+          "Asia/Harbin",
+          "PRC"
+        ]
+      },
+      {
+        "canonical": "Asia/Urumqi",
+        "offset_st": 21600,
+        "aliases": [
+          "Asia/Kashgar"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Colombia",
+    "country_code": "CO",
+    "zones": [
+      {
+        "canonical": "America/Bogota",
+        "offset_st": -18000,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Costa Rica",
+    "country_code": "CR",
+    "zones": [
+      {
+        "canonical": "America/Costa_Rica",
+        "offset_st": -21600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Cuba",
+    "country_code": "CU",
+    "zones": [
+      {
+        "canonical": "America/Havana",
+        "offset_st": -18000,
+        "aliases": [
+          "Cuba"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Cape Verde",
+    "country_code": "CV",
+    "zones": [
+      {
+        "canonical": "Atlantic/Cape_Verde",
+        "offset_st": -3600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Curaçao",
+    "country_code": "CW",
+    "zones": [
+      {
+        "canonical": "America/Curacao",
+        "offset_st": -14400,
+        "aliases": [
+          "America/Aruba",
+          "America/Kralendijk",
+          "America/Lower_Princes"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Christmas Island",
+    "country_code": "CX",
+    "zones": [
+      {
+        "canonical": "Indian/Christmas",
+        "offset_st": 25200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Cyprus",
+    "country_code": "CY",
+    "zones": [
+      {
+        "canonical": "Asia/Famagusta",
+        "offset_st": 7200,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Nicosia",
+        "offset_st": 7200,
+        "aliases": [
+          "Europe/Nicosia"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Czech Republic",
+    "country_code": "CZ",
+    "zones": [
+      {
+        "canonical": "Europe/Prague",
+        "offset_st": 3600,
+        "aliases": [
+          "Europe/Bratislava"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Germany",
+    "country_code": "DE",
+    "zones": [
+      {
+        "canonical": "Europe/Berlin",
+        "offset_st": 3600,
+        "aliases": []
+      },
+      {
+        "canonical": "Europe/Zurich",
+        "offset_st": 3600,
+        "aliases": [
+          "Europe/Busingen",
+          "Europe/Vaduz"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Djibouti",
+    "country_code": "DJ",
+    "zones": [
+      {
+        "canonical": "Africa/Nairobi",
+        "offset_st": 10800,
+        "aliases": [
+          "Africa/Addis_Ababa",
+          "Africa/Asmara",
+          "Africa/Asmera",
+          "Africa/Dar_es_Salaam",
+          "Africa/Djibouti",
+          "Africa/Kampala",
+          "Africa/Mogadishu",
+          "Indian/Antananarivo",
+          "Indian/Comoro",
+          "Indian/Mayotte"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Denmark",
+    "country_code": "DK",
+    "zones": [
+      {
+        "canonical": "Europe/Copenhagen",
+        "offset_st": 3600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Dominica",
+    "country_code": "DM",
+    "zones": [
+      {
+        "canonical": "America/Port_of_Spain",
+        "offset_st": -14400,
+        "aliases": [
+          "America/Anguilla",
+          "America/Antigua",
+          "America/Dominica",
+          "America/Grenada",
+          "America/Guadeloupe",
+          "America/Marigot",
+          "America/Montserrat",
+          "America/St_Barthelemy",
+          "America/St_Kitts",
+          "America/St_Lucia",
+          "America/St_Thomas",
+          "America/St_Vincent",
+          "America/Tortola",
+          "America/Virgin"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Dominican Republic",
+    "country_code": "DO",
+    "zones": [
+      {
+        "canonical": "America/Santo_Domingo",
+        "offset_st": -14400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Algeria",
+    "country_code": "DZ",
+    "zones": [
+      {
+        "canonical": "Africa/Algiers",
+        "offset_st": 3600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Ecuador",
+    "country_code": "EC",
+    "zones": [
+      {
+        "canonical": "America/Guayaquil",
+        "offset_st": -18000,
+        "aliases": []
+      },
+      {
+        "canonical": "Pacific/Galapagos",
+        "offset_st": -21600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Estonia",
+    "country_code": "EE",
+    "zones": [
+      {
+        "canonical": "Europe/Tallinn",
+        "offset_st": 7200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Egypt",
+    "country_code": "EG",
+    "zones": [
+      {
+        "canonical": "Africa/Cairo",
+        "offset_st": 7200,
+        "aliases": [
+          "Egypt"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Western Sahara",
+    "country_code": "EH",
+    "zones": [
+      {
+        "canonical": "Africa/El_Aaiun",
+        "offset_st": 3600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Eritrea",
+    "country_code": "ER",
+    "zones": [
+      {
+        "canonical": "Africa/Nairobi",
+        "offset_st": 10800,
+        "aliases": [
+          "Africa/Addis_Ababa",
+          "Africa/Asmara",
+          "Africa/Asmera",
+          "Africa/Dar_es_Salaam",
+          "Africa/Djibouti",
+          "Africa/Kampala",
+          "Africa/Mogadishu",
+          "Indian/Antananarivo",
+          "Indian/Comoro",
+          "Indian/Mayotte"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Spain",
+    "country_code": "ES",
+    "zones": [
+      {
+        "canonical": "Africa/Ceuta",
+        "offset_st": 3600,
+        "aliases": []
+      },
+      {
+        "canonical": "Atlantic/Canary",
+        "offset_st": 0,
+        "aliases": []
+      },
+      {
+        "canonical": "Europe/Madrid",
+        "offset_st": 3600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Ethiopia",
+    "country_code": "ET",
+    "zones": [
+      {
+        "canonical": "Africa/Nairobi",
+        "offset_st": 10800,
+        "aliases": [
+          "Africa/Addis_Ababa",
+          "Africa/Asmara",
+          "Africa/Asmera",
+          "Africa/Dar_es_Salaam",
+          "Africa/Djibouti",
+          "Africa/Kampala",
+          "Africa/Mogadishu",
+          "Indian/Antananarivo",
+          "Indian/Comoro",
+          "Indian/Mayotte"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Finland",
+    "country_code": "FI",
+    "zones": [
+      {
+        "canonical": "Europe/Helsinki",
+        "offset_st": 7200,
+        "aliases": [
+          "Europe/Mariehamn"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Fiji",
+    "country_code": "FJ",
+    "zones": [
+      {
+        "canonical": "Pacific/Fiji",
+        "offset_st": 43200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Falkland Islands",
+    "country_code": "FK",
+    "zones": [
+      {
+        "canonical": "Atlantic/Stanley",
+        "offset_st": -10800,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Micronesia",
+    "country_code": "FM",
+    "zones": [
+      {
+        "canonical": "Pacific/Chuuk",
+        "offset_st": 36000,
+        "aliases": [
+          "Pacific/Truk",
+          "Pacific/Yap"
+        ]
+      },
+      {
+        "canonical": "Pacific/Kosrae",
+        "offset_st": 39600,
+        "aliases": []
+      },
+      {
+        "canonical": "Pacific/Pohnpei",
+        "offset_st": 39600,
+        "aliases": [
+          "Pacific/Ponape"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Faroe Islands",
+    "country_code": "FO",
+    "zones": [
+      {
+        "canonical": "Atlantic/Faroe",
+        "offset_st": 0,
+        "aliases": [
+          "Atlantic/Faeroe"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "France",
+    "country_code": "FR",
+    "zones": [
+      {
+        "canonical": "Europe/Paris",
+        "offset_st": 3600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Gabon",
+    "country_code": "GA",
+    "zones": [
+      {
+        "canonical": "Africa/Lagos",
+        "offset_st": 3600,
+        "aliases": [
+          "Africa/Bangui",
+          "Africa/Brazzaville",
+          "Africa/Douala",
+          "Africa/Kinshasa",
+          "Africa/Libreville",
+          "Africa/Luanda",
+          "Africa/Malabo",
+          "Africa/Niamey",
+          "Africa/Porto-Novo"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Britain (UK)",
+    "country_code": "GB",
+    "zones": [
+      {
+        "canonical": "Europe/London",
+        "offset_st": 0,
+        "aliases": [
+          "Europe/Belfast",
+          "Europe/Guernsey",
+          "Europe/Isle_of_Man",
+          "Europe/Jersey",
+          "GB",
+          "GB-Eire"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Grenada",
+    "country_code": "GD",
+    "zones": [
+      {
+        "canonical": "America/Port_of_Spain",
+        "offset_st": -14400,
+        "aliases": [
+          "America/Anguilla",
+          "America/Antigua",
+          "America/Dominica",
+          "America/Grenada",
+          "America/Guadeloupe",
+          "America/Marigot",
+          "America/Montserrat",
+          "America/St_Barthelemy",
+          "America/St_Kitts",
+          "America/St_Lucia",
+          "America/St_Thomas",
+          "America/St_Vincent",
+          "America/Tortola",
+          "America/Virgin"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Georgia",
+    "country_code": "GE",
+    "zones": [
+      {
+        "canonical": "Asia/Tbilisi",
+        "offset_st": 14400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "French Guiana",
+    "country_code": "GF",
+    "zones": [
+      {
+        "canonical": "America/Cayenne",
+        "offset_st": -10800,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Guernsey",
+    "country_code": "GG",
+    "zones": [
+      {
+        "canonical": "Europe/London",
+        "offset_st": 0,
+        "aliases": [
+          "Europe/Belfast",
+          "Europe/Guernsey",
+          "Europe/Isle_of_Man",
+          "Europe/Jersey",
+          "GB",
+          "GB-Eire"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Ghana",
+    "country_code": "GH",
+    "zones": [
+      {
+        "canonical": "Africa/Accra",
+        "offset_st": 0,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Gibraltar",
+    "country_code": "GI",
+    "zones": [
+      {
+        "canonical": "Europe/Gibraltar",
+        "offset_st": 3600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Greenland",
+    "country_code": "GL",
+    "zones": [
+      {
+        "canonical": "America/Danmarkshavn",
+        "offset_st": 0,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Nuuk",
+        "offset_st": -10800,
+        "aliases": [
+          "America/Godthab"
+        ]
+      },
+      {
+        "canonical": "America/Scoresbysund",
+        "offset_st": -3600,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Thule",
+        "offset_st": -14400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Gambia",
+    "country_code": "GM",
+    "zones": [
+      {
+        "canonical": "Africa/Abidjan",
+        "offset_st": 0,
+        "aliases": [
+          "Africa/Bamako",
+          "Africa/Banjul",
+          "Africa/Conakry",
+          "Africa/Dakar",
+          "Africa/Freetown",
+          "Africa/Lome",
+          "Africa/Nouakchott",
+          "Africa/Ouagadougou",
+          "Africa/Timbuktu",
+          "Atlantic/St_Helena"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Guinea",
+    "country_code": "GN",
+    "zones": [
+      {
+        "canonical": "Africa/Abidjan",
+        "offset_st": 0,
+        "aliases": [
+          "Africa/Bamako",
+          "Africa/Banjul",
+          "Africa/Conakry",
+          "Africa/Dakar",
+          "Africa/Freetown",
+          "Africa/Lome",
+          "Africa/Nouakchott",
+          "Africa/Ouagadougou",
+          "Africa/Timbuktu",
+          "Atlantic/St_Helena"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Guadeloupe",
+    "country_code": "GP",
+    "zones": [
+      {
+        "canonical": "America/Port_of_Spain",
+        "offset_st": -14400,
+        "aliases": [
+          "America/Anguilla",
+          "America/Antigua",
+          "America/Dominica",
+          "America/Grenada",
+          "America/Guadeloupe",
+          "America/Marigot",
+          "America/Montserrat",
+          "America/St_Barthelemy",
+          "America/St_Kitts",
+          "America/St_Lucia",
+          "America/St_Thomas",
+          "America/St_Vincent",
+          "America/Tortola",
+          "America/Virgin"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Equatorial Guinea",
+    "country_code": "GQ",
+    "zones": [
+      {
+        "canonical": "Africa/Lagos",
+        "offset_st": 3600,
+        "aliases": [
+          "Africa/Bangui",
+          "Africa/Brazzaville",
+          "Africa/Douala",
+          "Africa/Kinshasa",
+          "Africa/Libreville",
+          "Africa/Luanda",
+          "Africa/Malabo",
+          "Africa/Niamey",
+          "Africa/Porto-Novo"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Greece",
+    "country_code": "GR",
+    "zones": [
+      {
+        "canonical": "Europe/Athens",
+        "offset_st": 7200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "South Georgia & the South Sandwich Islands",
+    "country_code": "GS",
+    "zones": [
+      {
+        "canonical": "Atlantic/South_Georgia",
+        "offset_st": -7200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Guatemala",
+    "country_code": "GT",
+    "zones": [
+      {
+        "canonical": "America/Guatemala",
+        "offset_st": -21600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Guam",
+    "country_code": "GU",
+    "zones": [
+      {
+        "canonical": "Pacific/Guam",
+        "offset_st": 36000,
+        "aliases": [
+          "Pacific/Saipan"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Guinea-Bissau",
+    "country_code": "GW",
+    "zones": [
+      {
+        "canonical": "Africa/Bissau",
+        "offset_st": 0,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Guyana",
+    "country_code": "GY",
+    "zones": [
+      {
+        "canonical": "America/Guyana",
+        "offset_st": -14400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Hong Kong",
+    "country_code": "HK",
+    "zones": [
+      {
+        "canonical": "Asia/Hong_Kong",
+        "offset_st": 28800,
+        "aliases": [
+          "Hongkong"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Honduras",
+    "country_code": "HN",
+    "zones": [
+      {
+        "canonical": "America/Tegucigalpa",
+        "offset_st": -21600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Croatia",
+    "country_code": "HR",
+    "zones": [
+      {
+        "canonical": "Europe/Belgrade",
+        "offset_st": 3600,
+        "aliases": [
+          "Europe/Ljubljana",
+          "Europe/Podgorica",
+          "Europe/Sarajevo",
+          "Europe/Skopje",
+          "Europe/Zagreb"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Haiti",
+    "country_code": "HT",
+    "zones": [
+      {
+        "canonical": "America/Port-au-Prince",
+        "offset_st": -18000,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Hungary",
+    "country_code": "HU",
+    "zones": [
+      {
+        "canonical": "Europe/Budapest",
+        "offset_st": 3600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Indonesia",
+    "country_code": "ID",
+    "zones": [
+      {
+        "canonical": "Asia/Jakarta",
+        "offset_st": 25200,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Jayapura",
+        "offset_st": 32400,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Makassar",
+        "offset_st": 28800,
+        "aliases": [
+          "Asia/Ujung_Pandang"
+        ]
+      },
+      {
+        "canonical": "Asia/Pontianak",
+        "offset_st": 25200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Ireland",
+    "country_code": "IE",
+    "zones": [
+      {
+        "canonical": "Europe/Dublin",
+        "offset_st": 3600,
+        "aliases": [
+          "Eire"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Israel",
+    "country_code": "IL",
+    "zones": [
+      {
+        "canonical": "Asia/Jerusalem",
+        "offset_st": 7200,
+        "aliases": [
+          "Asia/Tel_Aviv",
+          "Israel"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Isle of Man",
+    "country_code": "IM",
+    "zones": [
+      {
+        "canonical": "Europe/London",
+        "offset_st": 0,
+        "aliases": [
+          "Europe/Belfast",
+          "Europe/Guernsey",
+          "Europe/Isle_of_Man",
+          "Europe/Jersey",
+          "GB",
+          "GB-Eire"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "India",
+    "country_code": "IN",
+    "zones": [
+      {
+        "canonical": "Asia/Kolkata",
+        "offset_st": 19800,
+        "aliases": [
+          "Asia/Calcutta"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "British Indian Ocean Territory",
+    "country_code": "IO",
+    "zones": [
+      {
+        "canonical": "Indian/Chagos",
+        "offset_st": 21600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Iraq",
+    "country_code": "IQ",
+    "zones": [
+      {
+        "canonical": "Asia/Baghdad",
+        "offset_st": 10800,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Iran",
+    "country_code": "IR",
+    "zones": [
+      {
+        "canonical": "Asia/Tehran",
+        "offset_st": 12600,
+        "aliases": [
+          "Iran"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Iceland",
+    "country_code": "IS",
+    "zones": [
+      {
+        "canonical": "Atlantic/Reykjavik",
+        "offset_st": 0,
+        "aliases": [
+          "Iceland"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Italy",
+    "country_code": "IT",
+    "zones": [
+      {
+        "canonical": "Europe/Rome",
+        "offset_st": 3600,
+        "aliases": [
+          "Europe/San_Marino",
+          "Europe/Vatican"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Jersey",
+    "country_code": "JE",
+    "zones": [
+      {
+        "canonical": "Europe/London",
+        "offset_st": 0,
+        "aliases": [
+          "Europe/Belfast",
+          "Europe/Guernsey",
+          "Europe/Isle_of_Man",
+          "Europe/Jersey",
+          "GB",
+          "GB-Eire"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Jamaica",
+    "country_code": "JM",
+    "zones": [
+      {
+        "canonical": "America/Jamaica",
+        "offset_st": -18000,
+        "aliases": [
+          "Jamaica"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Jordan",
+    "country_code": "JO",
+    "zones": [
+      {
+        "canonical": "Asia/Amman",
+        "offset_st": 7200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Japan",
+    "country_code": "JP",
+    "zones": [
+      {
+        "canonical": "Asia/Tokyo",
+        "offset_st": 32400,
+        "aliases": [
+          "Japan"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Kenya",
+    "country_code": "KE",
+    "zones": [
+      {
+        "canonical": "Africa/Nairobi",
+        "offset_st": 10800,
+        "aliases": [
+          "Africa/Addis_Ababa",
+          "Africa/Asmara",
+          "Africa/Asmera",
+          "Africa/Dar_es_Salaam",
+          "Africa/Djibouti",
+          "Africa/Kampala",
+          "Africa/Mogadishu",
+          "Indian/Antananarivo",
+          "Indian/Comoro",
+          "Indian/Mayotte"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Kyrgyzstan",
+    "country_code": "KG",
+    "zones": [
+      {
+        "canonical": "Asia/Bishkek",
+        "offset_st": 21600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Cambodia",
+    "country_code": "KH",
+    "zones": [
+      {
+        "canonical": "Asia/Bangkok",
+        "offset_st": 25200,
+        "aliases": [
+          "Asia/Phnom_Penh",
+          "Asia/Vientiane"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Kiribati",
+    "country_code": "KI",
+    "zones": [
+      {
+        "canonical": "Pacific/Enderbury",
+        "offset_st": 46800,
+        "aliases": []
+      },
+      {
+        "canonical": "Pacific/Kiritimati",
+        "offset_st": 50400,
+        "aliases": []
+      },
+      {
+        "canonical": "Pacific/Tarawa",
+        "offset_st": 43200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Comoros",
+    "country_code": "KM",
+    "zones": [
+      {
+        "canonical": "Africa/Nairobi",
+        "offset_st": 10800,
+        "aliases": [
+          "Africa/Addis_Ababa",
+          "Africa/Asmara",
+          "Africa/Asmera",
+          "Africa/Dar_es_Salaam",
+          "Africa/Djibouti",
+          "Africa/Kampala",
+          "Africa/Mogadishu",
+          "Indian/Antananarivo",
+          "Indian/Comoro",
+          "Indian/Mayotte"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "St Kitts & Nevis",
+    "country_code": "KN",
+    "zones": [
+      {
+        "canonical": "America/Port_of_Spain",
+        "offset_st": -14400,
+        "aliases": [
+          "America/Anguilla",
+          "America/Antigua",
+          "America/Dominica",
+          "America/Grenada",
+          "America/Guadeloupe",
+          "America/Marigot",
+          "America/Montserrat",
+          "America/St_Barthelemy",
+          "America/St_Kitts",
+          "America/St_Lucia",
+          "America/St_Thomas",
+          "America/St_Vincent",
+          "America/Tortola",
+          "America/Virgin"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Korea (North)",
+    "country_code": "KP",
+    "zones": [
+      {
+        "canonical": "Asia/Pyongyang",
+        "offset_st": 32400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Korea (South)",
+    "country_code": "KR",
+    "zones": [
+      {
+        "canonical": "Asia/Seoul",
+        "offset_st": 32400,
+        "aliases": [
+          "ROK"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Kuwait",
+    "country_code": "KW",
+    "zones": [
+      {
+        "canonical": "Asia/Riyadh",
+        "offset_st": 10800,
+        "aliases": [
+          "Asia/Aden",
+          "Asia/Kuwait"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Cayman Islands",
+    "country_code": "KY",
+    "zones": [
+      {
+        "canonical": "America/Panama",
+        "offset_st": -18000,
+        "aliases": [
+          "America/Cayman"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Kazakhstan",
+    "country_code": "KZ",
+    "zones": [
+      {
+        "canonical": "Asia/Almaty",
+        "offset_st": 21600,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Aqtau",
+        "offset_st": 18000,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Aqtobe",
+        "offset_st": 18000,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Atyrau",
+        "offset_st": 18000,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Oral",
+        "offset_st": 18000,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Qostanay",
+        "offset_st": 21600,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Qyzylorda",
+        "offset_st": 18000,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Laos",
+    "country_code": "LA",
+    "zones": [
+      {
+        "canonical": "Asia/Bangkok",
+        "offset_st": 25200,
+        "aliases": [
+          "Asia/Phnom_Penh",
+          "Asia/Vientiane"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Lebanon",
+    "country_code": "LB",
+    "zones": [
+      {
+        "canonical": "Asia/Beirut",
+        "offset_st": 7200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "St Lucia",
+    "country_code": "LC",
+    "zones": [
+      {
+        "canonical": "America/Port_of_Spain",
+        "offset_st": -14400,
+        "aliases": [
+          "America/Anguilla",
+          "America/Antigua",
+          "America/Dominica",
+          "America/Grenada",
+          "America/Guadeloupe",
+          "America/Marigot",
+          "America/Montserrat",
+          "America/St_Barthelemy",
+          "America/St_Kitts",
+          "America/St_Lucia",
+          "America/St_Thomas",
+          "America/St_Vincent",
+          "America/Tortola",
+          "America/Virgin"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Liechtenstein",
+    "country_code": "LI",
+    "zones": [
+      {
+        "canonical": "Europe/Zurich",
+        "offset_st": 3600,
+        "aliases": [
+          "Europe/Busingen",
+          "Europe/Vaduz"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Sri Lanka",
+    "country_code": "LK",
+    "zones": [
+      {
+        "canonical": "Asia/Colombo",
+        "offset_st": 19800,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Liberia",
+    "country_code": "LR",
+    "zones": [
+      {
+        "canonical": "Africa/Monrovia",
+        "offset_st": 0,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Lesotho",
+    "country_code": "LS",
+    "zones": [
+      {
+        "canonical": "Africa/Johannesburg",
+        "offset_st": 7200,
+        "aliases": [
+          "Africa/Maseru",
+          "Africa/Mbabane"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Lithuania",
+    "country_code": "LT",
+    "zones": [
+      {
+        "canonical": "Europe/Vilnius",
+        "offset_st": 7200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Luxembourg",
+    "country_code": "LU",
+    "zones": [
+      {
+        "canonical": "Europe/Luxembourg",
+        "offset_st": 3600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Latvia",
+    "country_code": "LV",
+    "zones": [
+      {
+        "canonical": "Europe/Riga",
+        "offset_st": 7200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Libya",
+    "country_code": "LY",
+    "zones": [
+      {
+        "canonical": "Africa/Tripoli",
+        "offset_st": 7200,
+        "aliases": [
+          "Libya"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Morocco",
+    "country_code": "MA",
+    "zones": [
+      {
+        "canonical": "Africa/Casablanca",
+        "offset_st": 3600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Monaco",
+    "country_code": "MC",
+    "zones": [
+      {
+        "canonical": "Europe/Monaco",
+        "offset_st": 3600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Moldova",
+    "country_code": "MD",
+    "zones": [
+      {
+        "canonical": "Europe/Chisinau",
+        "offset_st": 7200,
+        "aliases": [
+          "Europe/Tiraspol"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Montenegro",
+    "country_code": "ME",
+    "zones": [
+      {
+        "canonical": "Europe/Belgrade",
+        "offset_st": 3600,
+        "aliases": [
+          "Europe/Ljubljana",
+          "Europe/Podgorica",
+          "Europe/Sarajevo",
+          "Europe/Skopje",
+          "Europe/Zagreb"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "St Martin (French)",
+    "country_code": "MF",
+    "zones": [
+      {
+        "canonical": "America/Port_of_Spain",
+        "offset_st": -14400,
+        "aliases": [
+          "America/Anguilla",
+          "America/Antigua",
+          "America/Dominica",
+          "America/Grenada",
+          "America/Guadeloupe",
+          "America/Marigot",
+          "America/Montserrat",
+          "America/St_Barthelemy",
+          "America/St_Kitts",
+          "America/St_Lucia",
+          "America/St_Thomas",
+          "America/St_Vincent",
+          "America/Tortola",
+          "America/Virgin"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Madagascar",
+    "country_code": "MG",
+    "zones": [
+      {
+        "canonical": "Africa/Nairobi",
+        "offset_st": 10800,
+        "aliases": [
+          "Africa/Addis_Ababa",
+          "Africa/Asmara",
+          "Africa/Asmera",
+          "Africa/Dar_es_Salaam",
+          "Africa/Djibouti",
+          "Africa/Kampala",
+          "Africa/Mogadishu",
+          "Indian/Antananarivo",
+          "Indian/Comoro",
+          "Indian/Mayotte"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Marshall Islands",
+    "country_code": "MH",
+    "zones": [
+      {
+        "canonical": "Pacific/Kwajalein",
+        "offset_st": 43200,
+        "aliases": [
+          "Kwajalein"
+        ]
+      },
+      {
+        "canonical": "Pacific/Majuro",
+        "offset_st": 43200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "North Macedonia",
+    "country_code": "MK",
+    "zones": [
+      {
+        "canonical": "Europe/Belgrade",
+        "offset_st": 3600,
+        "aliases": [
+          "Europe/Ljubljana",
+          "Europe/Podgorica",
+          "Europe/Sarajevo",
+          "Europe/Skopje",
+          "Europe/Zagreb"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Mali",
+    "country_code": "ML",
+    "zones": [
+      {
+        "canonical": "Africa/Abidjan",
+        "offset_st": 0,
+        "aliases": [
+          "Africa/Bamako",
+          "Africa/Banjul",
+          "Africa/Conakry",
+          "Africa/Dakar",
+          "Africa/Freetown",
+          "Africa/Lome",
+          "Africa/Nouakchott",
+          "Africa/Ouagadougou",
+          "Africa/Timbuktu",
+          "Atlantic/St_Helena"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Myanmar (Burma)",
+    "country_code": "MM",
+    "zones": [
+      {
+        "canonical": "Asia/Yangon",
+        "offset_st": 23400,
+        "aliases": [
+          "Asia/Rangoon"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Mongolia",
+    "country_code": "MN",
+    "zones": [
+      {
+        "canonical": "Asia/Choibalsan",
+        "offset_st": 28800,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Hovd",
+        "offset_st": 25200,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Ulaanbaatar",
+        "offset_st": 28800,
+        "aliases": [
+          "Asia/Ulan_Bator"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Macau",
+    "country_code": "MO",
+    "zones": [
+      {
+        "canonical": "Asia/Macau",
+        "offset_st": 28800,
+        "aliases": [
+          "Asia/Macao"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Northern Mariana Islands",
+    "country_code": "MP",
+    "zones": [
+      {
+        "canonical": "Pacific/Guam",
+        "offset_st": 36000,
+        "aliases": [
+          "Pacific/Saipan"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Martinique",
+    "country_code": "MQ",
+    "zones": [
+      {
+        "canonical": "America/Martinique",
+        "offset_st": -14400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Mauritania",
+    "country_code": "MR",
+    "zones": [
+      {
+        "canonical": "Africa/Abidjan",
+        "offset_st": 0,
+        "aliases": [
+          "Africa/Bamako",
+          "Africa/Banjul",
+          "Africa/Conakry",
+          "Africa/Dakar",
+          "Africa/Freetown",
+          "Africa/Lome",
+          "Africa/Nouakchott",
+          "Africa/Ouagadougou",
+          "Africa/Timbuktu",
+          "Atlantic/St_Helena"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Montserrat",
+    "country_code": "MS",
+    "zones": [
+      {
+        "canonical": "America/Port_of_Spain",
+        "offset_st": -14400,
+        "aliases": [
+          "America/Anguilla",
+          "America/Antigua",
+          "America/Dominica",
+          "America/Grenada",
+          "America/Guadeloupe",
+          "America/Marigot",
+          "America/Montserrat",
+          "America/St_Barthelemy",
+          "America/St_Kitts",
+          "America/St_Lucia",
+          "America/St_Thomas",
+          "America/St_Vincent",
+          "America/Tortola",
+          "America/Virgin"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Malta",
+    "country_code": "MT",
+    "zones": [
+      {
+        "canonical": "Europe/Malta",
+        "offset_st": 3600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Mauritius",
+    "country_code": "MU",
+    "zones": [
+      {
+        "canonical": "Indian/Mauritius",
+        "offset_st": 14400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Maldives",
+    "country_code": "MV",
+    "zones": [
+      {
+        "canonical": "Indian/Maldives",
+        "offset_st": 18000,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Malawi",
+    "country_code": "MW",
+    "zones": [
+      {
+        "canonical": "Africa/Maputo",
+        "offset_st": 7200,
+        "aliases": [
+          "Africa/Blantyre",
+          "Africa/Bujumbura",
+          "Africa/Gaborone",
+          "Africa/Harare",
+          "Africa/Kigali",
+          "Africa/Lubumbashi",
+          "Africa/Lusaka"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Mexico",
+    "country_code": "MX",
+    "zones": [
+      {
+        "canonical": "America/Bahia_Banderas",
+        "offset_st": -21600,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Cancun",
+        "offset_st": -18000,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Chihuahua",
+        "offset_st": -25200,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Hermosillo",
+        "offset_st": -25200,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Matamoros",
+        "offset_st": -21600,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Mazatlan",
+        "offset_st": -25200,
+        "aliases": [
+          "Mexico/BajaSur"
+        ]
+      },
+      {
+        "canonical": "America/Merida",
+        "offset_st": -21600,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Mexico_City",
+        "offset_st": -21600,
+        "aliases": [
+          "Mexico/General"
+        ]
+      },
+      {
+        "canonical": "America/Monterrey",
+        "offset_st": -21600,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Ojinaga",
+        "offset_st": -25200,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Tijuana",
+        "offset_st": -28800,
+        "aliases": [
+          "America/Ensenada",
+          "America/Santa_Isabel",
+          "Mexico/BajaNorte"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Malaysia",
+    "country_code": "MY",
+    "zones": [
+      {
+        "canonical": "Asia/Kuala_Lumpur",
+        "offset_st": 28800,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Kuching",
+        "offset_st": 28800,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Mozambique",
+    "country_code": "MZ",
+    "zones": [
+      {
+        "canonical": "Africa/Maputo",
+        "offset_st": 7200,
+        "aliases": [
+          "Africa/Blantyre",
+          "Africa/Bujumbura",
+          "Africa/Gaborone",
+          "Africa/Harare",
+          "Africa/Kigali",
+          "Africa/Lubumbashi",
+          "Africa/Lusaka"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Namibia",
+    "country_code": "NA",
+    "zones": [
+      {
+        "canonical": "Africa/Windhoek",
+        "offset_st": 7200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "New Caledonia",
+    "country_code": "NC",
+    "zones": [
+      {
+        "canonical": "Pacific/Noumea",
+        "offset_st": 39600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Niger",
+    "country_code": "NE",
+    "zones": [
+      {
+        "canonical": "Africa/Lagos",
+        "offset_st": 3600,
+        "aliases": [
+          "Africa/Bangui",
+          "Africa/Brazzaville",
+          "Africa/Douala",
+          "Africa/Kinshasa",
+          "Africa/Libreville",
+          "Africa/Luanda",
+          "Africa/Malabo",
+          "Africa/Niamey",
+          "Africa/Porto-Novo"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Norfolk Island",
+    "country_code": "NF",
+    "zones": [
+      {
+        "canonical": "Pacific/Norfolk",
+        "offset_st": 39600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Nigeria",
+    "country_code": "NG",
+    "zones": [
+      {
+        "canonical": "Africa/Lagos",
+        "offset_st": 3600,
+        "aliases": [
+          "Africa/Bangui",
+          "Africa/Brazzaville",
+          "Africa/Douala",
+          "Africa/Kinshasa",
+          "Africa/Libreville",
+          "Africa/Luanda",
+          "Africa/Malabo",
+          "Africa/Niamey",
+          "Africa/Porto-Novo"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Nicaragua",
+    "country_code": "NI",
+    "zones": [
+      {
+        "canonical": "America/Managua",
+        "offset_st": -21600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Netherlands",
+    "country_code": "NL",
+    "zones": [
+      {
+        "canonical": "Europe/Amsterdam",
+        "offset_st": 3600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Norway",
+    "country_code": "NO",
+    "zones": [
+      {
+        "canonical": "Europe/Oslo",
+        "offset_st": 3600,
+        "aliases": [
+          "Arctic/Longyearbyen",
+          "Atlantic/Jan_Mayen"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Nepal",
+    "country_code": "NP",
+    "zones": [
+      {
+        "canonical": "Asia/Kathmandu",
+        "offset_st": 20700,
+        "aliases": [
+          "Asia/Katmandu"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Nauru",
+    "country_code": "NR",
+    "zones": [
+      {
+        "canonical": "Pacific/Nauru",
+        "offset_st": 43200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Niue",
+    "country_code": "NU",
+    "zones": [
+      {
+        "canonical": "Pacific/Niue",
+        "offset_st": -39600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "New Zealand",
+    "country_code": "NZ",
+    "zones": [
+      {
+        "canonical": "Pacific/Auckland",
+        "offset_st": 43200,
+        "aliases": [
+          "Antarctica/McMurdo",
+          "Antarctica/South_Pole",
+          "NZ"
+        ]
+      },
+      {
+        "canonical": "Pacific/Chatham",
+        "offset_st": 45900,
+        "aliases": [
+          "NZ-CHAT"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Oman",
+    "country_code": "OM",
+    "zones": [
+      {
+        "canonical": "Asia/Dubai",
+        "offset_st": 14400,
+        "aliases": [
+          "Asia/Muscat"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Panama",
+    "country_code": "PA",
+    "zones": [
+      {
+        "canonical": "America/Panama",
+        "offset_st": -18000,
+        "aliases": [
+          "America/Cayman"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Peru",
+    "country_code": "PE",
+    "zones": [
+      {
+        "canonical": "America/Lima",
+        "offset_st": -18000,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "French Polynesia",
+    "country_code": "PF",
+    "zones": [
+      {
+        "canonical": "Pacific/Gambier",
+        "offset_st": -32400,
+        "aliases": []
+      },
+      {
+        "canonical": "Pacific/Marquesas",
+        "offset_st": -34200,
+        "aliases": []
+      },
+      {
+        "canonical": "Pacific/Tahiti",
+        "offset_st": -36000,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Papua New Guinea",
+    "country_code": "PG",
+    "zones": [
+      {
+        "canonical": "Pacific/Bougainville",
+        "offset_st": 39600,
+        "aliases": []
+      },
+      {
+        "canonical": "Pacific/Port_Moresby",
+        "offset_st": 36000,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Philippines",
+    "country_code": "PH",
+    "zones": [
+      {
+        "canonical": "Asia/Manila",
+        "offset_st": 28800,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Pakistan",
+    "country_code": "PK",
+    "zones": [
+      {
+        "canonical": "Asia/Karachi",
+        "offset_st": 18000,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Poland",
+    "country_code": "PL",
+    "zones": [
+      {
+        "canonical": "Europe/Warsaw",
+        "offset_st": 3600,
+        "aliases": [
+          "Poland"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "St Pierre & Miquelon",
+    "country_code": "PM",
+    "zones": [
+      {
+        "canonical": "America/Miquelon",
+        "offset_st": -10800,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Pitcairn",
+    "country_code": "PN",
+    "zones": [
+      {
+        "canonical": "Pacific/Pitcairn",
+        "offset_st": -28800,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Puerto Rico",
+    "country_code": "PR",
+    "zones": [
+      {
+        "canonical": "America/Puerto_Rico",
+        "offset_st": -14400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Palestine",
+    "country_code": "PS",
+    "zones": [
+      {
+        "canonical": "Asia/Gaza",
+        "offset_st": 7200,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Hebron",
+        "offset_st": 7200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Portugal",
+    "country_code": "PT",
+    "zones": [
+      {
+        "canonical": "Atlantic/Azores",
+        "offset_st": -3600,
+        "aliases": []
+      },
+      {
+        "canonical": "Atlantic/Madeira",
+        "offset_st": 0,
+        "aliases": []
+      },
+      {
+        "canonical": "Europe/Lisbon",
+        "offset_st": 0,
+        "aliases": [
+          "Portugal"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Palau",
+    "country_code": "PW",
+    "zones": [
+      {
+        "canonical": "Pacific/Palau",
+        "offset_st": 32400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Paraguay",
+    "country_code": "PY",
+    "zones": [
+      {
+        "canonical": "America/Asuncion",
+        "offset_st": -14400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Qatar",
+    "country_code": "QA",
+    "zones": [
+      {
+        "canonical": "Asia/Qatar",
+        "offset_st": 10800,
+        "aliases": [
+          "Asia/Bahrain"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Réunion",
+    "country_code": "RE",
+    "zones": [
+      {
+        "canonical": "Indian/Reunion",
+        "offset_st": 14400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Romania",
+    "country_code": "RO",
+    "zones": [
+      {
+        "canonical": "Europe/Bucharest",
+        "offset_st": 7200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Serbia",
+    "country_code": "RS",
+    "zones": [
+      {
+        "canonical": "Europe/Belgrade",
+        "offset_st": 3600,
+        "aliases": [
+          "Europe/Ljubljana",
+          "Europe/Podgorica",
+          "Europe/Sarajevo",
+          "Europe/Skopje",
+          "Europe/Zagreb"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Russia",
+    "country_code": "RU",
+    "zones": [
+      {
+        "canonical": "Asia/Anadyr",
+        "offset_st": 43200,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Barnaul",
+        "offset_st": 25200,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Chita",
+        "offset_st": 32400,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Irkutsk",
+        "offset_st": 28800,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Kamchatka",
+        "offset_st": 43200,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Khandyga",
+        "offset_st": 32400,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Krasnoyarsk",
+        "offset_st": 25200,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Magadan",
+        "offset_st": 39600,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Novokuznetsk",
+        "offset_st": 25200,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Novosibirsk",
+        "offset_st": 25200,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Omsk",
+        "offset_st": 21600,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Sakhalin",
+        "offset_st": 39600,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Srednekolymsk",
+        "offset_st": 39600,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Tomsk",
+        "offset_st": 25200,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Ust-Nera",
+        "offset_st": 36000,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Vladivostok",
+        "offset_st": 36000,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Yakutsk",
+        "offset_st": 32400,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Yekaterinburg",
+        "offset_st": 18000,
+        "aliases": []
+      },
+      {
+        "canonical": "Europe/Astrakhan",
+        "offset_st": 14400,
+        "aliases": []
+      },
+      {
+        "canonical": "Europe/Kaliningrad",
+        "offset_st": 7200,
+        "aliases": []
+      },
+      {
+        "canonical": "Europe/Kirov",
+        "offset_st": 10800,
+        "aliases": []
+      },
+      {
+        "canonical": "Europe/Moscow",
+        "offset_st": 10800,
+        "aliases": [
+          "W-SU"
+        ]
+      },
+      {
+        "canonical": "Europe/Samara",
+        "offset_st": 14400,
+        "aliases": []
+      },
+      {
+        "canonical": "Europe/Saratov",
+        "offset_st": 14400,
+        "aliases": []
+      },
+      {
+        "canonical": "Europe/Simferopol",
+        "offset_st": 10800,
+        "aliases": []
+      },
+      {
+        "canonical": "Europe/Ulyanovsk",
+        "offset_st": 14400,
+        "aliases": []
+      },
+      {
+        "canonical": "Europe/Volgograd",
+        "offset_st": 14400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Rwanda",
+    "country_code": "RW",
+    "zones": [
+      {
+        "canonical": "Africa/Maputo",
+        "offset_st": 7200,
+        "aliases": [
+          "Africa/Blantyre",
+          "Africa/Bujumbura",
+          "Africa/Gaborone",
+          "Africa/Harare",
+          "Africa/Kigali",
+          "Africa/Lubumbashi",
+          "Africa/Lusaka"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Saudi Arabia",
+    "country_code": "SA",
+    "zones": [
+      {
+        "canonical": "Asia/Riyadh",
+        "offset_st": 10800,
+        "aliases": [
+          "Asia/Aden",
+          "Asia/Kuwait"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Solomon Islands",
+    "country_code": "SB",
+    "zones": [
+      {
+        "canonical": "Pacific/Guadalcanal",
+        "offset_st": 39600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Seychelles",
+    "country_code": "SC",
+    "zones": [
+      {
+        "canonical": "Indian/Mahe",
+        "offset_st": 14400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Sudan",
+    "country_code": "SD",
+    "zones": [
+      {
+        "canonical": "Africa/Khartoum",
+        "offset_st": 7200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Sweden",
+    "country_code": "SE",
+    "zones": [
+      {
+        "canonical": "Europe/Stockholm",
+        "offset_st": 3600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Singapore",
+    "country_code": "SG",
+    "zones": [
+      {
+        "canonical": "Asia/Singapore",
+        "offset_st": 28800,
+        "aliases": [
+          "Singapore"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "St Helena",
+    "country_code": "SH",
+    "zones": [
+      {
+        "canonical": "Africa/Abidjan",
+        "offset_st": 0,
+        "aliases": [
+          "Africa/Bamako",
+          "Africa/Banjul",
+          "Africa/Conakry",
+          "Africa/Dakar",
+          "Africa/Freetown",
+          "Africa/Lome",
+          "Africa/Nouakchott",
+          "Africa/Ouagadougou",
+          "Africa/Timbuktu",
+          "Atlantic/St_Helena"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Slovenia",
+    "country_code": "SI",
+    "zones": [
+      {
+        "canonical": "Europe/Belgrade",
+        "offset_st": 3600,
+        "aliases": [
+          "Europe/Ljubljana",
+          "Europe/Podgorica",
+          "Europe/Sarajevo",
+          "Europe/Skopje",
+          "Europe/Zagreb"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Svalbard & Jan Mayen",
+    "country_code": "SJ",
+    "zones": [
+      {
+        "canonical": "Europe/Oslo",
+        "offset_st": 3600,
+        "aliases": [
+          "Arctic/Longyearbyen",
+          "Atlantic/Jan_Mayen"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Slovakia",
+    "country_code": "SK",
+    "zones": [
+      {
+        "canonical": "Europe/Prague",
+        "offset_st": 3600,
+        "aliases": [
+          "Europe/Bratislava"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Sierra Leone",
+    "country_code": "SL",
+    "zones": [
+      {
+        "canonical": "Africa/Abidjan",
+        "offset_st": 0,
+        "aliases": [
+          "Africa/Bamako",
+          "Africa/Banjul",
+          "Africa/Conakry",
+          "Africa/Dakar",
+          "Africa/Freetown",
+          "Africa/Lome",
+          "Africa/Nouakchott",
+          "Africa/Ouagadougou",
+          "Africa/Timbuktu",
+          "Atlantic/St_Helena"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "San Marino",
+    "country_code": "SM",
+    "zones": [
+      {
+        "canonical": "Europe/Rome",
+        "offset_st": 3600,
+        "aliases": [
+          "Europe/San_Marino",
+          "Europe/Vatican"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Senegal",
+    "country_code": "SN",
+    "zones": [
+      {
+        "canonical": "Africa/Abidjan",
+        "offset_st": 0,
+        "aliases": [
+          "Africa/Bamako",
+          "Africa/Banjul",
+          "Africa/Conakry",
+          "Africa/Dakar",
+          "Africa/Freetown",
+          "Africa/Lome",
+          "Africa/Nouakchott",
+          "Africa/Ouagadougou",
+          "Africa/Timbuktu",
+          "Atlantic/St_Helena"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Somalia",
+    "country_code": "SO",
+    "zones": [
+      {
+        "canonical": "Africa/Nairobi",
+        "offset_st": 10800,
+        "aliases": [
+          "Africa/Addis_Ababa",
+          "Africa/Asmara",
+          "Africa/Asmera",
+          "Africa/Dar_es_Salaam",
+          "Africa/Djibouti",
+          "Africa/Kampala",
+          "Africa/Mogadishu",
+          "Indian/Antananarivo",
+          "Indian/Comoro",
+          "Indian/Mayotte"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Suriname",
+    "country_code": "SR",
+    "zones": [
+      {
+        "canonical": "America/Paramaribo",
+        "offset_st": -10800,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "South Sudan",
+    "country_code": "SS",
+    "zones": [
+      {
+        "canonical": "Africa/Juba",
+        "offset_st": 10800,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Sao Tome & Principe",
+    "country_code": "ST",
+    "zones": [
+      {
+        "canonical": "Africa/Sao_Tome",
+        "offset_st": 0,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "El Salvador",
+    "country_code": "SV",
+    "zones": [
+      {
+        "canonical": "America/El_Salvador",
+        "offset_st": -21600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "St Maarten (Dutch)",
+    "country_code": "SX",
+    "zones": [
+      {
+        "canonical": "America/Curacao",
+        "offset_st": -14400,
+        "aliases": [
+          "America/Aruba",
+          "America/Kralendijk",
+          "America/Lower_Princes"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Syria",
+    "country_code": "SY",
+    "zones": [
+      {
+        "canonical": "Asia/Damascus",
+        "offset_st": 7200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Eswatini (Swaziland)",
+    "country_code": "SZ",
+    "zones": [
+      {
+        "canonical": "Africa/Johannesburg",
+        "offset_st": 7200,
+        "aliases": [
+          "Africa/Maseru",
+          "Africa/Mbabane"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Turks & Caicos Is",
+    "country_code": "TC",
+    "zones": [
+      {
+        "canonical": "America/Grand_Turk",
+        "offset_st": -18000,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Chad",
+    "country_code": "TD",
+    "zones": [
+      {
+        "canonical": "Africa/Ndjamena",
+        "offset_st": 3600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "French Southern & Antarctic Lands",
+    "country_code": "TF",
+    "zones": [
+      {
+        "canonical": "Indian/Kerguelen",
+        "offset_st": 18000,
+        "aliases": []
+      },
+      {
+        "canonical": "Indian/Reunion",
+        "offset_st": 14400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Togo",
+    "country_code": "TG",
+    "zones": [
+      {
+        "canonical": "Africa/Abidjan",
+        "offset_st": 0,
+        "aliases": [
+          "Africa/Bamako",
+          "Africa/Banjul",
+          "Africa/Conakry",
+          "Africa/Dakar",
+          "Africa/Freetown",
+          "Africa/Lome",
+          "Africa/Nouakchott",
+          "Africa/Ouagadougou",
+          "Africa/Timbuktu",
+          "Atlantic/St_Helena"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Thailand",
+    "country_code": "TH",
+    "zones": [
+      {
+        "canonical": "Asia/Bangkok",
+        "offset_st": 25200,
+        "aliases": [
+          "Asia/Phnom_Penh",
+          "Asia/Vientiane"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Tajikistan",
+    "country_code": "TJ",
+    "zones": [
+      {
+        "canonical": "Asia/Dushanbe",
+        "offset_st": 18000,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Tokelau",
+    "country_code": "TK",
+    "zones": [
+      {
+        "canonical": "Pacific/Fakaofo",
+        "offset_st": 46800,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "East Timor",
+    "country_code": "TL",
+    "zones": [
+      {
+        "canonical": "Asia/Dili",
+        "offset_st": 32400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Turkmenistan",
+    "country_code": "TM",
+    "zones": [
+      {
+        "canonical": "Asia/Ashgabat",
+        "offset_st": 18000,
+        "aliases": [
+          "Asia/Ashkhabad"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Tunisia",
+    "country_code": "TN",
+    "zones": [
+      {
+        "canonical": "Africa/Tunis",
+        "offset_st": 3600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Tonga",
+    "country_code": "TO",
+    "zones": [
+      {
+        "canonical": "Pacific/Tongatapu",
+        "offset_st": 46800,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Turkey",
+    "country_code": "TR",
+    "zones": [
+      {
+        "canonical": "Europe/Istanbul",
+        "offset_st": 10800,
+        "aliases": [
+          "Asia/Istanbul",
+          "Turkey"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Trinidad & Tobago",
+    "country_code": "TT",
+    "zones": [
+      {
+        "canonical": "America/Port_of_Spain",
+        "offset_st": -14400,
+        "aliases": [
+          "America/Anguilla",
+          "America/Antigua",
+          "America/Dominica",
+          "America/Grenada",
+          "America/Guadeloupe",
+          "America/Marigot",
+          "America/Montserrat",
+          "America/St_Barthelemy",
+          "America/St_Kitts",
+          "America/St_Lucia",
+          "America/St_Thomas",
+          "America/St_Vincent",
+          "America/Tortola",
+          "America/Virgin"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Tuvalu",
+    "country_code": "TV",
+    "zones": [
+      {
+        "canonical": "Pacific/Funafuti",
+        "offset_st": 43200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Taiwan",
+    "country_code": "TW",
+    "zones": [
+      {
+        "canonical": "Asia/Taipei",
+        "offset_st": 28800,
+        "aliases": [
+          "ROC"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Tanzania",
+    "country_code": "TZ",
+    "zones": [
+      {
+        "canonical": "Africa/Nairobi",
+        "offset_st": 10800,
+        "aliases": [
+          "Africa/Addis_Ababa",
+          "Africa/Asmara",
+          "Africa/Asmera",
+          "Africa/Dar_es_Salaam",
+          "Africa/Djibouti",
+          "Africa/Kampala",
+          "Africa/Mogadishu",
+          "Indian/Antananarivo",
+          "Indian/Comoro",
+          "Indian/Mayotte"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Ukraine",
+    "country_code": "UA",
+    "zones": [
+      {
+        "canonical": "Europe/Kiev",
+        "offset_st": 7200,
+        "aliases": []
+      },
+      {
+        "canonical": "Europe/Simferopol",
+        "offset_st": 10800,
+        "aliases": []
+      },
+      {
+        "canonical": "Europe/Uzhgorod",
+        "offset_st": 7200,
+        "aliases": []
+      },
+      {
+        "canonical": "Europe/Zaporozhye",
+        "offset_st": 7200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Uganda",
+    "country_code": "UG",
+    "zones": [
+      {
+        "canonical": "Africa/Nairobi",
+        "offset_st": 10800,
+        "aliases": [
+          "Africa/Addis_Ababa",
+          "Africa/Asmara",
+          "Africa/Asmera",
+          "Africa/Dar_es_Salaam",
+          "Africa/Djibouti",
+          "Africa/Kampala",
+          "Africa/Mogadishu",
+          "Indian/Antananarivo",
+          "Indian/Comoro",
+          "Indian/Mayotte"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "US minor outlying islands",
+    "country_code": "UM",
+    "zones": [
+      {
+        "canonical": "Pacific/Honolulu",
+        "offset_st": -36000,
+        "aliases": [
+          "Pacific/Johnston",
+          "US/Hawaii"
+        ]
+      },
+      {
+        "canonical": "Pacific/Pago_Pago",
+        "offset_st": -39600,
+        "aliases": [
+          "Pacific/Midway",
+          "Pacific/Samoa",
+          "US/Samoa"
+        ]
+      },
+      {
+        "canonical": "Pacific/Wake",
+        "offset_st": 43200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "United States",
+    "country_code": "US",
+    "zones": [
+      {
+        "canonical": "America/Adak",
+        "offset_st": -36000,
+        "aliases": [
+          "America/Atka",
+          "US/Aleutian"
+        ]
+      },
+      {
+        "canonical": "America/Anchorage",
+        "offset_st": -32400,
+        "aliases": [
+          "US/Alaska"
+        ]
+      },
+      {
+        "canonical": "America/Boise",
+        "offset_st": -25200,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Chicago",
+        "offset_st": -21600,
+        "aliases": [
+          "US/Central"
+        ]
+      },
+      {
+        "canonical": "America/Denver",
+        "offset_st": -25200,
+        "aliases": [
+          "America/Shiprock",
+          "Navajo",
+          "US/Mountain"
+        ]
+      },
+      {
+        "canonical": "America/Detroit",
+        "offset_st": -18000,
+        "aliases": [
+          "US/Michigan"
+        ]
+      },
+      {
+        "canonical": "America/Indiana/Indianapolis",
+        "offset_st": -18000,
+        "aliases": [
+          "America/Fort_Wayne",
+          "America/Indianapolis",
+          "US/East-Indiana"
+        ]
+      },
+      {
+        "canonical": "America/Indiana/Knox",
+        "offset_st": -21600,
+        "aliases": [
+          "America/Knox_IN",
+          "US/Indiana-Starke"
+        ]
+      },
+      {
+        "canonical": "America/Indiana/Marengo",
+        "offset_st": -18000,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Indiana/Petersburg",
+        "offset_st": -18000,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Indiana/Tell_City",
+        "offset_st": -21600,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Indiana/Vevay",
+        "offset_st": -18000,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Indiana/Vincennes",
+        "offset_st": -18000,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Indiana/Winamac",
+        "offset_st": -18000,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Juneau",
+        "offset_st": -32400,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Kentucky/Louisville",
+        "offset_st": -18000,
+        "aliases": [
+          "America/Louisville"
+        ]
+      },
+      {
+        "canonical": "America/Kentucky/Monticello",
+        "offset_st": -18000,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Los_Angeles",
+        "offset_st": -28800,
+        "aliases": [
+          "US/Pacific"
+        ]
+      },
+      {
+        "canonical": "America/Menominee",
+        "offset_st": -21600,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Metlakatla",
+        "offset_st": -32400,
+        "aliases": []
+      },
+      {
+        "canonical": "America/New_York",
+        "offset_st": -18000,
+        "aliases": [
+          "US/Eastern"
+        ]
+      },
+      {
+        "canonical": "America/Nome",
+        "offset_st": -32400,
+        "aliases": []
+      },
+      {
+        "canonical": "America/North_Dakota/Beulah",
+        "offset_st": -21600,
+        "aliases": []
+      },
+      {
+        "canonical": "America/North_Dakota/Center",
+        "offset_st": -21600,
+        "aliases": []
+      },
+      {
+        "canonical": "America/North_Dakota/New_Salem",
+        "offset_st": -21600,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Phoenix",
+        "offset_st": -25200,
+        "aliases": [
+          "US/Arizona"
+        ]
+      },
+      {
+        "canonical": "America/Sitka",
+        "offset_st": -32400,
+        "aliases": []
+      },
+      {
+        "canonical": "America/Yakutat",
+        "offset_st": -32400,
+        "aliases": []
+      },
+      {
+        "canonical": "Pacific/Honolulu",
+        "offset_st": -36000,
+        "aliases": [
+          "Pacific/Johnston",
+          "US/Hawaii"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Uruguay",
+    "country_code": "UY",
+    "zones": [
+      {
+        "canonical": "America/Montevideo",
+        "offset_st": -10800,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Uzbekistan",
+    "country_code": "UZ",
+    "zones": [
+      {
+        "canonical": "Asia/Samarkand",
+        "offset_st": 18000,
+        "aliases": []
+      },
+      {
+        "canonical": "Asia/Tashkent",
+        "offset_st": 18000,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Vatican City",
+    "country_code": "VA",
+    "zones": [
+      {
+        "canonical": "Europe/Rome",
+        "offset_st": 3600,
+        "aliases": [
+          "Europe/San_Marino",
+          "Europe/Vatican"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "St Vincent",
+    "country_code": "VC",
+    "zones": [
+      {
+        "canonical": "America/Port_of_Spain",
+        "offset_st": -14400,
+        "aliases": [
+          "America/Anguilla",
+          "America/Antigua",
+          "America/Dominica",
+          "America/Grenada",
+          "America/Guadeloupe",
+          "America/Marigot",
+          "America/Montserrat",
+          "America/St_Barthelemy",
+          "America/St_Kitts",
+          "America/St_Lucia",
+          "America/St_Thomas",
+          "America/St_Vincent",
+          "America/Tortola",
+          "America/Virgin"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Venezuela",
+    "country_code": "VE",
+    "zones": [
+      {
+        "canonical": "America/Caracas",
+        "offset_st": -14400,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Virgin Islands (UK)",
+    "country_code": "VG",
+    "zones": [
+      {
+        "canonical": "America/Port_of_Spain",
+        "offset_st": -14400,
+        "aliases": [
+          "America/Anguilla",
+          "America/Antigua",
+          "America/Dominica",
+          "America/Grenada",
+          "America/Guadeloupe",
+          "America/Marigot",
+          "America/Montserrat",
+          "America/St_Barthelemy",
+          "America/St_Kitts",
+          "America/St_Lucia",
+          "America/St_Thomas",
+          "America/St_Vincent",
+          "America/Tortola",
+          "America/Virgin"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Virgin Islands (US)",
+    "country_code": "VI",
+    "zones": [
+      {
+        "canonical": "America/Port_of_Spain",
+        "offset_st": -14400,
+        "aliases": [
+          "America/Anguilla",
+          "America/Antigua",
+          "America/Dominica",
+          "America/Grenada",
+          "America/Guadeloupe",
+          "America/Marigot",
+          "America/Montserrat",
+          "America/St_Barthelemy",
+          "America/St_Kitts",
+          "America/St_Lucia",
+          "America/St_Thomas",
+          "America/St_Vincent",
+          "America/Tortola",
+          "America/Virgin"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Vietnam",
+    "country_code": "VN",
+    "zones": [
+      {
+        "canonical": "Asia/Bangkok",
+        "offset_st": 25200,
+        "aliases": [
+          "Asia/Phnom_Penh",
+          "Asia/Vientiane"
+        ]
+      },
+      {
+        "canonical": "Asia/Ho_Chi_Minh",
+        "offset_st": 25200,
+        "aliases": [
+          "Asia/Saigon"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Vanuatu",
+    "country_code": "VU",
+    "zones": [
+      {
+        "canonical": "Pacific/Efate",
+        "offset_st": 39600,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Wallis & Futuna",
+    "country_code": "WF",
+    "zones": [
+      {
+        "canonical": "Pacific/Wallis",
+        "offset_st": 43200,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Samoa (western)",
+    "country_code": "WS",
+    "zones": [
+      {
+        "canonical": "Pacific/Apia",
+        "offset_st": 46800,
+        "aliases": []
+      }
+    ]
+  },
+  {
+    "country_name": "Yemen",
+    "country_code": "YE",
+    "zones": [
+      {
+        "canonical": "Asia/Riyadh",
+        "offset_st": 10800,
+        "aliases": [
+          "Asia/Aden",
+          "Asia/Kuwait"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Mayotte",
+    "country_code": "YT",
+    "zones": [
+      {
+        "canonical": "Africa/Nairobi",
+        "offset_st": 10800,
+        "aliases": [
+          "Africa/Addis_Ababa",
+          "Africa/Asmara",
+          "Africa/Asmera",
+          "Africa/Dar_es_Salaam",
+          "Africa/Djibouti",
+          "Africa/Kampala",
+          "Africa/Mogadishu",
+          "Indian/Antananarivo",
+          "Indian/Comoro",
+          "Indian/Mayotte"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "South Africa",
+    "country_code": "ZA",
+    "zones": [
+      {
+        "canonical": "Africa/Johannesburg",
+        "offset_st": 7200,
+        "aliases": [
+          "Africa/Maseru",
+          "Africa/Mbabane"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Zambia",
+    "country_code": "ZM",
+    "zones": [
+      {
+        "canonical": "Africa/Maputo",
+        "offset_st": 7200,
+        "aliases": [
+          "Africa/Blantyre",
+          "Africa/Bujumbura",
+          "Africa/Gaborone",
+          "Africa/Harare",
+          "Africa/Kigali",
+          "Africa/Lubumbashi",
+          "Africa/Lusaka"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Zimbabwe",
+    "country_code": "ZW",
+    "zones": [
+      {
+        "canonical": "Africa/Maputo",
+        "offset_st": 7200,
+        "aliases": [
+          "Africa/Blantyre",
+          "Africa/Bujumbura",
+          "Africa/Gaborone",
+          "Africa/Harare",
+          "Africa/Kigali",
+          "Africa/Lubumbashi",
+          "Africa/Lusaka"
+        ]
+      }
+    ]
+  },
+  {
+    "country_name": "Other",
+    "country_code": "ZZ",
+    "zones": [
+      {
+        "canonical": "CET",
+        "offset_st": 3600,
+        "aliases": []
+      },
+      {
+        "canonical": "CST6CDT",
+        "offset_st": -21600,
+        "aliases": []
+      },
+      {
+        "canonical": "EET",
+        "offset_st": 7200,
+        "aliases": []
+      },
+      {
+        "canonical": "EST",
+        "offset_st": -18000,
+        "aliases": []
+      },
+      {
+        "canonical": "EST5EDT",
+        "offset_st": -18000,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT",
+        "offset_st": 0,
+        "aliases": [
+          "Etc/GMT+0",
+          "Etc/GMT-0",
+          "Etc/GMT0",
+          "Etc/Greenwich",
+          "GMT",
+          "GMT+0",
+          "GMT-0",
+          "GMT0",
+          "Greenwich"
+        ]
+      },
+      {
+        "canonical": "Etc/GMT+1",
+        "offset_st": -3600,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT+10",
+        "offset_st": -36000,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT+11",
+        "offset_st": -39600,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT+12",
+        "offset_st": -43200,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT+2",
+        "offset_st": -7200,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT+3",
+        "offset_st": -10800,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT+4",
+        "offset_st": -14400,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT+5",
+        "offset_st": -18000,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT+6",
+        "offset_st": -21600,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT+7",
+        "offset_st": -25200,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT+8",
+        "offset_st": -28800,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT+9",
+        "offset_st": -32400,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT-1",
+        "offset_st": 3600,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT-10",
+        "offset_st": 36000,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT-11",
+        "offset_st": 39600,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT-12",
+        "offset_st": 43200,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT-13",
+        "offset_st": 46800,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT-14",
+        "offset_st": 50400,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT-2",
+        "offset_st": 7200,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT-3",
+        "offset_st": 10800,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT-4",
+        "offset_st": 14400,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT-5",
+        "offset_st": 18000,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT-6",
+        "offset_st": 21600,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT-7",
+        "offset_st": 25200,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT-8",
+        "offset_st": 28800,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/GMT-9",
+        "offset_st": 32400,
+        "aliases": []
+      },
+      {
+        "canonical": "Etc/UTC",
+        "offset_st": 0,
+        "aliases": [
+          "Etc/UCT",
+          "Etc/Universal",
+          "Etc/Zulu",
+          "UCT",
+          "UTC",
+          "Universal",
+          "Zulu"
+        ]
+      },
+      {
+        "canonical": "HST",
+        "offset_st": -36000,
+        "aliases": []
+      },
+      {
+        "canonical": "MET",
+        "offset_st": 3600,
+        "aliases": []
+      },
+      {
+        "canonical": "MST",
+        "offset_st": -25200,
+        "aliases": []
+      },
+      {
+        "canonical": "MST7MDT",
+        "offset_st": -25200,
+        "aliases": []
+      },
+      {
+        "canonical": "PST8PDT",
+        "offset_st": -28800,
+        "aliases": []
+      },
+      {
+        "canonical": "WET",
+        "offset_st": 0,
+        "aliases": []
+      }
+    ]
+  }
+]
