@@ -11,6 +11,7 @@ const WTA_ORIGIN = `http://worldtimeapi.org`;
 //
 const SOURCES_PATH = path.join(__dirname, './sources');
 const SOURCES_IANA_BACKWARD_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a/backward');
+const SOURCES_IANA_ISO3166_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a/iso3166.tab');
 const SOURCES_IANA_ZONE1970_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a/zone1970.tab');
 const SOURCES_IANA_TO2050_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a/to2050.tzs');
 const SOURCES_WTA_PATH = path.join(SOURCES_PATH, './wta/worldtimeapi.json');
@@ -189,18 +190,50 @@ async function getCountryCodes() {
 
 
 /*------------------------------------*\
+  getCountryNames
+\*------------------------------------*/
+async function getCountryNames() {
+  const content = await fs.readFile(SOURCES_IANA_ISO3166_PATH, 'utf8');
+  const lines = content.split(/\r?\n/).filter(Boolean);
+  const output = [];
+  //
+  for (var line of lines) {
+    if (line.trim().startsWith('#')) continue;
+    if (!line.trim()) continue;
+    const components = line.split(/\t+/);
+    output.push({
+      code: components[0],
+      name: components[1],
+    });
+  }
+  //
+  return output;
+}
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
   generateTimezones
 \*------------------------------------*/
 async function generateTimezones() {
   //
   const wtaZones = await getWtaZones();
   const aliases = await getAliasesFromTo2050();
+  const countryNames = await getCountryNames();
   const countryCodes = await getCountryCodes();
+
   //
   const output = [];
   for (const zone of wtaZones) {
     output.push(await generateTimezone(
-      zone, aliases, countryCodes,
+      zone, aliases, countryNames, countryCodes,
     ));
   }
   //
@@ -213,7 +246,7 @@ async function generateTimezones() {
 /*------------------------------------*\
   generateTimezone
 \*------------------------------------*/
-async function generateTimezone(zone, aliases, countryCodes) {
+async function generateTimezone(zone, aliases, countryNames, countryCodes) {
 
   //
   const zoneAliases = aliases.map(alias => {
@@ -221,17 +254,22 @@ async function generateTimezone(zone, aliases, countryCodes) {
   }).filter(Boolean).sort();
 
   //
-  const zoneCountryCodes = countryCodes.map(code => {
-    if (code.tz === zone.timezone) return code.codes;
-  }).filter(Boolean);
+  const zoneCountryCodes = countryCodes.find(code => {
+    if (code.tz === zone.timezone) return true;
+  });
 
+  //
+  const zoneCountries = zoneCountryCodes ? zoneCountryCodes.codes.map(code => {
+    const name = countryNames.find(c => c.code === code);
+    return name;
+  }) : [];
 
   //
   return {
     canonical: zone.timezone,
     offset_st: zone.raw_offset,
     aliases: zoneAliases,
-    country_codes: zoneCountryCodes,
+    countries: zoneCountries,
   };
 
 }

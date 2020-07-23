@@ -14,49 +14,80 @@
       "Africa/Timbuktu",
       "Atlantic/St_Helena"
     ],
-    "country_codes": [
-      [
-        "CI",
-        "BF",
-        "GM",
-        "GN",
-        "ML",
-        "MR",
-        "SH",
-        "SL",
-        "SN",
-        "TG"
-      ]
+    "countries": [
+      {
+        "code": "CI",
+        "name": "Côte d'Ivoire"
+      },
+      {
+        "code": "BF",
+        "name": "Burkina Faso"
+      },
+      {
+        "code": "GM",
+        "name": "Gambia"
+      },
+      {
+        "code": "GN",
+        "name": "Guinea"
+      },
+      {
+        "code": "ML",
+        "name": "Mali"
+      },
+      {
+        "code": "MR",
+        "name": "Mauritania"
+      },
+      {
+        "code": "SH",
+        "name": "St Helena"
+      },
+      {
+        "code": "SL",
+        "name": "Sierra Leone"
+      },
+      {
+        "code": "SN",
+        "name": "Senegal"
+      },
+      {
+        "code": "TG",
+        "name": "Togo"
+      }
     ]
   },
   {
     "canonical": "Africa/Accra",
     "offset_st": 0,
     "aliases": [],
-    "country_codes": [
-      [
-        "GH"
-      ]
+    "countries": [
+      {
+        "code": "GH",
+        "name": "Ghana"
+      }
     ]
   },
   {
     "canonical": "Africa/Algiers",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "DZ"
-      ]
+    "countries": [
+      {
+        "code": "DZ",
+        "name": "Algeria"
+      }
     ]
   },
   {
     "canonical": "Africa/Bissau",
     "offset_st": 0,
     "aliases": [],
-    "country_codes": [
-      [
-        "GW"
-      ]
+    "countries": [
+      {
+        "code": "GW",
+        "name": "Guinea-Bissau"
+      }
     ]
   },
   {
@@ -65,40 +96,44 @@
     "aliases": [
       "Egypt"
     ],
-    "country_codes": [
-      [
-        "EG"
-      ]
+    "countries": [
+      {
+        "code": "EG",
+        "name": "Egypt"
+      }
     ]
   },
   {
     "canonical": "Africa/Casablanca",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "MA"
-      ]
+    "countries": [
+      {
+        "code": "MA",
+        "name": "Morocco"
+      }
     ]
   },
   {
     "canonical": "Africa/Ceuta",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "ES"
-      ]
+    "countries": [
+      {
+        "code": "ES",
+        "name": "Spain"
+      }
     ]
   },
   {
     "canonical": "Africa/El_Aaiun",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "EH"
-      ]
+    "countries": [
+      {
+        "code": "EH",
+        "name": "Western Sahara"
+      }
     ]
   },
   {
@@ -108,32 +143,41 @@
       "Africa/Maseru",
       "Africa/Mbabane"
     ],
-    "country_codes": [
-      [
-        "ZA",
-        "LS",
-        "SZ"
-      ]
+    "countries": [
+      {
+        "code": "ZA",
+        "name": "South Africa"
+      },
+      {
+        "code": "LS",
+        "name": "Lesotho"
+      },
+      {
+        "code": "SZ",
+        "name": "Eswatini (Swaziland)"
+      }
     ]
   },
   {
     "canonical": "Africa/Juba",
     "offset_st": 10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "SS"
-      ]
+    "countries": [
+      {
+        "code": "SS",
+        "name": "South Sudan"
+      }
     ]
   },
   {
     "canonical": "Africa/Khartoum",
     "offset_st": 7200,
     "aliases": [],
-    "country_codes": [
-      [
-        "SD"
-      ]
+    "countries": [
+      {
+        "code": "SD",
+        "name": "Sudan"
+      }
     ]
   },
   {
@@ -150,19 +194,47 @@
       "Africa/Niamey",
       "Africa/Porto-Novo"
     ],
-    "country_codes": [
-      [
-        "NG",
-        "AO",
-        "BJ",
-        "CD",
-        "CF",
-        "CG",
-        "CM",
-        "GA",
-        "GQ",
-        "NE"
-      ]
+    "countries": [
+      {
+        "code": "NG",
+        "name": "Nigeria"
+      },
+      {
+        "code": "AO",
+        "name": "Angola"
+      },
+      {
+        "code": "BJ",
+        "name": "Benin"
+      },
+      {
+        "code": "CD",
+        "name": "Congo (Dem. Rep.)"
+      },
+      {
+        "code": "CF",
+        "name": "Central African Rep."
+      },
+      {
+        "code": "CG",
+        "name": "Congo (Rep.)"
+      },
+      {
+        "code": "CM",
+        "name": "Cameroon"
+      },
+      {
+        "code": "GA",
+        "name": "Gabon"
+      },
+      {
+        "code": "GQ",
+        "name": "Equatorial Guinea"
+      },
+      {
+        "code": "NE",
+        "name": "Niger"
+      }
     ]
   },
   {
@@ -177,27 +249,50 @@
       "Africa/Lubumbashi",
       "Africa/Lusaka"
     ],
-    "country_codes": [
-      [
-        "MZ",
-        "BI",
-        "BW",
-        "CD",
-        "MW",
-        "RW",
-        "ZM",
-        "ZW"
-      ]
+    "countries": [
+      {
+        "code": "MZ",
+        "name": "Mozambique"
+      },
+      {
+        "code": "BI",
+        "name": "Burundi"
+      },
+      {
+        "code": "BW",
+        "name": "Botswana"
+      },
+      {
+        "code": "CD",
+        "name": "Congo (Dem. Rep.)"
+      },
+      {
+        "code": "MW",
+        "name": "Malawi"
+      },
+      {
+        "code": "RW",
+        "name": "Rwanda"
+      },
+      {
+        "code": "ZM",
+        "name": "Zambia"
+      },
+      {
+        "code": "ZW",
+        "name": "Zimbabwe"
+      }
     ]
   },
   {
     "canonical": "Africa/Monrovia",
     "offset_st": 0,
     "aliases": [],
-    "country_codes": [
-      [
-        "LR"
-      ]
+    "countries": [
+      {
+        "code": "LR",
+        "name": "Liberia"
+      }
     ]
   },
   {
@@ -215,39 +310,69 @@
       "Indian/Comoro",
       "Indian/Mayotte"
     ],
-    "country_codes": [
-      [
-        "KE",
-        "DJ",
-        "ER",
-        "ET",
-        "KM",
-        "MG",
-        "SO",
-        "TZ",
-        "UG",
-        "YT"
-      ]
+    "countries": [
+      {
+        "code": "KE",
+        "name": "Kenya"
+      },
+      {
+        "code": "DJ",
+        "name": "Djibouti"
+      },
+      {
+        "code": "ER",
+        "name": "Eritrea"
+      },
+      {
+        "code": "ET",
+        "name": "Ethiopia"
+      },
+      {
+        "code": "KM",
+        "name": "Comoros"
+      },
+      {
+        "code": "MG",
+        "name": "Madagascar"
+      },
+      {
+        "code": "SO",
+        "name": "Somalia"
+      },
+      {
+        "code": "TZ",
+        "name": "Tanzania"
+      },
+      {
+        "code": "UG",
+        "name": "Uganda"
+      },
+      {
+        "code": "YT",
+        "name": "Mayotte"
+      }
     ]
   },
   {
     "canonical": "Africa/Ndjamena",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "TD"
-      ]
+    "countries": [
+      {
+        "code": "TD",
+        "name": "Chad"
+      }
     ]
   },
   {
     "canonical": "Africa/Sao_Tome",
     "offset_st": 0,
     "aliases": [],
-    "country_codes": [
-      [
-        "ST"
-      ]
+    "countries": [
+      {
+        "code": "ST",
+        "name": "Sao Tome & Principe"
+      }
     ]
   },
   {
@@ -256,30 +381,33 @@
     "aliases": [
       "Libya"
     ],
-    "country_codes": [
-      [
-        "LY"
-      ]
+    "countries": [
+      {
+        "code": "LY",
+        "name": "Libya"
+      }
     ]
   },
   {
     "canonical": "Africa/Tunis",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "TN"
-      ]
+    "countries": [
+      {
+        "code": "TN",
+        "name": "Tunisia"
+      }
     ]
   },
   {
     "canonical": "Africa/Windhoek",
     "offset_st": 7200,
     "aliases": [],
-    "country_codes": [
-      [
-        "NA"
-      ]
+    "countries": [
+      {
+        "code": "NA",
+        "name": "Namibia"
+      }
     ]
   },
   {
@@ -289,10 +417,11 @@
       "America/Atka",
       "US/Aleutian"
     ],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
@@ -301,20 +430,22 @@
     "aliases": [
       "US/Alaska"
     ],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
     "canonical": "America/Araguaina",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "BR"
-      ]
+    "countries": [
+      {
+        "code": "BR",
+        "name": "Brazil"
+      }
     ]
   },
   {
@@ -323,10 +454,11 @@
     "aliases": [
       "America/Buenos_Aires"
     ],
-    "country_codes": [
-      [
-        "AR"
-      ]
+    "countries": [
+      {
+        "code": "AR",
+        "name": "Argentina"
+      }
     ]
   },
   {
@@ -336,10 +468,11 @@
       "America/Argentina/ComodRivadavia",
       "America/Catamarca"
     ],
-    "country_codes": [
-      [
-        "AR"
-      ]
+    "countries": [
+      {
+        "code": "AR",
+        "name": "Argentina"
+      }
     ]
   },
   {
@@ -349,10 +482,11 @@
       "America/Cordoba",
       "America/Rosario"
     ],
-    "country_codes": [
-      [
-        "AR"
-      ]
+    "countries": [
+      {
+        "code": "AR",
+        "name": "Argentina"
+      }
     ]
   },
   {
@@ -361,20 +495,22 @@
     "aliases": [
       "America/Jujuy"
     ],
-    "country_codes": [
-      [
-        "AR"
-      ]
+    "countries": [
+      {
+        "code": "AR",
+        "name": "Argentina"
+      }
     ]
   },
   {
     "canonical": "America/Argentina/La_Rioja",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "AR"
-      ]
+    "countries": [
+      {
+        "code": "AR",
+        "name": "Argentina"
+      }
     ]
   },
   {
@@ -383,80 +519,88 @@
     "aliases": [
       "America/Mendoza"
     ],
-    "country_codes": [
-      [
-        "AR"
-      ]
+    "countries": [
+      {
+        "code": "AR",
+        "name": "Argentina"
+      }
     ]
   },
   {
     "canonical": "America/Argentina/Rio_Gallegos",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "AR"
-      ]
+    "countries": [
+      {
+        "code": "AR",
+        "name": "Argentina"
+      }
     ]
   },
   {
     "canonical": "America/Argentina/Salta",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "AR"
-      ]
+    "countries": [
+      {
+        "code": "AR",
+        "name": "Argentina"
+      }
     ]
   },
   {
     "canonical": "America/Argentina/San_Juan",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "AR"
-      ]
+    "countries": [
+      {
+        "code": "AR",
+        "name": "Argentina"
+      }
     ]
   },
   {
     "canonical": "America/Argentina/San_Luis",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "AR"
-      ]
+    "countries": [
+      {
+        "code": "AR",
+        "name": "Argentina"
+      }
     ]
   },
   {
     "canonical": "America/Argentina/Tucuman",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "AR"
-      ]
+    "countries": [
+      {
+        "code": "AR",
+        "name": "Argentina"
+      }
     ]
   },
   {
     "canonical": "America/Argentina/Ushuaia",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "AR"
-      ]
+    "countries": [
+      {
+        "code": "AR",
+        "name": "Argentina"
+      }
     ]
   },
   {
     "canonical": "America/Asuncion",
     "offset_st": -14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "PY"
-      ]
+    "countries": [
+      {
+        "code": "PY",
+        "name": "Paraguay"
+      }
     ]
   },
   {
@@ -465,150 +609,165 @@
     "aliases": [
       "America/Coral_Harbour"
     ],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
     "canonical": "America/Bahia",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "BR"
-      ]
+    "countries": [
+      {
+        "code": "BR",
+        "name": "Brazil"
+      }
     ]
   },
   {
     "canonical": "America/Bahia_Banderas",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "MX"
-      ]
+    "countries": [
+      {
+        "code": "MX",
+        "name": "Mexico"
+      }
     ]
   },
   {
     "canonical": "America/Barbados",
     "offset_st": -14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "BB"
-      ]
+    "countries": [
+      {
+        "code": "BB",
+        "name": "Barbados"
+      }
     ]
   },
   {
     "canonical": "America/Belem",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "BR"
-      ]
+    "countries": [
+      {
+        "code": "BR",
+        "name": "Brazil"
+      }
     ]
   },
   {
     "canonical": "America/Belize",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "BZ"
-      ]
+    "countries": [
+      {
+        "code": "BZ",
+        "name": "Belize"
+      }
     ]
   },
   {
     "canonical": "America/Blanc-Sablon",
     "offset_st": -14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
     "canonical": "America/Boa_Vista",
     "offset_st": -14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "BR"
-      ]
+    "countries": [
+      {
+        "code": "BR",
+        "name": "Brazil"
+      }
     ]
   },
   {
     "canonical": "America/Bogota",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "CO"
-      ]
+    "countries": [
+      {
+        "code": "CO",
+        "name": "Colombia"
+      }
     ]
   },
   {
     "canonical": "America/Boise",
     "offset_st": -25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
     "canonical": "America/Cambridge_Bay",
     "offset_st": -25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
     "canonical": "America/Campo_Grande",
     "offset_st": -14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "BR"
-      ]
+    "countries": [
+      {
+        "code": "BR",
+        "name": "Brazil"
+      }
     ]
   },
   {
     "canonical": "America/Cancun",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "MX"
-      ]
+    "countries": [
+      {
+        "code": "MX",
+        "name": "Mexico"
+      }
     ]
   },
   {
     "canonical": "America/Caracas",
     "offset_st": -14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "VE"
-      ]
+    "countries": [
+      {
+        "code": "VE",
+        "name": "Venezuela"
+      }
     ]
   },
   {
     "canonical": "America/Cayenne",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "GF"
-      ]
+    "countries": [
+      {
+        "code": "GF",
+        "name": "French Guiana"
+      }
     ]
   },
   {
@@ -617,50 +776,55 @@
     "aliases": [
       "US/Central"
     ],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
     "canonical": "America/Chihuahua",
     "offset_st": -25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "MX"
-      ]
+    "countries": [
+      {
+        "code": "MX",
+        "name": "Mexico"
+      }
     ]
   },
   {
     "canonical": "America/Costa_Rica",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "CR"
-      ]
+    "countries": [
+      {
+        "code": "CR",
+        "name": "Costa Rica"
+      }
     ]
   },
   {
     "canonical": "America/Creston",
     "offset_st": -25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
     "canonical": "America/Cuiaba",
     "offset_st": -14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "BR"
-      ]
+    "countries": [
+      {
+        "code": "BR",
+        "name": "Brazil"
+      }
     ]
   },
   {
@@ -671,43 +835,56 @@
       "America/Kralendijk",
       "America/Lower_Princes"
     ],
-    "country_codes": [
-      [
-        "CW",
-        "AW",
-        "BQ",
-        "SX"
-      ]
+    "countries": [
+      {
+        "code": "CW",
+        "name": "Curaçao"
+      },
+      {
+        "code": "AW",
+        "name": "Aruba"
+      },
+      {
+        "code": "BQ",
+        "name": "Caribbean NL"
+      },
+      {
+        "code": "SX",
+        "name": "St Maarten (Dutch)"
+      }
     ]
   },
   {
     "canonical": "America/Danmarkshavn",
     "offset_st": 0,
     "aliases": [],
-    "country_codes": [
-      [
-        "GL"
-      ]
+    "countries": [
+      {
+        "code": "GL",
+        "name": "Greenland"
+      }
     ]
   },
   {
     "canonical": "America/Dawson",
     "offset_st": -25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
     "canonical": "America/Dawson_Creek",
     "offset_st": -25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
@@ -718,10 +895,11 @@
       "Navajo",
       "US/Mountain"
     ],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
@@ -730,10 +908,11 @@
     "aliases": [
       "US/Michigan"
     ],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
@@ -742,110 +921,121 @@
     "aliases": [
       "Canada/Mountain"
     ],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
     "canonical": "America/Eirunepe",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "BR"
-      ]
+    "countries": [
+      {
+        "code": "BR",
+        "name": "Brazil"
+      }
     ]
   },
   {
     "canonical": "America/El_Salvador",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "SV"
-      ]
+    "countries": [
+      {
+        "code": "SV",
+        "name": "El Salvador"
+      }
     ]
   },
   {
     "canonical": "America/Fort_Nelson",
     "offset_st": -25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
     "canonical": "America/Fortaleza",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "BR"
-      ]
+    "countries": [
+      {
+        "code": "BR",
+        "name": "Brazil"
+      }
     ]
   },
   {
     "canonical": "America/Glace_Bay",
     "offset_st": -14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
     "canonical": "America/Goose_Bay",
     "offset_st": -14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
     "canonical": "America/Grand_Turk",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "TC"
-      ]
+    "countries": [
+      {
+        "code": "TC",
+        "name": "Turks & Caicos Is"
+      }
     ]
   },
   {
     "canonical": "America/Guatemala",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "GT"
-      ]
+    "countries": [
+      {
+        "code": "GT",
+        "name": "Guatemala"
+      }
     ]
   },
   {
     "canonical": "America/Guayaquil",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "EC"
-      ]
+    "countries": [
+      {
+        "code": "EC",
+        "name": "Ecuador"
+      }
     ]
   },
   {
     "canonical": "America/Guyana",
     "offset_st": -14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "GY"
-      ]
+    "countries": [
+      {
+        "code": "GY",
+        "name": "Guyana"
+      }
     ]
   },
   {
@@ -854,10 +1044,11 @@
     "aliases": [
       "Canada/Atlantic"
     ],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
@@ -866,20 +1057,22 @@
     "aliases": [
       "Cuba"
     ],
-    "country_codes": [
-      [
-        "CU"
-      ]
+    "countries": [
+      {
+        "code": "CU",
+        "name": "Cuba"
+      }
     ]
   },
   {
     "canonical": "America/Hermosillo",
     "offset_st": -25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "MX"
-      ]
+    "countries": [
+      {
+        "code": "MX",
+        "name": "Mexico"
+      }
     ]
   },
   {
@@ -890,10 +1083,11 @@
       "America/Indianapolis",
       "US/East-Indiana"
     ],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
@@ -903,90 +1097,99 @@
       "America/Knox_IN",
       "US/Indiana-Starke"
     ],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
     "canonical": "America/Indiana/Marengo",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
     "canonical": "America/Indiana/Petersburg",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
     "canonical": "America/Indiana/Tell_City",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
     "canonical": "America/Indiana/Vevay",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
     "canonical": "America/Indiana/Vincennes",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
     "canonical": "America/Indiana/Winamac",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
     "canonical": "America/Inuvik",
     "offset_st": -25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
     "canonical": "America/Iqaluit",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
@@ -995,20 +1198,22 @@
     "aliases": [
       "Jamaica"
     ],
-    "country_codes": [
-      [
-        "JM"
-      ]
+    "countries": [
+      {
+        "code": "JM",
+        "name": "Jamaica"
+      }
     ]
   },
   {
     "canonical": "America/Juneau",
     "offset_st": -32400,
     "aliases": [],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
@@ -1017,40 +1222,44 @@
     "aliases": [
       "America/Louisville"
     ],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
     "canonical": "America/Kentucky/Monticello",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
     "canonical": "America/La_Paz",
     "offset_st": -14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "BO"
-      ]
+    "countries": [
+      {
+        "code": "BO",
+        "name": "Bolivia"
+      }
     ]
   },
   {
     "canonical": "America/Lima",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "PE"
-      ]
+    "countries": [
+      {
+        "code": "PE",
+        "name": "Peru"
+      }
     ]
   },
   {
@@ -1059,30 +1268,33 @@
     "aliases": [
       "US/Pacific"
     ],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
     "canonical": "America/Maceio",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "BR"
-      ]
+    "countries": [
+      {
+        "code": "BR",
+        "name": "Brazil"
+      }
     ]
   },
   {
     "canonical": "America/Managua",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "NI"
-      ]
+    "countries": [
+      {
+        "code": "NI",
+        "name": "Nicaragua"
+      }
     ]
   },
   {
@@ -1091,30 +1303,33 @@
     "aliases": [
       "Brazil/West"
     ],
-    "country_codes": [
-      [
-        "BR"
-      ]
+    "countries": [
+      {
+        "code": "BR",
+        "name": "Brazil"
+      }
     ]
   },
   {
     "canonical": "America/Martinique",
     "offset_st": -14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "MQ"
-      ]
+    "countries": [
+      {
+        "code": "MQ",
+        "name": "Martinique"
+      }
     ]
   },
   {
     "canonical": "America/Matamoros",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "MX"
-      ]
+    "countries": [
+      {
+        "code": "MX",
+        "name": "Mexico"
+      }
     ]
   },
   {
@@ -1123,40 +1338,44 @@
     "aliases": [
       "Mexico/BajaSur"
     ],
-    "country_codes": [
-      [
-        "MX"
-      ]
+    "countries": [
+      {
+        "code": "MX",
+        "name": "Mexico"
+      }
     ]
   },
   {
     "canonical": "America/Menominee",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
     "canonical": "America/Merida",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "MX"
-      ]
+    "countries": [
+      {
+        "code": "MX",
+        "name": "Mexico"
+      }
     ]
   },
   {
     "canonical": "America/Metlakatla",
     "offset_st": -32400,
     "aliases": [],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
@@ -1165,60 +1384,66 @@
     "aliases": [
       "Mexico/General"
     ],
-    "country_codes": [
-      [
-        "MX"
-      ]
+    "countries": [
+      {
+        "code": "MX",
+        "name": "Mexico"
+      }
     ]
   },
   {
     "canonical": "America/Miquelon",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "PM"
-      ]
+    "countries": [
+      {
+        "code": "PM",
+        "name": "St Pierre & Miquelon"
+      }
     ]
   },
   {
     "canonical": "America/Moncton",
     "offset_st": -14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
     "canonical": "America/Monterrey",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "MX"
-      ]
+    "countries": [
+      {
+        "code": "MX",
+        "name": "Mexico"
+      }
     ]
   },
   {
     "canonical": "America/Montevideo",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "UY"
-      ]
+    "countries": [
+      {
+        "code": "UY",
+        "name": "Uruguay"
+      }
     ]
   },
   {
     "canonical": "America/Nassau",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "BS"
-      ]
+    "countries": [
+      {
+        "code": "BS",
+        "name": "Bahamas"
+      }
     ]
   },
   {
@@ -1227,30 +1452,33 @@
     "aliases": [
       "US/Eastern"
     ],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
     "canonical": "America/Nipigon",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
     "canonical": "America/Nome",
     "offset_st": -32400,
     "aliases": [],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
@@ -1259,40 +1487,44 @@
     "aliases": [
       "Brazil/DeNoronha"
     ],
-    "country_codes": [
-      [
-        "BR"
-      ]
+    "countries": [
+      {
+        "code": "BR",
+        "name": "Brazil"
+      }
     ]
   },
   {
     "canonical": "America/North_Dakota/Beulah",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
     "canonical": "America/North_Dakota/Center",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
     "canonical": "America/North_Dakota/New_Salem",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
@@ -1301,20 +1533,22 @@
     "aliases": [
       "America/Godthab"
     ],
-    "country_codes": [
-      [
-        "GL"
-      ]
+    "countries": [
+      {
+        "code": "GL",
+        "name": "Greenland"
+      }
     ]
   },
   {
     "canonical": "America/Ojinaga",
     "offset_st": -25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "MX"
-      ]
+    "countries": [
+      {
+        "code": "MX",
+        "name": "Mexico"
+      }
     ]
   },
   {
@@ -1323,31 +1557,37 @@
     "aliases": [
       "America/Cayman"
     ],
-    "country_codes": [
-      [
-        "PA",
-        "KY"
-      ]
+    "countries": [
+      {
+        "code": "PA",
+        "name": "Panama"
+      },
+      {
+        "code": "KY",
+        "name": "Cayman Islands"
+      }
     ]
   },
   {
     "canonical": "America/Pangnirtung",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
     "canonical": "America/Paramaribo",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "SR"
-      ]
+    "countries": [
+      {
+        "code": "SR",
+        "name": "Suriname"
+      }
     ]
   },
   {
@@ -1356,20 +1596,22 @@
     "aliases": [
       "US/Arizona"
     ],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
     "canonical": "America/Port-au-Prince",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "HT"
-      ]
+    "countries": [
+      {
+        "code": "HT",
+        "name": "Haiti"
+      }
     ]
   },
   {
@@ -1391,83 +1633,129 @@
       "America/Tortola",
       "America/Virgin"
     ],
-    "country_codes": [
-      [
-        "TT",
-        "AG",
-        "AI",
-        "BL",
-        "DM",
-        "GD",
-        "GP",
-        "KN",
-        "LC",
-        "MF",
-        "MS",
-        "VC",
-        "VG",
-        "VI"
-      ]
+    "countries": [
+      {
+        "code": "TT",
+        "name": "Trinidad & Tobago"
+      },
+      {
+        "code": "AG",
+        "name": "Antigua & Barbuda"
+      },
+      {
+        "code": "AI",
+        "name": "Anguilla"
+      },
+      {
+        "code": "BL",
+        "name": "St Barthelemy"
+      },
+      {
+        "code": "DM",
+        "name": "Dominica"
+      },
+      {
+        "code": "GD",
+        "name": "Grenada"
+      },
+      {
+        "code": "GP",
+        "name": "Guadeloupe"
+      },
+      {
+        "code": "KN",
+        "name": "St Kitts & Nevis"
+      },
+      {
+        "code": "LC",
+        "name": "St Lucia"
+      },
+      {
+        "code": "MF",
+        "name": "St Martin (French)"
+      },
+      {
+        "code": "MS",
+        "name": "Montserrat"
+      },
+      {
+        "code": "VC",
+        "name": "St Vincent"
+      },
+      {
+        "code": "VG",
+        "name": "Virgin Islands (UK)"
+      },
+      {
+        "code": "VI",
+        "name": "Virgin Islands (US)"
+      }
     ]
   },
   {
     "canonical": "America/Porto_Velho",
     "offset_st": -14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "BR"
-      ]
+    "countries": [
+      {
+        "code": "BR",
+        "name": "Brazil"
+      }
     ]
   },
   {
     "canonical": "America/Puerto_Rico",
     "offset_st": -14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "PR"
-      ]
+    "countries": [
+      {
+        "code": "PR",
+        "name": "Puerto Rico"
+      }
     ]
   },
   {
     "canonical": "America/Punta_Arenas",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "CL"
-      ]
+    "countries": [
+      {
+        "code": "CL",
+        "name": "Chile"
+      }
     ]
   },
   {
     "canonical": "America/Rainy_River",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
     "canonical": "America/Rankin_Inlet",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
     "canonical": "America/Recife",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "BR"
-      ]
+    "countries": [
+      {
+        "code": "BR",
+        "name": "Brazil"
+      }
     ]
   },
   {
@@ -1476,20 +1764,22 @@
     "aliases": [
       "Canada/Saskatchewan"
     ],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
     "canonical": "America/Resolute",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
@@ -1499,20 +1789,22 @@
       "America/Porto_Acre",
       "Brazil/Acre"
     ],
-    "country_codes": [
-      [
-        "BR"
-      ]
+    "countries": [
+      {
+        "code": "BR",
+        "name": "Brazil"
+      }
     ]
   },
   {
     "canonical": "America/Santarem",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "BR"
-      ]
+    "countries": [
+      {
+        "code": "BR",
+        "name": "Brazil"
+      }
     ]
   },
   {
@@ -1521,20 +1813,22 @@
     "aliases": [
       "Chile/Continental"
     ],
-    "country_codes": [
-      [
-        "CL"
-      ]
+    "countries": [
+      {
+        "code": "CL",
+        "name": "Chile"
+      }
     ]
   },
   {
     "canonical": "America/Santo_Domingo",
     "offset_st": -14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "DO"
-      ]
+    "countries": [
+      {
+        "code": "DO",
+        "name": "Dominican Republic"
+      }
     ]
   },
   {
@@ -1543,30 +1837,33 @@
     "aliases": [
       "Brazil/East"
     ],
-    "country_codes": [
-      [
-        "BR"
-      ]
+    "countries": [
+      {
+        "code": "BR",
+        "name": "Brazil"
+      }
     ]
   },
   {
     "canonical": "America/Scoresbysund",
     "offset_st": -3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "GL"
-      ]
+    "countries": [
+      {
+        "code": "GL",
+        "name": "Greenland"
+      }
     ]
   },
   {
     "canonical": "America/Sitka",
     "offset_st": -32400,
     "aliases": [],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
@@ -1575,50 +1872,55 @@
     "aliases": [
       "Canada/Newfoundland"
     ],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
     "canonical": "America/Swift_Current",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
     "canonical": "America/Tegucigalpa",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "HN"
-      ]
+    "countries": [
+      {
+        "code": "HN",
+        "name": "Honduras"
+      }
     ]
   },
   {
     "canonical": "America/Thule",
     "offset_st": -14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "GL"
-      ]
+    "countries": [
+      {
+        "code": "GL",
+        "name": "Greenland"
+      }
     ]
   },
   {
     "canonical": "America/Thunder_Bay",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
@@ -1629,10 +1931,11 @@
       "America/Santa_Isabel",
       "Mexico/BajaNorte"
     ],
-    "country_codes": [
-      [
-        "MX"
-      ]
+    "countries": [
+      {
+        "code": "MX",
+        "name": "Mexico"
+      }
     ]
   },
   {
@@ -1642,10 +1945,11 @@
       "America/Montreal",
       "Canada/Eastern"
     ],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
@@ -1654,10 +1958,11 @@
     "aliases": [
       "Canada/Pacific"
     ],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
@@ -1666,10 +1971,11 @@
     "aliases": [
       "Canada/Yukon"
     ],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
@@ -1678,180 +1984,198 @@
     "aliases": [
       "Canada/Central"
     ],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
     "canonical": "America/Yakutat",
     "offset_st": -32400,
     "aliases": [],
-    "country_codes": [
-      [
-        "US"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
     ]
   },
   {
     "canonical": "America/Yellowknife",
     "offset_st": -25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "CA"
-      ]
+    "countries": [
+      {
+        "code": "CA",
+        "name": "Canada"
+      }
     ]
   },
   {
     "canonical": "Antarctica/Casey",
     "offset_st": 28800,
     "aliases": [],
-    "country_codes": [
-      [
-        "AQ"
-      ]
+    "countries": [
+      {
+        "code": "AQ",
+        "name": "Antarctica"
+      }
     ]
   },
   {
     "canonical": "Antarctica/Davis",
     "offset_st": 25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "AQ"
-      ]
+    "countries": [
+      {
+        "code": "AQ",
+        "name": "Antarctica"
+      }
     ]
   },
   {
     "canonical": "Antarctica/DumontDUrville",
     "offset_st": 36000,
     "aliases": [],
-    "country_codes": [
-      [
-        "AQ"
-      ]
+    "countries": [
+      {
+        "code": "AQ",
+        "name": "Antarctica"
+      }
     ]
   },
   {
     "canonical": "Antarctica/Macquarie",
     "offset_st": 39600,
     "aliases": [],
-    "country_codes": [
-      [
-        "AU"
-      ]
+    "countries": [
+      {
+        "code": "AU",
+        "name": "Australia"
+      }
     ]
   },
   {
     "canonical": "Antarctica/Mawson",
     "offset_st": 18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "AQ"
-      ]
+    "countries": [
+      {
+        "code": "AQ",
+        "name": "Antarctica"
+      }
     ]
   },
   {
     "canonical": "Antarctica/Palmer",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "AQ"
-      ]
+    "countries": [
+      {
+        "code": "AQ",
+        "name": "Antarctica"
+      }
     ]
   },
   {
     "canonical": "Antarctica/Rothera",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "AQ"
-      ]
+    "countries": [
+      {
+        "code": "AQ",
+        "name": "Antarctica"
+      }
     ]
   },
   {
     "canonical": "Antarctica/Syowa",
     "offset_st": 10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "AQ"
-      ]
+    "countries": [
+      {
+        "code": "AQ",
+        "name": "Antarctica"
+      }
     ]
   },
   {
     "canonical": "Antarctica/Troll",
     "offset_st": 0,
     "aliases": [],
-    "country_codes": [
-      [
-        "AQ"
-      ]
+    "countries": [
+      {
+        "code": "AQ",
+        "name": "Antarctica"
+      }
     ]
   },
   {
     "canonical": "Antarctica/Vostok",
     "offset_st": 21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "AQ"
-      ]
+    "countries": [
+      {
+        "code": "AQ",
+        "name": "Antarctica"
+      }
     ]
   },
   {
     "canonical": "Asia/Almaty",
     "offset_st": 21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "KZ"
-      ]
+    "countries": [
+      {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      }
     ]
   },
   {
     "canonical": "Asia/Amman",
     "offset_st": 7200,
     "aliases": [],
-    "country_codes": [
-      [
-        "JO"
-      ]
+    "countries": [
+      {
+        "code": "JO",
+        "name": "Jordan"
+      }
     ]
   },
   {
     "canonical": "Asia/Anadyr",
     "offset_st": 43200,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
     "canonical": "Asia/Aqtau",
     "offset_st": 18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "KZ"
-      ]
+    "countries": [
+      {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      }
     ]
   },
   {
     "canonical": "Asia/Aqtobe",
     "offset_st": 18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "KZ"
-      ]
+    "countries": [
+      {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      }
     ]
   },
   {
@@ -1860,40 +2184,44 @@
     "aliases": [
       "Asia/Ashkhabad"
     ],
-    "country_codes": [
-      [
-        "TM"
-      ]
+    "countries": [
+      {
+        "code": "TM",
+        "name": "Turkmenistan"
+      }
     ]
   },
   {
     "canonical": "Asia/Atyrau",
     "offset_st": 18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "KZ"
-      ]
+    "countries": [
+      {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      }
     ]
   },
   {
     "canonical": "Asia/Baghdad",
     "offset_st": 10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "IQ"
-      ]
+    "countries": [
+      {
+        "code": "IQ",
+        "name": "Iraq"
+      }
     ]
   },
   {
     "canonical": "Asia/Baku",
     "offset_st": 14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "AZ"
-      ]
+    "countries": [
+      {
+        "code": "AZ",
+        "name": "Azerbaijan"
+      }
     ]
   },
   {
@@ -1903,93 +2231,111 @@
       "Asia/Phnom_Penh",
       "Asia/Vientiane"
     ],
-    "country_codes": [
-      [
-        "TH",
-        "KH",
-        "LA",
-        "VN"
-      ]
+    "countries": [
+      {
+        "code": "TH",
+        "name": "Thailand"
+      },
+      {
+        "code": "KH",
+        "name": "Cambodia"
+      },
+      {
+        "code": "LA",
+        "name": "Laos"
+      },
+      {
+        "code": "VN",
+        "name": "Vietnam"
+      }
     ]
   },
   {
     "canonical": "Asia/Barnaul",
     "offset_st": 25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
     "canonical": "Asia/Beirut",
     "offset_st": 7200,
     "aliases": [],
-    "country_codes": [
-      [
-        "LB"
-      ]
+    "countries": [
+      {
+        "code": "LB",
+        "name": "Lebanon"
+      }
     ]
   },
   {
     "canonical": "Asia/Bishkek",
     "offset_st": 21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "KG"
-      ]
+    "countries": [
+      {
+        "code": "KG",
+        "name": "Kyrgyzstan"
+      }
     ]
   },
   {
     "canonical": "Asia/Brunei",
     "offset_st": 28800,
     "aliases": [],
-    "country_codes": [
-      [
-        "BN"
-      ]
+    "countries": [
+      {
+        "code": "BN",
+        "name": "Brunei"
+      }
     ]
   },
   {
     "canonical": "Asia/Chita",
     "offset_st": 32400,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
     "canonical": "Asia/Choibalsan",
     "offset_st": 28800,
     "aliases": [],
-    "country_codes": [
-      [
-        "MN"
-      ]
+    "countries": [
+      {
+        "code": "MN",
+        "name": "Mongolia"
+      }
     ]
   },
   {
     "canonical": "Asia/Colombo",
     "offset_st": 19800,
     "aliases": [],
-    "country_codes": [
-      [
-        "LK"
-      ]
+    "countries": [
+      {
+        "code": "LK",
+        "name": "Sri Lanka"
+      }
     ]
   },
   {
     "canonical": "Asia/Damascus",
     "offset_st": 7200,
     "aliases": [],
-    "country_codes": [
-      [
-        "SY"
-      ]
+    "countries": [
+      {
+        "code": "SY",
+        "name": "Syria"
+      }
     ]
   },
   {
@@ -1998,20 +2344,22 @@
     "aliases": [
       "Asia/Dacca"
     ],
-    "country_codes": [
-      [
-        "BD"
-      ]
+    "countries": [
+      {
+        "code": "BD",
+        "name": "Bangladesh"
+      }
     ]
   },
   {
     "canonical": "Asia/Dili",
     "offset_st": 32400,
     "aliases": [],
-    "country_codes": [
-      [
-        "TL"
-      ]
+    "countries": [
+      {
+        "code": "TL",
+        "name": "East Timor"
+      }
     ]
   },
   {
@@ -2020,51 +2368,59 @@
     "aliases": [
       "Asia/Muscat"
     ],
-    "country_codes": [
-      [
-        "AE",
-        "OM"
-      ]
+    "countries": [
+      {
+        "code": "AE",
+        "name": "United Arab Emirates"
+      },
+      {
+        "code": "OM",
+        "name": "Oman"
+      }
     ]
   },
   {
     "canonical": "Asia/Dushanbe",
     "offset_st": 18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "TJ"
-      ]
+    "countries": [
+      {
+        "code": "TJ",
+        "name": "Tajikistan"
+      }
     ]
   },
   {
     "canonical": "Asia/Famagusta",
     "offset_st": 7200,
     "aliases": [],
-    "country_codes": [
-      [
-        "CY"
-      ]
+    "countries": [
+      {
+        "code": "CY",
+        "name": "Cyprus"
+      }
     ]
   },
   {
     "canonical": "Asia/Gaza",
     "offset_st": 7200,
     "aliases": [],
-    "country_codes": [
-      [
-        "PS"
-      ]
+    "countries": [
+      {
+        "code": "PS",
+        "name": "Palestine"
+      }
     ]
   },
   {
     "canonical": "Asia/Hebron",
     "offset_st": 7200,
     "aliases": [],
-    "country_codes": [
-      [
-        "PS"
-      ]
+    "countries": [
+      {
+        "code": "PS",
+        "name": "Palestine"
+      }
     ]
   },
   {
@@ -2073,10 +2429,11 @@
     "aliases": [
       "Asia/Saigon"
     ],
-    "country_codes": [
-      [
-        "VN"
-      ]
+    "countries": [
+      {
+        "code": "VN",
+        "name": "Vietnam"
+      }
     ]
   },
   {
@@ -2085,50 +2442,55 @@
     "aliases": [
       "Hongkong"
     ],
-    "country_codes": [
-      [
-        "HK"
-      ]
+    "countries": [
+      {
+        "code": "HK",
+        "name": "Hong Kong"
+      }
     ]
   },
   {
     "canonical": "Asia/Hovd",
     "offset_st": 25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "MN"
-      ]
+    "countries": [
+      {
+        "code": "MN",
+        "name": "Mongolia"
+      }
     ]
   },
   {
     "canonical": "Asia/Irkutsk",
     "offset_st": 28800,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
     "canonical": "Asia/Jakarta",
     "offset_st": 25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "ID"
-      ]
+    "countries": [
+      {
+        "code": "ID",
+        "name": "Indonesia"
+      }
     ]
   },
   {
     "canonical": "Asia/Jayapura",
     "offset_st": 32400,
     "aliases": [],
-    "country_codes": [
-      [
-        "ID"
-      ]
+    "countries": [
+      {
+        "code": "ID",
+        "name": "Indonesia"
+      }
     ]
   },
   {
@@ -2138,40 +2500,44 @@
       "Asia/Tel_Aviv",
       "Israel"
     ],
-    "country_codes": [
-      [
-        "IL"
-      ]
+    "countries": [
+      {
+        "code": "IL",
+        "name": "Israel"
+      }
     ]
   },
   {
     "canonical": "Asia/Kabul",
     "offset_st": 16200,
     "aliases": [],
-    "country_codes": [
-      [
-        "AF"
-      ]
+    "countries": [
+      {
+        "code": "AF",
+        "name": "Afghanistan"
+      }
     ]
   },
   {
     "canonical": "Asia/Kamchatka",
     "offset_st": 43200,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
     "canonical": "Asia/Karachi",
     "offset_st": 18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "PK"
-      ]
+    "countries": [
+      {
+        "code": "PK",
+        "name": "Pakistan"
+      }
     ]
   },
   {
@@ -2180,20 +2546,22 @@
     "aliases": [
       "Asia/Katmandu"
     ],
-    "country_codes": [
-      [
-        "NP"
-      ]
+    "countries": [
+      {
+        "code": "NP",
+        "name": "Nepal"
+      }
     ]
   },
   {
     "canonical": "Asia/Khandyga",
     "offset_st": 32400,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
@@ -2202,40 +2570,44 @@
     "aliases": [
       "Asia/Calcutta"
     ],
-    "country_codes": [
-      [
-        "IN"
-      ]
+    "countries": [
+      {
+        "code": "IN",
+        "name": "India"
+      }
     ]
   },
   {
     "canonical": "Asia/Krasnoyarsk",
     "offset_st": 25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
     "canonical": "Asia/Kuala_Lumpur",
     "offset_st": 28800,
     "aliases": [],
-    "country_codes": [
-      [
-        "MY"
-      ]
+    "countries": [
+      {
+        "code": "MY",
+        "name": "Malaysia"
+      }
     ]
   },
   {
     "canonical": "Asia/Kuching",
     "offset_st": 28800,
     "aliases": [],
-    "country_codes": [
-      [
-        "MY"
-      ]
+    "countries": [
+      {
+        "code": "MY",
+        "name": "Malaysia"
+      }
     ]
   },
   {
@@ -2244,20 +2616,22 @@
     "aliases": [
       "Asia/Macao"
     ],
-    "country_codes": [
-      [
-        "MO"
-      ]
+    "countries": [
+      {
+        "code": "MO",
+        "name": "Macau"
+      }
     ]
   },
   {
     "canonical": "Asia/Magadan",
     "offset_st": 39600,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
@@ -2266,20 +2640,22 @@
     "aliases": [
       "Asia/Ujung_Pandang"
     ],
-    "country_codes": [
-      [
-        "ID"
-      ]
+    "countries": [
+      {
+        "code": "ID",
+        "name": "Indonesia"
+      }
     ]
   },
   {
     "canonical": "Asia/Manila",
     "offset_st": 28800,
     "aliases": [],
-    "country_codes": [
-      [
-        "PH"
-      ]
+    "countries": [
+      {
+        "code": "PH",
+        "name": "Philippines"
+      }
     ]
   },
   {
@@ -2288,70 +2664,77 @@
     "aliases": [
       "Europe/Nicosia"
     ],
-    "country_codes": [
-      [
-        "CY"
-      ]
+    "countries": [
+      {
+        "code": "CY",
+        "name": "Cyprus"
+      }
     ]
   },
   {
     "canonical": "Asia/Novokuznetsk",
     "offset_st": 25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
     "canonical": "Asia/Novosibirsk",
     "offset_st": 25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
     "canonical": "Asia/Omsk",
     "offset_st": 21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
     "canonical": "Asia/Oral",
     "offset_st": 18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "KZ"
-      ]
+    "countries": [
+      {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      }
     ]
   },
   {
     "canonical": "Asia/Pontianak",
     "offset_st": 25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "ID"
-      ]
+    "countries": [
+      {
+        "code": "ID",
+        "name": "Indonesia"
+      }
     ]
   },
   {
     "canonical": "Asia/Pyongyang",
     "offset_st": 32400,
     "aliases": [],
-    "country_codes": [
-      [
-        "KP"
-      ]
+    "countries": [
+      {
+        "code": "KP",
+        "name": "Korea (North)"
+      }
     ]
   },
   {
@@ -2360,31 +2743,37 @@
     "aliases": [
       "Asia/Bahrain"
     ],
-    "country_codes": [
-      [
-        "QA",
-        "BH"
-      ]
+    "countries": [
+      {
+        "code": "QA",
+        "name": "Qatar"
+      },
+      {
+        "code": "BH",
+        "name": "Bahrain"
+      }
     ]
   },
   {
     "canonical": "Asia/Qostanay",
     "offset_st": 21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "KZ"
-      ]
+    "countries": [
+      {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      }
     ]
   },
   {
     "canonical": "Asia/Qyzylorda",
     "offset_st": 18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "KZ"
-      ]
+    "countries": [
+      {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      }
     ]
   },
   {
@@ -2394,32 +2783,41 @@
       "Asia/Aden",
       "Asia/Kuwait"
     ],
-    "country_codes": [
-      [
-        "SA",
-        "KW",
-        "YE"
-      ]
+    "countries": [
+      {
+        "code": "SA",
+        "name": "Saudi Arabia"
+      },
+      {
+        "code": "KW",
+        "name": "Kuwait"
+      },
+      {
+        "code": "YE",
+        "name": "Yemen"
+      }
     ]
   },
   {
     "canonical": "Asia/Sakhalin",
     "offset_st": 39600,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
     "canonical": "Asia/Samarkand",
     "offset_st": 18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "UZ"
-      ]
+    "countries": [
+      {
+        "code": "UZ",
+        "name": "Uzbekistan"
+      }
     ]
   },
   {
@@ -2428,10 +2826,11 @@
     "aliases": [
       "ROK"
     ],
-    "country_codes": [
-      [
-        "KR"
-      ]
+    "countries": [
+      {
+        "code": "KR",
+        "name": "Korea (South)"
+      }
     ]
   },
   {
@@ -2443,10 +2842,11 @@
       "Asia/Harbin",
       "PRC"
     ],
-    "country_codes": [
-      [
-        "CN"
-      ]
+    "countries": [
+      {
+        "code": "CN",
+        "name": "China"
+      }
     ]
   },
   {
@@ -2455,20 +2855,22 @@
     "aliases": [
       "Singapore"
     ],
-    "country_codes": [
-      [
-        "SG"
-      ]
+    "countries": [
+      {
+        "code": "SG",
+        "name": "Singapore"
+      }
     ]
   },
   {
     "canonical": "Asia/Srednekolymsk",
     "offset_st": 39600,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
@@ -2477,30 +2879,33 @@
     "aliases": [
       "ROC"
     ],
-    "country_codes": [
-      [
-        "TW"
-      ]
+    "countries": [
+      {
+        "code": "TW",
+        "name": "Taiwan"
+      }
     ]
   },
   {
     "canonical": "Asia/Tashkent",
     "offset_st": 18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "UZ"
-      ]
+    "countries": [
+      {
+        "code": "UZ",
+        "name": "Uzbekistan"
+      }
     ]
   },
   {
     "canonical": "Asia/Tbilisi",
     "offset_st": 14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "GE"
-      ]
+    "countries": [
+      {
+        "code": "GE",
+        "name": "Georgia"
+      }
     ]
   },
   {
@@ -2509,10 +2914,11 @@
     "aliases": [
       "Iran"
     ],
-    "country_codes": [
-      [
-        "IR"
-      ]
+    "countries": [
+      {
+        "code": "IR",
+        "name": "Iran"
+      }
     ]
   },
   {
@@ -2521,10 +2927,11 @@
     "aliases": [
       "Asia/Thimbu"
     ],
-    "country_codes": [
-      [
-        "BT"
-      ]
+    "countries": [
+      {
+        "code": "BT",
+        "name": "Bhutan"
+      }
     ]
   },
   {
@@ -2533,20 +2940,22 @@
     "aliases": [
       "Japan"
     ],
-    "country_codes": [
-      [
-        "JP"
-      ]
+    "countries": [
+      {
+        "code": "JP",
+        "name": "Japan"
+      }
     ]
   },
   {
     "canonical": "Asia/Tomsk",
     "offset_st": 25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
@@ -2555,10 +2964,11 @@
     "aliases": [
       "Asia/Ulan_Bator"
     ],
-    "country_codes": [
-      [
-        "MN"
-      ]
+    "countries": [
+      {
+        "code": "MN",
+        "name": "Mongolia"
+      }
     ]
   },
   {
@@ -2567,40 +2977,44 @@
     "aliases": [
       "Asia/Kashgar"
     ],
-    "country_codes": [
-      [
-        "CN"
-      ]
+    "countries": [
+      {
+        "code": "CN",
+        "name": "China"
+      }
     ]
   },
   {
     "canonical": "Asia/Ust-Nera",
     "offset_st": 36000,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
     "canonical": "Asia/Vladivostok",
     "offset_st": 36000,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
     "canonical": "Asia/Yakutsk",
     "offset_st": 32400,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
@@ -2609,70 +3023,77 @@
     "aliases": [
       "Asia/Rangoon"
     ],
-    "country_codes": [
-      [
-        "MM"
-      ]
+    "countries": [
+      {
+        "code": "MM",
+        "name": "Myanmar (Burma)"
+      }
     ]
   },
   {
     "canonical": "Asia/Yekaterinburg",
     "offset_st": 18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
     "canonical": "Asia/Yerevan",
     "offset_st": 14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "AM"
-      ]
+    "countries": [
+      {
+        "code": "AM",
+        "name": "Armenia"
+      }
     ]
   },
   {
     "canonical": "Atlantic/Azores",
     "offset_st": -3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "PT"
-      ]
+    "countries": [
+      {
+        "code": "PT",
+        "name": "Portugal"
+      }
     ]
   },
   {
     "canonical": "Atlantic/Bermuda",
     "offset_st": -14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "BM"
-      ]
+    "countries": [
+      {
+        "code": "BM",
+        "name": "Bermuda"
+      }
     ]
   },
   {
     "canonical": "Atlantic/Canary",
     "offset_st": 0,
     "aliases": [],
-    "country_codes": [
-      [
-        "ES"
-      ]
+    "countries": [
+      {
+        "code": "ES",
+        "name": "Spain"
+      }
     ]
   },
   {
     "canonical": "Atlantic/Cape_Verde",
     "offset_st": -3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "CV"
-      ]
+    "countries": [
+      {
+        "code": "CV",
+        "name": "Cape Verde"
+      }
     ]
   },
   {
@@ -2681,20 +3102,22 @@
     "aliases": [
       "Atlantic/Faeroe"
     ],
-    "country_codes": [
-      [
-        "FO"
-      ]
+    "countries": [
+      {
+        "code": "FO",
+        "name": "Faroe Islands"
+      }
     ]
   },
   {
     "canonical": "Atlantic/Madeira",
     "offset_st": 0,
     "aliases": [],
-    "country_codes": [
-      [
-        "PT"
-      ]
+    "countries": [
+      {
+        "code": "PT",
+        "name": "Portugal"
+      }
     ]
   },
   {
@@ -2703,30 +3126,33 @@
     "aliases": [
       "Iceland"
     ],
-    "country_codes": [
-      [
-        "IS"
-      ]
+    "countries": [
+      {
+        "code": "IS",
+        "name": "Iceland"
+      }
     ]
   },
   {
     "canonical": "Atlantic/South_Georgia",
     "offset_st": -7200,
     "aliases": [],
-    "country_codes": [
-      [
-        "GS"
-      ]
+    "countries": [
+      {
+        "code": "GS",
+        "name": "South Georgia & the South Sandwich Islands"
+      }
     ]
   },
   {
     "canonical": "Atlantic/Stanley",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "FK"
-      ]
+    "countries": [
+      {
+        "code": "FK",
+        "name": "Falkland Islands"
+      }
     ]
   },
   {
@@ -2735,10 +3161,11 @@
     "aliases": [
       "Australia/South"
     ],
-    "country_codes": [
-      [
-        "AU"
-      ]
+    "countries": [
+      {
+        "code": "AU",
+        "name": "Australia"
+      }
     ]
   },
   {
@@ -2747,10 +3174,11 @@
     "aliases": [
       "Australia/Queensland"
     ],
-    "country_codes": [
-      [
-        "AU"
-      ]
+    "countries": [
+      {
+        "code": "AU",
+        "name": "Australia"
+      }
     ]
   },
   {
@@ -2759,20 +3187,22 @@
     "aliases": [
       "Australia/Yancowinna"
     ],
-    "country_codes": [
-      [
-        "AU"
-      ]
+    "countries": [
+      {
+        "code": "AU",
+        "name": "Australia"
+      }
     ]
   },
   {
     "canonical": "Australia/Currie",
     "offset_st": 36000,
     "aliases": [],
-    "country_codes": [
-      [
-        "AU"
-      ]
+    "countries": [
+      {
+        "code": "AU",
+        "name": "Australia"
+      }
     ]
   },
   {
@@ -2781,20 +3211,22 @@
     "aliases": [
       "Australia/North"
     ],
-    "country_codes": [
-      [
-        "AU"
-      ]
+    "countries": [
+      {
+        "code": "AU",
+        "name": "Australia"
+      }
     ]
   },
   {
     "canonical": "Australia/Eucla",
     "offset_st": 31500,
     "aliases": [],
-    "country_codes": [
-      [
-        "AU"
-      ]
+    "countries": [
+      {
+        "code": "AU",
+        "name": "Australia"
+      }
     ]
   },
   {
@@ -2803,20 +3235,22 @@
     "aliases": [
       "Australia/Tasmania"
     ],
-    "country_codes": [
-      [
-        "AU"
-      ]
+    "countries": [
+      {
+        "code": "AU",
+        "name": "Australia"
+      }
     ]
   },
   {
     "canonical": "Australia/Lindeman",
     "offset_st": 36000,
     "aliases": [],
-    "country_codes": [
-      [
-        "AU"
-      ]
+    "countries": [
+      {
+        "code": "AU",
+        "name": "Australia"
+      }
     ]
   },
   {
@@ -2825,10 +3259,11 @@
     "aliases": [
       "Australia/LHI"
     ],
-    "country_codes": [
-      [
-        "AU"
-      ]
+    "countries": [
+      {
+        "code": "AU",
+        "name": "Australia"
+      }
     ]
   },
   {
@@ -2837,10 +3272,11 @@
     "aliases": [
       "Australia/Victoria"
     ],
-    "country_codes": [
-      [
-        "AU"
-      ]
+    "countries": [
+      {
+        "code": "AU",
+        "name": "Australia"
+      }
     ]
   },
   {
@@ -2849,10 +3285,11 @@
     "aliases": [
       "Australia/West"
     ],
-    "country_codes": [
-      [
-        "AU"
-      ]
+    "countries": [
+      {
+        "code": "AU",
+        "name": "Australia"
+      }
     ]
   },
   {
@@ -2863,41 +3300,42 @@
       "Australia/Canberra",
       "Australia/NSW"
     ],
-    "country_codes": [
-      [
-        "AU"
-      ]
+    "countries": [
+      {
+        "code": "AU",
+        "name": "Australia"
+      }
     ]
   },
   {
     "canonical": "CET",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "CST6CDT",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "EET",
     "offset_st": 7200,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "EST",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "EST5EDT",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT",
@@ -2913,163 +3351,163 @@
       "GMT0",
       "Greenwich"
     ],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT+1",
     "offset_st": -3600,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT+10",
     "offset_st": -36000,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT+11",
     "offset_st": -39600,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT+12",
     "offset_st": -43200,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT+2",
     "offset_st": -7200,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT+3",
     "offset_st": -10800,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT+4",
     "offset_st": -14400,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT+5",
     "offset_st": -18000,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT+6",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT+7",
     "offset_st": -25200,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT+8",
     "offset_st": -28800,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT+9",
     "offset_st": -32400,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT-1",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT-10",
     "offset_st": 36000,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT-11",
     "offset_st": 39600,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT-12",
     "offset_st": 43200,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT-13",
     "offset_st": 46800,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT-14",
     "offset_st": 50400,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT-2",
     "offset_st": 7200,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT-3",
     "offset_st": 10800,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT-4",
     "offset_st": 14400,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT-5",
     "offset_st": 18000,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT-6",
     "offset_st": 21600,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT-7",
     "offset_st": 25200,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT-8",
     "offset_st": 28800,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/GMT-9",
     "offset_st": 32400,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Etc/UTC",
@@ -3083,46 +3521,50 @@
       "Universal",
       "Zulu"
     ],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Europe/Amsterdam",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "NL"
-      ]
+    "countries": [
+      {
+        "code": "NL",
+        "name": "Netherlands"
+      }
     ]
   },
   {
     "canonical": "Europe/Andorra",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "AD"
-      ]
+    "countries": [
+      {
+        "code": "AD",
+        "name": "Andorra"
+      }
     ]
   },
   {
     "canonical": "Europe/Astrakhan",
     "offset_st": 14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
     "canonical": "Europe/Athens",
     "offset_st": 7200,
     "aliases": [],
-    "country_codes": [
-      [
-        "GR"
-      ]
+    "countries": [
+      {
+        "code": "GR",
+        "name": "Greece"
+      }
     ]
   },
   {
@@ -3135,55 +3577,75 @@
       "Europe/Skopje",
       "Europe/Zagreb"
     ],
-    "country_codes": [
-      [
-        "RS",
-        "BA",
-        "HR",
-        "ME",
-        "MK",
-        "SI"
-      ]
+    "countries": [
+      {
+        "code": "RS",
+        "name": "Serbia"
+      },
+      {
+        "code": "BA",
+        "name": "Bosnia & Herzegovina"
+      },
+      {
+        "code": "HR",
+        "name": "Croatia"
+      },
+      {
+        "code": "ME",
+        "name": "Montenegro"
+      },
+      {
+        "code": "MK",
+        "name": "North Macedonia"
+      },
+      {
+        "code": "SI",
+        "name": "Slovenia"
+      }
     ]
   },
   {
     "canonical": "Europe/Berlin",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "DE"
-      ]
+    "countries": [
+      {
+        "code": "DE",
+        "name": "Germany"
+      }
     ]
   },
   {
     "canonical": "Europe/Brussels",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "BE"
-      ]
+    "countries": [
+      {
+        "code": "BE",
+        "name": "Belgium"
+      }
     ]
   },
   {
     "canonical": "Europe/Bucharest",
     "offset_st": 7200,
     "aliases": [],
-    "country_codes": [
-      [
-        "RO"
-      ]
+    "countries": [
+      {
+        "code": "RO",
+        "name": "Romania"
+      }
     ]
   },
   {
     "canonical": "Europe/Budapest",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "HU"
-      ]
+    "countries": [
+      {
+        "code": "HU",
+        "name": "Hungary"
+      }
     ]
   },
   {
@@ -3192,20 +3654,22 @@
     "aliases": [
       "Europe/Tiraspol"
     ],
-    "country_codes": [
-      [
-        "MD"
-      ]
+    "countries": [
+      {
+        "code": "MD",
+        "name": "Moldova"
+      }
     ]
   },
   {
     "canonical": "Europe/Copenhagen",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "DK"
-      ]
+    "countries": [
+      {
+        "code": "DK",
+        "name": "Denmark"
+      }
     ]
   },
   {
@@ -3214,20 +3678,22 @@
     "aliases": [
       "Eire"
     ],
-    "country_codes": [
-      [
-        "IE"
-      ]
+    "countries": [
+      {
+        "code": "IE",
+        "name": "Ireland"
+      }
     ]
   },
   {
     "canonical": "Europe/Gibraltar",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "GI"
-      ]
+    "countries": [
+      {
+        "code": "GI",
+        "name": "Gibraltar"
+      }
     ]
   },
   {
@@ -3236,11 +3702,15 @@
     "aliases": [
       "Europe/Mariehamn"
     ],
-    "country_codes": [
-      [
-        "FI",
-        "AX"
-      ]
+    "countries": [
+      {
+        "code": "FI",
+        "name": "Finland"
+      },
+      {
+        "code": "AX",
+        "name": "Åland Islands"
+      }
     ]
   },
   {
@@ -3250,40 +3720,44 @@
       "Asia/Istanbul",
       "Turkey"
     ],
-    "country_codes": [
-      [
-        "TR"
-      ]
+    "countries": [
+      {
+        "code": "TR",
+        "name": "Turkey"
+      }
     ]
   },
   {
     "canonical": "Europe/Kaliningrad",
     "offset_st": 7200,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
     "canonical": "Europe/Kiev",
     "offset_st": 7200,
     "aliases": [],
-    "country_codes": [
-      [
-        "UA"
-      ]
+    "countries": [
+      {
+        "code": "UA",
+        "name": "Ukraine"
+      }
     ]
   },
   {
     "canonical": "Europe/Kirov",
     "offset_st": 10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
@@ -3292,10 +3766,11 @@
     "aliases": [
       "Portugal"
     ],
-    "country_codes": [
-      [
-        "PT"
-      ]
+    "countries": [
+      {
+        "code": "PT",
+        "name": "Portugal"
+      }
     ]
   },
   {
@@ -3309,63 +3784,78 @@
       "GB",
       "GB-Eire"
     ],
-    "country_codes": [
-      [
-        "GB",
-        "GG",
-        "IM",
-        "JE"
-      ]
+    "countries": [
+      {
+        "code": "GB",
+        "name": "Britain (UK)"
+      },
+      {
+        "code": "GG",
+        "name": "Guernsey"
+      },
+      {
+        "code": "IM",
+        "name": "Isle of Man"
+      },
+      {
+        "code": "JE",
+        "name": "Jersey"
+      }
     ]
   },
   {
     "canonical": "Europe/Luxembourg",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "LU"
-      ]
+    "countries": [
+      {
+        "code": "LU",
+        "name": "Luxembourg"
+      }
     ]
   },
   {
     "canonical": "Europe/Madrid",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "ES"
-      ]
+    "countries": [
+      {
+        "code": "ES",
+        "name": "Spain"
+      }
     ]
   },
   {
     "canonical": "Europe/Malta",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "MT"
-      ]
+    "countries": [
+      {
+        "code": "MT",
+        "name": "Malta"
+      }
     ]
   },
   {
     "canonical": "Europe/Minsk",
     "offset_st": 10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "BY"
-      ]
+    "countries": [
+      {
+        "code": "BY",
+        "name": "Belarus"
+      }
     ]
   },
   {
     "canonical": "Europe/Monaco",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "MC"
-      ]
+    "countries": [
+      {
+        "code": "MC",
+        "name": "Monaco"
+      }
     ]
   },
   {
@@ -3374,10 +3864,11 @@
     "aliases": [
       "W-SU"
     ],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
@@ -3387,21 +3878,26 @@
       "Arctic/Longyearbyen",
       "Atlantic/Jan_Mayen"
     ],
-    "country_codes": [
-      [
-        "NO",
-        "SJ"
-      ]
+    "countries": [
+      {
+        "code": "NO",
+        "name": "Norway"
+      },
+      {
+        "code": "SJ",
+        "name": "Svalbard & Jan Mayen"
+      }
     ]
   },
   {
     "canonical": "Europe/Paris",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "FR"
-      ]
+    "countries": [
+      {
+        "code": "FR",
+        "name": "France"
+      }
     ]
   },
   {
@@ -3410,21 +3906,26 @@
     "aliases": [
       "Europe/Bratislava"
     ],
-    "country_codes": [
-      [
-        "CZ",
-        "SK"
-      ]
+    "countries": [
+      {
+        "code": "CZ",
+        "name": "Czech Republic"
+      },
+      {
+        "code": "SK",
+        "name": "Slovakia"
+      }
     ]
   },
   {
     "canonical": "Europe/Riga",
     "offset_st": 7200,
     "aliases": [],
-    "country_codes": [
-      [
-        "LV"
-      ]
+    "countries": [
+      {
+        "code": "LV",
+        "name": "Latvia"
+      }
     ]
   },
   {
@@ -3434,133 +3935,155 @@
       "Europe/San_Marino",
       "Europe/Vatican"
     ],
-    "country_codes": [
-      [
-        "IT",
-        "SM",
-        "VA"
-      ]
+    "countries": [
+      {
+        "code": "IT",
+        "name": "Italy"
+      },
+      {
+        "code": "SM",
+        "name": "San Marino"
+      },
+      {
+        "code": "VA",
+        "name": "Vatican City"
+      }
     ]
   },
   {
     "canonical": "Europe/Samara",
     "offset_st": 14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
     "canonical": "Europe/Saratov",
     "offset_st": 14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
     "canonical": "Europe/Simferopol",
     "offset_st": 10800,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU",
-        "UA"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      },
+      {
+        "code": "UA",
+        "name": "Ukraine"
+      }
     ]
   },
   {
     "canonical": "Europe/Sofia",
     "offset_st": 7200,
     "aliases": [],
-    "country_codes": [
-      [
-        "BG"
-      ]
+    "countries": [
+      {
+        "code": "BG",
+        "name": "Bulgaria"
+      }
     ]
   },
   {
     "canonical": "Europe/Stockholm",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "SE"
-      ]
+    "countries": [
+      {
+        "code": "SE",
+        "name": "Sweden"
+      }
     ]
   },
   {
     "canonical": "Europe/Tallinn",
     "offset_st": 7200,
     "aliases": [],
-    "country_codes": [
-      [
-        "EE"
-      ]
+    "countries": [
+      {
+        "code": "EE",
+        "name": "Estonia"
+      }
     ]
   },
   {
     "canonical": "Europe/Tirane",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "AL"
-      ]
+    "countries": [
+      {
+        "code": "AL",
+        "name": "Albania"
+      }
     ]
   },
   {
     "canonical": "Europe/Ulyanovsk",
     "offset_st": 14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
     "canonical": "Europe/Uzhgorod",
     "offset_st": 7200,
     "aliases": [],
-    "country_codes": [
-      [
-        "UA"
-      ]
+    "countries": [
+      {
+        "code": "UA",
+        "name": "Ukraine"
+      }
     ]
   },
   {
     "canonical": "Europe/Vienna",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": [
-      [
-        "AT"
-      ]
+    "countries": [
+      {
+        "code": "AT",
+        "name": "Austria"
+      }
     ]
   },
   {
     "canonical": "Europe/Vilnius",
     "offset_st": 7200,
     "aliases": [],
-    "country_codes": [
-      [
-        "LT"
-      ]
+    "countries": [
+      {
+        "code": "LT",
+        "name": "Lithuania"
+      }
     ]
   },
   {
     "canonical": "Europe/Volgograd",
     "offset_st": 14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "RU"
-      ]
+    "countries": [
+      {
+        "code": "RU",
+        "name": "Russia"
+      }
     ]
   },
   {
@@ -3569,20 +4092,22 @@
     "aliases": [
       "Poland"
     ],
-    "country_codes": [
-      [
-        "PL"
-      ]
+    "countries": [
+      {
+        "code": "PL",
+        "name": "Poland"
+      }
     ]
   },
   {
     "canonical": "Europe/Zaporozhye",
     "offset_st": 7200,
     "aliases": [],
-    "country_codes": [
-      [
-        "UA"
-      ]
+    "countries": [
+      {
+        "code": "UA",
+        "name": "Ukraine"
+      }
     ]
   },
   {
@@ -3592,133 +4117,152 @@
       "Europe/Busingen",
       "Europe/Vaduz"
     ],
-    "country_codes": [
-      [
-        "CH",
-        "DE",
-        "LI"
-      ]
+    "countries": [
+      {
+        "code": "CH",
+        "name": "Switzerland"
+      },
+      {
+        "code": "DE",
+        "name": "Germany"
+      },
+      {
+        "code": "LI",
+        "name": "Liechtenstein"
+      }
     ]
   },
   {
     "canonical": "HST",
     "offset_st": -36000,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Indian/Chagos",
     "offset_st": 21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "IO"
-      ]
+    "countries": [
+      {
+        "code": "IO",
+        "name": "British Indian Ocean Territory"
+      }
     ]
   },
   {
     "canonical": "Indian/Christmas",
     "offset_st": 25200,
     "aliases": [],
-    "country_codes": [
-      [
-        "CX"
-      ]
+    "countries": [
+      {
+        "code": "CX",
+        "name": "Christmas Island"
+      }
     ]
   },
   {
     "canonical": "Indian/Cocos",
     "offset_st": 23400,
     "aliases": [],
-    "country_codes": [
-      [
-        "CC"
-      ]
+    "countries": [
+      {
+        "code": "CC",
+        "name": "Cocos (Keeling) Islands"
+      }
     ]
   },
   {
     "canonical": "Indian/Kerguelen",
     "offset_st": 18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "TF"
-      ]
+    "countries": [
+      {
+        "code": "TF",
+        "name": "French Southern & Antarctic Lands"
+      }
     ]
   },
   {
     "canonical": "Indian/Mahe",
     "offset_st": 14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "SC"
-      ]
+    "countries": [
+      {
+        "code": "SC",
+        "name": "Seychelles"
+      }
     ]
   },
   {
     "canonical": "Indian/Maldives",
     "offset_st": 18000,
     "aliases": [],
-    "country_codes": [
-      [
-        "MV"
-      ]
+    "countries": [
+      {
+        "code": "MV",
+        "name": "Maldives"
+      }
     ]
   },
   {
     "canonical": "Indian/Mauritius",
     "offset_st": 14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "MU"
-      ]
+    "countries": [
+      {
+        "code": "MU",
+        "name": "Mauritius"
+      }
     ]
   },
   {
     "canonical": "Indian/Reunion",
     "offset_st": 14400,
     "aliases": [],
-    "country_codes": [
-      [
-        "RE",
-        "TF"
-      ]
+    "countries": [
+      {
+        "code": "RE",
+        "name": "Réunion"
+      },
+      {
+        "code": "TF",
+        "name": "French Southern & Antarctic Lands"
+      }
     ]
   },
   {
     "canonical": "MET",
     "offset_st": 3600,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "MST",
     "offset_st": -25200,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "MST7MDT",
     "offset_st": -25200,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "PST8PDT",
     "offset_st": -28800,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   },
   {
     "canonical": "Pacific/Apia",
     "offset_st": 46800,
     "aliases": [],
-    "country_codes": [
-      [
-        "WS"
-      ]
+    "countries": [
+      {
+        "code": "WS",
+        "name": "Samoa (western)"
+      }
     ]
   },
   {
@@ -3729,21 +4273,26 @@
       "Antarctica/South_Pole",
       "NZ"
     ],
-    "country_codes": [
-      [
-        "NZ",
-        "AQ"
-      ]
+    "countries": [
+      {
+        "code": "NZ",
+        "name": "New Zealand"
+      },
+      {
+        "code": "AQ",
+        "name": "Antarctica"
+      }
     ]
   },
   {
     "canonical": "Pacific/Bougainville",
     "offset_st": 39600,
     "aliases": [],
-    "country_codes": [
-      [
-        "PG"
-      ]
+    "countries": [
+      {
+        "code": "PG",
+        "name": "Papua New Guinea"
+      }
     ]
   },
   {
@@ -3752,10 +4301,11 @@
     "aliases": [
       "NZ-CHAT"
     ],
-    "country_codes": [
-      [
-        "NZ"
-      ]
+    "countries": [
+      {
+        "code": "NZ",
+        "name": "New Zealand"
+      }
     ]
   },
   {
@@ -3765,10 +4315,11 @@
       "Pacific/Truk",
       "Pacific/Yap"
     ],
-    "country_codes": [
-      [
-        "FM"
-      ]
+    "countries": [
+      {
+        "code": "FM",
+        "name": "Micronesia"
+      }
     ]
   },
   {
@@ -3777,90 +4328,99 @@
     "aliases": [
       "Chile/EasterIsland"
     ],
-    "country_codes": [
-      [
-        "CL"
-      ]
+    "countries": [
+      {
+        "code": "CL",
+        "name": "Chile"
+      }
     ]
   },
   {
     "canonical": "Pacific/Efate",
     "offset_st": 39600,
     "aliases": [],
-    "country_codes": [
-      [
-        "VU"
-      ]
+    "countries": [
+      {
+        "code": "VU",
+        "name": "Vanuatu"
+      }
     ]
   },
   {
     "canonical": "Pacific/Enderbury",
     "offset_st": 46800,
     "aliases": [],
-    "country_codes": [
-      [
-        "KI"
-      ]
+    "countries": [
+      {
+        "code": "KI",
+        "name": "Kiribati"
+      }
     ]
   },
   {
     "canonical": "Pacific/Fakaofo",
     "offset_st": 46800,
     "aliases": [],
-    "country_codes": [
-      [
-        "TK"
-      ]
+    "countries": [
+      {
+        "code": "TK",
+        "name": "Tokelau"
+      }
     ]
   },
   {
     "canonical": "Pacific/Fiji",
     "offset_st": 43200,
     "aliases": [],
-    "country_codes": [
-      [
-        "FJ"
-      ]
+    "countries": [
+      {
+        "code": "FJ",
+        "name": "Fiji"
+      }
     ]
   },
   {
     "canonical": "Pacific/Funafuti",
     "offset_st": 43200,
     "aliases": [],
-    "country_codes": [
-      [
-        "TV"
-      ]
+    "countries": [
+      {
+        "code": "TV",
+        "name": "Tuvalu"
+      }
     ]
   },
   {
     "canonical": "Pacific/Galapagos",
     "offset_st": -21600,
     "aliases": [],
-    "country_codes": [
-      [
-        "EC"
-      ]
+    "countries": [
+      {
+        "code": "EC",
+        "name": "Ecuador"
+      }
     ]
   },
   {
     "canonical": "Pacific/Gambier",
     "offset_st": -32400,
     "aliases": [],
-    "country_codes": [
-      [
-        "PF"
-      ]
+    "countries": [
+      {
+        "code": "PF",
+        "name": "French Polynesia"
+      }
     ]
   },
   {
     "canonical": "Pacific/Guadalcanal",
     "offset_st": 39600,
     "aliases": [],
-    "country_codes": [
-      [
-        "SB"
-      ]
+    "countries": [
+      {
+        "code": "SB",
+        "name": "Solomon Islands"
+      }
     ]
   },
   {
@@ -3869,11 +4429,15 @@
     "aliases": [
       "Pacific/Saipan"
     ],
-    "country_codes": [
-      [
-        "GU",
-        "MP"
-      ]
+    "countries": [
+      {
+        "code": "GU",
+        "name": "Guam"
+      },
+      {
+        "code": "MP",
+        "name": "Northern Mariana Islands"
+      }
     ]
   },
   {
@@ -3883,31 +4447,37 @@
       "Pacific/Johnston",
       "US/Hawaii"
     ],
-    "country_codes": [
-      [
-        "US",
-        "UM"
-      ]
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      },
+      {
+        "code": "UM",
+        "name": "US minor outlying islands"
+      }
     ]
   },
   {
     "canonical": "Pacific/Kiritimati",
     "offset_st": 50400,
     "aliases": [],
-    "country_codes": [
-      [
-        "KI"
-      ]
+    "countries": [
+      {
+        "code": "KI",
+        "name": "Kiribati"
+      }
     ]
   },
   {
     "canonical": "Pacific/Kosrae",
     "offset_st": 39600,
     "aliases": [],
-    "country_codes": [
-      [
-        "FM"
-      ]
+    "countries": [
+      {
+        "code": "FM",
+        "name": "Micronesia"
+      }
     ]
   },
   {
@@ -3916,70 +4486,77 @@
     "aliases": [
       "Kwajalein"
     ],
-    "country_codes": [
-      [
-        "MH"
-      ]
+    "countries": [
+      {
+        "code": "MH",
+        "name": "Marshall Islands"
+      }
     ]
   },
   {
     "canonical": "Pacific/Majuro",
     "offset_st": 43200,
     "aliases": [],
-    "country_codes": [
-      [
-        "MH"
-      ]
+    "countries": [
+      {
+        "code": "MH",
+        "name": "Marshall Islands"
+      }
     ]
   },
   {
     "canonical": "Pacific/Marquesas",
     "offset_st": -34200,
     "aliases": [],
-    "country_codes": [
-      [
-        "PF"
-      ]
+    "countries": [
+      {
+        "code": "PF",
+        "name": "French Polynesia"
+      }
     ]
   },
   {
     "canonical": "Pacific/Nauru",
     "offset_st": 43200,
     "aliases": [],
-    "country_codes": [
-      [
-        "NR"
-      ]
+    "countries": [
+      {
+        "code": "NR",
+        "name": "Nauru"
+      }
     ]
   },
   {
     "canonical": "Pacific/Niue",
     "offset_st": -39600,
     "aliases": [],
-    "country_codes": [
-      [
-        "NU"
-      ]
+    "countries": [
+      {
+        "code": "NU",
+        "name": "Niue"
+      }
     ]
   },
   {
     "canonical": "Pacific/Norfolk",
     "offset_st": 39600,
     "aliases": [],
-    "country_codes": [
-      [
-        "NF"
-      ]
+    "countries": [
+      {
+        "code": "NF",
+        "name": "Norfolk Island"
+      }
     ]
   },
   {
     "canonical": "Pacific/Noumea",
     "offset_st": 39600,
     "aliases": [],
-    "country_codes": [
-      [
-        "NC"
-      ]
+    "countries": [
+      {
+        "code": "NC",
+        "name": "New Caledonia"
+      }
     ]
   },
   {
@@ -3990,31 +4567,37 @@
       "Pacific/Samoa",
       "US/Samoa"
     ],
-    "country_codes": [
-      [
-        "AS",
-        "UM"
-      ]
+    "countries": [
+      {
+        "code": "AS",
+        "name": "Samoa (American)"
+      },
+      {
+        "code": "UM",
+        "name": "US minor outlying islands"
+      }
     ]
   },
   {
     "canonical": "Pacific/Palau",
     "offset_st": 32400,
     "aliases": [],
-    "country_codes": [
-      [
-        "PW"
-      ]
+    "countries": [
+      {
+        "code": "PW",
+        "name": "Palau"
+      }
     ]
   },
   {
     "canonical": "Pacific/Pitcairn",
     "offset_st": -28800,
     "aliases": [],
-    "country_codes": [
-      [
-        "PN"
-      ]
+    "countries": [
+      {
+        "code": "PN",
+        "name": "Pitcairn"
+      }
     ]
   },
   {
@@ -4023,86 +4606,94 @@
     "aliases": [
       "Pacific/Ponape"
     ],
-    "country_codes": [
-      [
-        "FM"
-      ]
+    "countries": [
+      {
+        "code": "FM",
+        "name": "Micronesia"
+      }
     ]
   },
   {
     "canonical": "Pacific/Port_Moresby",
     "offset_st": 36000,
     "aliases": [],
-    "country_codes": [
-      [
-        "PG"
-      ]
+    "countries": [
+      {
+        "code": "PG",
+        "name": "Papua New Guinea"
+      }
     ]
   },
   {
     "canonical": "Pacific/Rarotonga",
     "offset_st": -36000,
     "aliases": [],
-    "country_codes": [
-      [
-        "CK"
-      ]
+    "countries": [
+      {
+        "code": "CK",
+        "name": "Cook Islands"
+      }
     ]
   },
   {
     "canonical": "Pacific/Tahiti",
     "offset_st": -36000,
     "aliases": [],
-    "country_codes": [
-      [
-        "PF"
-      ]
+    "countries": [
+      {
+        "code": "PF",
+        "name": "French Polynesia"
+      }
     ]
   },
   {
     "canonical": "Pacific/Tarawa",
     "offset_st": 43200,
     "aliases": [],
-    "country_codes": [
-      [
-        "KI"
-      ]
+    "countries": [
+      {
+        "code": "KI",
+        "name": "Kiribati"
+      }
     ]
   },
   {
     "canonical": "Pacific/Tongatapu",
     "offset_st": 46800,
     "aliases": [],
-    "country_codes": [
-      [
-        "TO"
-      ]
+    "countries": [
+      {
+        "code": "TO",
+        "name": "Tonga"
+      }
     ]
   },
   {
     "canonical": "Pacific/Wake",
     "offset_st": 43200,
     "aliases": [],
-    "country_codes": [
-      [
-        "UM"
-      ]
+    "countries": [
+      {
+        "code": "UM",
+        "name": "US minor outlying islands"
+      }
     ]
   },
   {
     "canonical": "Pacific/Wallis",
     "offset_st": 43200,
     "aliases": [],
-    "country_codes": [
-      [
-        "WF"
-      ]
+    "countries": [
+      {
+        "code": "WF",
+        "name": "Wallis & Futuna"
+      }
     ]
   },
   {
     "canonical": "WET",
     "offset_st": 0,
     "aliases": [],
-    "country_codes": []
+    "countries": []
   }
 ]
