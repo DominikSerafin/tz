@@ -17,6 +17,9 @@
     "async": "^3.2.0",
     "axios": "^0.19.2",
     "fs-extra": "^9.0.1",
+    "lodash": "4.17.19",
+    "lodash.sorteduniq": "4.2.0",
+    "lodash.uniq": "4.5.0",
     "moment": "^2.27.0",
     "moment-timezone": "^0.5.31",
     "spacetime": "^6.6.1"

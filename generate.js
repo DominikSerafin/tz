@@ -5,6 +5,7 @@ const path = require('path');
 const fs = require('fs-extra');
 const axios = require('axios');
 const async = require('async');
+const {uniq} = require('lodash');
 //
 const WTA_ORIGIN = `http://worldtimeapi.org`;
 //
@@ -112,6 +113,53 @@ async function getAliasesFromTo2050() {
 
 
 
+/*------------------------------------*\
+  getAbbreviationsFromTo2050
+\*------------------------------------*/
+/*
+async function getAbbreviationsFromTo2050() {
+  const content = await fs.readFile(SOURCES_IANA_TO2050_PATH, 'utf8');
+  const sections = content.split(/\r?\nTZ=/).filter(Boolean);
+  const output = [];
+  // remove first section with aliases
+  sections.shift();
+  //
+  const sectionsNormalized = [];
+  //
+  for (var section of sections) {
+    const lines = section.split(/\r?\n/);
+    const lineTimezone = lines[0];
+    const lineRules = lines.slice(1);
+    const lineRulesAbbreviations = lineRules.map(line => {
+      //
+      const components = line.trim().split(/\t/);
+      // check if abbreviation exists at all
+      const componentAbbreviation = components[3];
+      if (!componentAbbreviation) return void 0;
+      // only after 1970 and before 2050
+      //const componentYear = components[0].split('-')[0];
+      //const regex1970to2050 = /(19[78][0-9]|199[0-9]|20[0-4][0-9]|2050)/gi;
+      //if (!regex1970to2050.test(componentYear)) return void 0;
+      //
+      return componentAbbreviation;
+    }).filter(Boolean);
+    const lineRulesAbbreviationsUnique = uniq(lineRulesAbbreviations);
+    sectionsNormalized.push({
+      timezone: lineTimezone.trim().replace(/^"+/g,'').replace(/"+$/g,''), // remove double quote marks
+      abbreviations: lineRulesAbbreviationsUnique,
+    });
+  }
+  //
+  for (var section of sectionsNormalized) {
+    //if (line.trim().startsWith('#')) continue;
+    //if (!line.trim()) continue;
+    //console.dir(section.split(/\r?\n/));
+    //break;
+
+    console.dir(section);
+  }
+}
+*/
 
 
 
