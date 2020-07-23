@@ -4,8 +4,9 @@
 const path = require('path');
 const fs = require('fs-extra');
 const axios = require('axios');
-const async = require('async');
+//
 const WTA_ORIGIN = `http://worldtimeapi.org`;
+//
 const SOURCES_PATH = path.join(__dirname, './sources');
 const SOURCES_WTA_PATH = path.join(SOURCES_PATH, './wta/worldtimeapi.json');
 

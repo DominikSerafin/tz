@@ -3,11 +3,6 @@
 \*------------------------------------*/
 const path = require('path');
 const fs = require('fs-extra');
-const axios = require('axios');
-const async = require('async');
-const {uniq} = require('lodash');
-//
-const WTA_ORIGIN = `http://worldtimeapi.org`;
 //
 const SOURCES_PATH = path.join(__dirname, './sources');
 const SOURCES_IANA_BACKWARD_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a/backward');
@@ -35,7 +30,8 @@ async function getWtaZones() {
 /*------------------------------------*\
   getAliasesFromBackward
 \*------------------------------------*/
-async function getAliases() {
+/*
+async function getAliasesFromBackward() {
   const content = await fs.readFile(SOURCES_IANA_BACKWARD_PATH, 'utf8');
   const lines = content.split(/\r?\n/).filter(Boolean);
   const output = [];
@@ -52,6 +48,7 @@ async function getAliases() {
   //
   return output;
 }
+*/
 
 
 
@@ -138,7 +135,6 @@ async function generateTimezones() {
   const aliases = await getAliasesFromTo2050();
   const countryNames = await getCountryNames();
   const countryCodes = await getCountryCodes();
-
   //
   const output = [];
   for (const zone of wtaZones) {
@@ -156,23 +152,19 @@ async function generateTimezones() {
   generateTimezone
 \*------------------------------------*/
 async function generateTimezone(zone, aliases, countryNames, countryCodes) {
-
   //
   const zoneAliases = aliases.map(alias => {
     if (alias.target === zone.timezone) return alias.source;
   }).filter(Boolean).sort();
-
   //
   const zoneCountryCodes = countryCodes.find(code => {
     if (code.tz === zone.timezone) return true;
   });
-
   //
   const zoneCountries = zoneCountryCodes ? zoneCountryCodes.codes.map(code => {
     const name = countryNames.find(c => c.code === code);
     return name;
   }) : [];
-
   //
   return {
     canonical: zone.timezone,
@@ -180,7 +172,6 @@ async function generateTimezone(zone, aliases, countryNames, countryCodes) {
     aliases: zoneAliases,
     countries: zoneCountries,
   };
-
 }
 
 
@@ -189,7 +180,6 @@ async function generateTimezone(zone, aliases, countryNames, countryCodes) {
   writeTimezoneJson
 \*------------------------------------*/
 async function writeTimezoneJson() {
-
   const timezonesObject = await generateTimezones();
   const timezonesFile = await fs.writeJson(DIST_TZ_PATH, timezonesObject, {
     spaces: 2,
