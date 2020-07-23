@@ -228,7 +228,7 @@ async function generateTimezone(zone, aliases, countryCodes) {
 
   //
   return {
-    id: zone.timezone,
+    canonical: zone.timezone,
     offset_st: zone.raw_offset,
     aliases: zoneAliases,
     country_codes: zoneCountryCodes,
