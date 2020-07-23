@@ -1,0 +1,24 @@
+{
+  "name": "tz",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Dominik Serafin",
+  "private": true,
+  "homepage": "",
+  "scripts": {
+    "start": "node generate.js"
+  },
+  "engines": {
+    "node": "12.*",
+    "npm": "6.*"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "axios": "^0.19.2",
+    "fs-extra": "^9.0.1",
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.31",
+    "spacetime": "^6.6.1"
+  },
+  "devDependencies": {}
+}
