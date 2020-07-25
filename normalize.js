@@ -327,6 +327,8 @@ async function normalizeOngoing() {
       `TODO: account for zone unnamed RULES and variable format (${zone.name})`
     );
 
+
+
     // expand zone rules
     const zoneRules = rules.filter(rule => rule.name === zone.rules);
 
