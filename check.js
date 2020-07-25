@@ -3,6 +3,7 @@
 \*------------------------------------*/
 const path = require('path');
 const fs = require('fs-extra');
+const _ = require('lodash');
 //
 const SOURCES_PATH = path.join(__dirname, './sources');
 const SOURCES_TZDATA_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a/tzdata.zi');
@@ -46,11 +47,80 @@ async function checkUntils() {
 
 
 
+
+/*------------------------------------*\
+  checkRuleWeekDays
+\*------------------------------------*/
+async function checkRuleWeekDays() {
+  //
+  const zones = await fs.readJson(SOURCES_NORMALIZED_ZONES_PATH, 'utf8');
+  const rules = await fs.readJson(SOURCES_NORMALIZED_RULES_PATH, 'utf8');
+  const links = await fs.readJson(SOURCES_NORMALIZED_LINKS_PATH, 'utf8');
+
+  //
+  const values = [];
+
+  for (const rule of rules) {
+    if (Number.isNaN(Number(rule.on))) {
+      values.push(
+        rule.on.replace('last', '').replace(/(last|[<|>]=\d+)/, '')
+      )
+    }
+  }
+
+  console.dir(_.uniq(values));
+
+}
+
+
+
+
+/*------------------------------------*\
+  checkRuleMonthsAbbr
+\*------------------------------------*/
+async function checkRuleMonthsAbbr() {
+  //
+  const zones = await fs.readJson(SOURCES_NORMALIZED_ZONES_PATH, 'utf8');
+  const rules = await fs.readJson(SOURCES_NORMALIZED_RULES_PATH, 'utf8');
+  const links = await fs.readJson(SOURCES_NORMALIZED_LINKS_PATH, 'utf8');
+
+  //
+  const values = [];
+
+  for (const rule of rules) {
+    values.push(rule.in)
+  }
+
+  console.dir(_.uniq(values));
+
+}
+
+
+
+
+/*------------------------------------*\
+  checkCurrent
+\*------------------------------------*/
+async function checkCurrent() {
+  //
+  const currentZones = await fs.readJson(SOURCES_NORMALIZED_CURRENT_PATH, 'utf8');
+
+  for (const zone of currentZones) {
+    var m = zone.rules.map(r => `name: ${r.name}, save: ${r.save}, to_combined: ${r.to_combined}`);
+    console.log(`${zone.name}\n  ${m.length ? (m.join('\n  ') + '\n') : ''}`);
+  }
+}
+
+
+
 /*------------------------------------*\
   check
 \*------------------------------------*/
 async function check() {
-  checkUntils();
+  //checkUntils();
+  //checkRuleWeekDays();
+  //checkRuleMonthsAbbr();
+  checkCurrent();
 }
 
 
