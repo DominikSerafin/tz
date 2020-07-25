@@ -11,7 +11,7 @@ const SOURCES_NORMALIZED_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a-norma
 const SOURCES_NORMALIZED_RULES_PATH = path.join(SOURCES_NORMALIZED_PATH, './rules.json');
 const SOURCES_NORMALIZED_LINKS_PATH = path.join(SOURCES_NORMALIZED_PATH, './links.json');
 const SOURCES_NORMALIZED_ZONES_PATH = path.join(SOURCES_NORMALIZED_PATH, './zones.json');
-const SOURCES_NORMALIZED_CURRENT_PATH = path.join(SOURCES_NORMALIZED_PATH, './current.json');
+const SOURCES_NORMALIZED_ONGOING_PATH = path.join(SOURCES_NORMALIZED_PATH, './ongoing.json');
 //
 const DIST_PATH = path.join(__dirname, './dist');
 
@@ -180,9 +180,9 @@ async function normalizeZones() {
 
 
 /*------------------------------------*\
-  normalizeCurrent
+  normalizeOngoing
 \*------------------------------------*/
-async function normalizeCurrent() {
+async function normalizeOngoing() {
 
   // cliff notes taken from tz-how-to.html, theory.html and zic.8.txt
   //
@@ -413,13 +413,16 @@ async function normalizeCurrent() {
   }
 
   //
-  await fs.writeJson(SOURCES_NORMALIZED_CURRENT_PATH, output, {
+  await fs.writeJson(SOURCES_NORMALIZED_ONGOING_PATH, output, {
     spaces: 2,
     EOL: '\n',
     encoding: 'utf8',
   });
   return true;
 }
+
+
+
 
 
 
@@ -434,7 +437,7 @@ async function normalize() {
   normalizeLinks();
   normalizeRules();
   normalizeZones();
-  normalizeCurrent();
+  normalizeOngoing();
 }
 
 

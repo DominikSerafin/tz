@@ -11,7 +11,7 @@ const SOURCES_NORMALIZED_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a-norma
 const SOURCES_NORMALIZED_RULES_PATH = path.join(SOURCES_NORMALIZED_PATH, './rules.json');
 const SOURCES_NORMALIZED_LINKS_PATH = path.join(SOURCES_NORMALIZED_PATH, './links.json');
 const SOURCES_NORMALIZED_ZONES_PATH = path.join(SOURCES_NORMALIZED_PATH, './zones.json');
-const SOURCES_NORMALIZED_CURRENT_PATH = path.join(SOURCES_NORMALIZED_PATH, './current.json');
+const SOURCES_NORMALIZED_ONGOING_PATH = path.join(SOURCES_NORMALIZED_PATH, './ongoing.json');
 //
 const DIST_PATH = path.join(__dirname, './dist');
 
@@ -99,13 +99,13 @@ async function checkRuleMonthsAbbr() {
 
 
 /*------------------------------------*\
-  checkCurrent
+  checkOngoing
 \*------------------------------------*/
-async function checkCurrent() {
+async function checkOngoing() {
   //
-  const currentZones = await fs.readJson(SOURCES_NORMALIZED_CURRENT_PATH, 'utf8');
+  const ongoingZones = await fs.readJson(SOURCES_NORMALIZED_ONGOING_PATH, 'utf8');
 
-  for (const zone of currentZones) {
+  for (const zone of ongoingZones) {
     var m = zone.rules.map(
       r => `name=${r.name} save=${r.save} from=${r.from} to_combined=${r.to_combined} letters=${r.letters}`
     );
@@ -122,7 +122,7 @@ async function check() {
   //checkUntils();
   //checkRuleWeekDays();
   //checkRuleMonthsAbbr();
-  checkCurrent();
+  checkOngoing();
 }
 
 
