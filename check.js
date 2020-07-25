@@ -3,17 +3,46 @@
 \*------------------------------------*/
 const path = require('path');
 const fs = require('fs-extra');
+const axios = require('axios');
 const _ = require('lodash');
 //
 const SOURCES_PATH = path.join(__dirname, './sources');
-const SOURCES_TZDATA_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a/tzdata.zi');
 const SOURCES_NORMALIZED_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a-normalized');
 const SOURCES_NORMALIZED_RULES_PATH = path.join(SOURCES_NORMALIZED_PATH, './rules.json');
 const SOURCES_NORMALIZED_LINKS_PATH = path.join(SOURCES_NORMALIZED_PATH, './links.json');
 const SOURCES_NORMALIZED_ZONES_PATH = path.join(SOURCES_NORMALIZED_PATH, './zones.json');
 const SOURCES_NORMALIZED_ONGOING_PATH = path.join(SOURCES_NORMALIZED_PATH, './ongoing.json');
 //
-const DIST_PATH = path.join(__dirname, './dist');
+const WTA_ORIGIN = `http://worldtimeapi.org`;
+
+
+
+
+
+/*------------------------------------*\
+  axios interceptors
+\*------------------------------------*/
+//
+axios.interceptors.request.use(function(config) {
+  // before request is sent
+  console.log(`${config.method.toUpperCase()} ${config.url}: REQUESTING`);
+  return config;
+}, function(error) {
+  // request error
+  return Promise.reject(error);
+});
+//
+axios.interceptors.response.use(function(response) {
+  console.log(`${response.config.method.toUpperCase()} ${response.config.url}: OK`);
+  return response;
+}, function(error) {
+  console.log(`\n\n ${error.config.method.toUpperCase()} ${error.config.url}: ERROR \n\n`);
+  // any other status code
+  return Promise.reject(error);
+});
+
+
+
 
 
 
@@ -115,6 +144,45 @@ async function checkOngoing() {
 
 
 
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+  checkAgainstWta
+\*------------------------------------*/
+async function checkAgainstWta() {
+  return;
+  const output = [];
+
+  //
+  const resultZones = await axios({
+    method: 'GET',
+    url: `${WTA_ORIGIN}/api/timezone`,
+  });
+
+  //
+  for (const zoneName of resultZones.data) {
+    const resultZone = await axios({
+      method: 'GET',
+      url: `${WTA_ORIGIN}/api/timezone/${zoneName}`,
+    });
+    const tz = resultZone.data;
+  }
+
+}
+
+
+
+
+
+
+
+
 /*------------------------------------*\
   check
 \*------------------------------------*/
@@ -123,11 +191,6 @@ async function check() {
   //checkRuleWeekDays();
   //checkRuleMonthsAbbr();
   checkOngoing();
+  //checkAgainstWta();
 }
-
-
-
-/*------------------------------------*\
-  ...
-\*------------------------------------*/
 check();

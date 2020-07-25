@@ -6,14 +6,16 @@ const fs = require('fs-extra');
 const _ = require('lodash');
 //
 const SOURCES_PATH = path.join(__dirname, './sources');
+const SOURCES_ISO3166_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a/iso3166.tab');
+const SOURCES_ZONE1970_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a/zone1970.tab');
+const SOURCES_TO2050_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a/to2050.tzs');
 const SOURCES_TZDATA_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a/tzdata.zi');
 const SOURCES_NORMALIZED_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a-normalized');
 const SOURCES_NORMALIZED_RULES_PATH = path.join(SOURCES_NORMALIZED_PATH, './rules.json');
 const SOURCES_NORMALIZED_LINKS_PATH = path.join(SOURCES_NORMALIZED_PATH, './links.json');
 const SOURCES_NORMALIZED_ZONES_PATH = path.join(SOURCES_NORMALIZED_PATH, './zones.json');
+const SOURCES_NORMALIZED_COUNTRIES_PATH = path.join(SOURCES_NORMALIZED_PATH, './countries.json');
 const SOURCES_NORMALIZED_ONGOING_PATH = path.join(SOURCES_NORMALIZED_PATH, './ongoing.json');
-//
-const DIST_PATH = path.join(__dirname, './dist');
 
 
 
@@ -172,6 +174,69 @@ async function normalizeZones() {
   return true;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+  normalizeCountries
+\*------------------------------------*/
+async function normalizeCountries() {
+  //
+  const contentZone = await fs.readFile(SOURCES_ZONE1970_PATH, 'utf8');
+  const contentIso = await fs.readFile(SOURCES_ISO3166_PATH, 'utf8');
+  const linesZone = contentZone.split(/\r?\n/).filter(Boolean);
+  const linesIso = contentIso.split(/\r?\n/).filter(Boolean);
+
+  //
+  const names = [];
+
+  //
+  for (const line of linesIso) {
+    if (line.trim().startsWith('#')) continue;
+    if (!line.trim()) continue;
+    const components = line.split(/\t+/);
+    names.push({
+      code: components[0],
+      name: components[1],
+    });
+  }
+
+  //
+  const output = [];
+
+  //
+  for (const line of linesZone) {
+    if (line.trim().startsWith('#')) continue;
+    if (!line.trim()) continue;
+    const components = line.split(/\t+/);
+    const countries = components[0].split(',').map(code => {
+      const name = names.find(o => o.code === code).name;
+      return {code, name};
+    });
+    output.push({
+      tz: components[2],
+      countries: countries,
+      coordinates: components[1],
+      comments: components[3],
+    });
+  }
+
+  //
+  await fs.writeJson(SOURCES_NORMALIZED_COUNTRIES_PATH, output, {
+    spaces: 2,
+    EOL: '\n',
+    encoding: 'utf8',
+  });
+  return true;
+}
 
 
 
@@ -437,12 +502,7 @@ async function normalize() {
   normalizeLinks();
   normalizeRules();
   normalizeZones();
+  normalizeCountries();
   normalizeOngoing();
 }
-
-
-
-/*------------------------------------*\
-  ...
-\*------------------------------------*/
 normalize();
