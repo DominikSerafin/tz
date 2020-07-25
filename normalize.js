@@ -283,8 +283,8 @@ async function normalizeCurrent() {
       // hour
       // ...
       // combined
-      var ruleToCombined = rule.to;
-      if (rule.to !== 'ma') (ruleToCombined = `${ruleTo}-${ruleIn}`);
+      // even if ruleTo=ma
+      var ruleToCombined = `${ruleTo}-${ruleIn}`;
       return {
         ...rule,
         //to_combined: '2000',

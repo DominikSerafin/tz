@@ -106,8 +106,10 @@ async function checkCurrent() {
   const currentZones = await fs.readJson(SOURCES_NORMALIZED_CURRENT_PATH, 'utf8');
 
   for (const zone of currentZones) {
-    var m = zone.rules.map(r => `name: ${r.name}, save: ${r.save}, to_combined: ${r.to_combined}`);
-    console.log(`${zone.name}\n  ${m.length ? (m.join('\n  ') + '\n') : ''}`);
+    var m = zone.rules.map(
+      r => `name=${r.name} save=${r.save} from=${r.from} to_combined=${r.to_combined} letters=${r.letters}`
+    );
+    console.log(`${zone.name} (${zone.format})\n  ${m.length ? (m.join('\n  ') + '\n') : ''}`);
   }
 }
 

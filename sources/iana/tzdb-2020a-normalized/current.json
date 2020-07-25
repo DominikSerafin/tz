@@ -433,19 +433,6 @@
     "rules": [
       {
         "name": "Tr",
-        "from": "2004",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "+00",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "Tr",
         "from": "2005",
         "to": "ma",
         "type": "-",
@@ -454,7 +441,20 @@
         "at": "1u",
         "save": "2",
         "letters": "+02",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "Tr",
+        "from": "2004",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "+00",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -718,19 +718,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -739,7 +726,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -755,19 +755,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -776,7 +763,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -926,12 +926,12 @@
         "from": "2013",
         "to": "ma",
         "type": "-",
-        "in": "O",
-        "on": "lastSu",
+        "in": "Mar",
+        "on": "F>=23",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -939,12 +939,12 @@
         "from": "2013",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "F>=23",
+        "in": "O",
+        "on": "lastSu",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -987,12 +987,12 @@
         "from": "2014",
         "to": "ma",
         "type": "-",
-        "in": "O",
-        "on": "lastF",
-        "at": "0s",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
+        "in": "Mar",
+        "on": "lastTh",
+        "at": "24",
+        "save": "1",
+        "letters": "S",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -1000,12 +1000,12 @@
         "from": "2014",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "lastTh",
-        "at": "24",
-        "save": "1",
-        "letters": "S",
-        "to_combined": "ma",
+        "in": "O",
+        "on": "lastF",
+        "at": "0s",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -1135,19 +1135,6 @@
     "rules": [
       {
         "name": "l",
-        "from": "1999",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "0",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "l",
         "from": "1993",
         "to": "ma",
         "type": "-",
@@ -1156,7 +1143,20 @@
         "at": "0",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "l",
+        "from": "1999",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "0",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -1316,7 +1316,7 @@
         "at": "0",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -1329,7 +1329,7 @@
         "at": "1",
         "save": "0",
         "letters": "-",
-        "to_combined": "ma",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -1353,7 +1353,7 @@
         "at": "0",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -1366,7 +1366,7 @@
         "at": "1",
         "save": "0",
         "letters": "-",
-        "to_combined": "ma",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -1446,19 +1446,6 @@
     "rules": [
       {
         "name": "S",
-        "from": "2009",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastF",
-        "at": "0",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "S",
         "from": "2012",
         "to": "ma",
         "type": "-",
@@ -1467,7 +1454,20 @@
         "at": "0",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "S",
+        "from": "2009",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastF",
+        "at": "0",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -1676,12 +1676,12 @@
         "from": "2008",
         "to": "ma",
         "type": "-",
-        "in": "O",
+        "in": "Ap",
         "on": "Su>=1",
         "at": "2s",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-04",
         "to_distinct": "ma"
       },
       {
@@ -1689,12 +1689,12 @@
         "from": "2008",
         "to": "ma",
         "type": "-",
-        "in": "Ap",
+        "in": "O",
         "on": "Su>=1",
         "at": "2s",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -1718,7 +1718,7 @@
         "at": "2s",
         "save": "0",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-04",
         "to_distinct": "ma"
       },
       {
@@ -1731,7 +1731,7 @@
         "at": "2s",
         "save": "1",
         "letters": "D",
-        "to_combined": "ma",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -1755,7 +1755,7 @@
         "at": "2s",
         "save": "0",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-04",
         "to_distinct": "ma"
       },
       {
@@ -1768,7 +1768,7 @@
         "at": "2s",
         "save": "1",
         "letters": "D",
-        "to_combined": "ma",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -1787,12 +1787,12 @@
         "from": "2008",
         "to": "ma",
         "type": "-",
-        "in": "O",
+        "in": "Ap",
         "on": "Su>=1",
         "at": "2s",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-04",
         "to_distinct": "ma"
       },
       {
@@ -1800,12 +1800,12 @@
         "from": "2008",
         "to": "ma",
         "type": "-",
-        "in": "Ap",
+        "in": "O",
         "on": "Su>=1",
         "at": "2s",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -1824,12 +1824,12 @@
         "from": "2008",
         "to": "ma",
         "type": "-",
-        "in": "O",
+        "in": "Ap",
         "on": "Su>=1",
         "at": "2s",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-04",
         "to_distinct": "ma"
       },
       {
@@ -1837,12 +1837,12 @@
         "from": "2008",
         "to": "ma",
         "type": "-",
-        "in": "Ap",
+        "in": "O",
         "on": "Su>=1",
         "at": "2s",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -1861,12 +1861,12 @@
         "from": "2008",
         "to": "ma",
         "type": "-",
-        "in": "O",
+        "in": "Ap",
         "on": "Su>=1",
         "at": "2s",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-04",
         "to_distinct": "ma"
       },
       {
@@ -1874,12 +1874,12 @@
         "from": "2008",
         "to": "ma",
         "type": "-",
-        "in": "Ap",
+        "in": "O",
         "on": "Su>=1",
         "at": "2s",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -1898,12 +1898,12 @@
         "from": "2008",
         "to": "ma",
         "type": "-",
-        "in": "O",
+        "in": "Ap",
         "on": "Su>=1",
         "at": "2",
-        "save": "0:30",
+        "save": "0",
         "letters": "-",
-        "to_combined": "ma",
+        "to_combined": "ma-04",
         "to_distinct": "ma"
       },
       {
@@ -1911,12 +1911,12 @@
         "from": "2008",
         "to": "ma",
         "type": "-",
-        "in": "Ap",
+        "in": "O",
         "on": "Su>=1",
         "at": "2",
-        "save": "0",
+        "save": "0:30",
         "letters": "-",
-        "to_combined": "ma",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -1962,19 +1962,6 @@
     "rules": [
       {
         "name": "FJ",
-        "from": "2019",
-        "to": "ma",
-        "type": "-",
-        "in": "N",
-        "on": "Su>=8",
-        "at": "2",
-        "save": "1",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "FJ",
         "from": "2015",
         "to": "ma",
         "type": "-",
@@ -1983,7 +1970,20 @@
         "at": "3",
         "save": "0",
         "letters": "-",
-        "to_combined": "ma",
+        "to_combined": "ma-00",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "FJ",
+        "from": "2019",
+        "to": "ma",
+        "type": "-",
+        "in": "N",
+        "on": "Su>=8",
+        "at": "2",
+        "save": "1",
+        "letters": "-",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -2161,7 +2161,7 @@
         "at": "2s",
         "save": "0",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-04",
         "to_distinct": "ma"
       },
       {
@@ -2174,7 +2174,7 @@
         "at": "2s",
         "save": "1",
         "letters": "D",
-        "to_combined": "ma",
+        "to_combined": "ma-09",
         "to_distinct": "ma"
       }
     ],
@@ -2198,7 +2198,7 @@
         "at": "2:45s",
         "save": "0",
         "letters": "-",
-        "to_combined": "ma",
+        "to_combined": "ma-04",
         "to_distinct": "ma"
       },
       {
@@ -2211,7 +2211,7 @@
         "at": "2:45s",
         "save": "1",
         "letters": "-",
-        "to_combined": "ma",
+        "to_combined": "ma-09",
         "to_distinct": "ma"
       }
     ],
@@ -2264,12 +2264,12 @@
         "from": "2008",
         "to": "ma",
         "type": "-",
-        "in": "O",
+        "in": "Ap",
         "on": "Su>=1",
         "at": "2s",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-04",
         "to_distinct": "ma"
       },
       {
@@ -2277,12 +2277,12 @@
         "from": "2008",
         "to": "ma",
         "type": "-",
-        "in": "Ap",
+        "in": "O",
         "on": "Su>=1",
         "at": "2s",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -2351,12 +2351,12 @@
         "from": "2012",
         "to": "ma",
         "type": "-",
-        "in": "S",
-        "on": "lastSu",
-        "at": "3",
-        "save": "1",
+        "in": "Ap",
+        "on": "Su>=1",
+        "at": "4",
+        "save": "0",
         "letters": "-",
-        "to_combined": "ma",
+        "to_combined": "ma-04",
         "to_distinct": "ma"
       },
       {
@@ -2364,12 +2364,12 @@
         "from": "2012",
         "to": "ma",
         "type": "-",
-        "in": "Ap",
-        "on": "Su>=1",
-        "at": "4",
-        "save": "0",
+        "in": "S",
+        "on": "lastSu",
+        "at": "3",
+        "save": "1",
         "letters": "-",
-        "to_combined": "ma",
+        "to_combined": "ma-09",
         "to_distinct": "ma"
       }
     ],
@@ -2483,19 +2483,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -2504,7 +2491,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -2520,19 +2520,6 @@
     "rules": [
       {
         "name": "IE",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "-1",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "IE",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -2541,7 +2528,20 @@
         "at": "1u",
         "save": "0",
         "letters": "-",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "IE",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "-1",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -2557,19 +2557,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -2578,7 +2565,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -2594,19 +2594,6 @@
     "rules": [
       {
         "name": "c",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "2s",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "c",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -2615,7 +2602,20 @@
         "at": "2s",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "c",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "2s",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -2631,19 +2631,6 @@
     "rules": [
       {
         "name": "c",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "2s",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "c",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -2652,7 +2639,20 @@
         "at": "2s",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "c",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "2s",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -2668,19 +2668,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -2689,7 +2676,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -2705,19 +2705,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -2726,7 +2713,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -2742,19 +2742,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -2763,7 +2750,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -2779,19 +2779,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -2800,7 +2787,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -2826,19 +2826,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -2847,7 +2834,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -2863,19 +2863,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -2884,7 +2871,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -2900,19 +2900,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -2921,7 +2908,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -2937,19 +2937,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -2958,7 +2945,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -2974,19 +2974,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -2995,7 +2982,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3021,19 +3021,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3042,7 +3029,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3058,19 +3058,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3079,7 +3066,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3098,12 +3098,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -3111,12 +3111,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -3132,19 +3132,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3153,7 +3140,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3169,19 +3169,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3190,7 +3177,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3206,19 +3206,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3227,7 +3214,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3243,19 +3243,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3264,7 +3251,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3280,19 +3280,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3301,7 +3288,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3317,19 +3317,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3338,7 +3325,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3354,19 +3354,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3375,7 +3362,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3401,19 +3401,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3422,7 +3409,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3438,19 +3438,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3459,7 +3446,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3475,19 +3475,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3496,7 +3483,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3512,19 +3512,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3533,7 +3520,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3549,19 +3549,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3570,7 +3557,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3589,12 +3589,12 @@
         "from": "1997",
         "to": "ma",
         "type": "-",
-        "in": "O",
+        "in": "Mar",
         "on": "lastSu",
-        "at": "3",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
+        "at": "2",
+        "save": "1",
+        "letters": "S",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -3602,12 +3602,12 @@
         "from": "1997",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
+        "in": "O",
         "on": "lastSu",
-        "at": "2",
-        "save": "1",
-        "letters": "S",
-        "to_combined": "ma",
+        "at": "3",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3623,19 +3623,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3644,7 +3631,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3660,19 +3660,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3681,7 +3668,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3697,19 +3697,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3718,7 +3705,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3734,19 +3734,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3755,7 +3742,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3771,19 +3771,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3792,7 +3779,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3808,19 +3808,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3829,7 +3816,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3845,19 +3845,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3866,7 +3853,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -3882,19 +3882,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -3903,7 +3890,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -4189,19 +4189,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -4210,7 +4197,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -4226,19 +4226,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -4247,7 +4234,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -4263,19 +4263,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -4284,7 +4271,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -4300,19 +4300,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -4321,7 +4308,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -4337,19 +4337,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -4358,7 +4345,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -4374,19 +4374,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -4395,7 +4382,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -4421,19 +4421,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -4442,7 +4429,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -4458,19 +4458,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -4479,7 +4466,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -4495,19 +4495,6 @@
     "rules": [
       {
         "name": "E",
-        "from": "1996",
-        "to": "ma",
-        "type": "-",
-        "in": "O",
-        "on": "lastSu",
-        "at": "1u",
-        "save": "0",
-        "letters": "-",
-        "to_combined": "ma",
-        "to_distinct": "ma"
-      },
-      {
-        "name": "E",
         "from": "1981",
         "to": "ma",
         "type": "-",
@@ -4516,7 +4503,20 @@
         "at": "1u",
         "save": "1",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
+        "to_distinct": "ma"
+      },
+      {
+        "name": "E",
+        "from": "1996",
+        "to": "ma",
+        "type": "-",
+        "in": "O",
+        "on": "lastSu",
+        "at": "1u",
+        "save": "0",
+        "letters": "-",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -4565,12 +4565,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -4578,12 +4578,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -4602,12 +4602,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -4615,12 +4615,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -4639,12 +4639,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -4652,12 +4652,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -4676,12 +4676,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -4689,12 +4689,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -4713,12 +4713,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -4726,12 +4726,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -4750,12 +4750,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -4763,12 +4763,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -4787,12 +4787,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -4800,12 +4800,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -4824,12 +4824,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -4837,12 +4837,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -4861,12 +4861,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -4874,12 +4874,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -4898,12 +4898,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -4911,12 +4911,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -4935,12 +4935,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -4948,12 +4948,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -4972,12 +4972,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -4985,12 +4985,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5009,12 +5009,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5022,12 +5022,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5046,12 +5046,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5059,12 +5059,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5083,12 +5083,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5096,12 +5096,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5120,12 +5120,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5133,12 +5133,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5157,12 +5157,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5170,12 +5170,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5194,12 +5194,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5207,12 +5207,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5251,12 +5251,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5264,12 +5264,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5288,12 +5288,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5301,12 +5301,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5325,12 +5325,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5338,12 +5338,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5362,12 +5362,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5375,12 +5375,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5399,12 +5399,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5412,12 +5412,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5436,12 +5436,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5449,12 +5449,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5473,12 +5473,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5486,12 +5486,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5510,12 +5510,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5523,12 +5523,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5547,12 +5547,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5560,12 +5560,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5584,12 +5584,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5597,12 +5597,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5621,12 +5621,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5634,12 +5634,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5658,12 +5658,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5671,12 +5671,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5695,12 +5695,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5708,12 +5708,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5732,12 +5732,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5745,12 +5745,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5769,12 +5769,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5782,12 +5782,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5806,12 +5806,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5819,12 +5819,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5843,12 +5843,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5856,12 +5856,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5880,12 +5880,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5893,12 +5893,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5927,12 +5927,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5940,12 +5940,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -5964,12 +5964,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -5977,12 +5977,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -6001,12 +6001,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -6014,12 +6014,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -6038,12 +6038,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -6051,12 +6051,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -6085,12 +6085,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -6098,12 +6098,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -6142,12 +6142,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -6155,12 +6155,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -6179,12 +6179,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -6192,12 +6192,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -6246,12 +6246,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -6259,12 +6259,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -6283,12 +6283,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -6296,12 +6296,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -6320,12 +6320,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -6333,12 +6333,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -6357,12 +6357,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -6370,12 +6370,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -6394,12 +6394,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -6407,12 +6407,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -6431,12 +6431,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -6444,12 +6444,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -6468,12 +6468,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -6481,12 +6481,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -6535,12 +6535,12 @@
         "from": "2002",
         "to": "ma",
         "type": "-",
-        "in": "O",
-        "on": "lastSu",
+        "in": "Ap",
+        "on": "Su>=1",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-04",
         "to_distinct": "ma"
       },
       {
@@ -6548,12 +6548,12 @@
         "from": "2002",
         "to": "ma",
         "type": "-",
-        "in": "Ap",
-        "on": "Su>=1",
+        "in": "O",
+        "on": "lastSu",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -6572,12 +6572,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -6585,12 +6585,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -6609,12 +6609,12 @@
         "from": "2002",
         "to": "ma",
         "type": "-",
-        "in": "O",
-        "on": "lastSu",
+        "in": "Ap",
+        "on": "Su>=1",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-04",
         "to_distinct": "ma"
       },
       {
@@ -6622,12 +6622,12 @@
         "from": "2002",
         "to": "ma",
         "type": "-",
-        "in": "Ap",
-        "on": "Su>=1",
+        "in": "O",
+        "on": "lastSu",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -6646,12 +6646,12 @@
         "from": "2002",
         "to": "ma",
         "type": "-",
-        "in": "O",
-        "on": "lastSu",
+        "in": "Ap",
+        "on": "Su>=1",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-04",
         "to_distinct": "ma"
       },
       {
@@ -6659,12 +6659,12 @@
         "from": "2002",
         "to": "ma",
         "type": "-",
-        "in": "Ap",
-        "on": "Su>=1",
+        "in": "O",
+        "on": "lastSu",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -6683,12 +6683,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -6696,12 +6696,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -6720,12 +6720,12 @@
         "from": "2002",
         "to": "ma",
         "type": "-",
-        "in": "O",
-        "on": "lastSu",
+        "in": "Ap",
+        "on": "Su>=1",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-04",
         "to_distinct": "ma"
       },
       {
@@ -6733,12 +6733,12 @@
         "from": "2002",
         "to": "ma",
         "type": "-",
-        "in": "Ap",
-        "on": "Su>=1",
+        "in": "O",
+        "on": "lastSu",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -6767,12 +6767,12 @@
         "from": "2002",
         "to": "ma",
         "type": "-",
-        "in": "O",
-        "on": "lastSu",
+        "in": "Ap",
+        "on": "Su>=1",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-04",
         "to_distinct": "ma"
       },
       {
@@ -6780,12 +6780,12 @@
         "from": "2002",
         "to": "ma",
         "type": "-",
-        "in": "Ap",
-        "on": "Su>=1",
+        "in": "O",
+        "on": "lastSu",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -6804,12 +6804,12 @@
         "from": "2002",
         "to": "ma",
         "type": "-",
-        "in": "O",
-        "on": "lastSu",
+        "in": "Ap",
+        "on": "Su>=1",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-04",
         "to_distinct": "ma"
       },
       {
@@ -6817,12 +6817,12 @@
         "from": "2002",
         "to": "ma",
         "type": "-",
-        "in": "Ap",
-        "on": "Su>=1",
+        "in": "O",
+        "on": "lastSu",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
@@ -6841,12 +6841,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -6854,12 +6854,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -6878,12 +6878,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -6891,12 +6891,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -6963,12 +6963,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -6976,12 +6976,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -7029,7 +7029,7 @@
         "at": "0s",
         "save": "1",
         "letters": "D",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -7042,7 +7042,7 @@
         "at": "0s",
         "save": "0",
         "letters": "S",
-        "to_combined": "ma",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -7119,12 +7119,12 @@
         "from": "2017",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -7132,12 +7132,12 @@
         "from": "2017",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -7244,12 +7244,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -7257,12 +7257,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -7281,12 +7281,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "N",
-        "on": "Su>=1",
+        "in": "Mar",
+        "on": "Su>=8",
         "at": "2",
-        "save": "0",
-        "letters": "S",
-        "to_combined": "ma",
+        "save": "1",
+        "letters": "D",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -7294,12 +7294,12 @@
         "from": "2007",
         "to": "ma",
         "type": "-",
-        "in": "Mar",
-        "on": "Su>=8",
+        "in": "N",
+        "on": "Su>=1",
         "at": "2",
-        "save": "1",
-        "letters": "D",
-        "to_combined": "ma",
+        "save": "0",
+        "letters": "S",
+        "to_combined": "ma-11",
         "to_distinct": "ma"
       }
     ],
@@ -7692,12 +7692,12 @@
         "from": "2019",
         "to": "ma",
         "type": "-",
-        "in": "S",
+        "in": "Ap",
         "on": "Su>=2",
-        "at": "4u",
-        "save": "1",
+        "at": "3u",
+        "save": "0",
         "letters": "-",
-        "to_combined": "ma",
+        "to_combined": "ma-04",
         "to_distinct": "ma"
       },
       {
@@ -7705,12 +7705,12 @@
         "from": "2019",
         "to": "ma",
         "type": "-",
-        "in": "Ap",
+        "in": "S",
         "on": "Su>=2",
-        "at": "3u",
-        "save": "0",
+        "at": "4u",
+        "save": "1",
         "letters": "-",
-        "to_combined": "ma",
+        "to_combined": "ma-09",
         "to_distinct": "ma"
       }
     ],
@@ -7739,12 +7739,12 @@
         "from": "2019",
         "to": "ma",
         "type": "-",
-        "in": "S",
+        "in": "Ap",
         "on": "Su>=2",
-        "at": "4u",
-        "save": "1",
+        "at": "3u",
+        "save": "0",
         "letters": "-",
-        "to_combined": "ma",
+        "to_combined": "ma-04",
         "to_distinct": "ma"
       },
       {
@@ -7752,12 +7752,12 @@
         "from": "2019",
         "to": "ma",
         "type": "-",
-        "in": "Ap",
+        "in": "S",
         "on": "Su>=2",
-        "at": "3u",
-        "save": "0",
+        "at": "4u",
+        "save": "1",
         "letters": "-",
-        "to_combined": "ma",
+        "to_combined": "ma-09",
         "to_distinct": "ma"
       }
     ],
@@ -7903,7 +7903,7 @@
         "at": "0",
         "save": "0",
         "letters": "-",
-        "to_combined": "ma",
+        "to_combined": "ma-03",
         "to_distinct": "ma"
       },
       {
@@ -7916,7 +7916,7 @@
         "at": "0",
         "save": "1",
         "letters": "-",
-        "to_combined": "ma",
+        "to_combined": "ma-10",
         "to_distinct": "ma"
       }
     ],
