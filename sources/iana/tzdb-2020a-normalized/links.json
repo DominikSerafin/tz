@@ -1,0 +1,826 @@
+[
+  {
+    "target": "Africa/Abidjan",
+    "source": "Africa/Timbuktu"
+  },
+  {
+    "target": "Africa/Abidjan",
+    "source": "Atlantic/St_Helena"
+  },
+  {
+    "target": "Africa/Abidjan",
+    "source": "Africa/Ouagadougou"
+  },
+  {
+    "target": "Africa/Abidjan",
+    "source": "Africa/Nouakchott"
+  },
+  {
+    "target": "Africa/Abidjan",
+    "source": "Africa/Lome"
+  },
+  {
+    "target": "Africa/Abidjan",
+    "source": "Africa/Freetown"
+  },
+  {
+    "target": "Africa/Abidjan",
+    "source": "Africa/Dakar"
+  },
+  {
+    "target": "Africa/Abidjan",
+    "source": "Africa/Conakry"
+  },
+  {
+    "target": "Africa/Abidjan",
+    "source": "Africa/Banjul"
+  },
+  {
+    "target": "Africa/Abidjan",
+    "source": "Africa/Bamako"
+  },
+  {
+    "target": "Africa/Cairo",
+    "source": "Egypt"
+  },
+  {
+    "target": "Africa/Johannesburg",
+    "source": "Africa/Mbabane"
+  },
+  {
+    "target": "Africa/Johannesburg",
+    "source": "Africa/Maseru"
+  },
+  {
+    "target": "Africa/Lagos",
+    "source": "Africa/Porto-Novo"
+  },
+  {
+    "target": "Africa/Lagos",
+    "source": "Africa/Niamey"
+  },
+  {
+    "target": "Africa/Lagos",
+    "source": "Africa/Malabo"
+  },
+  {
+    "target": "Africa/Lagos",
+    "source": "Africa/Luanda"
+  },
+  {
+    "target": "Africa/Lagos",
+    "source": "Africa/Libreville"
+  },
+  {
+    "target": "Africa/Lagos",
+    "source": "Africa/Kinshasa"
+  },
+  {
+    "target": "Africa/Lagos",
+    "source": "Africa/Douala"
+  },
+  {
+    "target": "Africa/Lagos",
+    "source": "Africa/Brazzaville"
+  },
+  {
+    "target": "Africa/Lagos",
+    "source": "Africa/Bangui"
+  },
+  {
+    "target": "Africa/Maputo",
+    "source": "Africa/Lusaka"
+  },
+  {
+    "target": "Africa/Maputo",
+    "source": "Africa/Lubumbashi"
+  },
+  {
+    "target": "Africa/Maputo",
+    "source": "Africa/Kigali"
+  },
+  {
+    "target": "Africa/Maputo",
+    "source": "Africa/Harare"
+  },
+  {
+    "target": "Africa/Maputo",
+    "source": "Africa/Gaborone"
+  },
+  {
+    "target": "Africa/Maputo",
+    "source": "Africa/Bujumbura"
+  },
+  {
+    "target": "Africa/Maputo",
+    "source": "Africa/Blantyre"
+  },
+  {
+    "target": "Africa/Nairobi",
+    "source": "Africa/Asmera"
+  },
+  {
+    "target": "Africa/Nairobi",
+    "source": "Indian/Mayotte"
+  },
+  {
+    "target": "Africa/Nairobi",
+    "source": "Indian/Comoro"
+  },
+  {
+    "target": "Africa/Nairobi",
+    "source": "Indian/Antananarivo"
+  },
+  {
+    "target": "Africa/Nairobi",
+    "source": "Africa/Mogadishu"
+  },
+  {
+    "target": "Africa/Nairobi",
+    "source": "Africa/Kampala"
+  },
+  {
+    "target": "Africa/Nairobi",
+    "source": "Africa/Djibouti"
+  },
+  {
+    "target": "Africa/Nairobi",
+    "source": "Africa/Dar_es_Salaam"
+  },
+  {
+    "target": "Africa/Nairobi",
+    "source": "Africa/Asmara"
+  },
+  {
+    "target": "Africa/Nairobi",
+    "source": "Africa/Addis_Ababa"
+  },
+  {
+    "target": "Africa/Tripoli",
+    "source": "Libya"
+  },
+  {
+    "target": "America/Adak",
+    "source": "US/Aleutian"
+  },
+  {
+    "target": "America/Adak",
+    "source": "America/Atka"
+  },
+  {
+    "target": "America/Anchorage",
+    "source": "US/Alaska"
+  },
+  {
+    "target": "America/Argentina/Buenos_Aires",
+    "source": "America/Buenos_Aires"
+  },
+  {
+    "target": "America/Argentina/Catamarca",
+    "source": "America/Catamarca"
+  },
+  {
+    "target": "America/Argentina/Catamarca",
+    "source": "America/Argentina/ComodRivadavia"
+  },
+  {
+    "target": "America/Argentina/Cordoba",
+    "source": "America/Rosario"
+  },
+  {
+    "target": "America/Argentina/Cordoba",
+    "source": "America/Cordoba"
+  },
+  {
+    "target": "America/Argentina/Jujuy",
+    "source": "America/Jujuy"
+  },
+  {
+    "target": "America/Argentina/Mendoza",
+    "source": "America/Mendoza"
+  },
+  {
+    "target": "America/Atikokan",
+    "source": "America/Coral_Harbour"
+  },
+  {
+    "target": "America/Chicago",
+    "source": "US/Central"
+  },
+  {
+    "target": "America/Curacao",
+    "source": "America/Kralendijk"
+  },
+  {
+    "target": "America/Curacao",
+    "source": "America/Lower_Princes"
+  },
+  {
+    "target": "America/Curacao",
+    "source": "America/Aruba"
+  },
+  {
+    "target": "America/Denver",
+    "source": "US/Mountain"
+  },
+  {
+    "target": "America/Denver",
+    "source": "Navajo"
+  },
+  {
+    "target": "America/Denver",
+    "source": "America/Shiprock"
+  },
+  {
+    "target": "America/Detroit",
+    "source": "US/Michigan"
+  },
+  {
+    "target": "America/Edmonton",
+    "source": "Canada/Mountain"
+  },
+  {
+    "target": "America/Halifax",
+    "source": "Canada/Atlantic"
+  },
+  {
+    "target": "America/Havana",
+    "source": "Cuba"
+  },
+  {
+    "target": "America/Indiana/Indianapolis",
+    "source": "US/East-Indiana"
+  },
+  {
+    "target": "America/Indiana/Indianapolis",
+    "source": "America/Indianapolis"
+  },
+  {
+    "target": "America/Indiana/Indianapolis",
+    "source": "America/Fort_Wayne"
+  },
+  {
+    "target": "America/Indiana/Knox",
+    "source": "US/Indiana-Starke"
+  },
+  {
+    "target": "America/Indiana/Knox",
+    "source": "America/Knox_IN"
+  },
+  {
+    "target": "America/Jamaica",
+    "source": "Jamaica"
+  },
+  {
+    "target": "America/Kentucky/Louisville",
+    "source": "America/Louisville"
+  },
+  {
+    "target": "America/Los_Angeles",
+    "source": "US/Pacific"
+  },
+  {
+    "target": "America/Manaus",
+    "source": "Brazil/West"
+  },
+  {
+    "target": "America/Mazatlan",
+    "source": "Mexico/BajaSur"
+  },
+  {
+    "target": "America/Mexico_City",
+    "source": "Mexico/General"
+  },
+  {
+    "target": "America/New_York",
+    "source": "US/Eastern"
+  },
+  {
+    "target": "America/Noronha",
+    "source": "Brazil/DeNoronha"
+  },
+  {
+    "target": "America/Nuuk",
+    "source": "America/Godthab"
+  },
+  {
+    "target": "America/Panama",
+    "source": "America/Cayman"
+  },
+  {
+    "target": "America/Phoenix",
+    "source": "US/Arizona"
+  },
+  {
+    "target": "America/Port_of_Spain",
+    "source": "America/Virgin"
+  },
+  {
+    "target": "America/Port_of_Spain",
+    "source": "America/Tortola"
+  },
+  {
+    "target": "America/Port_of_Spain",
+    "source": "America/St_Vincent"
+  },
+  {
+    "target": "America/Port_of_Spain",
+    "source": "America/St_Thomas"
+  },
+  {
+    "target": "America/Port_of_Spain",
+    "source": "America/St_Lucia"
+  },
+  {
+    "target": "America/Port_of_Spain",
+    "source": "America/St_Kitts"
+  },
+  {
+    "target": "America/Port_of_Spain",
+    "source": "America/St_Barthelemy"
+  },
+  {
+    "target": "America/Port_of_Spain",
+    "source": "America/Montserrat"
+  },
+  {
+    "target": "America/Port_of_Spain",
+    "source": "America/Marigot"
+  },
+  {
+    "target": "America/Port_of_Spain",
+    "source": "America/Guadeloupe"
+  },
+  {
+    "target": "America/Port_of_Spain",
+    "source": "America/Grenada"
+  },
+  {
+    "target": "America/Port_of_Spain",
+    "source": "America/Dominica"
+  },
+  {
+    "target": "America/Port_of_Spain",
+    "source": "America/Antigua"
+  },
+  {
+    "target": "America/Port_of_Spain",
+    "source": "America/Anguilla"
+  },
+  {
+    "target": "America/Regina",
+    "source": "Canada/Saskatchewan"
+  },
+  {
+    "target": "America/Rio_Branco",
+    "source": "Brazil/Acre"
+  },
+  {
+    "target": "America/Rio_Branco",
+    "source": "America/Porto_Acre"
+  },
+  {
+    "target": "America/Santiago",
+    "source": "Chile/Continental"
+  },
+  {
+    "target": "America/Sao_Paulo",
+    "source": "Brazil/East"
+  },
+  {
+    "target": "America/St_Johns",
+    "source": "Canada/Newfoundland"
+  },
+  {
+    "target": "America/Tijuana",
+    "source": "Mexico/BajaNorte"
+  },
+  {
+    "target": "America/Tijuana",
+    "source": "America/Santa_Isabel"
+  },
+  {
+    "target": "America/Tijuana",
+    "source": "America/Ensenada"
+  },
+  {
+    "target": "America/Toronto",
+    "source": "Canada/Eastern"
+  },
+  {
+    "target": "America/Toronto",
+    "source": "America/Montreal"
+  },
+  {
+    "target": "America/Vancouver",
+    "source": "Canada/Pacific"
+  },
+  {
+    "target": "America/Whitehorse",
+    "source": "Canada/Yukon"
+  },
+  {
+    "target": "America/Winnipeg",
+    "source": "Canada/Central"
+  },
+  {
+    "target": "Asia/Ashgabat",
+    "source": "Asia/Ashkhabad"
+  },
+  {
+    "target": "Asia/Bangkok",
+    "source": "Asia/Vientiane"
+  },
+  {
+    "target": "Asia/Bangkok",
+    "source": "Asia/Phnom_Penh"
+  },
+  {
+    "target": "Asia/Dhaka",
+    "source": "Asia/Dacca"
+  },
+  {
+    "target": "Asia/Dubai",
+    "source": "Asia/Muscat"
+  },
+  {
+    "target": "Asia/Ho_Chi_Minh",
+    "source": "Asia/Saigon"
+  },
+  {
+    "target": "Asia/Hong_Kong",
+    "source": "Hongkong"
+  },
+  {
+    "target": "Asia/Jerusalem",
+    "source": "Israel"
+  },
+  {
+    "target": "Asia/Jerusalem",
+    "source": "Asia/Tel_Aviv"
+  },
+  {
+    "target": "Asia/Kathmandu",
+    "source": "Asia/Katmandu"
+  },
+  {
+    "target": "Asia/Kolkata",
+    "source": "Asia/Calcutta"
+  },
+  {
+    "target": "Asia/Macau",
+    "source": "Asia/Macao"
+  },
+  {
+    "target": "Asia/Makassar",
+    "source": "Asia/Ujung_Pandang"
+  },
+  {
+    "target": "Asia/Nicosia",
+    "source": "Europe/Nicosia"
+  },
+  {
+    "target": "Asia/Qatar",
+    "source": "Asia/Bahrain"
+  },
+  {
+    "target": "Asia/Riyadh",
+    "source": "Asia/Kuwait"
+  },
+  {
+    "target": "Asia/Riyadh",
+    "source": "Asia/Aden"
+  },
+  {
+    "target": "Asia/Seoul",
+    "source": "ROK"
+  },
+  {
+    "target": "Asia/Shanghai",
+    "source": "PRC"
+  },
+  {
+    "target": "Asia/Shanghai",
+    "source": "Asia/Harbin"
+  },
+  {
+    "target": "Asia/Shanghai",
+    "source": "Asia/Chungking"
+  },
+  {
+    "target": "Asia/Shanghai",
+    "source": "Asia/Chongqing"
+  },
+  {
+    "target": "Asia/Singapore",
+    "source": "Singapore"
+  },
+  {
+    "target": "Asia/Taipei",
+    "source": "ROC"
+  },
+  {
+    "target": "Asia/Tehran",
+    "source": "Iran"
+  },
+  {
+    "target": "Asia/Thimphu",
+    "source": "Asia/Thimbu"
+  },
+  {
+    "target": "Asia/Tokyo",
+    "source": "Japan"
+  },
+  {
+    "target": "Asia/Ulaanbaatar",
+    "source": "Asia/Ulan_Bator"
+  },
+  {
+    "target": "Asia/Urumqi",
+    "source": "Asia/Kashgar"
+  },
+  {
+    "target": "Asia/Yangon",
+    "source": "Asia/Rangoon"
+  },
+  {
+    "target": "Atlantic/Faroe",
+    "source": "Atlantic/Faeroe"
+  },
+  {
+    "target": "Atlantic/Reykjavik",
+    "source": "Iceland"
+  },
+  {
+    "target": "Australia/Adelaide",
+    "source": "Australia/South"
+  },
+  {
+    "target": "Australia/Brisbane",
+    "source": "Australia/Queensland"
+  },
+  {
+    "target": "Australia/Broken_Hill",
+    "source": "Australia/Yancowinna"
+  },
+  {
+    "target": "Australia/Darwin",
+    "source": "Australia/North"
+  },
+  {
+    "target": "Australia/Hobart",
+    "source": "Australia/Tasmania"
+  },
+  {
+    "target": "Australia/Lord_Howe",
+    "source": "Australia/LHI"
+  },
+  {
+    "target": "Australia/Melbourne",
+    "source": "Australia/Victoria"
+  },
+  {
+    "target": "Australia/Perth",
+    "source": "Australia/West"
+  },
+  {
+    "target": "Australia/Sydney",
+    "source": "Australia/NSW"
+  },
+  {
+    "target": "Australia/Sydney",
+    "source": "Australia/Canberra"
+  },
+  {
+    "target": "Australia/Sydney",
+    "source": "Australia/ACT"
+  },
+  {
+    "target": "Etc/GMT",
+    "source": "Greenwich"
+  },
+  {
+    "target": "Etc/GMT",
+    "source": "GMT0"
+  },
+  {
+    "target": "Etc/GMT",
+    "source": "GMT-0"
+  },
+  {
+    "target": "Etc/GMT",
+    "source": "GMT+0"
+  },
+  {
+    "target": "Etc/GMT",
+    "source": "Etc/GMT0"
+  },
+  {
+    "target": "Etc/GMT",
+    "source": "Etc/GMT+0"
+  },
+  {
+    "target": "Etc/GMT",
+    "source": "Etc/GMT-0"
+  },
+  {
+    "target": "Etc/GMT",
+    "source": "Etc/Greenwich"
+  },
+  {
+    "target": "Etc/GMT",
+    "source": "GMT"
+  },
+  {
+    "target": "Etc/UTC",
+    "source": "Zulu"
+  },
+  {
+    "target": "Etc/UTC",
+    "source": "Universal"
+  },
+  {
+    "target": "Etc/UTC",
+    "source": "UTC"
+  },
+  {
+    "target": "Etc/UTC",
+    "source": "UCT"
+  },
+  {
+    "target": "Etc/UTC",
+    "source": "Etc/UCT"
+  },
+  {
+    "target": "Etc/UTC",
+    "source": "Etc/Zulu"
+  },
+  {
+    "target": "Etc/UTC",
+    "source": "Etc/Universal"
+  },
+  {
+    "target": "Europe/Belgrade",
+    "source": "Europe/Zagreb"
+  },
+  {
+    "target": "Europe/Belgrade",
+    "source": "Europe/Skopje"
+  },
+  {
+    "target": "Europe/Belgrade",
+    "source": "Europe/Sarajevo"
+  },
+  {
+    "target": "Europe/Belgrade",
+    "source": "Europe/Podgorica"
+  },
+  {
+    "target": "Europe/Belgrade",
+    "source": "Europe/Ljubljana"
+  },
+  {
+    "target": "Europe/Chisinau",
+    "source": "Europe/Tiraspol"
+  },
+  {
+    "target": "Europe/Dublin",
+    "source": "Eire"
+  },
+  {
+    "target": "Europe/Helsinki",
+    "source": "Europe/Mariehamn"
+  },
+  {
+    "target": "Europe/Istanbul",
+    "source": "Turkey"
+  },
+  {
+    "target": "Europe/Istanbul",
+    "source": "Asia/Istanbul"
+  },
+  {
+    "target": "Europe/Lisbon",
+    "source": "Portugal"
+  },
+  {
+    "target": "Europe/London",
+    "source": "GB-Eire"
+  },
+  {
+    "target": "Europe/London",
+    "source": "GB"
+  },
+  {
+    "target": "Europe/London",
+    "source": "Europe/Belfast"
+  },
+  {
+    "target": "Europe/London",
+    "source": "Europe/Isle_of_Man"
+  },
+  {
+    "target": "Europe/London",
+    "source": "Europe/Guernsey"
+  },
+  {
+    "target": "Europe/London",
+    "source": "Europe/Jersey"
+  },
+  {
+    "target": "Europe/Moscow",
+    "source": "W-SU"
+  },
+  {
+    "target": "Europe/Oslo",
+    "source": "Atlantic/Jan_Mayen"
+  },
+  {
+    "target": "Europe/Oslo",
+    "source": "Arctic/Longyearbyen"
+  },
+  {
+    "target": "Europe/Prague",
+    "source": "Europe/Bratislava"
+  },
+  {
+    "target": "Europe/Rome",
+    "source": "Europe/San_Marino"
+  },
+  {
+    "target": "Europe/Rome",
+    "source": "Europe/Vatican"
+  },
+  {
+    "target": "Europe/Warsaw",
+    "source": "Poland"
+  },
+  {
+    "target": "Europe/Zurich",
+    "source": "Europe/Vaduz"
+  },
+  {
+    "target": "Europe/Zurich",
+    "source": "Europe/Busingen"
+  },
+  {
+    "target": "Pacific/Auckland",
+    "source": "NZ"
+  },
+  {
+    "target": "Pacific/Auckland",
+    "source": "Antarctica/South_Pole"
+  },
+  {
+    "target": "Pacific/Auckland",
+    "source": "Antarctica/McMurdo"
+  },
+  {
+    "target": "Pacific/Chatham",
+    "source": "NZ-CHAT"
+  },
+  {
+    "target": "Pacific/Chuuk",
+    "source": "Pacific/Yap"
+  },
+  {
+    "target": "Pacific/Chuuk",
+    "source": "Pacific/Truk"
+  },
+  {
+    "target": "Pacific/Easter",
+    "source": "Chile/EasterIsland"
+  },
+  {
+    "target": "Pacific/Guam",
+    "source": "Pacific/Saipan"
+  },
+  {
+    "target": "Pacific/Honolulu",
+    "source": "US/Hawaii"
+  },
+  {
+    "target": "Pacific/Honolulu",
+    "source": "Pacific/Johnston"
+  },
+  {
+    "target": "Pacific/Kwajalein",
+    "source": "Kwajalein"
+  },
+  {
+    "target": "Pacific/Pago_Pago",
+    "source": "US/Samoa"
+  },
+  {
+    "target": "Pacific/Pago_Pago",
+    "source": "Pacific/Samoa"
+  },
+  {
+    "target": "Pacific/Pago_Pago",
+    "source": "Pacific/Midway"
+  },
+  {
+    "target": "Pacific/Pohnpei",
+    "source": "Pacific/Ponape"
+  }
+]

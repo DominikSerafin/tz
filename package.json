@@ -7,7 +7,9 @@
   "homepage": "",
   "scripts": {
     "generate": "node generate.js",
-    "sources": "node sources.js"
+    "sources": "node sources.js",
+    "normalize": "node normalize.js",
+    "check": "node check.js"
   },
   "engines": {
     "node": "12.*",
