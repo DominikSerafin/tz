@@ -457,6 +457,13 @@ async function normalizeOngoing() {
 
   }
 
+
+
+  //for (const zone of output) {
+  //  zone.stdoff_seconds = timeStringToSeconds(zone.stdoff);
+  //}
+
+
   //
   await fs.writeJson(SOURCES_NORMALIZED_ONGOING_PATH, output, {
     spaces: 2,
@@ -501,6 +508,59 @@ function augmentRule(rule) {
 }
 
 
+
+
+
+
+/*------------------------------------*\
+  timeStringToSeconds
+\*------------------------------------*/
+function timeStringToSeconds(rawTime) {
+
+  //  2            time in hours
+  //  2:00         time in hours and minutes
+  //  01:28:14     time in hours, minutes, and seconds
+  //  00:19:32.13  time with fractional seconds
+  //  12:00        midday, 12 hours after 00:00
+  //  15:00        3 PM, 15 hours after 00:00
+  //  24:00        end of day, 24 hours after 00:00
+  //  260:00       260 hours after 00:00
+  //  -2:30        2.5 hours before 00:00
+  //  -            equivalent to 0
+
+  //
+  var time = rawTime ? rawTime.trim() : rawTime;
+
+  //
+  if (!time) throw new Error('time not a valid value');
+
+  //
+  if (time === '-') return 0;
+
+  //
+  var mod = '+';
+  if (time.startsWith('-')) {
+    mod = '-'
+    time = time.substr(1);
+  };
+
+  //
+  var [h, m, s] = time.split(':');
+  h = parseInt(h);
+  m = m ? parseInt(m) : 0;
+  s = s ? parseFloat(s) : 0;
+
+  //
+  //console.dir(`${rawTime.padEnd(10, ' ')} ${mod.padEnd(1, ' ')} ${h}h ${m}m ${s}s `)
+
+  //
+  const hSeconds = h * 3600;
+  const mSeconds = m * 60;
+  const sSeconds = s;
+
+  //
+  return parseFloat(mod + (hSeconds + mSeconds + sSeconds));
+}
 
 
 
