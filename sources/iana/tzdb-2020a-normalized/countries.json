@@ -7,7 +7,8 @@
         "name": "Andorra"
       }
     ],
-    "coordinates": "+4230+00131"
+    "coordinates": "+4230+00131",
+    "comments": null
   },
   {
     "tz": "Asia/Dubai",
@@ -21,7 +22,8 @@
         "name": "Oman"
       }
     ],
-    "coordinates": "+2518+05518"
+    "coordinates": "+2518+05518",
+    "comments": null
   },
   {
     "tz": "Asia/Kabul",
@@ -31,7 +33,8 @@
         "name": "Afghanistan"
       }
     ],
-    "coordinates": "+3431+06912"
+    "coordinates": "+3431+06912",
+    "comments": null
   },
   {
     "tz": "Europe/Tirane",
@@ -41,7 +44,8 @@
         "name": "Albania"
       }
     ],
-    "coordinates": "+4120+01950"
+    "coordinates": "+4120+01950",
+    "comments": null
   },
   {
     "tz": "Asia/Yerevan",
@@ -51,7 +55,8 @@
         "name": "Armenia"
       }
     ],
-    "coordinates": "+4011+04430"
+    "coordinates": "+4011+04430",
+    "comments": null
   },
   {
     "tz": "Antarctica/Casey",
@@ -307,7 +312,8 @@
         "name": "Austria"
       }
     ],
-    "coordinates": "+4813+01620"
+    "coordinates": "+4813+01620",
+    "comments": null
   },
   {
     "tz": "Australia/Lord_Howe",
@@ -460,7 +466,8 @@
         "name": "Azerbaijan"
       }
     ],
-    "coordinates": "+4023+04951"
+    "coordinates": "+4023+04951",
+    "comments": null
   },
   {
     "tz": "America/Barbados",
@@ -470,7 +477,8 @@
         "name": "Barbados"
       }
     ],
-    "coordinates": "+1306-05937"
+    "coordinates": "+1306-05937",
+    "comments": null
   },
   {
     "tz": "Asia/Dhaka",
@@ -480,7 +488,8 @@
         "name": "Bangladesh"
       }
     ],
-    "coordinates": "+2343+09025"
+    "coordinates": "+2343+09025",
+    "comments": null
   },
   {
     "tz": "Europe/Brussels",
@@ -490,7 +499,8 @@
         "name": "Belgium"
       }
     ],
-    "coordinates": "+5050+00420"
+    "coordinates": "+5050+00420",
+    "comments": null
   },
   {
     "tz": "Europe/Sofia",
@@ -500,7 +510,8 @@
         "name": "Bulgaria"
       }
     ],
-    "coordinates": "+4241+02319"
+    "coordinates": "+4241+02319",
+    "comments": null
   },
   {
     "tz": "Atlantic/Bermuda",
@@ -510,7 +521,8 @@
         "name": "Bermuda"
       }
     ],
-    "coordinates": "+3217-06446"
+    "coordinates": "+3217-06446",
+    "comments": null
   },
   {
     "tz": "Asia/Brunei",
@@ -520,7 +532,8 @@
         "name": "Brunei"
       }
     ],
-    "coordinates": "+0456+11455"
+    "coordinates": "+0456+11455",
+    "comments": null
   },
   {
     "tz": "America/La_Paz",
@@ -530,7 +543,8 @@
         "name": "Bolivia"
       }
     ],
-    "coordinates": "-1630-06809"
+    "coordinates": "-1630-06809",
+    "comments": null
   },
   {
     "tz": "America/Noronha",
@@ -716,7 +730,8 @@
         "name": "Bahamas"
       }
     ],
-    "coordinates": "+2505-07721"
+    "coordinates": "+2505-07721",
+    "comments": null
   },
   {
     "tz": "Asia/Thimphu",
@@ -726,7 +741,8 @@
         "name": "Bhutan"
       }
     ],
-    "coordinates": "+2728+08939"
+    "coordinates": "+2728+08939",
+    "comments": null
   },
   {
     "tz": "Europe/Minsk",
@@ -736,7 +752,8 @@
         "name": "Belarus"
       }
     ],
-    "coordinates": "+5354+02734"
+    "coordinates": "+5354+02734",
+    "comments": null
   },
   {
     "tz": "America/Belize",
@@ -746,7 +763,8 @@
         "name": "Belize"
       }
     ],
-    "coordinates": "+1730-08812"
+    "coordinates": "+1730-08812",
+    "comments": null
   },
   {
     "tz": "America/St_Johns",
@@ -1064,7 +1082,8 @@
         "name": "Cocos (Keeling) Islands"
       }
     ],
-    "coordinates": "-1210+09655"
+    "coordinates": "-1210+09655",
+    "comments": null
   },
   {
     "tz": "Europe/Zurich",
@@ -1129,7 +1148,8 @@
         "name": "Togo"
       }
     ],
-    "coordinates": "+0519-00402"
+    "coordinates": "+0519-00402",
+    "comments": null
   },
   {
     "tz": "Pacific/Rarotonga",
@@ -1139,7 +1159,8 @@
         "name": "Cook Islands"
       }
     ],
-    "coordinates": "-2114-15946"
+    "coordinates": "-2114-15946",
+    "comments": null
   },
   {
     "tz": "America/Santiago",
@@ -1204,7 +1225,8 @@
         "name": "Colombia"
       }
     ],
-    "coordinates": "+0436-07405"
+    "coordinates": "+0436-07405",
+    "comments": null
   },
   {
     "tz": "America/Costa_Rica",
@@ -1214,7 +1236,8 @@
         "name": "Costa Rica"
       }
     ],
-    "coordinates": "+0956-08405"
+    "coordinates": "+0956-08405",
+    "comments": null
   },
   {
     "tz": "America/Havana",
@@ -1224,7 +1247,8 @@
         "name": "Cuba"
       }
     ],
-    "coordinates": "+2308-08222"
+    "coordinates": "+2308-08222",
+    "comments": null
   },
   {
     "tz": "Atlantic/Cape_Verde",
@@ -1234,7 +1258,8 @@
         "name": "Cape Verde"
       }
     ],
-    "coordinates": "+1455-02331"
+    "coordinates": "+1455-02331",
+    "comments": null
   },
   {
     "tz": "America/Curacao",
@@ -1256,7 +1281,8 @@
         "name": "St Maarten (Dutch)"
       }
     ],
-    "coordinates": "+1211-06900"
+    "coordinates": "+1211-06900",
+    "comments": null
   },
   {
     "tz": "Indian/Christmas",
@@ -1266,7 +1292,8 @@
         "name": "Christmas Island"
       }
     ],
-    "coordinates": "-1025+10543"
+    "coordinates": "-1025+10543",
+    "comments": null
   },
   {
     "tz": "Asia/Nicosia",
@@ -1302,7 +1329,8 @@
         "name": "Slovakia"
       }
     ],
-    "coordinates": "+5005+01426"
+    "coordinates": "+5005+01426",
+    "comments": null
   },
   {
     "tz": "Europe/Berlin",
@@ -1323,7 +1351,8 @@
         "name": "Denmark"
       }
     ],
-    "coordinates": "+5540+01235"
+    "coordinates": "+5540+01235",
+    "comments": null
   },
   {
     "tz": "America/Santo_Domingo",
@@ -1333,7 +1362,8 @@
         "name": "Dominican Republic"
       }
     ],
-    "coordinates": "+1828-06954"
+    "coordinates": "+1828-06954",
+    "comments": null
   },
   {
     "tz": "Africa/Algiers",
@@ -1343,7 +1373,8 @@
         "name": "Algeria"
       }
     ],
-    "coordinates": "+3647+00303"
+    "coordinates": "+3647+00303",
+    "comments": null
   },
   {
     "tz": "America/Guayaquil",
@@ -1375,7 +1406,8 @@
         "name": "Estonia"
       }
     ],
-    "coordinates": "+5925+02445"
+    "coordinates": "+5925+02445",
+    "comments": null
   },
   {
     "tz": "Africa/Cairo",
@@ -1385,7 +1417,8 @@
         "name": "Egypt"
       }
     ],
-    "coordinates": "+3003+03115"
+    "coordinates": "+3003+03115",
+    "comments": null
   },
   {
     "tz": "Africa/El_Aaiun",
@@ -1395,7 +1428,8 @@
         "name": "Western Sahara"
       }
     ],
-    "coordinates": "+2709-01312"
+    "coordinates": "+2709-01312",
+    "comments": null
   },
   {
     "tz": "Europe/Madrid",
@@ -1442,7 +1476,8 @@
         "name": "Åland Islands"
       }
     ],
-    "coordinates": "+6010+02458"
+    "coordinates": "+6010+02458",
+    "comments": null
   },
   {
     "tz": "Pacific/Fiji",
@@ -1452,7 +1487,8 @@
         "name": "Fiji"
       }
     ],
-    "coordinates": "-1808+17825"
+    "coordinates": "-1808+17825",
+    "comments": null
   },
   {
     "tz": "Atlantic/Stanley",
@@ -1462,7 +1498,8 @@
         "name": "Falkland Islands"
       }
     ],
-    "coordinates": "-5142-05751"
+    "coordinates": "-5142-05751",
+    "comments": null
   },
   {
     "tz": "Pacific/Chuuk",
@@ -1505,7 +1542,8 @@
         "name": "Faroe Islands"
       }
     ],
-    "coordinates": "+6201-00646"
+    "coordinates": "+6201-00646",
+    "comments": null
   },
   {
     "tz": "Europe/Paris",
@@ -1515,7 +1553,8 @@
         "name": "France"
       }
     ],
-    "coordinates": "+4852+00220"
+    "coordinates": "+4852+00220",
+    "comments": null
   },
   {
     "tz": "Europe/London",
@@ -1537,7 +1576,8 @@
         "name": "Jersey"
       }
     ],
-    "coordinates": "+513030-0000731"
+    "coordinates": "+513030-0000731",
+    "comments": null
   },
   {
     "tz": "Asia/Tbilisi",
@@ -1547,7 +1587,8 @@
         "name": "Georgia"
       }
     ],
-    "coordinates": "+4143+04449"
+    "coordinates": "+4143+04449",
+    "comments": null
   },
   {
     "tz": "America/Cayenne",
@@ -1557,7 +1598,8 @@
         "name": "French Guiana"
       }
     ],
-    "coordinates": "+0456-05220"
+    "coordinates": "+0456-05220",
+    "comments": null
   },
   {
     "tz": "Africa/Accra",
@@ -1567,7 +1609,8 @@
         "name": "Ghana"
       }
     ],
-    "coordinates": "+0533-00013"
+    "coordinates": "+0533-00013",
+    "comments": null
   },
   {
     "tz": "Europe/Gibraltar",
@@ -1577,7 +1620,8 @@
         "name": "Gibraltar"
       }
     ],
-    "coordinates": "+3608-00521"
+    "coordinates": "+3608-00521",
+    "comments": null
   },
   {
     "tz": "America/Nuuk",
@@ -1631,7 +1675,8 @@
         "name": "Greece"
       }
     ],
-    "coordinates": "+3758+02343"
+    "coordinates": "+3758+02343",
+    "comments": null
   },
   {
     "tz": "Atlantic/South_Georgia",
@@ -1641,7 +1686,8 @@
         "name": "South Georgia & the South Sandwich Islands"
       }
     ],
-    "coordinates": "-5416-03632"
+    "coordinates": "-5416-03632",
+    "comments": null
   },
   {
     "tz": "America/Guatemala",
@@ -1651,7 +1697,8 @@
         "name": "Guatemala"
       }
     ],
-    "coordinates": "+1438-09031"
+    "coordinates": "+1438-09031",
+    "comments": null
   },
   {
     "tz": "Pacific/Guam",
@@ -1665,7 +1712,8 @@
         "name": "Northern Mariana Islands"
       }
     ],
-    "coordinates": "+1328+14445"
+    "coordinates": "+1328+14445",
+    "comments": null
   },
   {
     "tz": "Africa/Bissau",
@@ -1675,7 +1723,8 @@
         "name": "Guinea-Bissau"
       }
     ],
-    "coordinates": "+1151-01535"
+    "coordinates": "+1151-01535",
+    "comments": null
   },
   {
     "tz": "America/Guyana",
@@ -1685,7 +1734,8 @@
         "name": "Guyana"
       }
     ],
-    "coordinates": "+0648-05810"
+    "coordinates": "+0648-05810",
+    "comments": null
   },
   {
     "tz": "Asia/Hong_Kong",
@@ -1695,7 +1745,8 @@
         "name": "Hong Kong"
       }
     ],
-    "coordinates": "+2217+11409"
+    "coordinates": "+2217+11409",
+    "comments": null
   },
   {
     "tz": "America/Tegucigalpa",
@@ -1705,7 +1756,8 @@
         "name": "Honduras"
       }
     ],
-    "coordinates": "+1406-08713"
+    "coordinates": "+1406-08713",
+    "comments": null
   },
   {
     "tz": "America/Port-au-Prince",
@@ -1715,7 +1767,8 @@
         "name": "Haiti"
       }
     ],
-    "coordinates": "+1832-07220"
+    "coordinates": "+1832-07220",
+    "comments": null
   },
   {
     "tz": "Europe/Budapest",
@@ -1725,7 +1778,8 @@
         "name": "Hungary"
       }
     ],
-    "coordinates": "+4730+01905"
+    "coordinates": "+4730+01905",
+    "comments": null
   },
   {
     "tz": "Asia/Jakarta",
@@ -1779,7 +1833,8 @@
         "name": "Ireland"
       }
     ],
-    "coordinates": "+5320-00615"
+    "coordinates": "+5320-00615",
+    "comments": null
   },
   {
     "tz": "Asia/Jerusalem",
@@ -1789,7 +1844,8 @@
         "name": "Israel"
       }
     ],
-    "coordinates": "+314650+0351326"
+    "coordinates": "+314650+0351326",
+    "comments": null
   },
   {
     "tz": "Asia/Kolkata",
@@ -1799,7 +1855,8 @@
         "name": "India"
       }
     ],
-    "coordinates": "+2232+08822"
+    "coordinates": "+2232+08822",
+    "comments": null
   },
   {
     "tz": "Indian/Chagos",
@@ -1809,7 +1866,8 @@
         "name": "British Indian Ocean Territory"
       }
     ],
-    "coordinates": "-0720+07225"
+    "coordinates": "-0720+07225",
+    "comments": null
   },
   {
     "tz": "Asia/Baghdad",
@@ -1819,7 +1877,8 @@
         "name": "Iraq"
       }
     ],
-    "coordinates": "+3321+04425"
+    "coordinates": "+3321+04425",
+    "comments": null
   },
   {
     "tz": "Asia/Tehran",
@@ -1829,7 +1888,8 @@
         "name": "Iran"
       }
     ],
-    "coordinates": "+3540+05126"
+    "coordinates": "+3540+05126",
+    "comments": null
   },
   {
     "tz": "Atlantic/Reykjavik",
@@ -1839,7 +1899,8 @@
         "name": "Iceland"
       }
     ],
-    "coordinates": "+6409-02151"
+    "coordinates": "+6409-02151",
+    "comments": null
   },
   {
     "tz": "Europe/Rome",
@@ -1857,7 +1918,8 @@
         "name": "Vatican City"
       }
     ],
-    "coordinates": "+4154+01229"
+    "coordinates": "+4154+01229",
+    "comments": null
   },
   {
     "tz": "America/Jamaica",
@@ -1867,7 +1929,8 @@
         "name": "Jamaica"
       }
     ],
-    "coordinates": "+175805-0764736"
+    "coordinates": "+175805-0764736",
+    "comments": null
   },
   {
     "tz": "Asia/Amman",
@@ -1877,7 +1940,8 @@
         "name": "Jordan"
       }
     ],
-    "coordinates": "+3157+03556"
+    "coordinates": "+3157+03556",
+    "comments": null
   },
   {
     "tz": "Asia/Tokyo",
@@ -1887,7 +1951,8 @@
         "name": "Japan"
       }
     ],
-    "coordinates": "+353916+1394441"
+    "coordinates": "+353916+1394441",
+    "comments": null
   },
   {
     "tz": "Africa/Nairobi",
@@ -1933,7 +1998,8 @@
         "name": "Mayotte"
       }
     ],
-    "coordinates": "-0117+03649"
+    "coordinates": "-0117+03649",
+    "comments": null
   },
   {
     "tz": "Asia/Bishkek",
@@ -1943,7 +2009,8 @@
         "name": "Kyrgyzstan"
       }
     ],
-    "coordinates": "+4254+07436"
+    "coordinates": "+4254+07436",
+    "comments": null
   },
   {
     "tz": "Pacific/Tarawa",
@@ -1986,7 +2053,8 @@
         "name": "Korea (North)"
       }
     ],
-    "coordinates": "+3901+12545"
+    "coordinates": "+3901+12545",
+    "comments": null
   },
   {
     "tz": "Asia/Seoul",
@@ -1996,7 +2064,8 @@
         "name": "Korea (South)"
       }
     ],
-    "coordinates": "+3733+12658"
+    "coordinates": "+3733+12658",
+    "comments": null
   },
   {
     "tz": "Asia/Almaty",
@@ -2083,7 +2152,8 @@
         "name": "Lebanon"
       }
     ],
-    "coordinates": "+3353+03530"
+    "coordinates": "+3353+03530",
+    "comments": null
   },
   {
     "tz": "Asia/Colombo",
@@ -2093,7 +2163,8 @@
         "name": "Sri Lanka"
       }
     ],
-    "coordinates": "+0656+07951"
+    "coordinates": "+0656+07951",
+    "comments": null
   },
   {
     "tz": "Africa/Monrovia",
@@ -2103,7 +2174,8 @@
         "name": "Liberia"
       }
     ],
-    "coordinates": "+0618-01047"
+    "coordinates": "+0618-01047",
+    "comments": null
   },
   {
     "tz": "Europe/Vilnius",
@@ -2113,7 +2185,8 @@
         "name": "Lithuania"
       }
     ],
-    "coordinates": "+5441+02519"
+    "coordinates": "+5441+02519",
+    "comments": null
   },
   {
     "tz": "Europe/Luxembourg",
@@ -2123,7 +2196,8 @@
         "name": "Luxembourg"
       }
     ],
-    "coordinates": "+4936+00609"
+    "coordinates": "+4936+00609",
+    "comments": null
   },
   {
     "tz": "Europe/Riga",
@@ -2133,7 +2207,8 @@
         "name": "Latvia"
       }
     ],
-    "coordinates": "+5657+02406"
+    "coordinates": "+5657+02406",
+    "comments": null
   },
   {
     "tz": "Africa/Tripoli",
@@ -2143,7 +2218,8 @@
         "name": "Libya"
       }
     ],
-    "coordinates": "+3254+01311"
+    "coordinates": "+3254+01311",
+    "comments": null
   },
   {
     "tz": "Africa/Casablanca",
@@ -2153,7 +2229,8 @@
         "name": "Morocco"
       }
     ],
-    "coordinates": "+3339-00735"
+    "coordinates": "+3339-00735",
+    "comments": null
   },
   {
     "tz": "Europe/Monaco",
@@ -2163,7 +2240,8 @@
         "name": "Monaco"
       }
     ],
-    "coordinates": "+4342+00723"
+    "coordinates": "+4342+00723",
+    "comments": null
   },
   {
     "tz": "Europe/Chisinau",
@@ -2173,7 +2251,8 @@
         "name": "Moldova"
       }
     ],
-    "coordinates": "+4700+02850"
+    "coordinates": "+4700+02850",
+    "comments": null
   },
   {
     "tz": "Pacific/Majuro",
@@ -2205,7 +2284,8 @@
         "name": "Myanmar (Burma)"
       }
     ],
-    "coordinates": "+1647+09610"
+    "coordinates": "+1647+09610",
+    "comments": null
   },
   {
     "tz": "Asia/Ulaanbaatar",
@@ -2248,7 +2328,8 @@
         "name": "Macau"
       }
     ],
-    "coordinates": "+221150+1133230"
+    "coordinates": "+221150+1133230",
+    "comments": null
   },
   {
     "tz": "America/Martinique",
@@ -2258,7 +2339,8 @@
         "name": "Martinique"
       }
     ],
-    "coordinates": "+1436-06105"
+    "coordinates": "+1436-06105",
+    "comments": null
   },
   {
     "tz": "Europe/Malta",
@@ -2268,7 +2350,8 @@
         "name": "Malta"
       }
     ],
-    "coordinates": "+3554+01431"
+    "coordinates": "+3554+01431",
+    "comments": null
   },
   {
     "tz": "Indian/Mauritius",
@@ -2278,7 +2361,8 @@
         "name": "Mauritius"
       }
     ],
-    "coordinates": "-2010+05730"
+    "coordinates": "-2010+05730",
+    "comments": null
   },
   {
     "tz": "Indian/Maldives",
@@ -2288,7 +2372,8 @@
         "name": "Maldives"
       }
     ],
-    "coordinates": "+0410+07330"
+    "coordinates": "+0410+07330",
+    "comments": null
   },
   {
     "tz": "America/Mexico_City",
@@ -2480,7 +2565,8 @@
         "name": "Namibia"
       }
     ],
-    "coordinates": "-2234+01706"
+    "coordinates": "-2234+01706",
+    "comments": null
   },
   {
     "tz": "Pacific/Noumea",
@@ -2490,7 +2576,8 @@
         "name": "New Caledonia"
       }
     ],
-    "coordinates": "-2216+16627"
+    "coordinates": "-2216+16627",
+    "comments": null
   },
   {
     "tz": "Pacific/Norfolk",
@@ -2500,7 +2587,8 @@
         "name": "Norfolk Island"
       }
     ],
-    "coordinates": "-2903+16758"
+    "coordinates": "-2903+16758",
+    "comments": null
   },
   {
     "tz": "Africa/Lagos",
@@ -2557,7 +2645,8 @@
         "name": "Nicaragua"
       }
     ],
-    "coordinates": "+1209-08617"
+    "coordinates": "+1209-08617",
+    "comments": null
   },
   {
     "tz": "Europe/Amsterdam",
@@ -2567,7 +2656,8 @@
         "name": "Netherlands"
       }
     ],
-    "coordinates": "+5222+00454"
+    "coordinates": "+5222+00454",
+    "comments": null
   },
   {
     "tz": "Europe/Oslo",
@@ -2581,7 +2671,8 @@
         "name": "Svalbard & Jan Mayen"
       }
     ],
-    "coordinates": "+5955+01045"
+    "coordinates": "+5955+01045",
+    "comments": null
   },
   {
     "tz": "Asia/Kathmandu",
@@ -2591,7 +2682,8 @@
         "name": "Nepal"
       }
     ],
-    "coordinates": "+2743+08519"
+    "coordinates": "+2743+08519",
+    "comments": null
   },
   {
     "tz": "Pacific/Nauru",
@@ -2601,7 +2693,8 @@
         "name": "Nauru"
       }
     ],
-    "coordinates": "-0031+16655"
+    "coordinates": "-0031+16655",
+    "comments": null
   },
   {
     "tz": "Pacific/Niue",
@@ -2611,7 +2704,8 @@
         "name": "Niue"
       }
     ],
-    "coordinates": "-1901-16955"
+    "coordinates": "-1901-16955",
+    "comments": null
   },
   {
     "tz": "Pacific/Auckland",
@@ -2651,7 +2745,8 @@
         "name": "Cayman Islands"
       }
     ],
-    "coordinates": "+0858-07932"
+    "coordinates": "+0858-07932",
+    "comments": null
   },
   {
     "tz": "America/Lima",
@@ -2661,7 +2756,8 @@
         "name": "Peru"
       }
     ],
-    "coordinates": "-1203-07703"
+    "coordinates": "-1203-07703",
+    "comments": null
   },
   {
     "tz": "Pacific/Tahiti",
@@ -2726,7 +2822,8 @@
         "name": "Philippines"
       }
     ],
-    "coordinates": "+1435+12100"
+    "coordinates": "+1435+12100",
+    "comments": null
   },
   {
     "tz": "Asia/Karachi",
@@ -2736,7 +2833,8 @@
         "name": "Pakistan"
       }
     ],
-    "coordinates": "+2452+06703"
+    "coordinates": "+2452+06703",
+    "comments": null
   },
   {
     "tz": "Europe/Warsaw",
@@ -2746,7 +2844,8 @@
         "name": "Poland"
       }
     ],
-    "coordinates": "+5215+02100"
+    "coordinates": "+5215+02100",
+    "comments": null
   },
   {
     "tz": "America/Miquelon",
@@ -2756,7 +2855,8 @@
         "name": "St Pierre & Miquelon"
       }
     ],
-    "coordinates": "+4703-05620"
+    "coordinates": "+4703-05620",
+    "comments": null
   },
   {
     "tz": "Pacific/Pitcairn",
@@ -2766,7 +2866,8 @@
         "name": "Pitcairn"
       }
     ],
-    "coordinates": "-2504-13005"
+    "coordinates": "-2504-13005",
+    "comments": null
   },
   {
     "tz": "America/Puerto_Rico",
@@ -2776,7 +2877,8 @@
         "name": "Puerto Rico"
       }
     ],
-    "coordinates": "+182806-0660622"
+    "coordinates": "+182806-0660622",
+    "comments": null
   },
   {
     "tz": "Asia/Gaza",
@@ -2841,7 +2943,8 @@
         "name": "Palau"
       }
     ],
-    "coordinates": "+0720+13429"
+    "coordinates": "+0720+13429",
+    "comments": null
   },
   {
     "tz": "America/Asuncion",
@@ -2851,7 +2954,8 @@
         "name": "Paraguay"
       }
     ],
-    "coordinates": "-2516-05740"
+    "coordinates": "-2516-05740",
+    "comments": null
   },
   {
     "tz": "Asia/Qatar",
@@ -2865,7 +2969,8 @@
         "name": "Bahrain"
       }
     ],
-    "coordinates": "+2517+05132"
+    "coordinates": "+2517+05132",
+    "comments": null
   },
   {
     "tz": "Indian/Reunion",
@@ -2890,7 +2995,8 @@
         "name": "Romania"
       }
     ],
-    "coordinates": "+4426+02606"
+    "coordinates": "+4426+02606",
+    "comments": null
   },
   {
     "tz": "Europe/Belgrade",
@@ -2920,7 +3026,8 @@
         "name": "Slovenia"
       }
     ],
-    "coordinates": "+4450+02030"
+    "coordinates": "+4450+02030",
+    "comments": null
   },
   {
     "tz": "Europe/Kaliningrad",
@@ -3239,7 +3346,8 @@
         "name": "Yemen"
       }
     ],
-    "coordinates": "+2438+04643"
+    "coordinates": "+2438+04643",
+    "comments": null
   },
   {
     "tz": "Pacific/Guadalcanal",
@@ -3249,7 +3357,8 @@
         "name": "Solomon Islands"
       }
     ],
-    "coordinates": "-0932+16012"
+    "coordinates": "-0932+16012",
+    "comments": null
   },
   {
     "tz": "Indian/Mahe",
@@ -3259,7 +3368,8 @@
         "name": "Seychelles"
       }
     ],
-    "coordinates": "-0440+05528"
+    "coordinates": "-0440+05528",
+    "comments": null
   },
   {
     "tz": "Africa/Khartoum",
@@ -3269,7 +3379,8 @@
         "name": "Sudan"
       }
     ],
-    "coordinates": "+1536+03232"
+    "coordinates": "+1536+03232",
+    "comments": null
   },
   {
     "tz": "Europe/Stockholm",
@@ -3279,7 +3390,8 @@
         "name": "Sweden"
       }
     ],
-    "coordinates": "+5920+01803"
+    "coordinates": "+5920+01803",
+    "comments": null
   },
   {
     "tz": "Asia/Singapore",
@@ -3289,7 +3401,8 @@
         "name": "Singapore"
       }
     ],
-    "coordinates": "+0117+10351"
+    "coordinates": "+0117+10351",
+    "comments": null
   },
   {
     "tz": "America/Paramaribo",
@@ -3299,7 +3412,8 @@
         "name": "Suriname"
       }
     ],
-    "coordinates": "+0550-05510"
+    "coordinates": "+0550-05510",
+    "comments": null
   },
   {
     "tz": "Africa/Juba",
@@ -3309,7 +3423,8 @@
         "name": "South Sudan"
       }
     ],
-    "coordinates": "+0451+03137"
+    "coordinates": "+0451+03137",
+    "comments": null
   },
   {
     "tz": "Africa/Sao_Tome",
@@ -3319,7 +3434,8 @@
         "name": "Sao Tome & Principe"
       }
     ],
-    "coordinates": "+0020+00644"
+    "coordinates": "+0020+00644",
+    "comments": null
   },
   {
     "tz": "America/El_Salvador",
@@ -3329,7 +3445,8 @@
         "name": "El Salvador"
       }
     ],
-    "coordinates": "+1342-08912"
+    "coordinates": "+1342-08912",
+    "comments": null
   },
   {
     "tz": "Asia/Damascus",
@@ -3339,7 +3456,8 @@
         "name": "Syria"
       }
     ],
-    "coordinates": "+3330+03618"
+    "coordinates": "+3330+03618",
+    "comments": null
   },
   {
     "tz": "America/Grand_Turk",
@@ -3349,7 +3467,8 @@
         "name": "Turks & Caicos Is"
       }
     ],
-    "coordinates": "+2128-07108"
+    "coordinates": "+2128-07108",
+    "comments": null
   },
   {
     "tz": "Africa/Ndjamena",
@@ -3359,7 +3478,8 @@
         "name": "Chad"
       }
     ],
-    "coordinates": "+1207+01503"
+    "coordinates": "+1207+01503",
+    "comments": null
   },
   {
     "tz": "Indian/Kerguelen",
@@ -3403,7 +3523,8 @@
         "name": "Tajikistan"
       }
     ],
-    "coordinates": "+3835+06848"
+    "coordinates": "+3835+06848",
+    "comments": null
   },
   {
     "tz": "Pacific/Fakaofo",
@@ -3413,7 +3534,8 @@
         "name": "Tokelau"
       }
     ],
-    "coordinates": "-0922-17114"
+    "coordinates": "-0922-17114",
+    "comments": null
   },
   {
     "tz": "Asia/Dili",
@@ -3423,7 +3545,8 @@
         "name": "East Timor"
       }
     ],
-    "coordinates": "-0833+12535"
+    "coordinates": "-0833+12535",
+    "comments": null
   },
   {
     "tz": "Asia/Ashgabat",
@@ -3433,7 +3556,8 @@
         "name": "Turkmenistan"
       }
     ],
-    "coordinates": "+3757+05823"
+    "coordinates": "+3757+05823",
+    "comments": null
   },
   {
     "tz": "Africa/Tunis",
@@ -3443,7 +3567,8 @@
         "name": "Tunisia"
       }
     ],
-    "coordinates": "+3648+01011"
+    "coordinates": "+3648+01011",
+    "comments": null
   },
   {
     "tz": "Pacific/Tongatapu",
@@ -3453,7 +3578,8 @@
         "name": "Tonga"
       }
     ],
-    "coordinates": "-2110-17510"
+    "coordinates": "-2110-17510",
+    "comments": null
   },
   {
     "tz": "Europe/Istanbul",
@@ -3463,7 +3589,8 @@
         "name": "Turkey"
       }
     ],
-    "coordinates": "+4101+02858"
+    "coordinates": "+4101+02858",
+    "comments": null
   },
   {
     "tz": "America/Port_of_Spain",
@@ -3525,7 +3652,8 @@
         "name": "Virgin Islands (US)"
       }
     ],
-    "coordinates": "+1039-06131"
+    "coordinates": "+1039-06131",
+    "comments": null
   },
   {
     "tz": "Pacific/Funafuti",
@@ -3535,7 +3663,8 @@
         "name": "Tuvalu"
       }
     ],
-    "coordinates": "-0831+17913"
+    "coordinates": "-0831+17913",
+    "comments": null
   },
   {
     "tz": "Asia/Taipei",
@@ -3545,7 +3674,8 @@
         "name": "Taiwan"
       }
     ],
-    "coordinates": "+2503+12130"
+    "coordinates": "+2503+12130",
+    "comments": null
   },
   {
     "tz": "Europe/Kiev",
@@ -3922,7 +4052,8 @@
         "name": "Uruguay"
       }
     ],
-    "coordinates": "-345433-0561245"
+    "coordinates": "-345433-0561245",
+    "comments": null
   },
   {
     "tz": "Asia/Samarkand",
@@ -3954,7 +4085,8 @@
         "name": "Venezuela"
       }
     ],
-    "coordinates": "+1030-06656"
+    "coordinates": "+1030-06656",
+    "comments": null
   },
   {
     "tz": "Asia/Ho_Chi_Minh",
@@ -3975,7 +4107,8 @@
         "name": "Vanuatu"
       }
     ],
-    "coordinates": "-1740+16825"
+    "coordinates": "-1740+16825",
+    "comments": null
   },
   {
     "tz": "Pacific/Wallis",
@@ -3985,7 +4118,8 @@
         "name": "Wallis & Futuna"
       }
     ],
-    "coordinates": "-1318-17610"
+    "coordinates": "-1318-17610",
+    "comments": null
   },
   {
     "tz": "Pacific/Apia",
@@ -3995,7 +4129,8 @@
         "name": "Samoa (western)"
       }
     ],
-    "coordinates": "-1350-17144"
+    "coordinates": "-1350-17144",
+    "comments": null
   },
   {
     "tz": "Africa/Johannesburg",
@@ -4013,6 +4148,7 @@
         "name": "Eswatini (Swaziland)"
       }
     ],
-    "coordinates": "-2615+02800"
+    "coordinates": "-2615+02800",
+    "comments": null
   }
 ]

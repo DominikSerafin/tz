@@ -224,8 +224,8 @@ async function normalizeCountries() {
     output.push({
       tz: components[2],
       countries: countries,
-      coordinates: components[1],
-      comments: components[3],
+      coordinates: components[1] || null,
+      comments: components[3] || null,
     });
   }
 
