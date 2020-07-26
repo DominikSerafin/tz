@@ -187,10 +187,10 @@ async function checkAgainstWta() {
   check
 \*------------------------------------*/
 async function check() {
-  //checkUntils();
-  //checkRuleWeekDays();
-  //checkRuleMonthsAbbr();
-  checkOngoing();
-  //checkAgainstWta();
+  //await checkUntils();
+  //await checkRuleWeekDays();
+  //await checkRuleMonthsAbbr();
+  await checkOngoing();
+  //await checkAgainstWta();
 }
 check();

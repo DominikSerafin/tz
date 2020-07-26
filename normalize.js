@@ -287,6 +287,46 @@ async function normalizeOngoing() {
   const rules = await fs.readJson(SOURCES_NORMALIZED_RULES_PATH, 'utf8');
   const links = await fs.readJson(SOURCES_NORMALIZED_LINKS_PATH, 'utf8');
 
+  // check if zone RULES is numerical value
+  // (check only in current zones without UNTIL)
+  // this doesn't happen in IANA 2020a distribution, but if any other distributions is used then
+  // throw error because this edge case might not be accounted for
+  for (const zone of zones.filter(z => !z.until)) {
+    if (/\d/gi.test(zone.rules)) throw new Error(
+      `TODO: account for zone rules that contain numerical or time value (${zone.name})`
+    );
+  }
+
+  // check if zone RULES is unnamed and zone FORMAT is variable (with "/" or "%s")
+  // (check only in current zones without UNTIL)
+  // this doesn't happen in IANA 2020a distribution, but if any other distributions is used then
+  // throw error because this edge case might not be accounted for
+  for (const zone of zones.filter(z => !z.until)) {
+    if (zone.rules === '-' && (zone.format.includes('%s') || zone.format.includes('/'))) throw new Error(
+      `TODO: account for zone unnamed rules where zone also has variable format (${zone.name})`
+    );
+  }
+
+  // check if there's any rule with "from" field being not a time value or a "minimum" or a "maximum" value
+  // this doesn't happen in IANA 2020a distribution, but if any other distributions is used then
+  // throw error because this edge case might not be accounted for
+  for (const rule of rules) {
+    if (!/^\d{4}$/.test(rule.from)) throw new Error(
+      `TODO: account for zone rule "from" value other than 4 digit year value (${zone.name})`
+    );
+  }
+
+  // check if there's any rule with "to" field being "minimum" value
+  // this doesn't happen in IANA 2020a distribution, but if any other distributions is used then
+  // throw error because this edge case might not be accounted for
+  for (const rule of rules) {
+    if (!/^ma$|^o$|^\d{4}$/.test(rule.to)) throw new Error(
+      `TODO: account for zone rule "to" value other than "ma", "o" or 4 digit year value (${zone.name})`
+    );
+  }
+
+
+
   //
   const output = [];
 
@@ -296,48 +336,11 @@ async function normalizeOngoing() {
     // skip if zone is historical
     if (zone.until) continue;
 
-    // if zone RULES is numerical value
-    // in IANA 2020a distribution this doesn't happen, but if any other distributions is used
-    // then throw error because in later steps this edge case is not accounted for
-    if (/\d/gi.test(zone.rules)) throw new Error(
-      `TODO: account for zone RULES when it contains numerical or time value (${zone.name})`
-    );
-
-    // if zone RULES is unnamed and zone FORMAT is variable (with "/" or "%s")
-    // in IANA 2020a distribution this doesn't happen, but if any other distributions is used
-    // then throw error because in later steps this edge case is not accounted for
-    if (zone.rules === '-' && (zone.format.includes('%s') || zone.format.includes('/'))) throw new Error(
-      `TODO: account for zone unnamed RULES and variable format (${zone.name})`
-    );
-
     // get expanded zone rules
     const zoneRules = rules.filter(rule => rule.name === zone.rules);
 
     // augment rules with some values that will make some of next steps easier
-    const months = ['Jan', 'F', 'Mar', 'Ap', 'May', 'Jun', 'Jul', 'Au', 'S', 'O', 'N', 'D'];
-    const days = ['M', 'Tu', 'W', 'Th', 'F', 'Sa', 'Su'];
-    const rulesAugmented = zoneRules.map(rule => {
-      // year
-      var ruleTo = rule.to;
-      if (rule.to === 'o') (ruleTo = rule.from);
-      // month
-      var ruleIn = rule.in;
-      ruleIn = months.findIndex(m => m === rule.in) + 1;
-      ruleIn = String(ruleIn).padStart(2, '0');
-      // day
-      // ...
-      // hour
-      // ...
-      // combined
-      // even if ruleTo=ma
-      var ruleToCombined = `${ruleTo}-${ruleIn}`;
-      return {
-        ...rule,
-        //to_combined: '2000',
-        to_combined: ruleToCombined,
-        to_distinct: ruleTo, // same year as "from" if "to" was "o"
-      }
-    });
+    const rulesAugmented = zoneRules.map(rule => augmentRule(rule));
 
     // get zone rules sorted by "to" value
     const rulesSortedByTo = rulesAugmented.sort((a, b) => (a.to_combined > b.to_combined) ? 1 : -1).sort();
@@ -345,15 +348,14 @@ async function normalizeOngoing() {
     // because "to_combined" doesn't account for days and hours,
     // there's a chance for duplicates of that value if transition happened in the same year and month,
     // which would make it later impossible to check which rule is the most recent
-    // in IANA 2020a distribution this doesn't happen, but if any other distributions is used
-    // then throw error because in later steps this edge case is not accounted for
+    //
+    // this doesn't happen in IANA 2020a distribution, but if any other distributions is used then
+    // throw error because this edge case might not be accounted for
 
     // get all rules to_combined to a single sorted array
     // and compare the last two rules and see if they are equal
     // if they are equal it means we don't know which one is actually most recent
-    const rulesCombineds = (
-      rulesSortedByTo.map(rule => rule.to !== 'ma' ? rule.to_combined : null).sort().filter(Boolean)
-    );
+    const rulesCombineds = rulesSortedByTo.filter(r => r.to !== 'ma').map(r => r.to_combined).sort();
     const rulesCombinedsLastTwo = rulesCombineds.slice(-2);
     if (rulesCombinedsLastTwo.length && (rulesCombinedsLastTwo[0] === rulesCombinedsLastTwo[1])) {
       throw new Error(
@@ -368,8 +370,8 @@ async function normalizeOngoing() {
     // - if there is zero rules with TO=max, it means we later just need to find most recent transition
     // - if there is one rule with TO=max, it means one other rule will be most recent transition (I think?)
     // - if there is more than two rules with TO=max, I don't know what that means, is it even possible?
-    // in IANA 2020a distribution this doesn't happen, but if any other distributions is used
-    // then throw error because in later steps this edge case is not accounted for
+    // this doesn't happen in IANA 2020a distribution, but if any other distributions is used then
+    // throw error because this edge case might not be accounted for
     if (rulesToMax.length === 1 || rulesToMax.length > 2) throw new Error(
       `TODO: account for amount of TO=max rules other than zero or two (${zone.name})`
     );
@@ -398,8 +400,8 @@ async function normalizeOngoing() {
     );
 
     // if the index here returns 0 it means that future transition is actually first
-    // in IANA 2020a distribution this doesn't happen, but if any other distributions is used
-    // then throw error because in later steps this edge case is not accounted for
+    // this doesn't happen in IANA 2020a distribution, but if any other distributions is used then
+    // throw error because this edge case might not be accounted for
     if (rulePostFutureTransitionIndex === 0) throw new Error(
       `TODO: account for zone with only future transition(s) (${zone.name})`
     );
@@ -469,6 +471,37 @@ async function normalizeOngoing() {
 
 
 
+/*------------------------------------*\
+  augmentRule
+\*------------------------------------*/
+function augmentRule(rule) {
+  // abbreviations used by tzdata.zi
+  const months = ['Jan', 'F', 'Mar', 'Ap', 'May', 'Jun', 'Jul', 'Au', 'S', 'O', 'N', 'D'];
+  const days = ['M', 'Tu', 'W', 'Th', 'F', 'Sa', 'Su'];
+  // year
+  var ruleTo = rule.to;
+  if (rule.to === 'o') (ruleTo = rule.from);
+  // month
+  var ruleIn = rule.in;
+  ruleIn = months.findIndex(m => m === rule.in) + 1;
+  ruleIn = String(ruleIn).padStart(2, '0');
+  // day
+  // ...
+  // hour
+  // ...
+  // combined
+  // even if ruleTo=ma
+  var ruleToCombined = `${ruleTo}-${ruleIn}`;
+  return {
+    ...rule,
+    //to_combined: '2000',
+    to_combined: ruleToCombined,
+    to_distinct: ruleTo, // same year as "from" if "to" was "o"
+  }
+}
+
+
+
 
 
 
@@ -477,10 +510,10 @@ async function normalizeOngoing() {
   normalize
 \*------------------------------------*/
 async function normalize() {
-  normalizeLinks();
-  normalizeRules();
-  normalizeZones();
-  normalizeCountries();
-  normalizeOngoing();
+  await normalizeLinks();
+  await normalizeRules();
+  await normalizeZones();
+  await normalizeCountries();
+  await normalizeOngoing();
 }
 normalize();
