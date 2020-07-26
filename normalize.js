@@ -20,16 +20,6 @@ const SOURCES_NORMALIZED_ONGOING_PATH = path.join(SOURCES_NORMALIZED_PATH, './on
 
 
 /*------------------------------------*\
-  jsonStringifyOneLineItems
-\*------------------------------------*/
-//async function jsonStringifyOneLineItems(arr) {
-//  const stringified = arr.map(e => JSON.stringify(e)).join(',\n');
-//  return stringified;
-//}
-
-
-
-/*------------------------------------*\
   otherZonesSort
 \*------------------------------------*/
 /*
@@ -178,13 +168,6 @@ async function normalizeZones() {
 
 
 
-
-
-
-
-
-
-
 /*------------------------------------*\
   normalizeCountries
 \*------------------------------------*/
@@ -250,6 +233,8 @@ async function normalizeCountries() {
 async function normalizeOngoing() {
 
   // cliff notes taken from tz-how-to.html, theory.html and zic.8.txt
+  // this is also useful https://www.ibm.com/support/knowledgecenter/ssw_aix_72/z_commands/zic.html
+  // (although it seems to be from older version of IANA distribution)
   //
   // zone format can have three forms
   // - applicable to unnamed zone rule ("-"):
@@ -312,31 +297,25 @@ async function normalizeOngoing() {
     if (zone.until) continue;
 
     // if zone RULES is numerical value
-    // in IANA 2020a distribution it doesn't happen
-    // so just throw error if this code runs on any other distribution
-    // so it's known that any such edge case is not accounted for
+    // in IANA 2020a distribution this doesn't happen, but if any other distributions is used
+    // then throw error because in later steps this edge case is not accounted for
     if (/\d/gi.test(zone.rules)) throw new Error(
       `TODO: account for zone RULES when it contains numerical or time value (${zone.name})`
     );
 
     // if zone RULES is unnamed and zone FORMAT is variable (with "/" or "%s")
-    // in IANA 2020a distribution it doesn't happen
-    // so just throw error if this code runs on any other distribution
-    // so it's known that any such edge case is not accounted for
+    // in IANA 2020a distribution this doesn't happen, but if any other distributions is used
+    // then throw error because in later steps this edge case is not accounted for
     if (zone.rules === '-' && (zone.format.includes('%s') || zone.format.includes('/'))) throw new Error(
       `TODO: account for zone unnamed RULES and variable format (${zone.name})`
     );
 
-
-
-    // expand zone rules
+    // get expanded zone rules
     const zoneRules = rules.filter(rule => rule.name === zone.rules);
 
     // augment rules with some values that will make some of next steps easier
-    // month abbreviations
     const months = ['Jan', 'F', 'Mar', 'Ap', 'May', 'Jun', 'Jul', 'Au', 'S', 'O', 'N', 'D'];
-    // week day abbreviations
-    //const days = ['M', 'Tu', 'W', 'Th', 'F', 'Sa', 'Su'];
+    const days = ['M', 'Tu', 'W', 'Th', 'F', 'Sa', 'Su'];
     const rulesAugmented = zoneRules.map(rule => {
       // year
       var ruleTo = rule.to;
@@ -366,9 +345,8 @@ async function normalizeOngoing() {
     // because "to_combined" doesn't account for days and hours,
     // there's a chance for duplicates of that value if transition happened in the same year and month,
     // which would make it later impossible to check which rule is the most recent
-    // in IANA 2020a distribution it doesn't happen
-    // so just throw error if this code runs on any other distribution
-    // so it's known that any such edge case is not accounted for
+    // in IANA 2020a distribution this doesn't happen, but if any other distributions is used
+    // then throw error because in later steps this edge case is not accounted for
 
     // get all rules to_combined to a single sorted array
     // and compare the last two rules and see if they are equal
@@ -390,9 +368,8 @@ async function normalizeOngoing() {
     // - if there is zero rules with TO=max, it means we later just need to find most recent transition
     // - if there is one rule with TO=max, it means one other rule will be most recent transition (I think?)
     // - if there is more than two rules with TO=max, I don't know what that means, is it even possible?
-    // in IANA 2020a distribution it's always either zero or two rules with TO=max
-    // so just throw error if this code runs on any other distribution
-    // so it's known that any such edge case is not accounted for
+    // in IANA 2020a distribution this doesn't happen, but if any other distributions is used
+    // then throw error because in later steps this edge case is not accounted for
     if (rulesToMax.length === 1 || rulesToMax.length > 2) throw new Error(
       `TODO: account for amount of TO=max rules other than zero or two (${zone.name})`
     );
@@ -421,9 +398,8 @@ async function normalizeOngoing() {
     );
 
     // if the index here returns 0 it means that future transition is actually first
-    // in IANA 2020a distribution it doesn't happen
-    // so just throw error if this code runs on any other distribution
-    // so it's known that any such edge case is not accounted for
+    // in IANA 2020a distribution this doesn't happen, but if any other distributions is used
+    // then throw error because in later steps this edge case is not accounted for
     if (rulePostFutureTransitionIndex === 0) throw new Error(
       `TODO: account for zone with only future transition(s) (${zone.name})`
     );
