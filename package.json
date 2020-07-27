@@ -5,7 +5,7 @@
   "author": "Dominik Serafin",
   "homepage": "https://github.com/DominikSerafin/tz",
   "repository": "https://github.com/DominikSerafin/tz",
-  "license": "Unlicense",
+  "license": "MIT",
   "scripts": {
     "generate": "node generate.js",
     "normalize": "node normalize.js",
