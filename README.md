@@ -17,10 +17,10 @@ Please open an issue or a pull request if you spot any inaccuracy.
   {
     "canonical": "Pacific/Auckland",  // primary time zone name currently in use
     "dst": true,                      // tells whether time zone observes daylight saving time at all (either now or in future)
-    "abbr_st": "NZST",                // abbreviation whenever time zone is in standard time
-    "abbr_dst": "NZDT",               // abbreviation whenever time zone is in daylight saving time
-    "offset_st": 43200,               // offset from UTC in seconds whenever time zone is in standard time
-    "offset_dst": 3600,               // offset from offset_st in seconds whenever time zone is in daylight saving time
+    "abbr_st": "NZST",                // abbreviation for standard time
+    "abbr_dst": "NZDT",               // abbreviation for daylight saving time
+    "offset_st": 43200,               // offset from UTC (in seconds) for standard time
+    "offset_dst": 3600,               // offset from offset_st (in seconds) for daylight saving time
     "aliases": [                      // backward-compatible time zone names
       "Antarctica/McMurdo",
       "Antarctica/South_Pole",
