@@ -16,12 +16,12 @@
     ],
     "countries": [
       {
-        "code": "CI",
-        "name": "Côte d'Ivoire"
-      },
-      {
         "code": "BF",
         "name": "Burkina Faso"
+      },
+      {
+        "code": "CI",
+        "name": "Côte d'Ivoire"
       },
       {
         "code": "GM",
@@ -145,16 +145,16 @@
     ],
     "countries": [
       {
-        "code": "ZA",
-        "name": "South Africa"
-      },
-      {
         "code": "LS",
         "name": "Lesotho"
       },
       {
         "code": "SZ",
         "name": "Eswatini (Swaziland)"
+      },
+      {
+        "code": "ZA",
+        "name": "South Africa"
       }
     ]
   },
@@ -196,10 +196,6 @@
     ],
     "countries": [
       {
-        "code": "NG",
-        "name": "Nigeria"
-      },
-      {
         "code": "AO",
         "name": "Angola"
       },
@@ -234,6 +230,10 @@
       {
         "code": "NE",
         "name": "Niger"
+      },
+      {
+        "code": "NG",
+        "name": "Nigeria"
       }
     ]
   },
@@ -251,10 +251,6 @@
     ],
     "countries": [
       {
-        "code": "MZ",
-        "name": "Mozambique"
-      },
-      {
         "code": "BI",
         "name": "Burundi"
       },
@@ -269,6 +265,10 @@
       {
         "code": "MW",
         "name": "Malawi"
+      },
+      {
+        "code": "MZ",
+        "name": "Mozambique"
       },
       {
         "code": "RW",
@@ -312,10 +312,6 @@
     ],
     "countries": [
       {
-        "code": "KE",
-        "name": "Kenya"
-      },
-      {
         "code": "DJ",
         "name": "Djibouti"
       },
@@ -326,6 +322,10 @@
       {
         "code": "ET",
         "name": "Ethiopia"
+      },
+      {
+        "code": "KE",
+        "name": "Kenya"
       },
       {
         "code": "KM",
@@ -837,16 +837,16 @@
     ],
     "countries": [
       {
-        "code": "CW",
-        "name": "Curaçao"
-      },
-      {
         "code": "AW",
         "name": "Aruba"
       },
       {
         "code": "BQ",
         "name": "Caribbean NL"
+      },
+      {
+        "code": "CW",
+        "name": "Curaçao"
       },
       {
         "code": "SX",
@@ -1559,12 +1559,12 @@
     ],
     "countries": [
       {
-        "code": "PA",
-        "name": "Panama"
-      },
-      {
         "code": "KY",
         "name": "Cayman Islands"
+      },
+      {
+        "code": "PA",
+        "name": "Panama"
       }
     ]
   },
@@ -1635,10 +1635,6 @@
     ],
     "countries": [
       {
-        "code": "TT",
-        "name": "Trinidad & Tobago"
-      },
-      {
         "code": "AG",
         "name": "Antigua & Barbuda"
       },
@@ -1677,6 +1673,10 @@
       {
         "code": "MS",
         "name": "Montserrat"
+      },
+      {
+        "code": "TT",
+        "name": "Trinidad & Tobago"
       },
       {
         "code": "VC",
@@ -2233,16 +2233,16 @@
     ],
     "countries": [
       {
-        "code": "TH",
-        "name": "Thailand"
-      },
-      {
         "code": "KH",
         "name": "Cambodia"
       },
       {
         "code": "LA",
         "name": "Laos"
+      },
+      {
+        "code": "TH",
+        "name": "Thailand"
       },
       {
         "code": "VN",
@@ -2745,12 +2745,12 @@
     ],
     "countries": [
       {
-        "code": "QA",
-        "name": "Qatar"
-      },
-      {
         "code": "BH",
         "name": "Bahrain"
+      },
+      {
+        "code": "QA",
+        "name": "Qatar"
       }
     ]
   },
@@ -2785,12 +2785,12 @@
     ],
     "countries": [
       {
-        "code": "SA",
-        "name": "Saudi Arabia"
-      },
-      {
         "code": "KW",
         "name": "Kuwait"
+      },
+      {
+        "code": "SA",
+        "name": "Saudi Arabia"
       },
       {
         "code": "YE",
@@ -3579,10 +3579,6 @@
     ],
     "countries": [
       {
-        "code": "RS",
-        "name": "Serbia"
-      },
-      {
         "code": "BA",
         "name": "Bosnia & Herzegovina"
       },
@@ -3597,6 +3593,10 @@
       {
         "code": "MK",
         "name": "North Macedonia"
+      },
+      {
+        "code": "RS",
+        "name": "Serbia"
       },
       {
         "code": "SI",
@@ -3704,12 +3704,12 @@
     ],
     "countries": [
       {
-        "code": "FI",
-        "name": "Finland"
-      },
-      {
         "code": "AX",
         "name": "Åland Islands"
+      },
+      {
+        "code": "FI",
+        "name": "Finland"
       }
     ]
   },
@@ -4133,6 +4133,12 @@
     ]
   },
   {
+    "canonical": "Factory",
+    "offset_st": 0,
+    "aliases": [],
+    "countries": []
+  },
+  {
     "canonical": "HST",
     "offset_st": -36000,
     "aliases": [],
@@ -4275,12 +4281,12 @@
     ],
     "countries": [
       {
-        "code": "NZ",
-        "name": "New Zealand"
-      },
-      {
         "code": "AQ",
         "name": "Antarctica"
+      },
+      {
+        "code": "NZ",
+        "name": "New Zealand"
       }
     ]
   },
@@ -4449,12 +4455,12 @@
     ],
     "countries": [
       {
-        "code": "US",
-        "name": "United States"
-      },
-      {
         "code": "UM",
         "name": "US minor outlying islands"
+      },
+      {
+        "code": "US",
+        "name": "United States"
       }
     ]
   },

@@ -109,7 +109,40 @@ function timeStringToSeconds(rawTime) {
   generateTz
 \*------------------------------------*/
 async function generateTz() {
-  return;
+
+  const ongoing = await fs.readJson(SOURCES_NORMALIZED_ONGOING_PATH, 'utf8');
+  const links = await fs.readJson(SOURCES_NORMALIZED_LINKS_PATH, 'utf8');
+  const countries = await fs.readJson(SOURCES_NORMALIZED_COUNTRIES_PATH, 'utf8');
+
+  //
+  const zonesUnsorted = [];
+
+  //
+  const ongoingWithoutFactory = ongoing.filter(zone => zone.name !== 'Factory');
+
+  //
+  for (const zone of ongoing) {
+
+    const zoneAliases = links.filter(l => l.target === zone.name).map(l => l.source);
+    const zoneAliasesSorted = zoneAliases.sort();
+
+    const zoneFoundCountries = countries.find(c => c.tz === zone.name);
+    const zoneCountries = zoneFoundCountries ? zoneFoundCountries.countries : [];
+    const zoneCountriesSorted = zoneCountries.sort((a, b) => (a.code > b.code) ? 1 : -1);
+
+    const zoneObj = {
+      canonical: zone.name,
+      offset_st: timeStringToSeconds(zone.stdoff),
+      aliases: zoneAliasesSorted,
+      countries: zoneCountriesSorted,
+    };
+
+    zonesUnsorted.push(zoneObj);
+  }
+
+  //
+  const output = zonesUnsorted.sort((a, b) => (a.canonical > b.canonical) ? 1 : -1);
+
 
   // TODO: remove Factory time zone?
 
@@ -154,8 +187,6 @@ async function generateTz() {
   generateTzByCountry
 \*------------------------------------*/
 async function generateTzByCountry() {
-  return;
-
   const zones = await fs.readJson(DIST_TZ_PATH, 'utf8');
   //
   const countries = [];
