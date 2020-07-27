@@ -1,13 +1,13 @@
 {
   "name": "tz",
-  "version": "0.0.1",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Time zone information in friendly JSON for use cases like server-side validation, user input options, etc.",
   "author": "Dominik Serafin",
-  "private": true,
-  "homepage": "",
+  "homepage": "https://github.com/DominikSerafin/tz",
+  "repository": "https://github.com/DominikSerafin/tz",
+  "license": "Unlicense",
   "scripts": {
     "generate": "node generate.js",
-    "sources": "node sources.js",
     "normalize": "node normalize.js",
     "check": "node check.js"
   },
@@ -16,16 +16,11 @@
     "npm": "6.*"
   },
   "dependencies": {
-    "async": "^3.2.0",
     "axios": "^0.19.2",
     "fs-extra": "^9.0.1",
     "lodash": "4.17.19",
-    "lodash.sorteduniq": "4.2.0",
-    "lodash.uniq": "4.5.0",
     "moment": "^2.27.0",
-    "moment-timezone": "^0.5.31",
-    "numeral": "2.0.6",
-    "spacetime": "^6.6.1"
+    "moment-timezone": "^0.5.31"
   },
   "devDependencies": {}
 }
