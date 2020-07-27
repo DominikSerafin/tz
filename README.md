@@ -11,7 +11,7 @@ The data here is taken directly from [IANA time zone database](https://www.iana.
 
 Please open an issue or a pull request if you spot any inaccuracy.
 
-# time zone format
+# format
 
 ```
   {
