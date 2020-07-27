@@ -11,7 +11,7 @@ The data here is taken directly from [IANA time zone database](https://www.iana.
 
 Please open an issue or a pull request if you spot any inaccuracy.
 
-# format
+## format
 
 ```
   {
@@ -39,7 +39,7 @@ Please open an issue or a pull request if you spot any inaccuracy.
   }
 ```
 
-# todo
+## todo
 
 - [ ] map zone abbreviations to full names, e.g.
   - CET → Central European Time
