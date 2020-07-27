@@ -21,12 +21,12 @@ Please open an issue or a pull request if you spot any inaccuracy.
     "abbr_dst": "NZDT",               // abbreviation for daylight saving time
     "offset_st": 43200,               // offset from UTC (in seconds) for standard time
     "offset_dst": 3600,               // offset from offset_st (in seconds) for daylight saving time
-    "aliases": [                      // backward-compatible time zone names
+    "aliases": [                      // collection of backward-compatible time zone names
       "Antarctica/McMurdo",
       "Antarctica/South_Pole",
       "NZ"
     ],
-    "countries": [                    // tells in which countries this time zone is observed
+    "countries": [                    // collection of ISO 3166 countries where this time zone is observed
       {
         "code": "AQ",
         "name": "Antarctica"
