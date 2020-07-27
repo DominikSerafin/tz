@@ -9,6 +9,8 @@ The data here is taken directly from [IANA time zone database](https://www.iana.
 - `/dist/tz.json` contains time zones sorted by canonical name.
 - `/dist/tz-country.json` contains time zones sorted by country. With extra "Other" country for time zones that aren't assigned to any country ("Etc/GMT", "CST6CDT", etc.).
 
+Please open an issue or a pull request if you spot any inaccuracy.
+
 # time zone format
 
 ```
