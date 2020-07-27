@@ -5,6 +5,8 @@ const path = require('path');
 const fs = require('fs-extra');
 const axios = require('axios');
 const _ = require('lodash');
+const moment = require('moment-timezone');
+
 //
 const SOURCES_PATH = path.join(__dirname, './sources');
 const SOURCES_NORMALIZED_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a-normalized');
@@ -179,6 +181,14 @@ async function checkAgainstWta() {
 
 
 
+/*------------------------------------*\
+  checkAgainstMoment
+\*------------------------------------*/
+async function checkAgainstMoment() {
+  console.dir(moment.tz.names());
+  console.dir(moment.tz.zone('America/Los_Angeles'));
+}
+
 
 
 
@@ -190,7 +200,8 @@ async function check() {
   //await checkUntils();
   //await checkRuleWeekDays();
   //await checkRuleMonthsAbbr();
-  await checkOngoing();
+  //await checkOngoing();
   //await checkAgainstWta();
+  //await checkAgainstMoment();
 }
 check();
