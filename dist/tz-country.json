@@ -4768,11 +4768,6 @@
         ]
       },
       {
-        "canonical": "Factory",
-        "offset_st": 0,
-        "aliases": []
-      },
-      {
         "canonical": "HST",
         "offset_st": -36000,
         "aliases": []

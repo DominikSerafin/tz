@@ -121,7 +121,7 @@ async function generateTz() {
   const ongoingWithoutFactory = ongoing.filter(zone => zone.name !== 'Factory');
 
   //
-  for (const zone of ongoing) {
+  for (const zone of ongoingWithoutFactory) {
 
     const zoneAliases = links.filter(l => l.target === zone.name).map(l => l.source);
     const zoneAliasesSorted = zoneAliases.sort();
@@ -142,9 +142,6 @@ async function generateTz() {
 
   //
   const output = zonesUnsorted.sort((a, b) => (a.canonical > b.canonical) ? 1 : -1);
-
-
-  // TODO: remove Factory time zone?
 
   // TODO: generate zones in format:
   //{
