@@ -4,7 +4,7 @@ Time zone information in friendly JSON for use cases like server-side validation
 
 This package doesn't contain any historical data and should not be used for parsing any specific dates. For that take a look at packages such as [pytz](https://pythonhosted.org/pytz/), [moment-timezone](https://momentjs.com/timezone/), etc.
 
-The data here is taken directly from [IANA time zone database](https://www.iana.org/time-zones) (version 2020a).
+The data is taken directly from [IANA time zone database](https://www.iana.org/time-zones) (version 2020a).
 
 - `/dist/tz.json` contains time zones sorted by canonical name.
 - `/dist/tz-country.json` contains time zones sorted by country. With extra "Other" country for time zones that aren't assigned to any country ("Etc/GMT", "CST6CDT", etc.).
