@@ -1,6 +1,6 @@
 {
   "name": "tz",
-  "version": "1.0.0",
+  "version": "1.0.0+2020a",
   "description": "Time zone information in friendly JSON for use cases like server-side validation, user input options, etc.",
   "author": "Dominik Serafin",
   "homepage": "https://github.com/DominikSerafin/tz",
