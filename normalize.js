@@ -392,34 +392,38 @@ async function normalizeOngoing() {
     // get current year
     // specific date is used instead Date.now(), so the same output from this repository is reproducible
     // (if you're using this in future, you will probably need to update this repository anyway)
-    const nowYear = (new Date('2020-07-25T00:00:00Z')).getFullYear();
+    const now = new Date('2020-07-25T00:00:00Z');
+    const nowTo = now.getFullYear();
+    const nowIn = String(now.getMonth()+1).padStart(2, '0');
+    const nowCombined = `${nowTo}-${nowIn}`;
 
-    // find index of the next transition that will happen in future
-    const rulePostFutureTransitionIndex = rulesSortedByTo.findIndex(
-      rule => Number(rule.to_distinct) > Number(nowYear)
-    );
+    // find index of the last transition that happened (so, current transition)
+    // so find the next future transition and subtract 1
+    const ruleLastTransitionIndex = rulesSortedByTo.filter(r => r.to !== 'ma').findIndex(rule => {
+      return rule.to_combined > nowCombined;
+    }) - 1;
 
-    // if the index here returns 0 it means that future transition is actually first
+    // not sure if possible, but throw error if the index here returns 0
     // this doesn't happen in IANA 2020a distribution, but if any other distributions is used then
     // throw error because this edge case might not be accounted for
-    if (rulePostFutureTransitionIndex === 0) throw new Error(
-      `TODO: account for zone with only future transition(s) (${zone.name})`
+    if (ruleLastTransitionIndex === 0) throw new Error(
+      `TODO: account for ruleLastTransitionIndex being 0 (${zone.name})`
     );
 
     // finally, extract
-    if (rulePostFutureTransitionIndex > -1) {
+    if (ruleLastTransitionIndex > -1) {
 
       //
-      const rulePrePreFutureTransition = rulesSortedByTo[rulePostFutureTransitionIndex-2];
-      const rulePreFutureTransition = rulesSortedByTo[rulePostFutureTransitionIndex-1];
-      const rulePostFutureTransition = rulesSortedByTo[rulePostFutureTransitionIndex];
+      const rulePrevTransition = rulesSortedByTo[ruleLastTransitionIndex-1];
+      const ruleLastTransition = rulesSortedByTo[ruleLastTransitionIndex];
+      const ruleNextTransition = rulesSortedByTo[ruleLastTransitionIndex+1];
 
       // not very DRY, but,
       // like before, check if we can actually see what transition
       // was most recent with current implementation of "to_combined"
       if (
-        (rulePrePreFutureTransition.to_combined === rulePreFutureTransition.to_combined) ||
-        (rulePreFutureTransition.to_combined === rulePostFutureTransition.to_combined)
+        (rulePrevTransition.to_combined === ruleLastTransition.to_combined) ||
+        (ruleLastTransition.to_combined === ruleNextTransition.to_combined)
       ) {
         throw new Error(
           `TODO: normalize rule "to_combined" to a full date, also accounting for day ("on") and hour ("at") data` +
@@ -429,8 +433,8 @@ async function normalizeOngoing() {
 
       //
       zone.rules = [
-        rulePreFutureTransition,
-        rulePostFutureTransition,
+        ruleLastTransition,
+        ruleNextTransition,
       ];
       output.push(zone);
       continue;
