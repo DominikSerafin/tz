@@ -47,6 +47,6 @@ Please open an issue or a pull request if you spot any inaccuracy.
   - IST → India Standard Time
   - IST → Irish Standard Time
   - IST → Israel Standard Time
-  - ...
+  - etc.
 - [ ] parse and nicely present countries coordinates
 - [ ] take population counts from moment-timezone
