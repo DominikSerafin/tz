@@ -286,7 +286,7 @@ async function normalizeOngoing() {
   // throw error because this edge case might not be accounted for
   for (const rule of rules) {
     if (!/^\d{4}$/.test(rule.from)) throw new Error(
-      `TODO: account for zone rule "from" value other than 4 digit year value (${zone.name})`
+      `TODO: account for zone rule "from" value other than 4 digit year value`
     );
   }
 
@@ -295,7 +295,7 @@ async function normalizeOngoing() {
   // throw error because this edge case might not be accounted for
   for (const rule of rules) {
     if (!/^ma$|^o$|^\d{4}$/.test(rule.to)) throw new Error(
-      `TODO: account for zone rule "to" value other than "ma", "o" or 4 digit year value (${zone.name})`
+      `TODO: account for zone rule "to" value other than "ma", "o" or 4 digit year value`
     );
   }
 

@@ -120,21 +120,86 @@ async function generateTz() {
   //
   const ongoingWithoutFactory = ongoing.filter(zone => zone.name !== 'Factory');
 
+  // check if there's any rule with "save" field having suffix "s" or "d"
+  // this doesn't happen in IANA 2020a distribution, but if any other distributions is used then
+  // throw error because this edge case might not be accounted for
+  for (const zone of ongoingWithoutFactory) {
+    for (const rule of zone.rules) {
+      if (!/.*\d$/.test(rule.save)) throw new Error(
+        `TODO: account for zone rule "save" field having suffix letter ${zone.name}`
+      );
+    }
+  }
+
   //
   for (const zone of ongoingWithoutFactory) {
 
+    //
     const zoneAliases = links.filter(l => l.target === zone.name).map(l => l.source);
     const zoneAliasesSorted = zoneAliases.sort();
 
+    //
     const zoneFoundCountries = countries.find(c => c.tz === zone.name);
     const zoneCountries = zoneFoundCountries ? zoneFoundCountries.countries : [];
     const zoneCountriesSorted = zoneCountries.sort((a, b) => (a.code > b.code) ? 1 : -1);
 
+    //
+    const dstIsObserved = !!zone.rules.find(rule => rule.save !== '0');
+
+    //
+    const offsetSt = zone.stdoff;
+
+    //
+    var abbrSt = null;
+    if (zone.format === '-') {
+      abbrSt = null;
+    }
+    else if (zone.format.includes('/')) {
+      abbrSt = zone.format.split('/')[0];
+    }
+    else if (zone.format.includes('%s')) {
+      var letters = zone.rules.find(rule => rule.save === '0').letters;
+      abbrSt = zone.format.replace('%s', letters === '-' ? '' : letters);
+    }
+    else {
+      abbrSt = zone.format;
+    }
+
+    //
+    var abbrDst = null;
+    if (dstIsObserved) {
+      if (zone.format === '-') {
+        abbrDst = null;
+      }
+      else if (zone.format.includes('/')) {
+        abbrDst = zone.format.split('/')[1];
+      }
+      else if (zone.format.includes('%s')) {
+        var letters = zone.rules.find(rule => rule.save !== '0').letters;
+        abbrDst = zone.format.replace('%s', letters === '-' ? '' : letters);
+      }
+      else {
+        abbrDst = zone.format;
+      }
+    }
+
+    //
+    var offsetDst = null;
+    if (dstIsObserved) {
+      offsetDst =  zone.rules.find(rule => rule.save !== '0').save;
+    }
+
+    //
     const zoneObj = {
       canonical: zone.name,
-      offset_st: timeStringToSeconds(zone.stdoff),
+      dst: dstIsObserved,
+      abbr_st: abbrSt,
+      abbr_dst: abbrDst,
+      offset_st: timeStringToSeconds(offsetSt),
+      offset_dst: offsetDst ? timeStringToSeconds(offsetDst) : null,
       aliases: zoneAliasesSorted,
       countries: zoneCountriesSorted,
+      //coordinates: ...,
     };
 
     zonesUnsorted.push(zoneObj);
@@ -142,28 +207,6 @@ async function generateTz() {
 
   //
   const output = zonesUnsorted.sort((a, b) => (a.canonical > b.canonical) ? 1 : -1);
-
-  // TODO: generate zones in format:
-  //{
-  //  canonical: ...
-  //  aliases: [
-  //    alias,
-  //    alias,
-  //    ...
-  //  ]
-  //  offset_st: ...    // in seconds?
-  //  offset_dst: ...   // in seconds?
-  //  abbr_st: ...
-  //  abbr_dst: ...     //
-  //  dst_use: ...
-  //  countries: [
-  //    {
-  //      code: ...
-  //      name: ...
-  //    }
-  //  ]
-  //  coordinates: ...
-  //}
 
   //
   await fs.writeJson(DIST_TZ_PATH, output, {
@@ -208,8 +251,13 @@ async function generateTzByCountry() {
     for (const zone of zones) {
       const zoneObj = {
         canonical: zone.canonical,
+        dst: zone.dst,
+        abbr_st: zone.abbr_st,
+        abbr_dst: zone.abbr_dst,
         offset_st: zone.offset_st,
+        offset_dst: zone.offset_dst,
         aliases: zone.aliases,
+        //coordinates: ...,
       };
       //
       const foundCountry = zone.countries.find(c => c.code === country.code);

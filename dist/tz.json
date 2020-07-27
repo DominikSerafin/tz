@@ -1,7 +1,11 @@
 [
   {
     "canonical": "Africa/Abidjan",
+    "dst": false,
+    "abbr_st": "GMT",
+    "abbr_dst": null,
     "offset_st": 0,
+    "offset_dst": null,
     "aliases": [
       "Africa/Bamako",
       "Africa/Banjul",
@@ -59,7 +63,11 @@
   },
   {
     "canonical": "Africa/Accra",
+    "dst": false,
+    "abbr_st": "GMT",
+    "abbr_dst": null,
     "offset_st": 0,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -70,7 +78,11 @@
   },
   {
     "canonical": "Africa/Algiers",
+    "dst": false,
+    "abbr_st": "CET",
+    "abbr_dst": null,
     "offset_st": 3600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -81,7 +93,11 @@
   },
   {
     "canonical": "Africa/Bissau",
+    "dst": false,
+    "abbr_st": "GMT",
+    "abbr_dst": null,
     "offset_st": 0,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -92,7 +108,11 @@
   },
   {
     "canonical": "Africa/Cairo",
+    "dst": false,
+    "abbr_st": "EET",
+    "abbr_dst": null,
     "offset_st": 7200,
+    "offset_dst": null,
     "aliases": [
       "Egypt"
     ],
@@ -105,7 +125,11 @@
   },
   {
     "canonical": "Africa/Casablanca",
+    "dst": true,
+    "abbr_st": "+01",
+    "abbr_dst": "+00",
     "offset_st": 3600,
+    "offset_dst": -3600,
     "aliases": [],
     "countries": [
       {
@@ -116,7 +140,11 @@
   },
   {
     "canonical": "Africa/Ceuta",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -127,7 +155,11 @@
   },
   {
     "canonical": "Africa/El_Aaiun",
+    "dst": true,
+    "abbr_st": "+01",
+    "abbr_dst": "+00",
     "offset_st": 3600,
+    "offset_dst": -3600,
     "aliases": [],
     "countries": [
       {
@@ -138,7 +170,11 @@
   },
   {
     "canonical": "Africa/Johannesburg",
+    "dst": false,
+    "abbr_st": "SAST",
+    "abbr_dst": null,
     "offset_st": 7200,
+    "offset_dst": null,
     "aliases": [
       "Africa/Maseru",
       "Africa/Mbabane"
@@ -160,7 +196,11 @@
   },
   {
     "canonical": "Africa/Juba",
+    "dst": false,
+    "abbr_st": "EAT",
+    "abbr_dst": null,
     "offset_st": 10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -171,7 +211,11 @@
   },
   {
     "canonical": "Africa/Khartoum",
+    "dst": false,
+    "abbr_st": "CAT",
+    "abbr_dst": null,
     "offset_st": 7200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -182,7 +226,11 @@
   },
   {
     "canonical": "Africa/Lagos",
+    "dst": false,
+    "abbr_st": "WAT",
+    "abbr_dst": null,
     "offset_st": 3600,
+    "offset_dst": null,
     "aliases": [
       "Africa/Bangui",
       "Africa/Brazzaville",
@@ -239,7 +287,11 @@
   },
   {
     "canonical": "Africa/Maputo",
+    "dst": false,
+    "abbr_st": "CAT",
+    "abbr_dst": null,
     "offset_st": 7200,
+    "offset_dst": null,
     "aliases": [
       "Africa/Blantyre",
       "Africa/Bujumbura",
@@ -286,7 +338,11 @@
   },
   {
     "canonical": "Africa/Monrovia",
+    "dst": false,
+    "abbr_st": "GMT",
+    "abbr_dst": null,
     "offset_st": 0,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -297,7 +353,11 @@
   },
   {
     "canonical": "Africa/Nairobi",
+    "dst": false,
+    "abbr_st": "EAT",
+    "abbr_dst": null,
     "offset_st": 10800,
+    "offset_dst": null,
     "aliases": [
       "Africa/Addis_Ababa",
       "Africa/Asmara",
@@ -355,7 +415,11 @@
   },
   {
     "canonical": "Africa/Ndjamena",
+    "dst": false,
+    "abbr_st": "WAT",
+    "abbr_dst": null,
     "offset_st": 3600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -366,7 +430,11 @@
   },
   {
     "canonical": "Africa/Sao_Tome",
+    "dst": false,
+    "abbr_st": "GMT",
+    "abbr_dst": null,
     "offset_st": 0,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -377,7 +445,11 @@
   },
   {
     "canonical": "Africa/Tripoli",
+    "dst": false,
+    "abbr_st": "EET",
+    "abbr_dst": null,
     "offset_st": 7200,
+    "offset_dst": null,
     "aliases": [
       "Libya"
     ],
@@ -390,7 +462,11 @@
   },
   {
     "canonical": "Africa/Tunis",
+    "dst": false,
+    "abbr_st": "CET",
+    "abbr_dst": null,
     "offset_st": 3600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -401,7 +477,11 @@
   },
   {
     "canonical": "Africa/Windhoek",
+    "dst": false,
+    "abbr_st": "CAT",
+    "abbr_dst": null,
     "offset_st": 7200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -412,7 +492,11 @@
   },
   {
     "canonical": "America/Adak",
+    "dst": true,
+    "abbr_st": "HST",
+    "abbr_dst": "HDT",
     "offset_st": -36000,
+    "offset_dst": 3600,
     "aliases": [
       "America/Atka",
       "US/Aleutian"
@@ -426,7 +510,11 @@
   },
   {
     "canonical": "America/Anchorage",
+    "dst": true,
+    "abbr_st": "AKST",
+    "abbr_dst": "AKDT",
     "offset_st": -32400,
+    "offset_dst": 3600,
     "aliases": [
       "US/Alaska"
     ],
@@ -439,7 +527,11 @@
   },
   {
     "canonical": "America/Araguaina",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -450,7 +542,11 @@
   },
   {
     "canonical": "America/Argentina/Buenos_Aires",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [
       "America/Buenos_Aires"
     ],
@@ -463,7 +559,11 @@
   },
   {
     "canonical": "America/Argentina/Catamarca",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [
       "America/Argentina/ComodRivadavia",
       "America/Catamarca"
@@ -477,7 +577,11 @@
   },
   {
     "canonical": "America/Argentina/Cordoba",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [
       "America/Cordoba",
       "America/Rosario"
@@ -491,7 +595,11 @@
   },
   {
     "canonical": "America/Argentina/Jujuy",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [
       "America/Jujuy"
     ],
@@ -504,7 +612,11 @@
   },
   {
     "canonical": "America/Argentina/La_Rioja",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -515,7 +627,11 @@
   },
   {
     "canonical": "America/Argentina/Mendoza",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [
       "America/Mendoza"
     ],
@@ -528,7 +644,11 @@
   },
   {
     "canonical": "America/Argentina/Rio_Gallegos",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -539,7 +659,11 @@
   },
   {
     "canonical": "America/Argentina/Salta",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -550,7 +674,11 @@
   },
   {
     "canonical": "America/Argentina/San_Juan",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -561,7 +689,11 @@
   },
   {
     "canonical": "America/Argentina/San_Luis",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -572,7 +704,11 @@
   },
   {
     "canonical": "America/Argentina/Tucuman",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -583,7 +719,11 @@
   },
   {
     "canonical": "America/Argentina/Ushuaia",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -594,7 +734,11 @@
   },
   {
     "canonical": "America/Asuncion",
+    "dst": true,
+    "abbr_st": "-04",
+    "abbr_dst": "-03",
     "offset_st": -14400,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -605,7 +749,11 @@
   },
   {
     "canonical": "America/Atikokan",
+    "dst": false,
+    "abbr_st": "EST",
+    "abbr_dst": null,
     "offset_st": -18000,
+    "offset_dst": null,
     "aliases": [
       "America/Coral_Harbour"
     ],
@@ -618,7 +766,11 @@
   },
   {
     "canonical": "America/Bahia",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -629,7 +781,11 @@
   },
   {
     "canonical": "America/Bahia_Banderas",
+    "dst": true,
+    "abbr_st": "CST",
+    "abbr_dst": "CDT",
     "offset_st": -21600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -640,7 +796,11 @@
   },
   {
     "canonical": "America/Barbados",
+    "dst": false,
+    "abbr_st": "AST",
+    "abbr_dst": null,
     "offset_st": -14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -651,7 +811,11 @@
   },
   {
     "canonical": "America/Belem",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -662,7 +826,11 @@
   },
   {
     "canonical": "America/Belize",
+    "dst": false,
+    "abbr_st": "CST",
+    "abbr_dst": null,
     "offset_st": -21600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -673,7 +841,11 @@
   },
   {
     "canonical": "America/Blanc-Sablon",
+    "dst": false,
+    "abbr_st": "AST",
+    "abbr_dst": null,
     "offset_st": -14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -684,7 +856,11 @@
   },
   {
     "canonical": "America/Boa_Vista",
+    "dst": false,
+    "abbr_st": "-04",
+    "abbr_dst": null,
     "offset_st": -14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -695,7 +871,11 @@
   },
   {
     "canonical": "America/Bogota",
+    "dst": false,
+    "abbr_st": "-05",
+    "abbr_dst": null,
     "offset_st": -18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -706,7 +886,11 @@
   },
   {
     "canonical": "America/Boise",
+    "dst": true,
+    "abbr_st": "MST",
+    "abbr_dst": "MDT",
     "offset_st": -25200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -717,7 +901,11 @@
   },
   {
     "canonical": "America/Cambridge_Bay",
+    "dst": true,
+    "abbr_st": "MST",
+    "abbr_dst": "MDT",
     "offset_st": -25200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -728,7 +916,11 @@
   },
   {
     "canonical": "America/Campo_Grande",
+    "dst": false,
+    "abbr_st": "-04",
+    "abbr_dst": null,
     "offset_st": -14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -739,7 +931,11 @@
   },
   {
     "canonical": "America/Cancun",
+    "dst": false,
+    "abbr_st": "EST",
+    "abbr_dst": null,
     "offset_st": -18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -750,7 +946,11 @@
   },
   {
     "canonical": "America/Caracas",
+    "dst": false,
+    "abbr_st": "-04",
+    "abbr_dst": null,
     "offset_st": -14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -761,7 +961,11 @@
   },
   {
     "canonical": "America/Cayenne",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -772,7 +976,11 @@
   },
   {
     "canonical": "America/Chicago",
+    "dst": true,
+    "abbr_st": "CST",
+    "abbr_dst": "CDT",
     "offset_st": -21600,
+    "offset_dst": 3600,
     "aliases": [
       "US/Central"
     ],
@@ -785,7 +993,11 @@
   },
   {
     "canonical": "America/Chihuahua",
+    "dst": true,
+    "abbr_st": "MST",
+    "abbr_dst": "MDT",
     "offset_st": -25200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -796,7 +1008,11 @@
   },
   {
     "canonical": "America/Costa_Rica",
+    "dst": false,
+    "abbr_st": "CST",
+    "abbr_dst": null,
     "offset_st": -21600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -807,7 +1023,11 @@
   },
   {
     "canonical": "America/Creston",
+    "dst": false,
+    "abbr_st": "MST",
+    "abbr_dst": null,
     "offset_st": -25200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -818,7 +1038,11 @@
   },
   {
     "canonical": "America/Cuiaba",
+    "dst": false,
+    "abbr_st": "-04",
+    "abbr_dst": null,
     "offset_st": -14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -829,7 +1053,11 @@
   },
   {
     "canonical": "America/Curacao",
+    "dst": false,
+    "abbr_st": "AST",
+    "abbr_dst": null,
     "offset_st": -14400,
+    "offset_dst": null,
     "aliases": [
       "America/Aruba",
       "America/Kralendijk",
@@ -856,7 +1084,11 @@
   },
   {
     "canonical": "America/Danmarkshavn",
+    "dst": false,
+    "abbr_st": "GMT",
+    "abbr_dst": null,
     "offset_st": 0,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -867,7 +1099,11 @@
   },
   {
     "canonical": "America/Dawson",
+    "dst": false,
+    "abbr_st": "MST",
+    "abbr_dst": null,
     "offset_st": -25200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -878,7 +1114,11 @@
   },
   {
     "canonical": "America/Dawson_Creek",
+    "dst": false,
+    "abbr_st": "MST",
+    "abbr_dst": null,
     "offset_st": -25200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -889,7 +1129,11 @@
   },
   {
     "canonical": "America/Denver",
+    "dst": true,
+    "abbr_st": "MST",
+    "abbr_dst": "MDT",
     "offset_st": -25200,
+    "offset_dst": 3600,
     "aliases": [
       "America/Shiprock",
       "Navajo",
@@ -904,7 +1148,11 @@
   },
   {
     "canonical": "America/Detroit",
+    "dst": true,
+    "abbr_st": "EST",
+    "abbr_dst": "EDT",
     "offset_st": -18000,
+    "offset_dst": 3600,
     "aliases": [
       "US/Michigan"
     ],
@@ -917,7 +1165,11 @@
   },
   {
     "canonical": "America/Edmonton",
+    "dst": true,
+    "abbr_st": "MST",
+    "abbr_dst": "MDT",
     "offset_st": -25200,
+    "offset_dst": 3600,
     "aliases": [
       "Canada/Mountain"
     ],
@@ -930,7 +1182,11 @@
   },
   {
     "canonical": "America/Eirunepe",
+    "dst": false,
+    "abbr_st": "-05",
+    "abbr_dst": null,
     "offset_st": -18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -941,7 +1197,11 @@
   },
   {
     "canonical": "America/El_Salvador",
+    "dst": false,
+    "abbr_st": "CST",
+    "abbr_dst": null,
     "offset_st": -21600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -952,7 +1212,11 @@
   },
   {
     "canonical": "America/Fort_Nelson",
+    "dst": false,
+    "abbr_st": "MST",
+    "abbr_dst": null,
     "offset_st": -25200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -963,7 +1227,11 @@
   },
   {
     "canonical": "America/Fortaleza",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -974,7 +1242,11 @@
   },
   {
     "canonical": "America/Glace_Bay",
+    "dst": true,
+    "abbr_st": "AST",
+    "abbr_dst": "ADT",
     "offset_st": -14400,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -985,7 +1257,11 @@
   },
   {
     "canonical": "America/Goose_Bay",
+    "dst": true,
+    "abbr_st": "AST",
+    "abbr_dst": "ADT",
     "offset_st": -14400,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -996,7 +1272,11 @@
   },
   {
     "canonical": "America/Grand_Turk",
+    "dst": true,
+    "abbr_st": "EST",
+    "abbr_dst": "EDT",
     "offset_st": -18000,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1007,7 +1287,11 @@
   },
   {
     "canonical": "America/Guatemala",
+    "dst": false,
+    "abbr_st": "CST",
+    "abbr_dst": null,
     "offset_st": -21600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -1018,7 +1302,11 @@
   },
   {
     "canonical": "America/Guayaquil",
+    "dst": false,
+    "abbr_st": "-05",
+    "abbr_dst": null,
     "offset_st": -18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -1029,7 +1317,11 @@
   },
   {
     "canonical": "America/Guyana",
+    "dst": false,
+    "abbr_st": "-04",
+    "abbr_dst": null,
     "offset_st": -14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -1040,7 +1332,11 @@
   },
   {
     "canonical": "America/Halifax",
+    "dst": true,
+    "abbr_st": "AST",
+    "abbr_dst": "ADT",
     "offset_st": -14400,
+    "offset_dst": 3600,
     "aliases": [
       "Canada/Atlantic"
     ],
@@ -1053,7 +1349,11 @@
   },
   {
     "canonical": "America/Havana",
+    "dst": true,
+    "abbr_st": "CST",
+    "abbr_dst": "CDT",
     "offset_st": -18000,
+    "offset_dst": 3600,
     "aliases": [
       "Cuba"
     ],
@@ -1066,7 +1366,11 @@
   },
   {
     "canonical": "America/Hermosillo",
+    "dst": false,
+    "abbr_st": "MST",
+    "abbr_dst": null,
     "offset_st": -25200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -1077,7 +1381,11 @@
   },
   {
     "canonical": "America/Indiana/Indianapolis",
+    "dst": true,
+    "abbr_st": "EST",
+    "abbr_dst": "EDT",
     "offset_st": -18000,
+    "offset_dst": 3600,
     "aliases": [
       "America/Fort_Wayne",
       "America/Indianapolis",
@@ -1092,7 +1400,11 @@
   },
   {
     "canonical": "America/Indiana/Knox",
+    "dst": true,
+    "abbr_st": "CST",
+    "abbr_dst": "CDT",
     "offset_st": -21600,
+    "offset_dst": 3600,
     "aliases": [
       "America/Knox_IN",
       "US/Indiana-Starke"
@@ -1106,7 +1418,11 @@
   },
   {
     "canonical": "America/Indiana/Marengo",
+    "dst": true,
+    "abbr_st": "EST",
+    "abbr_dst": "EDT",
     "offset_st": -18000,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1117,7 +1433,11 @@
   },
   {
     "canonical": "America/Indiana/Petersburg",
+    "dst": true,
+    "abbr_st": "EST",
+    "abbr_dst": "EDT",
     "offset_st": -18000,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1128,7 +1448,11 @@
   },
   {
     "canonical": "America/Indiana/Tell_City",
+    "dst": true,
+    "abbr_st": "CST",
+    "abbr_dst": "CDT",
     "offset_st": -21600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1139,7 +1463,11 @@
   },
   {
     "canonical": "America/Indiana/Vevay",
+    "dst": true,
+    "abbr_st": "EST",
+    "abbr_dst": "EDT",
     "offset_st": -18000,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1150,7 +1478,11 @@
   },
   {
     "canonical": "America/Indiana/Vincennes",
+    "dst": true,
+    "abbr_st": "EST",
+    "abbr_dst": "EDT",
     "offset_st": -18000,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1161,7 +1493,11 @@
   },
   {
     "canonical": "America/Indiana/Winamac",
+    "dst": true,
+    "abbr_st": "EST",
+    "abbr_dst": "EDT",
     "offset_st": -18000,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1172,7 +1508,11 @@
   },
   {
     "canonical": "America/Inuvik",
+    "dst": true,
+    "abbr_st": "MST",
+    "abbr_dst": "MDT",
     "offset_st": -25200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1183,7 +1523,11 @@
   },
   {
     "canonical": "America/Iqaluit",
+    "dst": true,
+    "abbr_st": "EST",
+    "abbr_dst": "EDT",
     "offset_st": -18000,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1194,7 +1538,11 @@
   },
   {
     "canonical": "America/Jamaica",
+    "dst": false,
+    "abbr_st": "EST",
+    "abbr_dst": null,
     "offset_st": -18000,
+    "offset_dst": null,
     "aliases": [
       "Jamaica"
     ],
@@ -1207,7 +1555,11 @@
   },
   {
     "canonical": "America/Juneau",
+    "dst": true,
+    "abbr_st": "AKST",
+    "abbr_dst": "AKDT",
     "offset_st": -32400,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1218,7 +1570,11 @@
   },
   {
     "canonical": "America/Kentucky/Louisville",
+    "dst": true,
+    "abbr_st": "EST",
+    "abbr_dst": "EDT",
     "offset_st": -18000,
+    "offset_dst": 3600,
     "aliases": [
       "America/Louisville"
     ],
@@ -1231,7 +1587,11 @@
   },
   {
     "canonical": "America/Kentucky/Monticello",
+    "dst": true,
+    "abbr_st": "EST",
+    "abbr_dst": "EDT",
     "offset_st": -18000,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1242,7 +1602,11 @@
   },
   {
     "canonical": "America/La_Paz",
+    "dst": false,
+    "abbr_st": "-04",
+    "abbr_dst": null,
     "offset_st": -14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -1253,7 +1617,11 @@
   },
   {
     "canonical": "America/Lima",
+    "dst": false,
+    "abbr_st": "-05",
+    "abbr_dst": null,
     "offset_st": -18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -1264,7 +1632,11 @@
   },
   {
     "canonical": "America/Los_Angeles",
+    "dst": true,
+    "abbr_st": "PST",
+    "abbr_dst": "PDT",
     "offset_st": -28800,
+    "offset_dst": 3600,
     "aliases": [
       "US/Pacific"
     ],
@@ -1277,7 +1649,11 @@
   },
   {
     "canonical": "America/Maceio",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -1288,7 +1664,11 @@
   },
   {
     "canonical": "America/Managua",
+    "dst": false,
+    "abbr_st": "CST",
+    "abbr_dst": null,
     "offset_st": -21600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -1299,7 +1679,11 @@
   },
   {
     "canonical": "America/Manaus",
+    "dst": false,
+    "abbr_st": "-04",
+    "abbr_dst": null,
     "offset_st": -14400,
+    "offset_dst": null,
     "aliases": [
       "Brazil/West"
     ],
@@ -1312,7 +1696,11 @@
   },
   {
     "canonical": "America/Martinique",
+    "dst": false,
+    "abbr_st": "AST",
+    "abbr_dst": null,
     "offset_st": -14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -1323,7 +1711,11 @@
   },
   {
     "canonical": "America/Matamoros",
+    "dst": true,
+    "abbr_st": "CST",
+    "abbr_dst": "CDT",
     "offset_st": -21600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1334,7 +1726,11 @@
   },
   {
     "canonical": "America/Mazatlan",
+    "dst": true,
+    "abbr_st": "MST",
+    "abbr_dst": "MDT",
     "offset_st": -25200,
+    "offset_dst": 3600,
     "aliases": [
       "Mexico/BajaSur"
     ],
@@ -1347,7 +1743,11 @@
   },
   {
     "canonical": "America/Menominee",
+    "dst": true,
+    "abbr_st": "CST",
+    "abbr_dst": "CDT",
     "offset_st": -21600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1358,7 +1758,11 @@
   },
   {
     "canonical": "America/Merida",
+    "dst": true,
+    "abbr_st": "CST",
+    "abbr_dst": "CDT",
     "offset_st": -21600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1369,7 +1773,11 @@
   },
   {
     "canonical": "America/Metlakatla",
+    "dst": true,
+    "abbr_st": "AKST",
+    "abbr_dst": "AKDT",
     "offset_st": -32400,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1380,7 +1788,11 @@
   },
   {
     "canonical": "America/Mexico_City",
+    "dst": true,
+    "abbr_st": "CST",
+    "abbr_dst": "CDT",
     "offset_st": -21600,
+    "offset_dst": 3600,
     "aliases": [
       "Mexico/General"
     ],
@@ -1393,7 +1805,11 @@
   },
   {
     "canonical": "America/Miquelon",
+    "dst": true,
+    "abbr_st": "-03",
+    "abbr_dst": "-02",
     "offset_st": -10800,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1404,7 +1820,11 @@
   },
   {
     "canonical": "America/Moncton",
+    "dst": true,
+    "abbr_st": "AST",
+    "abbr_dst": "ADT",
     "offset_st": -14400,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1415,7 +1835,11 @@
   },
   {
     "canonical": "America/Monterrey",
+    "dst": true,
+    "abbr_st": "CST",
+    "abbr_dst": "CDT",
     "offset_st": -21600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1426,7 +1850,11 @@
   },
   {
     "canonical": "America/Montevideo",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -1437,7 +1865,11 @@
   },
   {
     "canonical": "America/Nassau",
+    "dst": true,
+    "abbr_st": "EST",
+    "abbr_dst": "EDT",
     "offset_st": -18000,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1448,7 +1880,11 @@
   },
   {
     "canonical": "America/New_York",
+    "dst": true,
+    "abbr_st": "EST",
+    "abbr_dst": "EDT",
     "offset_st": -18000,
+    "offset_dst": 3600,
     "aliases": [
       "US/Eastern"
     ],
@@ -1461,7 +1897,11 @@
   },
   {
     "canonical": "America/Nipigon",
+    "dst": true,
+    "abbr_st": "EST",
+    "abbr_dst": "EDT",
     "offset_st": -18000,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1472,7 +1912,11 @@
   },
   {
     "canonical": "America/Nome",
+    "dst": true,
+    "abbr_st": "AKST",
+    "abbr_dst": "AKDT",
     "offset_st": -32400,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1483,7 +1927,11 @@
   },
   {
     "canonical": "America/Noronha",
+    "dst": false,
+    "abbr_st": "-02",
+    "abbr_dst": null,
     "offset_st": -7200,
+    "offset_dst": null,
     "aliases": [
       "Brazil/DeNoronha"
     ],
@@ -1496,7 +1944,11 @@
   },
   {
     "canonical": "America/North_Dakota/Beulah",
+    "dst": true,
+    "abbr_st": "CST",
+    "abbr_dst": "CDT",
     "offset_st": -21600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1507,7 +1959,11 @@
   },
   {
     "canonical": "America/North_Dakota/Center",
+    "dst": true,
+    "abbr_st": "CST",
+    "abbr_dst": "CDT",
     "offset_st": -21600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1518,7 +1974,11 @@
   },
   {
     "canonical": "America/North_Dakota/New_Salem",
+    "dst": true,
+    "abbr_st": "CST",
+    "abbr_dst": "CDT",
     "offset_st": -21600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1529,7 +1989,11 @@
   },
   {
     "canonical": "America/Nuuk",
+    "dst": true,
+    "abbr_st": "-03",
+    "abbr_dst": "-02",
     "offset_st": -10800,
+    "offset_dst": 3600,
     "aliases": [
       "America/Godthab"
     ],
@@ -1542,7 +2006,11 @@
   },
   {
     "canonical": "America/Ojinaga",
+    "dst": true,
+    "abbr_st": "MST",
+    "abbr_dst": "MDT",
     "offset_st": -25200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1553,7 +2021,11 @@
   },
   {
     "canonical": "America/Panama",
+    "dst": false,
+    "abbr_st": "EST",
+    "abbr_dst": null,
     "offset_st": -18000,
+    "offset_dst": null,
     "aliases": [
       "America/Cayman"
     ],
@@ -1570,7 +2042,11 @@
   },
   {
     "canonical": "America/Pangnirtung",
+    "dst": true,
+    "abbr_st": "EST",
+    "abbr_dst": "EDT",
     "offset_st": -18000,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1581,7 +2057,11 @@
   },
   {
     "canonical": "America/Paramaribo",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -1592,7 +2072,11 @@
   },
   {
     "canonical": "America/Phoenix",
+    "dst": false,
+    "abbr_st": "MST",
+    "abbr_dst": null,
     "offset_st": -25200,
+    "offset_dst": null,
     "aliases": [
       "US/Arizona"
     ],
@@ -1605,7 +2089,11 @@
   },
   {
     "canonical": "America/Port-au-Prince",
+    "dst": true,
+    "abbr_st": "EST",
+    "abbr_dst": "EDT",
     "offset_st": -18000,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1616,7 +2104,11 @@
   },
   {
     "canonical": "America/Port_of_Spain",
+    "dst": false,
+    "abbr_st": "AST",
+    "abbr_dst": null,
     "offset_st": -14400,
+    "offset_dst": null,
     "aliases": [
       "America/Anguilla",
       "America/Antigua",
@@ -1694,7 +2186,11 @@
   },
   {
     "canonical": "America/Porto_Velho",
+    "dst": false,
+    "abbr_st": "-04",
+    "abbr_dst": null,
     "offset_st": -14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -1705,7 +2201,11 @@
   },
   {
     "canonical": "America/Puerto_Rico",
+    "dst": false,
+    "abbr_st": "AST",
+    "abbr_dst": null,
     "offset_st": -14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -1716,7 +2216,11 @@
   },
   {
     "canonical": "America/Punta_Arenas",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -1727,7 +2231,11 @@
   },
   {
     "canonical": "America/Rainy_River",
+    "dst": true,
+    "abbr_st": "CST",
+    "abbr_dst": "CDT",
     "offset_st": -21600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1738,7 +2246,11 @@
   },
   {
     "canonical": "America/Rankin_Inlet",
+    "dst": true,
+    "abbr_st": "CST",
+    "abbr_dst": "CDT",
     "offset_st": -21600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1749,7 +2261,11 @@
   },
   {
     "canonical": "America/Recife",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -1760,7 +2276,11 @@
   },
   {
     "canonical": "America/Regina",
+    "dst": false,
+    "abbr_st": "CST",
+    "abbr_dst": null,
     "offset_st": -21600,
+    "offset_dst": null,
     "aliases": [
       "Canada/Saskatchewan"
     ],
@@ -1773,7 +2293,11 @@
   },
   {
     "canonical": "America/Resolute",
+    "dst": true,
+    "abbr_st": "CST",
+    "abbr_dst": "CDT",
     "offset_st": -21600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1784,7 +2308,11 @@
   },
   {
     "canonical": "America/Rio_Branco",
+    "dst": false,
+    "abbr_st": "-05",
+    "abbr_dst": null,
     "offset_st": -18000,
+    "offset_dst": null,
     "aliases": [
       "America/Porto_Acre",
       "Brazil/Acre"
@@ -1798,7 +2326,11 @@
   },
   {
     "canonical": "America/Santarem",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -1809,7 +2341,11 @@
   },
   {
     "canonical": "America/Santiago",
+    "dst": true,
+    "abbr_st": "-04",
+    "abbr_dst": "-03",
     "offset_st": -14400,
+    "offset_dst": 3600,
     "aliases": [
       "Chile/Continental"
     ],
@@ -1822,7 +2358,11 @@
   },
   {
     "canonical": "America/Santo_Domingo",
+    "dst": false,
+    "abbr_st": "AST",
+    "abbr_dst": null,
     "offset_st": -14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -1833,7 +2373,11 @@
   },
   {
     "canonical": "America/Sao_Paulo",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [
       "Brazil/East"
     ],
@@ -1846,7 +2390,11 @@
   },
   {
     "canonical": "America/Scoresbysund",
+    "dst": true,
+    "abbr_st": "-01",
+    "abbr_dst": "+00",
     "offset_st": -3600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1857,7 +2405,11 @@
   },
   {
     "canonical": "America/Sitka",
+    "dst": true,
+    "abbr_st": "AKST",
+    "abbr_dst": "AKDT",
     "offset_st": -32400,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1868,7 +2420,11 @@
   },
   {
     "canonical": "America/St_Johns",
+    "dst": true,
+    "abbr_st": "NST",
+    "abbr_dst": "NDT",
     "offset_st": -12600,
+    "offset_dst": 3600,
     "aliases": [
       "Canada/Newfoundland"
     ],
@@ -1881,7 +2437,11 @@
   },
   {
     "canonical": "America/Swift_Current",
+    "dst": false,
+    "abbr_st": "CST",
+    "abbr_dst": null,
     "offset_st": -21600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -1892,7 +2452,11 @@
   },
   {
     "canonical": "America/Tegucigalpa",
+    "dst": false,
+    "abbr_st": "CST",
+    "abbr_dst": null,
     "offset_st": -21600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -1903,7 +2467,11 @@
   },
   {
     "canonical": "America/Thule",
+    "dst": true,
+    "abbr_st": "AST",
+    "abbr_dst": "ADT",
     "offset_st": -14400,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1914,7 +2482,11 @@
   },
   {
     "canonical": "America/Thunder_Bay",
+    "dst": true,
+    "abbr_st": "EST",
+    "abbr_dst": "EDT",
     "offset_st": -18000,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -1925,7 +2497,11 @@
   },
   {
     "canonical": "America/Tijuana",
+    "dst": true,
+    "abbr_st": "PST",
+    "abbr_dst": "PDT",
     "offset_st": -28800,
+    "offset_dst": 3600,
     "aliases": [
       "America/Ensenada",
       "America/Santa_Isabel",
@@ -1940,7 +2516,11 @@
   },
   {
     "canonical": "America/Toronto",
+    "dst": true,
+    "abbr_st": "EST",
+    "abbr_dst": "EDT",
     "offset_st": -18000,
+    "offset_dst": 3600,
     "aliases": [
       "America/Montreal",
       "Canada/Eastern"
@@ -1954,7 +2534,11 @@
   },
   {
     "canonical": "America/Vancouver",
+    "dst": true,
+    "abbr_st": "PST",
+    "abbr_dst": "PDT",
     "offset_st": -28800,
+    "offset_dst": 3600,
     "aliases": [
       "Canada/Pacific"
     ],
@@ -1967,7 +2551,11 @@
   },
   {
     "canonical": "America/Whitehorse",
+    "dst": false,
+    "abbr_st": "MST",
+    "abbr_dst": null,
     "offset_st": -25200,
+    "offset_dst": null,
     "aliases": [
       "Canada/Yukon"
     ],
@@ -1980,7 +2568,11 @@
   },
   {
     "canonical": "America/Winnipeg",
+    "dst": true,
+    "abbr_st": "CST",
+    "abbr_dst": "CDT",
     "offset_st": -21600,
+    "offset_dst": 3600,
     "aliases": [
       "Canada/Central"
     ],
@@ -1993,7 +2585,11 @@
   },
   {
     "canonical": "America/Yakutat",
+    "dst": true,
+    "abbr_st": "AKST",
+    "abbr_dst": "AKDT",
     "offset_st": -32400,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -2004,7 +2600,11 @@
   },
   {
     "canonical": "America/Yellowknife",
+    "dst": true,
+    "abbr_st": "MST",
+    "abbr_dst": "MDT",
     "offset_st": -25200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -2015,7 +2615,11 @@
   },
   {
     "canonical": "Antarctica/Casey",
+    "dst": false,
+    "abbr_st": "+08",
+    "abbr_dst": null,
     "offset_st": 28800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2026,7 +2630,11 @@
   },
   {
     "canonical": "Antarctica/Davis",
+    "dst": false,
+    "abbr_st": "+07",
+    "abbr_dst": null,
     "offset_st": 25200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2037,7 +2645,11 @@
   },
   {
     "canonical": "Antarctica/DumontDUrville",
+    "dst": false,
+    "abbr_st": "+10",
+    "abbr_dst": null,
     "offset_st": 36000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2048,7 +2660,11 @@
   },
   {
     "canonical": "Antarctica/Macquarie",
+    "dst": false,
+    "abbr_st": "+11",
+    "abbr_dst": null,
     "offset_st": 39600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2059,7 +2675,11 @@
   },
   {
     "canonical": "Antarctica/Mawson",
+    "dst": false,
+    "abbr_st": "+05",
+    "abbr_dst": null,
     "offset_st": 18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2070,7 +2690,11 @@
   },
   {
     "canonical": "Antarctica/Palmer",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2081,7 +2705,11 @@
   },
   {
     "canonical": "Antarctica/Rothera",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2092,7 +2720,11 @@
   },
   {
     "canonical": "Antarctica/Syowa",
+    "dst": false,
+    "abbr_st": "+03",
+    "abbr_dst": null,
     "offset_st": 10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2103,7 +2735,11 @@
   },
   {
     "canonical": "Antarctica/Troll",
+    "dst": true,
+    "abbr_st": "+00",
+    "abbr_dst": "+02",
     "offset_st": 0,
+    "offset_dst": 7200,
     "aliases": [],
     "countries": [
       {
@@ -2114,7 +2750,11 @@
   },
   {
     "canonical": "Antarctica/Vostok",
+    "dst": false,
+    "abbr_st": "+06",
+    "abbr_dst": null,
     "offset_st": 21600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2125,7 +2765,11 @@
   },
   {
     "canonical": "Asia/Almaty",
+    "dst": false,
+    "abbr_st": "+06",
+    "abbr_dst": null,
     "offset_st": 21600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2136,7 +2780,11 @@
   },
   {
     "canonical": "Asia/Amman",
+    "dst": true,
+    "abbr_st": "EET",
+    "abbr_dst": "EEST",
     "offset_st": 7200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -2147,7 +2795,11 @@
   },
   {
     "canonical": "Asia/Anadyr",
+    "dst": false,
+    "abbr_st": "+12",
+    "abbr_dst": null,
     "offset_st": 43200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2158,7 +2810,11 @@
   },
   {
     "canonical": "Asia/Aqtau",
+    "dst": false,
+    "abbr_st": "+05",
+    "abbr_dst": null,
     "offset_st": 18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2169,7 +2825,11 @@
   },
   {
     "canonical": "Asia/Aqtobe",
+    "dst": false,
+    "abbr_st": "+05",
+    "abbr_dst": null,
     "offset_st": 18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2180,7 +2840,11 @@
   },
   {
     "canonical": "Asia/Ashgabat",
+    "dst": false,
+    "abbr_st": "+05",
+    "abbr_dst": null,
     "offset_st": 18000,
+    "offset_dst": null,
     "aliases": [
       "Asia/Ashkhabad"
     ],
@@ -2193,7 +2857,11 @@
   },
   {
     "canonical": "Asia/Atyrau",
+    "dst": false,
+    "abbr_st": "+05",
+    "abbr_dst": null,
     "offset_st": 18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2204,7 +2872,11 @@
   },
   {
     "canonical": "Asia/Baghdad",
+    "dst": false,
+    "abbr_st": "+03",
+    "abbr_dst": null,
     "offset_st": 10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2215,7 +2887,11 @@
   },
   {
     "canonical": "Asia/Baku",
+    "dst": false,
+    "abbr_st": "+04",
+    "abbr_dst": null,
     "offset_st": 14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2226,7 +2902,11 @@
   },
   {
     "canonical": "Asia/Bangkok",
+    "dst": false,
+    "abbr_st": "+07",
+    "abbr_dst": null,
     "offset_st": 25200,
+    "offset_dst": null,
     "aliases": [
       "Asia/Phnom_Penh",
       "Asia/Vientiane"
@@ -2252,7 +2932,11 @@
   },
   {
     "canonical": "Asia/Barnaul",
+    "dst": false,
+    "abbr_st": "+07",
+    "abbr_dst": null,
     "offset_st": 25200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2263,7 +2947,11 @@
   },
   {
     "canonical": "Asia/Beirut",
+    "dst": true,
+    "abbr_st": "EET",
+    "abbr_dst": "EEST",
     "offset_st": 7200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -2274,7 +2962,11 @@
   },
   {
     "canonical": "Asia/Bishkek",
+    "dst": false,
+    "abbr_st": "+06",
+    "abbr_dst": null,
     "offset_st": 21600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2285,7 +2977,11 @@
   },
   {
     "canonical": "Asia/Brunei",
+    "dst": false,
+    "abbr_st": "+08",
+    "abbr_dst": null,
     "offset_st": 28800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2296,7 +2992,11 @@
   },
   {
     "canonical": "Asia/Chita",
+    "dst": false,
+    "abbr_st": "+09",
+    "abbr_dst": null,
     "offset_st": 32400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2307,7 +3007,11 @@
   },
   {
     "canonical": "Asia/Choibalsan",
+    "dst": false,
+    "abbr_st": "+08",
+    "abbr_dst": null,
     "offset_st": 28800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2318,7 +3022,11 @@
   },
   {
     "canonical": "Asia/Colombo",
+    "dst": false,
+    "abbr_st": "+0530",
+    "abbr_dst": null,
     "offset_st": 19800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2329,7 +3037,11 @@
   },
   {
     "canonical": "Asia/Damascus",
+    "dst": true,
+    "abbr_st": "EET",
+    "abbr_dst": "EEST",
     "offset_st": 7200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -2340,7 +3052,11 @@
   },
   {
     "canonical": "Asia/Dhaka",
+    "dst": false,
+    "abbr_st": "+06",
+    "abbr_dst": null,
     "offset_st": 21600,
+    "offset_dst": null,
     "aliases": [
       "Asia/Dacca"
     ],
@@ -2353,7 +3069,11 @@
   },
   {
     "canonical": "Asia/Dili",
+    "dst": false,
+    "abbr_st": "+09",
+    "abbr_dst": null,
     "offset_st": 32400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2364,7 +3084,11 @@
   },
   {
     "canonical": "Asia/Dubai",
+    "dst": false,
+    "abbr_st": "+04",
+    "abbr_dst": null,
     "offset_st": 14400,
+    "offset_dst": null,
     "aliases": [
       "Asia/Muscat"
     ],
@@ -2381,7 +3105,11 @@
   },
   {
     "canonical": "Asia/Dushanbe",
+    "dst": false,
+    "abbr_st": "+05",
+    "abbr_dst": null,
     "offset_st": 18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2392,7 +3120,11 @@
   },
   {
     "canonical": "Asia/Famagusta",
+    "dst": true,
+    "abbr_st": "EET",
+    "abbr_dst": "EEST",
     "offset_st": 7200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -2403,7 +3135,11 @@
   },
   {
     "canonical": "Asia/Gaza",
+    "dst": true,
+    "abbr_st": "EET",
+    "abbr_dst": "EEST",
     "offset_st": 7200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -2414,7 +3150,11 @@
   },
   {
     "canonical": "Asia/Hebron",
+    "dst": true,
+    "abbr_st": "EET",
+    "abbr_dst": "EEST",
     "offset_st": 7200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -2425,7 +3165,11 @@
   },
   {
     "canonical": "Asia/Ho_Chi_Minh",
+    "dst": false,
+    "abbr_st": "+07",
+    "abbr_dst": null,
     "offset_st": 25200,
+    "offset_dst": null,
     "aliases": [
       "Asia/Saigon"
     ],
@@ -2438,7 +3182,11 @@
   },
   {
     "canonical": "Asia/Hong_Kong",
+    "dst": false,
+    "abbr_st": "HKT",
+    "abbr_dst": null,
     "offset_st": 28800,
+    "offset_dst": null,
     "aliases": [
       "Hongkong"
     ],
@@ -2451,7 +3199,11 @@
   },
   {
     "canonical": "Asia/Hovd",
+    "dst": false,
+    "abbr_st": "+07",
+    "abbr_dst": null,
     "offset_st": 25200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2462,7 +3214,11 @@
   },
   {
     "canonical": "Asia/Irkutsk",
+    "dst": false,
+    "abbr_st": "+08",
+    "abbr_dst": null,
     "offset_st": 28800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2473,7 +3229,11 @@
   },
   {
     "canonical": "Asia/Jakarta",
+    "dst": false,
+    "abbr_st": "WIB",
+    "abbr_dst": null,
     "offset_st": 25200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2484,7 +3244,11 @@
   },
   {
     "canonical": "Asia/Jayapura",
+    "dst": false,
+    "abbr_st": "WIT",
+    "abbr_dst": null,
     "offset_st": 32400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2495,7 +3259,11 @@
   },
   {
     "canonical": "Asia/Jerusalem",
+    "dst": true,
+    "abbr_st": "IST",
+    "abbr_dst": "IDT",
     "offset_st": 7200,
+    "offset_dst": 3600,
     "aliases": [
       "Asia/Tel_Aviv",
       "Israel"
@@ -2509,7 +3277,11 @@
   },
   {
     "canonical": "Asia/Kabul",
+    "dst": false,
+    "abbr_st": "+0430",
+    "abbr_dst": null,
     "offset_st": 16200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2520,7 +3292,11 @@
   },
   {
     "canonical": "Asia/Kamchatka",
+    "dst": false,
+    "abbr_st": "+12",
+    "abbr_dst": null,
     "offset_st": 43200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2531,7 +3307,11 @@
   },
   {
     "canonical": "Asia/Karachi",
+    "dst": false,
+    "abbr_st": "PKT",
+    "abbr_dst": null,
     "offset_st": 18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2542,7 +3322,11 @@
   },
   {
     "canonical": "Asia/Kathmandu",
+    "dst": false,
+    "abbr_st": "+0545",
+    "abbr_dst": null,
     "offset_st": 20700,
+    "offset_dst": null,
     "aliases": [
       "Asia/Katmandu"
     ],
@@ -2555,7 +3339,11 @@
   },
   {
     "canonical": "Asia/Khandyga",
+    "dst": false,
+    "abbr_st": "+09",
+    "abbr_dst": null,
     "offset_st": 32400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2566,7 +3354,11 @@
   },
   {
     "canonical": "Asia/Kolkata",
+    "dst": false,
+    "abbr_st": "IST",
+    "abbr_dst": null,
     "offset_st": 19800,
+    "offset_dst": null,
     "aliases": [
       "Asia/Calcutta"
     ],
@@ -2579,7 +3371,11 @@
   },
   {
     "canonical": "Asia/Krasnoyarsk",
+    "dst": false,
+    "abbr_st": "+07",
+    "abbr_dst": null,
     "offset_st": 25200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2590,7 +3386,11 @@
   },
   {
     "canonical": "Asia/Kuala_Lumpur",
+    "dst": false,
+    "abbr_st": "+08",
+    "abbr_dst": null,
     "offset_st": 28800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2601,7 +3401,11 @@
   },
   {
     "canonical": "Asia/Kuching",
+    "dst": false,
+    "abbr_st": "+08",
+    "abbr_dst": null,
     "offset_st": 28800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2612,7 +3416,11 @@
   },
   {
     "canonical": "Asia/Macau",
+    "dst": false,
+    "abbr_st": "CST",
+    "abbr_dst": null,
     "offset_st": 28800,
+    "offset_dst": null,
     "aliases": [
       "Asia/Macao"
     ],
@@ -2625,7 +3433,11 @@
   },
   {
     "canonical": "Asia/Magadan",
+    "dst": false,
+    "abbr_st": "+11",
+    "abbr_dst": null,
     "offset_st": 39600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2636,7 +3448,11 @@
   },
   {
     "canonical": "Asia/Makassar",
+    "dst": false,
+    "abbr_st": "WITA",
+    "abbr_dst": null,
     "offset_st": 28800,
+    "offset_dst": null,
     "aliases": [
       "Asia/Ujung_Pandang"
     ],
@@ -2649,7 +3465,11 @@
   },
   {
     "canonical": "Asia/Manila",
+    "dst": false,
+    "abbr_st": "PST",
+    "abbr_dst": null,
     "offset_st": 28800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2660,7 +3480,11 @@
   },
   {
     "canonical": "Asia/Nicosia",
+    "dst": true,
+    "abbr_st": "EET",
+    "abbr_dst": "EEST",
     "offset_st": 7200,
+    "offset_dst": 3600,
     "aliases": [
       "Europe/Nicosia"
     ],
@@ -2673,7 +3497,11 @@
   },
   {
     "canonical": "Asia/Novokuznetsk",
+    "dst": false,
+    "abbr_st": "+07",
+    "abbr_dst": null,
     "offset_st": 25200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2684,7 +3512,11 @@
   },
   {
     "canonical": "Asia/Novosibirsk",
+    "dst": false,
+    "abbr_st": "+07",
+    "abbr_dst": null,
     "offset_st": 25200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2695,7 +3527,11 @@
   },
   {
     "canonical": "Asia/Omsk",
+    "dst": false,
+    "abbr_st": "+06",
+    "abbr_dst": null,
     "offset_st": 21600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2706,7 +3542,11 @@
   },
   {
     "canonical": "Asia/Oral",
+    "dst": false,
+    "abbr_st": "+05",
+    "abbr_dst": null,
     "offset_st": 18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2717,7 +3557,11 @@
   },
   {
     "canonical": "Asia/Pontianak",
+    "dst": false,
+    "abbr_st": "WIB",
+    "abbr_dst": null,
     "offset_st": 25200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2728,7 +3572,11 @@
   },
   {
     "canonical": "Asia/Pyongyang",
+    "dst": false,
+    "abbr_st": "KST",
+    "abbr_dst": null,
     "offset_st": 32400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2739,7 +3587,11 @@
   },
   {
     "canonical": "Asia/Qatar",
+    "dst": false,
+    "abbr_st": "+03",
+    "abbr_dst": null,
     "offset_st": 10800,
+    "offset_dst": null,
     "aliases": [
       "Asia/Bahrain"
     ],
@@ -2756,7 +3608,11 @@
   },
   {
     "canonical": "Asia/Qostanay",
+    "dst": false,
+    "abbr_st": "+06",
+    "abbr_dst": null,
     "offset_st": 21600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2767,7 +3623,11 @@
   },
   {
     "canonical": "Asia/Qyzylorda",
+    "dst": false,
+    "abbr_st": "+05",
+    "abbr_dst": null,
     "offset_st": 18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2778,7 +3638,11 @@
   },
   {
     "canonical": "Asia/Riyadh",
+    "dst": false,
+    "abbr_st": "+03",
+    "abbr_dst": null,
     "offset_st": 10800,
+    "offset_dst": null,
     "aliases": [
       "Asia/Aden",
       "Asia/Kuwait"
@@ -2800,7 +3664,11 @@
   },
   {
     "canonical": "Asia/Sakhalin",
+    "dst": false,
+    "abbr_st": "+11",
+    "abbr_dst": null,
     "offset_st": 39600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2811,7 +3679,11 @@
   },
   {
     "canonical": "Asia/Samarkand",
+    "dst": false,
+    "abbr_st": "+05",
+    "abbr_dst": null,
     "offset_st": 18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2822,7 +3694,11 @@
   },
   {
     "canonical": "Asia/Seoul",
+    "dst": false,
+    "abbr_st": "KST",
+    "abbr_dst": null,
     "offset_st": 32400,
+    "offset_dst": null,
     "aliases": [
       "ROK"
     ],
@@ -2835,7 +3711,11 @@
   },
   {
     "canonical": "Asia/Shanghai",
+    "dst": false,
+    "abbr_st": "CST",
+    "abbr_dst": null,
     "offset_st": 28800,
+    "offset_dst": null,
     "aliases": [
       "Asia/Chongqing",
       "Asia/Chungking",
@@ -2851,7 +3731,11 @@
   },
   {
     "canonical": "Asia/Singapore",
+    "dst": false,
+    "abbr_st": "+08",
+    "abbr_dst": null,
     "offset_st": 28800,
+    "offset_dst": null,
     "aliases": [
       "Singapore"
     ],
@@ -2864,7 +3748,11 @@
   },
   {
     "canonical": "Asia/Srednekolymsk",
+    "dst": false,
+    "abbr_st": "+11",
+    "abbr_dst": null,
     "offset_st": 39600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2875,7 +3763,11 @@
   },
   {
     "canonical": "Asia/Taipei",
+    "dst": false,
+    "abbr_st": "CST",
+    "abbr_dst": null,
     "offset_st": 28800,
+    "offset_dst": null,
     "aliases": [
       "ROC"
     ],
@@ -2888,7 +3780,11 @@
   },
   {
     "canonical": "Asia/Tashkent",
+    "dst": false,
+    "abbr_st": "+05",
+    "abbr_dst": null,
     "offset_st": 18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2899,7 +3795,11 @@
   },
   {
     "canonical": "Asia/Tbilisi",
+    "dst": false,
+    "abbr_st": "+04",
+    "abbr_dst": null,
     "offset_st": 14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2910,7 +3810,11 @@
   },
   {
     "canonical": "Asia/Tehran",
+    "dst": true,
+    "abbr_st": "+0330",
+    "abbr_dst": "+0430",
     "offset_st": 12600,
+    "offset_dst": 3600,
     "aliases": [
       "Iran"
     ],
@@ -2923,7 +3827,11 @@
   },
   {
     "canonical": "Asia/Thimphu",
+    "dst": false,
+    "abbr_st": "+06",
+    "abbr_dst": null,
     "offset_st": 21600,
+    "offset_dst": null,
     "aliases": [
       "Asia/Thimbu"
     ],
@@ -2936,7 +3844,11 @@
   },
   {
     "canonical": "Asia/Tokyo",
+    "dst": false,
+    "abbr_st": "JST",
+    "abbr_dst": null,
     "offset_st": 32400,
+    "offset_dst": null,
     "aliases": [
       "Japan"
     ],
@@ -2949,7 +3861,11 @@
   },
   {
     "canonical": "Asia/Tomsk",
+    "dst": false,
+    "abbr_st": "+07",
+    "abbr_dst": null,
     "offset_st": 25200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2960,7 +3876,11 @@
   },
   {
     "canonical": "Asia/Ulaanbaatar",
+    "dst": false,
+    "abbr_st": "+08",
+    "abbr_dst": null,
     "offset_st": 28800,
+    "offset_dst": null,
     "aliases": [
       "Asia/Ulan_Bator"
     ],
@@ -2973,7 +3893,11 @@
   },
   {
     "canonical": "Asia/Urumqi",
+    "dst": false,
+    "abbr_st": "+06",
+    "abbr_dst": null,
     "offset_st": 21600,
+    "offset_dst": null,
     "aliases": [
       "Asia/Kashgar"
     ],
@@ -2986,7 +3910,11 @@
   },
   {
     "canonical": "Asia/Ust-Nera",
+    "dst": false,
+    "abbr_st": "+10",
+    "abbr_dst": null,
     "offset_st": 36000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -2997,7 +3925,11 @@
   },
   {
     "canonical": "Asia/Vladivostok",
+    "dst": false,
+    "abbr_st": "+10",
+    "abbr_dst": null,
     "offset_st": 36000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -3008,7 +3940,11 @@
   },
   {
     "canonical": "Asia/Yakutsk",
+    "dst": false,
+    "abbr_st": "+09",
+    "abbr_dst": null,
     "offset_st": 32400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -3019,7 +3955,11 @@
   },
   {
     "canonical": "Asia/Yangon",
+    "dst": false,
+    "abbr_st": "+0630",
+    "abbr_dst": null,
     "offset_st": 23400,
+    "offset_dst": null,
     "aliases": [
       "Asia/Rangoon"
     ],
@@ -3032,7 +3972,11 @@
   },
   {
     "canonical": "Asia/Yekaterinburg",
+    "dst": false,
+    "abbr_st": "+05",
+    "abbr_dst": null,
     "offset_st": 18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -3043,7 +3987,11 @@
   },
   {
     "canonical": "Asia/Yerevan",
+    "dst": false,
+    "abbr_st": "+04",
+    "abbr_dst": null,
     "offset_st": 14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -3054,7 +4002,11 @@
   },
   {
     "canonical": "Atlantic/Azores",
+    "dst": true,
+    "abbr_st": "-01",
+    "abbr_dst": "+00",
     "offset_st": -3600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3065,7 +4017,11 @@
   },
   {
     "canonical": "Atlantic/Bermuda",
+    "dst": true,
+    "abbr_st": "AST",
+    "abbr_dst": "ADT",
     "offset_st": -14400,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3076,7 +4032,11 @@
   },
   {
     "canonical": "Atlantic/Canary",
+    "dst": true,
+    "abbr_st": "WET",
+    "abbr_dst": "WEST",
     "offset_st": 0,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3087,7 +4047,11 @@
   },
   {
     "canonical": "Atlantic/Cape_Verde",
+    "dst": false,
+    "abbr_st": "-01",
+    "abbr_dst": null,
     "offset_st": -3600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -3098,7 +4062,11 @@
   },
   {
     "canonical": "Atlantic/Faroe",
+    "dst": true,
+    "abbr_st": "WET",
+    "abbr_dst": "WEST",
     "offset_st": 0,
+    "offset_dst": 3600,
     "aliases": [
       "Atlantic/Faeroe"
     ],
@@ -3111,7 +4079,11 @@
   },
   {
     "canonical": "Atlantic/Madeira",
+    "dst": true,
+    "abbr_st": "WET",
+    "abbr_dst": "WEST",
     "offset_st": 0,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3122,7 +4094,11 @@
   },
   {
     "canonical": "Atlantic/Reykjavik",
+    "dst": false,
+    "abbr_st": "GMT",
+    "abbr_dst": null,
     "offset_st": 0,
+    "offset_dst": null,
     "aliases": [
       "Iceland"
     ],
@@ -3135,7 +4111,11 @@
   },
   {
     "canonical": "Atlantic/South_Georgia",
+    "dst": false,
+    "abbr_st": "-02",
+    "abbr_dst": null,
     "offset_st": -7200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -3146,7 +4126,11 @@
   },
   {
     "canonical": "Atlantic/Stanley",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -3157,7 +4141,11 @@
   },
   {
     "canonical": "Australia/Adelaide",
+    "dst": true,
+    "abbr_st": "ACST",
+    "abbr_dst": "ACDT",
     "offset_st": 34200,
+    "offset_dst": 3600,
     "aliases": [
       "Australia/South"
     ],
@@ -3170,7 +4158,11 @@
   },
   {
     "canonical": "Australia/Brisbane",
+    "dst": false,
+    "abbr_st": "AEST",
+    "abbr_dst": null,
     "offset_st": 36000,
+    "offset_dst": null,
     "aliases": [
       "Australia/Queensland"
     ],
@@ -3183,7 +4175,11 @@
   },
   {
     "canonical": "Australia/Broken_Hill",
+    "dst": true,
+    "abbr_st": "ACST",
+    "abbr_dst": "ACDT",
     "offset_st": 34200,
+    "offset_dst": 3600,
     "aliases": [
       "Australia/Yancowinna"
     ],
@@ -3196,7 +4192,11 @@
   },
   {
     "canonical": "Australia/Currie",
+    "dst": true,
+    "abbr_st": "AEST",
+    "abbr_dst": "AEDT",
     "offset_st": 36000,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3207,7 +4207,11 @@
   },
   {
     "canonical": "Australia/Darwin",
+    "dst": false,
+    "abbr_st": "ACST",
+    "abbr_dst": null,
     "offset_st": 34200,
+    "offset_dst": null,
     "aliases": [
       "Australia/North"
     ],
@@ -3220,7 +4224,11 @@
   },
   {
     "canonical": "Australia/Eucla",
+    "dst": false,
+    "abbr_st": "+0845",
+    "abbr_dst": null,
     "offset_st": 31500,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -3231,7 +4239,11 @@
   },
   {
     "canonical": "Australia/Hobart",
+    "dst": true,
+    "abbr_st": "AEST",
+    "abbr_dst": "AEDT",
     "offset_st": 36000,
+    "offset_dst": 3600,
     "aliases": [
       "Australia/Tasmania"
     ],
@@ -3244,7 +4256,11 @@
   },
   {
     "canonical": "Australia/Lindeman",
+    "dst": false,
+    "abbr_st": "AEST",
+    "abbr_dst": null,
     "offset_st": 36000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -3255,7 +4271,11 @@
   },
   {
     "canonical": "Australia/Lord_Howe",
+    "dst": true,
+    "abbr_st": "+1030",
+    "abbr_dst": "+11",
     "offset_st": 37800,
+    "offset_dst": 1800,
     "aliases": [
       "Australia/LHI"
     ],
@@ -3268,7 +4288,11 @@
   },
   {
     "canonical": "Australia/Melbourne",
+    "dst": true,
+    "abbr_st": "AEST",
+    "abbr_dst": "AEDT",
     "offset_st": 36000,
+    "offset_dst": 3600,
     "aliases": [
       "Australia/Victoria"
     ],
@@ -3281,7 +4305,11 @@
   },
   {
     "canonical": "Australia/Perth",
+    "dst": false,
+    "abbr_st": "AWST",
+    "abbr_dst": null,
     "offset_st": 28800,
+    "offset_dst": null,
     "aliases": [
       "Australia/West"
     ],
@@ -3294,7 +4322,11 @@
   },
   {
     "canonical": "Australia/Sydney",
+    "dst": true,
+    "abbr_st": "AEST",
+    "abbr_dst": "AEDT",
     "offset_st": 36000,
+    "offset_dst": 3600,
     "aliases": [
       "Australia/ACT",
       "Australia/Canberra",
@@ -3309,37 +4341,61 @@
   },
   {
     "canonical": "CET",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "CST6CDT",
+    "dst": true,
+    "abbr_st": "CST",
+    "abbr_dst": "CDT",
     "offset_st": -21600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "EET",
+    "dst": true,
+    "abbr_st": "EET",
+    "abbr_dst": "EEST",
     "offset_st": 7200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "EST",
+    "dst": false,
+    "abbr_st": "EST",
+    "abbr_dst": null,
     "offset_st": -18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "EST5EDT",
+    "dst": true,
+    "abbr_st": "EST",
+    "abbr_dst": "EDT",
     "offset_st": -18000,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT",
+    "dst": false,
+    "abbr_st": "GMT",
+    "abbr_dst": null,
     "offset_st": 0,
+    "offset_dst": null,
     "aliases": [
       "Etc/GMT+0",
       "Etc/GMT-0",
@@ -3355,163 +4411,271 @@
   },
   {
     "canonical": "Etc/GMT+1",
+    "dst": false,
+    "abbr_st": "-01",
+    "abbr_dst": null,
     "offset_st": -3600,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT+10",
+    "dst": false,
+    "abbr_st": "-10",
+    "abbr_dst": null,
     "offset_st": -36000,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT+11",
+    "dst": false,
+    "abbr_st": "-11",
+    "abbr_dst": null,
     "offset_st": -39600,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT+12",
+    "dst": false,
+    "abbr_st": "-12",
+    "abbr_dst": null,
     "offset_st": -43200,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT+2",
+    "dst": false,
+    "abbr_st": "-02",
+    "abbr_dst": null,
     "offset_st": -7200,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT+3",
+    "dst": false,
+    "abbr_st": "-03",
+    "abbr_dst": null,
     "offset_st": -10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT+4",
+    "dst": false,
+    "abbr_st": "-04",
+    "abbr_dst": null,
     "offset_st": -14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT+5",
+    "dst": false,
+    "abbr_st": "-05",
+    "abbr_dst": null,
     "offset_st": -18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT+6",
+    "dst": false,
+    "abbr_st": "-06",
+    "abbr_dst": null,
     "offset_st": -21600,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT+7",
+    "dst": false,
+    "abbr_st": "-07",
+    "abbr_dst": null,
     "offset_st": -25200,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT+8",
+    "dst": false,
+    "abbr_st": "-08",
+    "abbr_dst": null,
     "offset_st": -28800,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT+9",
+    "dst": false,
+    "abbr_st": "-09",
+    "abbr_dst": null,
     "offset_st": -32400,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT-1",
+    "dst": false,
+    "abbr_st": "+01",
+    "abbr_dst": null,
     "offset_st": 3600,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT-10",
+    "dst": false,
+    "abbr_st": "+10",
+    "abbr_dst": null,
     "offset_st": 36000,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT-11",
+    "dst": false,
+    "abbr_st": "+11",
+    "abbr_dst": null,
     "offset_st": 39600,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT-12",
+    "dst": false,
+    "abbr_st": "+12",
+    "abbr_dst": null,
     "offset_st": 43200,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT-13",
+    "dst": false,
+    "abbr_st": "+13",
+    "abbr_dst": null,
     "offset_st": 46800,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT-14",
+    "dst": false,
+    "abbr_st": "+14",
+    "abbr_dst": null,
     "offset_st": 50400,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT-2",
+    "dst": false,
+    "abbr_st": "+02",
+    "abbr_dst": null,
     "offset_st": 7200,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT-3",
+    "dst": false,
+    "abbr_st": "+03",
+    "abbr_dst": null,
     "offset_st": 10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT-4",
+    "dst": false,
+    "abbr_st": "+04",
+    "abbr_dst": null,
     "offset_st": 14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT-5",
+    "dst": false,
+    "abbr_st": "+05",
+    "abbr_dst": null,
     "offset_st": 18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT-6",
+    "dst": false,
+    "abbr_st": "+06",
+    "abbr_dst": null,
     "offset_st": 21600,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT-7",
+    "dst": false,
+    "abbr_st": "+07",
+    "abbr_dst": null,
     "offset_st": 25200,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT-8",
+    "dst": false,
+    "abbr_st": "+08",
+    "abbr_dst": null,
     "offset_st": 28800,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/GMT-9",
+    "dst": false,
+    "abbr_st": "+09",
+    "abbr_dst": null,
     "offset_st": 32400,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Etc/UTC",
+    "dst": false,
+    "abbr_st": "UTC",
+    "abbr_dst": null,
     "offset_st": 0,
+    "offset_dst": null,
     "aliases": [
       "Etc/UCT",
       "Etc/Universal",
@@ -3525,7 +4689,11 @@
   },
   {
     "canonical": "Europe/Amsterdam",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3536,7 +4704,11 @@
   },
   {
     "canonical": "Europe/Andorra",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3547,7 +4719,11 @@
   },
   {
     "canonical": "Europe/Astrakhan",
+    "dst": false,
+    "abbr_st": "+04",
+    "abbr_dst": null,
     "offset_st": 14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -3558,7 +4734,11 @@
   },
   {
     "canonical": "Europe/Athens",
+    "dst": true,
+    "abbr_st": "EET",
+    "abbr_dst": "EEST",
     "offset_st": 7200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3569,7 +4749,11 @@
   },
   {
     "canonical": "Europe/Belgrade",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [
       "Europe/Ljubljana",
       "Europe/Podgorica",
@@ -3606,7 +4790,11 @@
   },
   {
     "canonical": "Europe/Berlin",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3617,7 +4805,11 @@
   },
   {
     "canonical": "Europe/Brussels",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3628,7 +4820,11 @@
   },
   {
     "canonical": "Europe/Bucharest",
+    "dst": true,
+    "abbr_st": "EET",
+    "abbr_dst": "EEST",
     "offset_st": 7200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3639,7 +4835,11 @@
   },
   {
     "canonical": "Europe/Budapest",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3650,7 +4850,11 @@
   },
   {
     "canonical": "Europe/Chisinau",
+    "dst": true,
+    "abbr_st": "EET",
+    "abbr_dst": "EEST",
     "offset_st": 7200,
+    "offset_dst": 3600,
     "aliases": [
       "Europe/Tiraspol"
     ],
@@ -3663,7 +4867,11 @@
   },
   {
     "canonical": "Europe/Copenhagen",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3674,7 +4882,11 @@
   },
   {
     "canonical": "Europe/Dublin",
+    "dst": true,
+    "abbr_st": "IST",
+    "abbr_dst": "GMT",
     "offset_st": 3600,
+    "offset_dst": -3600,
     "aliases": [
       "Eire"
     ],
@@ -3687,7 +4899,11 @@
   },
   {
     "canonical": "Europe/Gibraltar",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3698,7 +4914,11 @@
   },
   {
     "canonical": "Europe/Helsinki",
+    "dst": true,
+    "abbr_st": "EET",
+    "abbr_dst": "EEST",
     "offset_st": 7200,
+    "offset_dst": 3600,
     "aliases": [
       "Europe/Mariehamn"
     ],
@@ -3715,7 +4935,11 @@
   },
   {
     "canonical": "Europe/Istanbul",
+    "dst": false,
+    "abbr_st": "+03",
+    "abbr_dst": null,
     "offset_st": 10800,
+    "offset_dst": null,
     "aliases": [
       "Asia/Istanbul",
       "Turkey"
@@ -3729,7 +4953,11 @@
   },
   {
     "canonical": "Europe/Kaliningrad",
+    "dst": false,
+    "abbr_st": "EET",
+    "abbr_dst": null,
     "offset_st": 7200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -3740,7 +4968,11 @@
   },
   {
     "canonical": "Europe/Kiev",
+    "dst": true,
+    "abbr_st": "EET",
+    "abbr_dst": "EEST",
     "offset_st": 7200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3751,7 +4983,11 @@
   },
   {
     "canonical": "Europe/Kirov",
+    "dst": false,
+    "abbr_st": "+03",
+    "abbr_dst": null,
     "offset_st": 10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -3762,7 +4998,11 @@
   },
   {
     "canonical": "Europe/Lisbon",
+    "dst": true,
+    "abbr_st": "WET",
+    "abbr_dst": "WEST",
     "offset_st": 0,
+    "offset_dst": 3600,
     "aliases": [
       "Portugal"
     ],
@@ -3775,7 +5015,11 @@
   },
   {
     "canonical": "Europe/London",
+    "dst": true,
+    "abbr_st": "GMT",
+    "abbr_dst": "BST",
     "offset_st": 0,
+    "offset_dst": 3600,
     "aliases": [
       "Europe/Belfast",
       "Europe/Guernsey",
@@ -3805,7 +5049,11 @@
   },
   {
     "canonical": "Europe/Luxembourg",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3816,7 +5064,11 @@
   },
   {
     "canonical": "Europe/Madrid",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3827,7 +5079,11 @@
   },
   {
     "canonical": "Europe/Malta",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3838,7 +5094,11 @@
   },
   {
     "canonical": "Europe/Minsk",
+    "dst": false,
+    "abbr_st": "+03",
+    "abbr_dst": null,
     "offset_st": 10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -3849,7 +5109,11 @@
   },
   {
     "canonical": "Europe/Monaco",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3860,7 +5124,11 @@
   },
   {
     "canonical": "Europe/Moscow",
+    "dst": false,
+    "abbr_st": "MSK",
+    "abbr_dst": null,
     "offset_st": 10800,
+    "offset_dst": null,
     "aliases": [
       "W-SU"
     ],
@@ -3873,7 +5141,11 @@
   },
   {
     "canonical": "Europe/Oslo",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [
       "Arctic/Longyearbyen",
       "Atlantic/Jan_Mayen"
@@ -3891,7 +5163,11 @@
   },
   {
     "canonical": "Europe/Paris",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3902,7 +5178,11 @@
   },
   {
     "canonical": "Europe/Prague",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [
       "Europe/Bratislava"
     ],
@@ -3919,7 +5199,11 @@
   },
   {
     "canonical": "Europe/Riga",
+    "dst": true,
+    "abbr_st": "EET",
+    "abbr_dst": "EEST",
     "offset_st": 7200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -3930,7 +5214,11 @@
   },
   {
     "canonical": "Europe/Rome",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [
       "Europe/San_Marino",
       "Europe/Vatican"
@@ -3952,7 +5240,11 @@
   },
   {
     "canonical": "Europe/Samara",
+    "dst": false,
+    "abbr_st": "+04",
+    "abbr_dst": null,
     "offset_st": 14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -3963,7 +5255,11 @@
   },
   {
     "canonical": "Europe/Saratov",
+    "dst": false,
+    "abbr_st": "+04",
+    "abbr_dst": null,
     "offset_st": 14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -3974,7 +5270,11 @@
   },
   {
     "canonical": "Europe/Simferopol",
+    "dst": false,
+    "abbr_st": "MSK",
+    "abbr_dst": null,
     "offset_st": 10800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -3989,7 +5289,11 @@
   },
   {
     "canonical": "Europe/Sofia",
+    "dst": true,
+    "abbr_st": "EET",
+    "abbr_dst": "EEST",
     "offset_st": 7200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -4000,7 +5304,11 @@
   },
   {
     "canonical": "Europe/Stockholm",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -4011,7 +5319,11 @@
   },
   {
     "canonical": "Europe/Tallinn",
+    "dst": true,
+    "abbr_st": "EET",
+    "abbr_dst": "EEST",
     "offset_st": 7200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -4022,7 +5334,11 @@
   },
   {
     "canonical": "Europe/Tirane",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -4033,7 +5349,11 @@
   },
   {
     "canonical": "Europe/Ulyanovsk",
+    "dst": false,
+    "abbr_st": "+04",
+    "abbr_dst": null,
     "offset_st": 14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4044,7 +5364,11 @@
   },
   {
     "canonical": "Europe/Uzhgorod",
+    "dst": true,
+    "abbr_st": "EET",
+    "abbr_dst": "EEST",
     "offset_st": 7200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -4055,7 +5379,11 @@
   },
   {
     "canonical": "Europe/Vienna",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -4066,7 +5394,11 @@
   },
   {
     "canonical": "Europe/Vilnius",
+    "dst": true,
+    "abbr_st": "EET",
+    "abbr_dst": "EEST",
     "offset_st": 7200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -4077,7 +5409,11 @@
   },
   {
     "canonical": "Europe/Volgograd",
+    "dst": false,
+    "abbr_st": "+04",
+    "abbr_dst": null,
     "offset_st": 14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4088,7 +5424,11 @@
   },
   {
     "canonical": "Europe/Warsaw",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [
       "Poland"
     ],
@@ -4101,7 +5441,11 @@
   },
   {
     "canonical": "Europe/Zaporozhye",
+    "dst": true,
+    "abbr_st": "EET",
+    "abbr_dst": "EEST",
     "offset_st": 7200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -4112,7 +5456,11 @@
   },
   {
     "canonical": "Europe/Zurich",
+    "dst": true,
+    "abbr_st": "CET",
+    "abbr_dst": "CEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [
       "Europe/Busingen",
       "Europe/Vaduz"
@@ -4134,13 +5482,21 @@
   },
   {
     "canonical": "HST",
+    "dst": false,
+    "abbr_st": "HST",
+    "abbr_dst": null,
     "offset_st": -36000,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Indian/Chagos",
+    "dst": false,
+    "abbr_st": "+06",
+    "abbr_dst": null,
     "offset_st": 21600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4151,7 +5507,11 @@
   },
   {
     "canonical": "Indian/Christmas",
+    "dst": false,
+    "abbr_st": "+07",
+    "abbr_dst": null,
     "offset_st": 25200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4162,7 +5522,11 @@
   },
   {
     "canonical": "Indian/Cocos",
+    "dst": false,
+    "abbr_st": "+0630",
+    "abbr_dst": null,
     "offset_st": 23400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4173,7 +5537,11 @@
   },
   {
     "canonical": "Indian/Kerguelen",
+    "dst": false,
+    "abbr_st": "+05",
+    "abbr_dst": null,
     "offset_st": 18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4184,7 +5552,11 @@
   },
   {
     "canonical": "Indian/Mahe",
+    "dst": false,
+    "abbr_st": "+04",
+    "abbr_dst": null,
     "offset_st": 14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4195,7 +5567,11 @@
   },
   {
     "canonical": "Indian/Maldives",
+    "dst": false,
+    "abbr_st": "+05",
+    "abbr_dst": null,
     "offset_st": 18000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4206,7 +5582,11 @@
   },
   {
     "canonical": "Indian/Mauritius",
+    "dst": false,
+    "abbr_st": "+04",
+    "abbr_dst": null,
     "offset_st": 14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4217,7 +5597,11 @@
   },
   {
     "canonical": "Indian/Reunion",
+    "dst": false,
+    "abbr_st": "+04",
+    "abbr_dst": null,
     "offset_st": 14400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4232,31 +5616,51 @@
   },
   {
     "canonical": "MET",
+    "dst": true,
+    "abbr_st": "MET",
+    "abbr_dst": "MEST",
     "offset_st": 3600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "MST",
+    "dst": false,
+    "abbr_st": "MST",
+    "abbr_dst": null,
     "offset_st": -25200,
+    "offset_dst": null,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "MST7MDT",
+    "dst": true,
+    "abbr_st": "MST",
+    "abbr_dst": "MDT",
     "offset_st": -25200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "PST8PDT",
+    "dst": true,
+    "abbr_st": "PST",
+    "abbr_dst": "PDT",
     "offset_st": -28800,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": []
   },
   {
     "canonical": "Pacific/Apia",
+    "dst": true,
+    "abbr_st": "+13",
+    "abbr_dst": "+14",
     "offset_st": 46800,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -4267,7 +5671,11 @@
   },
   {
     "canonical": "Pacific/Auckland",
+    "dst": true,
+    "abbr_st": "NZST",
+    "abbr_dst": "NZDT",
     "offset_st": 43200,
+    "offset_dst": 3600,
     "aliases": [
       "Antarctica/McMurdo",
       "Antarctica/South_Pole",
@@ -4286,7 +5694,11 @@
   },
   {
     "canonical": "Pacific/Bougainville",
+    "dst": false,
+    "abbr_st": "+11",
+    "abbr_dst": null,
     "offset_st": 39600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4297,7 +5709,11 @@
   },
   {
     "canonical": "Pacific/Chatham",
+    "dst": true,
+    "abbr_st": "+1245",
+    "abbr_dst": "+1345",
     "offset_st": 45900,
+    "offset_dst": 3600,
     "aliases": [
       "NZ-CHAT"
     ],
@@ -4310,7 +5726,11 @@
   },
   {
     "canonical": "Pacific/Chuuk",
+    "dst": false,
+    "abbr_st": "+10",
+    "abbr_dst": null,
     "offset_st": 36000,
+    "offset_dst": null,
     "aliases": [
       "Pacific/Truk",
       "Pacific/Yap"
@@ -4324,7 +5744,11 @@
   },
   {
     "canonical": "Pacific/Easter",
+    "dst": true,
+    "abbr_st": "-06",
+    "abbr_dst": "-05",
     "offset_st": -21600,
+    "offset_dst": 3600,
     "aliases": [
       "Chile/EasterIsland"
     ],
@@ -4337,7 +5761,11 @@
   },
   {
     "canonical": "Pacific/Efate",
+    "dst": false,
+    "abbr_st": "+11",
+    "abbr_dst": null,
     "offset_st": 39600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4348,7 +5776,11 @@
   },
   {
     "canonical": "Pacific/Enderbury",
+    "dst": false,
+    "abbr_st": "+13",
+    "abbr_dst": null,
     "offset_st": 46800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4359,7 +5791,11 @@
   },
   {
     "canonical": "Pacific/Fakaofo",
+    "dst": false,
+    "abbr_st": "+13",
+    "abbr_dst": null,
     "offset_st": 46800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4370,7 +5806,11 @@
   },
   {
     "canonical": "Pacific/Fiji",
+    "dst": true,
+    "abbr_st": "+12",
+    "abbr_dst": "+13",
     "offset_st": 43200,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -4381,7 +5821,11 @@
   },
   {
     "canonical": "Pacific/Funafuti",
+    "dst": false,
+    "abbr_st": "+12",
+    "abbr_dst": null,
     "offset_st": 43200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4392,7 +5836,11 @@
   },
   {
     "canonical": "Pacific/Galapagos",
+    "dst": false,
+    "abbr_st": "-06",
+    "abbr_dst": null,
     "offset_st": -21600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4403,7 +5851,11 @@
   },
   {
     "canonical": "Pacific/Gambier",
+    "dst": false,
+    "abbr_st": "-09",
+    "abbr_dst": null,
     "offset_st": -32400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4414,7 +5866,11 @@
   },
   {
     "canonical": "Pacific/Guadalcanal",
+    "dst": false,
+    "abbr_st": "+11",
+    "abbr_dst": null,
     "offset_st": 39600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4425,7 +5881,11 @@
   },
   {
     "canonical": "Pacific/Guam",
+    "dst": false,
+    "abbr_st": "ChST",
+    "abbr_dst": null,
     "offset_st": 36000,
+    "offset_dst": null,
     "aliases": [
       "Pacific/Saipan"
     ],
@@ -4442,7 +5902,11 @@
   },
   {
     "canonical": "Pacific/Honolulu",
+    "dst": false,
+    "abbr_st": "HST",
+    "abbr_dst": null,
     "offset_st": -36000,
+    "offset_dst": null,
     "aliases": [
       "Pacific/Johnston",
       "US/Hawaii"
@@ -4460,7 +5924,11 @@
   },
   {
     "canonical": "Pacific/Kiritimati",
+    "dst": false,
+    "abbr_st": "+14",
+    "abbr_dst": null,
     "offset_st": 50400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4471,7 +5939,11 @@
   },
   {
     "canonical": "Pacific/Kosrae",
+    "dst": false,
+    "abbr_st": "+11",
+    "abbr_dst": null,
     "offset_st": 39600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4482,7 +5954,11 @@
   },
   {
     "canonical": "Pacific/Kwajalein",
+    "dst": false,
+    "abbr_st": "+12",
+    "abbr_dst": null,
     "offset_st": 43200,
+    "offset_dst": null,
     "aliases": [
       "Kwajalein"
     ],
@@ -4495,7 +5971,11 @@
   },
   {
     "canonical": "Pacific/Majuro",
+    "dst": false,
+    "abbr_st": "+12",
+    "abbr_dst": null,
     "offset_st": 43200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4506,7 +5986,11 @@
   },
   {
     "canonical": "Pacific/Marquesas",
+    "dst": false,
+    "abbr_st": "-0930",
+    "abbr_dst": null,
     "offset_st": -34200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4517,7 +6001,11 @@
   },
   {
     "canonical": "Pacific/Nauru",
+    "dst": false,
+    "abbr_st": "+12",
+    "abbr_dst": null,
     "offset_st": 43200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4528,7 +6016,11 @@
   },
   {
     "canonical": "Pacific/Niue",
+    "dst": false,
+    "abbr_st": "-11",
+    "abbr_dst": null,
     "offset_st": -39600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4539,7 +6031,11 @@
   },
   {
     "canonical": "Pacific/Norfolk",
+    "dst": true,
+    "abbr_st": "+11",
+    "abbr_dst": "+12",
     "offset_st": 39600,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": [
       {
@@ -4550,7 +6046,11 @@
   },
   {
     "canonical": "Pacific/Noumea",
+    "dst": false,
+    "abbr_st": "+11",
+    "abbr_dst": null,
     "offset_st": 39600,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4561,7 +6061,11 @@
   },
   {
     "canonical": "Pacific/Pago_Pago",
+    "dst": false,
+    "abbr_st": "SST",
+    "abbr_dst": null,
     "offset_st": -39600,
+    "offset_dst": null,
     "aliases": [
       "Pacific/Midway",
       "Pacific/Samoa",
@@ -4580,7 +6084,11 @@
   },
   {
     "canonical": "Pacific/Palau",
+    "dst": false,
+    "abbr_st": "+09",
+    "abbr_dst": null,
     "offset_st": 32400,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4591,7 +6099,11 @@
   },
   {
     "canonical": "Pacific/Pitcairn",
+    "dst": false,
+    "abbr_st": "-08",
+    "abbr_dst": null,
     "offset_st": -28800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4602,7 +6114,11 @@
   },
   {
     "canonical": "Pacific/Pohnpei",
+    "dst": false,
+    "abbr_st": "+11",
+    "abbr_dst": null,
     "offset_st": 39600,
+    "offset_dst": null,
     "aliases": [
       "Pacific/Ponape"
     ],
@@ -4615,7 +6131,11 @@
   },
   {
     "canonical": "Pacific/Port_Moresby",
+    "dst": false,
+    "abbr_st": "+10",
+    "abbr_dst": null,
     "offset_st": 36000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4626,7 +6146,11 @@
   },
   {
     "canonical": "Pacific/Rarotonga",
+    "dst": false,
+    "abbr_st": "-10",
+    "abbr_dst": null,
     "offset_st": -36000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4637,7 +6161,11 @@
   },
   {
     "canonical": "Pacific/Tahiti",
+    "dst": false,
+    "abbr_st": "-10",
+    "abbr_dst": null,
     "offset_st": -36000,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4648,7 +6176,11 @@
   },
   {
     "canonical": "Pacific/Tarawa",
+    "dst": false,
+    "abbr_st": "+12",
+    "abbr_dst": null,
     "offset_st": 43200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4659,7 +6191,11 @@
   },
   {
     "canonical": "Pacific/Tongatapu",
+    "dst": false,
+    "abbr_st": "+13",
+    "abbr_dst": null,
     "offset_st": 46800,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4670,7 +6206,11 @@
   },
   {
     "canonical": "Pacific/Wake",
+    "dst": false,
+    "abbr_st": "+12",
+    "abbr_dst": null,
     "offset_st": 43200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4681,7 +6221,11 @@
   },
   {
     "canonical": "Pacific/Wallis",
+    "dst": false,
+    "abbr_st": "+12",
+    "abbr_dst": null,
     "offset_st": 43200,
+    "offset_dst": null,
     "aliases": [],
     "countries": [
       {
@@ -4692,7 +6236,11 @@
   },
   {
     "canonical": "WET",
+    "dst": true,
+    "abbr_st": "WET",
+    "abbr_dst": "WEST",
     "offset_st": 0,
+    "offset_dst": 3600,
     "aliases": [],
     "countries": []
   }
