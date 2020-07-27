@@ -14,29 +14,29 @@ Please open an issue or a pull request if you spot any inaccuracy.
 ## format
 
 ```
-  {
-    "canonical": "Pacific/Auckland",  // primary time zone name currently in use
-    "dst": true,                      // tells whether time zone observes daylight saving time at all (either now or in future)
-    "abbr_st": "NZST",                // abbreviation for standard time
-    "abbr_dst": "NZDT",               // abbreviation for daylight saving time
-    "offset_st": 43200,               // offset from UTC (in seconds) for standard time
-    "offset_dst": 3600,               // offset from offset_st (in seconds) for daylight saving time
-    "aliases": [                      // collection of backward-compatible time zone names
-      "Antarctica/McMurdo",
-      "Antarctica/South_Pole",
-      "NZ"
-    ],
-    "countries": [                    // collection of ISO 3166 countries where this time zone is observed
-      {
-        "code": "AQ",
-        "name": "Antarctica"
-      },
-      {
-        "code": "NZ",
-        "name": "New Zealand"
-      }
-    ]
-  }
+{
+  "canonical": "Pacific/Auckland",  // primary time zone name currently in use
+  "dst": true,                      // tells whether time zone observes daylight saving time at all (either now or in future)
+  "abbr_st": "NZST",                // abbreviation for standard time
+  "abbr_dst": "NZDT",               // abbreviation for daylight saving time
+  "offset_st": 43200,               // offset from UTC (in seconds) for standard time
+  "offset_dst": 3600,               // offset from offset_st (in seconds) for daylight saving time
+  "aliases": [                      // collection of backward-compatible time zone names
+    "Antarctica/McMurdo",
+    "Antarctica/South_Pole",
+    "NZ"
+  ],
+  "countries": [                    // collection of ISO 3166 countries where this time zone is observed
+    {
+      "code": "AQ",
+      "name": "Antarctica"
+    },
+    {
+      "code": "NZ",
+      "name": "New Zealand"
+    }
+  ]
+}
 ```
 
 ## todo
