@@ -1,6 +1,6 @@
 # tz
 
-Time zone information for use cases like server-side validations, user input choices, etc.
+Time zone information for use cases like server-side validation, user input options, etc.
 
 This package doesn't contain any historical data and should not be used for parsing any specific dates. For that take a look at packages such as [pytz](https://pythonhosted.org/pytz/), [moment-timezone](https://momentjs.com/timezone/), etc.
 
