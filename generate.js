@@ -32,7 +32,7 @@ async function otherZonesSort(zones) {
     otherZoneNames.push(zone.name);
   }
   // sort
-  const sortedZones = zones.sort((a, b) => {
+  const sortedZones = zones.slice().sort((a, b) => {
     if (otherZoneNames.includes(a.name)) return 2;
     if (otherZoneNames.includes(b.name)) return -2;
     if (a.name > b.name) return 1;
@@ -136,12 +136,12 @@ async function generateTz() {
 
     //
     const zoneAliases = links.filter(l => l.target === zone.name).map(l => l.source);
-    const zoneAliasesSorted = zoneAliases.sort();
+    const zoneAliasesSorted = zoneAliases.slice().sort();
 
     //
     const zoneFoundCountries = countries.find(c => c.tz === zone.name);
     const zoneCountries = zoneFoundCountries ? zoneFoundCountries.countries : [];
-    const zoneCountriesSorted = zoneCountries.sort((a, b) => (a.code > b.code) ? 1 : -1);
+    const zoneCountriesSorted = zoneCountries.slice().sort((a, b) => (a.code > b.code) ? 1 : -1);
 
     //
     const dstIsObserved = !!zone.rules.find(rule => rule.save !== '0');
@@ -206,7 +206,7 @@ async function generateTz() {
   }
 
   //
-  const output = zonesUnsorted.sort((a, b) => (a.canonical > b.canonical) ? 1 : -1);
+  const output = zonesUnsorted.slice().sort((a, b) => (a.canonical > b.canonical) ? 1 : -1);
 
   //
   await fs.writeJson(DIST_TZ_PATH, output, {
@@ -238,7 +238,7 @@ async function generateTzByCountry() {
     }
   }
   //
-  const countriesSorted = countries.sort((a, b) => (a.code > b.code) ? 1 : -1);
+  const countriesSorted = countries.slice().sort((a, b) => (a.code > b.code) ? 1 : -1);
   countriesSorted.push({
     code: 'ZZ',
     name: 'Other',

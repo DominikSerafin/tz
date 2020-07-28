@@ -41,7 +41,7 @@ async function normalizeLinks() {
     });
   }
   //
-  const outputSorted = output.sort((a, b) => (a.target > b.target) ? 1 : -1);
+  const outputSorted = output.slice().sort((a, b) => (a.target > b.target) ? 1 : -1);
   //
   await fs.writeJson(SOURCES_NORMALIZED_LINKS_PATH, outputSorted, {
     spaces: 2,
@@ -81,7 +81,7 @@ async function normalizeRules() {
     output.push(normalizedRule);
   }
   //
-  //const outputSorted = output.sort((a, b) => (a.name > b.name) ? 1 : -1);
+  //const outputSorted = output.slice().sort((a, b) => (a.name > b.name) ? 1 : -1);
   //
   await fs.writeJson(SOURCES_NORMALIZED_RULES_PATH, output, {
     spaces: 2,
@@ -128,7 +128,7 @@ async function normalizeZones() {
     });
   }
   //
-  //const outputSorted = output.sort((a, b) => (a.name > b.name) ? 1 : -1);
+  //const outputSorted = output.slice().sort((a, b) => (a.name > b.name) ? 1 : -1);
   //
   await fs.writeJson(SOURCES_NORMALIZED_ZONES_PATH, output, {
     spaces: 2,
@@ -317,7 +317,7 @@ async function normalizeOngoing() {
     const rulesAugmented = zoneRules.map(rule => augmentRule(rule));
 
     // get zone rules sorted by "to" value
-    const rulesSortedByTo = rulesAugmented.sort((a, b) => (a.to_combined > b.to_combined) ? 1 : -1).sort();
+    const rulesSortedByTo = rulesAugmented.slice().sort((a, b) => (a.to_combined > b.to_combined) ? 1 : -1);
 
     // because "to_combined" doesn't account for days and hours,
     // there's a chance for duplicates of that value if transition happened in the same year and month,
