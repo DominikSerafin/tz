@@ -2,7 +2,7 @@
 
 Time zone information in friendly JSON for use cases like server-side validation, user input options, etc.
 
-This package doesn't contain any historical data and should not be used for parsing any specific dates. For that take a look at packages such as [pytz](https://pythonhosted.org/pytz/), [moment-timezone](https://momentjs.com/timezone/), etc.
+This package doesn't contain any historical data and should not be used for working with specific dates. Take a look at other packages for that, such as [pytz](https://pythonhosted.org/pytz/), [moment-timezone](https://momentjs.com/timezone/), etc.
 
 The data is taken directly from [IANA time zone database](https://www.iana.org/time-zones) (version 2020a).
 
