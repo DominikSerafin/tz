@@ -11,6 +11,7 @@ The data is taken directly from [IANA time zone database](https://www.iana.org/t
 
 Please open an issue or a pull request if you spot any inaccuracy.
 
+
 ## format
 
 ```
@@ -39,14 +40,15 @@ Please open an issue or a pull request if you spot any inaccuracy.
 }
 ```
 
+
 ## todo
 
-- [ ] map zone abbreviations to full names, e.g.
+- [ ] add full name for each zone abbreviation
   - CET → Central European Time
   - CEST → Central European Summer Time
   - IST → India Standard Time
   - IST → Irish Standard Time
   - IST → Israel Standard Time
   - etc.
-- [ ] parse and nicely present countries coordinates
+- [ ] parse and nicely present coordinates from zone1970.tab
 - [ ] take population counts from moment-timezone
