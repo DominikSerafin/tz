@@ -11,7 +11,6 @@ The data is taken directly from [IANA time zone database](https://www.iana.org/t
 
 Please open an issue or a pull request if you spot any inaccuracy.
 
-
 ## format
 
 ```
@@ -39,6 +38,13 @@ Please open an issue or a pull request if you spot any inaccuracy.
   ]
 }
 ```
+
+## running
+
+To run this code and generate output files, do it in sequence as below.
+
+1. `npm run normalize`
+2. `npm run generate`
 
 
 ## todo

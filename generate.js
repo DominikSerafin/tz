@@ -1,23 +1,24 @@
 /*------------------------------------*\
-  imports & configuration
+  Imports
 \*------------------------------------*/
 const path = require('path');
 const fs = require('fs-extra');
-//
+
+/*------------------------------------*\
+  Sources
+\*------------------------------------*/
 const SOURCES_PATH = path.join(__dirname, './sources');
 const SOURCES_NORMALIZED_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a-normalized');
 const SOURCES_NORMALIZED_LINKS_PATH = path.join(SOURCES_NORMALIZED_PATH, './links.json');
 const SOURCES_NORMALIZED_COUNTRIES_PATH = path.join(SOURCES_NORMALIZED_PATH, './countries.json');
 const SOURCES_NORMALIZED_ONGOING_PATH = path.join(SOURCES_NORMALIZED_PATH, './ongoing.json');
-//
+
+/*------------------------------------*\
+  Output
+\*------------------------------------*/
 const DIST_PATH = path.join(__dirname, './dist');
 const DIST_TZ_PATH = path.join(DIST_PATH, './tz.json');
 const DIST_TZ_BY_COUNTRY_PATH = path.join(DIST_PATH, './tz-country.json');
-
-
-
-
-
 
 /*------------------------------------*\
   otherZonesSort
@@ -31,6 +32,7 @@ async function otherZonesSort(zones) {
     if (r.test(zone.name)) continue;
     otherZoneNames.push(zone.name);
   }
+
   // sort
   const sortedZones = zones.slice().sort((a, b) => {
     if (otherZoneNames.includes(a.name)) return 2;
@@ -38,86 +40,62 @@ async function otherZonesSort(zones) {
     if (a.name > b.name) return 1;
     return -1;
   });
-  //
+
   for (const z of sortedZones) console.dir(z.name);
-  //
+
   return sortedZones;
 }
 */
 
-
-
-
-
 /*------------------------------------*\
-  timeStringToSeconds
+  Time String to Seconds
 \*------------------------------------*/
+/*
+  Should accept following strings:
+    2            time in hours
+    2:00         time in hours and minutes
+    01:28:14     time in hours, minutes, and seconds
+    00:19:32.13  time with fractional seconds
+    12:00        midday, 12 hours after 00:00
+    15:00        3 PM, 15 hours after 00:00
+    24:00        end of day, 24 hours after 00:00
+    260:00       260 hours after 00:00
+    -2:30        2.5 hours before 00:00
+    -            equivalent to 0
+*/
 function timeStringToSeconds(rawTime) {
-
-  //  2            time in hours
-  //  2:00         time in hours and minutes
-  //  01:28:14     time in hours, minutes, and seconds
-  //  00:19:32.13  time with fractional seconds
-  //  12:00        midday, 12 hours after 00:00
-  //  15:00        3 PM, 15 hours after 00:00
-  //  24:00        end of day, 24 hours after 00:00
-  //  260:00       260 hours after 00:00
-  //  -2:30        2.5 hours before 00:00
-  //  -            equivalent to 0
-
-  //
-  var time = rawTime ? rawTime.trim() : rawTime;
-
-  //
+  let time = rawTime ? rawTime.trim() : rawTime;
   if (!time) throw new Error('time not a valid value');
-
-  //
   if (time === '-') return 0;
 
-  //
-  var mod = '+';
+  let mod = '+';
   if (time.startsWith('-')) {
     mod = '-'
     time = time.substr(1);
   };
 
-  //
-  var [h, m, s] = time.split(':');
+  let [h, m, s] = time.split(':');
   h = parseInt(h);
   m = m ? parseInt(m) : 0;
   s = s ? parseFloat(s) : 0;
 
-  //
-  //console.dir(`${rawTime.padEnd(10, ' ')} ${mod.padEnd(1, ' ')} ${h}h ${m}m ${s}s `)
-
-  //
   const hSeconds = h * 3600;
   const mSeconds = m * 60;
   const sSeconds = s;
 
-  //
   return parseFloat(mod + (hSeconds + mSeconds + sSeconds));
 }
 
-
-
-
-
-
-
 /*------------------------------------*\
-  generateTz
+  Generate Tz
 \*------------------------------------*/
 async function generateTz() {
-
   const ongoing = await fs.readJson(SOURCES_NORMALIZED_ONGOING_PATH, 'utf8');
   const links = await fs.readJson(SOURCES_NORMALIZED_LINKS_PATH, 'utf8');
   const countries = await fs.readJson(SOURCES_NORMALIZED_COUNTRIES_PATH, 'utf8');
 
-  //
   const zonesUnsorted = [];
 
-  //
   const ongoingWithoutFactory = ongoing.filter(zone => zone.name !== 'Factory');
 
   // check if there's any rule with "save" field having suffix "s" or "d"
@@ -131,65 +109,49 @@ async function generateTz() {
     }
   }
 
-  //
   for (const zone of ongoingWithoutFactory) {
-
-    //
     const zoneAliases = links.filter(l => l.target === zone.name).map(l => l.source);
     const zoneAliasesSorted = zoneAliases.slice().sort();
 
-    //
     const zoneFoundCountries = countries.find(c => c.tz === zone.name);
     const zoneCountries = zoneFoundCountries ? zoneFoundCountries.countries : [];
     const zoneCountriesSorted = zoneCountries.slice().sort((a, b) => (a.code > b.code) ? 1 : -1);
 
-    //
     const dstIsObserved = !!zone.rules.find(rule => rule.save !== '0');
 
-    //
     const offsetSt = zone.stdoff;
 
-    //
-    var abbrSt = null;
+    let abbrSt = null;
     if (zone.format === '-') {
       abbrSt = null;
-    }
-    else if (zone.format.includes('/')) {
+    } else if (zone.format.includes('/')) {
       abbrSt = zone.format.split('/')[0];
-    }
-    else if (zone.format.includes('%s')) {
-      var letters = zone.rules.find(rule => rule.save === '0').letters;
+    } else if (zone.format.includes('%s')) {
+      const letters = zone.rules.find(rule => rule.save === '0').letters;
       abbrSt = zone.format.replace('%s', letters === '-' ? '' : letters);
-    }
-    else {
+    } else {
       abbrSt = zone.format;
     }
 
-    //
-    var abbrDst = null;
+    let abbrDst = null;
     if (dstIsObserved) {
       if (zone.format === '-') {
         abbrDst = null;
-      }
-      else if (zone.format.includes('/')) {
+      } else if (zone.format.includes('/')) {
         abbrDst = zone.format.split('/')[1];
-      }
-      else if (zone.format.includes('%s')) {
-        var letters = zone.rules.find(rule => rule.save !== '0').letters;
+      } else if (zone.format.includes('%s')) {
+        const letters = zone.rules.find(rule => rule.save !== '0').letters;
         abbrDst = zone.format.replace('%s', letters === '-' ? '' : letters);
-      }
-      else {
+      } else {
         abbrDst = zone.format;
       }
     }
 
-    //
-    var offsetDst = null;
+    let offsetDst = null;
     if (dstIsObserved) {
-      offsetDst =  zone.rules.find(rule => rule.save !== '0').save;
+      offsetDst = zone.rules.find(rule => rule.save !== '0').save;
     }
 
-    //
     const zoneObj = {
       canonical: zone.name,
       dst: dstIsObserved,
@@ -205,10 +167,8 @@ async function generateTz() {
     zonesUnsorted.push(zoneObj);
   }
 
-  //
   const output = zonesUnsorted.slice().sort((a, b) => (a.canonical > b.canonical) ? 1 : -1);
 
-  //
   await fs.writeJson(DIST_TZ_PATH, output, {
     spaces: 2,
     EOL: '\n',
@@ -217,36 +177,29 @@ async function generateTz() {
   return true;
 }
 
-
-
-
-
-
-
 /*------------------------------------*\
-  generateTzByCountry
+  Generate Tz by Country
 \*------------------------------------*/
 async function generateTzByCountry() {
   const zones = await fs.readJson(DIST_TZ_PATH, 'utf8');
-  //
+
   const countries = [];
   for (const zone of zones) {
     for (const country of zone.countries) {
-      var foundCountry = countries.find(c => c.code === country.code);
+      const foundCountry = countries.find(c => c.code === country.code);
       if (foundCountry) continue;
       countries.push(country);
     }
   }
-  //
+
   const countriesSorted = countries.slice().sort((a, b) => (a.code > b.code) ? 1 : -1);
   countriesSorted.push({
     code: 'ZZ',
     name: 'Other',
   });
-  //
+
   const output = [];
   for (const country of countriesSorted) {
-    //
     const countryZones = []
     for (const zone of zones) {
       const zoneObj = {
@@ -259,20 +212,20 @@ async function generateTzByCountry() {
         aliases: zone.aliases,
         //coordinates: ...,
       };
-      //
+
       const foundCountry = zone.countries.find(c => c.code === country.code);
       if (foundCountry) countryZones.push(zoneObj);
-      //
+
       else if (country.code === 'ZZ' && !zone.countries.length) countryZones.push(zoneObj);
     }
-    //
+
     output.push({
       country_name: country.name,
       country_code: country.code,
       zones: countryZones,
     });
   }
-  //
+
   await fs.writeJson(DIST_TZ_BY_COUNTRY_PATH, output, {
     spaces: 2,
     EOL: '\n',
@@ -281,10 +234,8 @@ async function generateTzByCountry() {
   return true;
 }
 
-
-
 /*------------------------------------*\
-  ...
+  Init
 \*------------------------------------*/
 async function generate() {
   await generateTz();

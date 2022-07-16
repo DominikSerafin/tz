@@ -1,5 +1,5 @@
 /*------------------------------------*\
-  imports & configuration
+  Imports
 \*------------------------------------*/
 const path = require('path');
 const fs = require('fs-extra');
@@ -7,24 +7,24 @@ const axios = require('axios');
 const _ = require('lodash');
 const moment = require('moment-timezone');
 
-//
+/*------------------------------------*\
+  Sources
+\*------------------------------------*/
 const SOURCES_PATH = path.join(__dirname, './sources');
 const SOURCES_NORMALIZED_PATH = path.join(SOURCES_PATH, './iana/tzdb-2020a-normalized');
 const SOURCES_NORMALIZED_RULES_PATH = path.join(SOURCES_NORMALIZED_PATH, './rules.json');
 const SOURCES_NORMALIZED_LINKS_PATH = path.join(SOURCES_NORMALIZED_PATH, './links.json');
 const SOURCES_NORMALIZED_ZONES_PATH = path.join(SOURCES_NORMALIZED_PATH, './zones.json');
 const SOURCES_NORMALIZED_ONGOING_PATH = path.join(SOURCES_NORMALIZED_PATH, './ongoing.json');
-//
-const WTA_ORIGIN = `http://worldtimeapi.org`;
-
-
-
-
 
 /*------------------------------------*\
-  axios interceptors
+  Configuration
 \*------------------------------------*/
-//
+const WTA_ORIGIN = `http://worldtimeapi.org`;
+
+/*------------------------------------*\
+  Axios Interceptors
+\*------------------------------------*/
 axios.interceptors.request.use(function(config) {
   // before request is sent
   console.log(`${config.method.toUpperCase()} ${config.url}: REQUESTING`);
@@ -33,7 +33,7 @@ axios.interceptors.request.use(function(config) {
   // request error
   return Promise.reject(error);
 });
-//
+
 axios.interceptors.response.use(function(response) {
   console.log(`${response.config.method.toUpperCase()} ${response.config.url}: OK`);
   return response;
@@ -43,52 +43,39 @@ axios.interceptors.response.use(function(response) {
   return Promise.reject(error);
 });
 
-
-
-
-
-
-
 /*------------------------------------*\
-  checkUntils
+  Check "Untils"
 \*------------------------------------*/
 async function checkUntils() {
-  //
   const zones = await fs.readJson(SOURCES_NORMALIZED_ZONES_PATH, 'utf8');
   const rules = await fs.readJson(SOURCES_NORMALIZED_RULES_PATH, 'utf8');
   const links = await fs.readJson(SOURCES_NORMALIZED_LINKS_PATH, 'utf8');
 
-  const untilCounts = {}
+  const untilCounts = {};
+
   for (const zone of zones) {
-  //if (zone.until) continue;
-  if (typeof untilCounts[zone.name] === 'undefined') {
-    untilCounts[zone.name] = 0;
+    //if (zone.until) continue;
+    if (typeof untilCounts[zone.name] === 'undefined') {
+      untilCounts[zone.name] = 0;
+    }
+    if (!zone.until) {
+      untilCounts[zone.name] = untilCounts[zone.name] + 1;
+    }
   }
-  if (!zone.until) {
-    untilCounts[zone.name] = untilCounts[zone.name] + 1;
-  }
-  //console.dir(zone.rules.padEnd(10, ' ') + zone.name);
-  }
+
   for (const k of Object.keys(untilCounts)) {
     console.dir(String(untilCounts[k]).padEnd(10, ' ') + k);
   }
-
 }
 
-
-
-
-
 /*------------------------------------*\
-  checkRuleWeekDays
+  Check Week Days Rule
 \*------------------------------------*/
 async function checkRuleWeekDays() {
-  //
   const zones = await fs.readJson(SOURCES_NORMALIZED_ZONES_PATH, 'utf8');
   const rules = await fs.readJson(SOURCES_NORMALIZED_RULES_PATH, 'utf8');
   const links = await fs.readJson(SOURCES_NORMALIZED_LINKS_PATH, 'utf8');
 
-  //
   const values = [];
 
   for (const rule of rules) {
@@ -100,22 +87,16 @@ async function checkRuleWeekDays() {
   }
 
   console.dir(_.uniq(values));
-
 }
 
-
-
-
 /*------------------------------------*\
-  checkRuleMonthsAbbr
+  Check Months Abbr Rule
 \*------------------------------------*/
 async function checkRuleMonthsAbbr() {
-  //
   const zones = await fs.readJson(SOURCES_NORMALIZED_ZONES_PATH, 'utf8');
   const rules = await fs.readJson(SOURCES_NORMALIZED_RULES_PATH, 'utf8');
   const links = await fs.readJson(SOURCES_NORMALIZED_LINKS_PATH, 'utf8');
 
-  //
   const values = [];
 
   for (const rule of rules) {
@@ -123,51 +104,33 @@ async function checkRuleMonthsAbbr() {
   }
 
   console.dir(_.uniq(values));
-
 }
 
-
-
-
 /*------------------------------------*\
-  checkOngoing
+  Check Ongoing
 \*------------------------------------*/
 async function checkOngoing() {
-  //
   const ongoingZones = await fs.readJson(SOURCES_NORMALIZED_ONGOING_PATH, 'utf8');
 
   for (const zone of ongoingZones) {
-    var m = zone.rules.map(
+    const m = zone.rules.map(
       r => `name=${r.name} save=${r.save} from=${r.from} to_combined=${r.to_combined} letters=${r.letters}`
     );
     console.log(`${zone.name} (${zone.format})\n  ${m.length ? (m.join('\n  ') + '\n') : ''}`);
   }
 }
 
-
-
-
-
-
-
-
-
-
-
 /*------------------------------------*\
-  checkAgainstWta
+  (Sanity) Check Against World Time API
 \*------------------------------------*/
 async function checkAgainstWta() {
-  return;
   const output = [];
 
-  //
   const resultZones = await axios({
     method: 'GET',
     url: `${WTA_ORIGIN}/api/timezone`,
   });
 
-  //
   for (const zoneName of resultZones.data) {
     const resultZone = await axios({
       method: 'GET',
@@ -175,23 +138,15 @@ async function checkAgainstWta() {
     });
     const tz = resultZone.data;
   }
-
 }
 
-
-
-
 /*------------------------------------*\
-  checkAgainstMoment
+  (Sanity) Check Against Moment.js
 \*------------------------------------*/
 async function checkAgainstMoment() {
   console.dir(moment.tz.names());
   console.dir(moment.tz.zone('America/Los_Angeles'));
 }
-
-
-
-
 
 /*------------------------------------*\
   check
